@@ -2,16 +2,1566 @@
   "bankVersion": "1.0",
   "svenska": {
     "items": [
-      { "id": "sv-001", "area": "stavning", "q": "Vilket ord stavas rätt?", "options": ["Kjolpanna","Köttpanna","Kjöttpanna","Köttpana"], "correct": 1 },
-      { "id": "sv-002", "area": "stavning", "q": "Vilket ord stavas rätt?", "options": ["Stiarna","Stjärna","Stiarhna","Stiarnaa"], "correct": 1 },
-      { "id": "sv-003", "area": "stavning", "q": "Vilket ord stavas rätt?", "options": ["Skoja","Skojjja","Skåja","Skoje"], "correct": 0 },
-      { "id": "sv-004", "area": "grammatik", "q": "Vilket är ett verb?", "options": ["springer","blå","katt","rolig"], "correct": 0 },
-      { "id": "sv-005", "area": "grammatik", "q": "Vilket är ett adjektiv?", "options": ["snabb","springa","boll","katt"], "correct": 0 },
-      { "id": "sv-006", "area": "grammatik", "q": "Välj rätt: 'De ___ glass.'", "options": ["äter","äterna","ätar","ätit"], "correct": 0 },
-      { "id": "sv-007", "area": "ordforstaelse", "q": "Motsats till 'stor'?", "options": ["storlek","liten","mindre","kort"], "correct": 1 },
-      { "id": "sv-008", "area": "ordforstaelse", "q": "Synonym till 'glad'?", "options": ["olycklig","munter","trött","arg"], "correct": 1 },
-      { "id": "sv-009", "area": "ordforstaelse", "q": "Vad betyder 'försiktig'?", "options": ["våghalsig","tar det lugnt","snabb","orolig"], "correct": 1 },
-      { "id": "sv-010", "area": "ordforstaelse", "q": "Vad är ett substantiv?", "options": ["En sak eller ett namn","Ett doing-ord","Ett beskrivande ord","Ett litet ord"], "correct": 0 }
+      {
+        "id": "sv-001",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "Kjolpanna",
+          "Köttpanna",
+          "Kjöttpanna",
+          "Köttpana"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-002",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "Stiarna",
+          "Stjärna",
+          "Stiarhna",
+          "Stiarnaa"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-003",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "Skoja",
+          "Skojjja",
+          "Skåja",
+          "Skoje"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-004",
+        "area": "grammatik",
+        "q": "Vilket är ett verb?",
+        "options": [
+          "springer",
+          "blå",
+          "katt",
+          "rolig"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-005",
+        "area": "grammatik",
+        "q": "Vilket är ett adjektiv?",
+        "options": [
+          "snabb",
+          "springa",
+          "boll",
+          "katt"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-006",
+        "area": "grammatik",
+        "q": "Välj rätt: 'De ___ glass.'",
+        "options": [
+          "äter",
+          "äterna",
+          "ätar",
+          "ätit"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-007",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'stor'?",
+        "options": [
+          "storlek",
+          "liten",
+          "mindre",
+          "kort"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-008",
+        "area": "ordforstaelse",
+        "q": "Synonym till 'glad'?",
+        "options": [
+          "olycklig",
+          "munter",
+          "trött",
+          "arg"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-009",
+        "area": "ordforstaelse",
+        "q": "Vad betyder 'försiktig'?",
+        "options": [
+          "våghalsig",
+          "tar det lugnt",
+          "snabb",
+          "orolig"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-010",
+        "area": "ordforstaelse",
+        "q": "Vad är ett substantiv?",
+        "options": [
+          "En sak eller ett namn",
+          "Ett doing-ord",
+          "Ett beskrivande ord",
+          "Ett litet ord"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-011",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "giärta",
+          "hjerta",
+          "hjärta",
+          "kjärta"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-012",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "schoklad",
+          "chhklad",
+          "sjoklad",
+          "choklad"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-013",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jämyöra",
+          "jämföra",
+          "gämföra",
+          "jemföra"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-014",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "järnveg",
+          "jarnväg",
+          "järnväg",
+          "jäinväg"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-015",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "åicklampa",
+          "ficklampa",
+          "ficklaypa",
+          "fiklampa"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-016",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "maskin",
+          "maschin",
+          "masjin",
+          "maskhn"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-017",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "stakett",
+          "utaket",
+          "staket",
+          "stakett"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-018",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "stjgrna",
+          "stjarna",
+          "stjärna",
+          "stjerna"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-019",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kähsla",
+          "käysla",
+          "känslaa",
+          "känsla"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-020",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sjolv",
+          "skälv",
+          "själv",
+          "sjjälv"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-021",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kjärta",
+          "hjärta",
+          "hjärtu",
+          "hjerta"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-022",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skjj",
+          "sooj",
+          "skoj",
+          "sköj"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-023",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "tjejj",
+          "tåej",
+          "tjej",
+          "tjeå"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-024",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "buås",
+          "bus",
+          "buss",
+          "busg"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-025",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sjolv",
+          "skälv",
+          "själv",
+          "sjäev"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-026",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skjortg",
+          "skjorta",
+          "syjorta",
+          "skjoråa"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-027",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "bus",
+          "bussar",
+          "buss",
+          "buås"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-028",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jus",
+          "ljus",
+          "läus",
+          "åjus"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-029",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jäynväg",
+          "järnveg",
+          "jarnveg",
+          "järnväg"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-030",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skoola",
+          "skolah",
+          "skole",
+          "skola"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-031",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "känsoa",
+          "känsla",
+          "kähsla",
+          "käysla"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-032",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kähsla",
+          "känsla",
+          "käysla",
+          "känla"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-033",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "maskin",
+          "maskkn",
+          "maskhn",
+          "maschin"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-034",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skula",
+          "skoola",
+          "skolla",
+          "skola"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-035",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "lekare",
+          "läkare",
+          "läckare",
+          "läkari"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-036",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jemföra",
+          "jämföra",
+          "jämyöra",
+          "jämfögha"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-037",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "ljust",
+          "läus",
+          "ljys",
+          "ljus"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-038",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "hjull",
+          "hul",
+          "jiul",
+          "hjul"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-039",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "stjärna",
+          "stjerna",
+          "stgärna",
+          "stjgrna"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-040",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "ljuss",
+          "ljus",
+          "läus",
+          "åjus"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-041",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "läkare",
+          "lägare",
+          "läckare",
+          "läkari"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-042",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "läkare",
+          "lägare",
+          "iäkare",
+          "lekare"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-043",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "staket",
+          "stkket",
+          "sthket",
+          "stakett"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-044",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "bibliotek",
+          "bibliteket",
+          "bibiliotek",
+          "bioliotek"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-045",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "känslaa",
+          "känsla",
+          "kähsla",
+          "känslla"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-046",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sjolv",
+          "skjälv",
+          "sjolv",
+          "själv"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-047",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jämfögha",
+          "jemföra",
+          "jämföra",
+          "jämmföra"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-048",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "ljus",
+          "läus",
+          "åjus",
+          "ljust"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-049",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "känsla",
+          "käysla",
+          "känslla",
+          "känla"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-050",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jarnväg",
+          "jäinväg",
+          "jarnveg",
+          "järnväg"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-051",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "bibljotek",
+          "bibliteket",
+          "bibliotekk",
+          "bibliotek"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-052",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "schjorta",
+          "sjorta",
+          "skjorta",
+          "skorta"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-053",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "bussar",
+          "bus",
+          "buss",
+          "buås"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-054",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skeu",
+          "sched",
+          "skee",
+          "sked"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-055",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "bhss",
+          "buss",
+          "bus",
+          "buås"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-056",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "tjej",
+          "tåej",
+          "tjejj",
+          "tjeå"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-057",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "själv",
+          "sjolv",
+          "sjäev",
+          "skjälv"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-058",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kjärta",
+          "hjärta",
+          "hjerta",
+          "hjärtu"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-059",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "hjuy",
+          "hjul",
+          "hjull",
+          "hjug"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-060",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "läkari",
+          "lägare",
+          "läkare",
+          "lekare"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-061",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skula",
+          "siola",
+          "skola",
+          "skolla"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-062",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skjorta",
+          "syjorta",
+          "skjortg",
+          "skjoråa"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-063",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "bus",
+          "busg",
+          "buz",
+          "buss"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-064",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jarnveg",
+          "järnväg",
+          "jäynväg",
+          "jäinväg"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-065",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "tjeå",
+          "tjei",
+          "tjejj",
+          "tjej"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-066",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "läkark",
+          "läkare",
+          "iäkare",
+          "lekare"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-067",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "läus",
+          "jus",
+          "ljuss",
+          "ljus"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-068",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "känla",
+          "käysla",
+          "känsla",
+          "känslaa"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-069",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jus",
+          "ljus",
+          "ljuss",
+          "ljust"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-070",
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sjoklad",
+          "choklad",
+          "chäklad",
+          "schoklad"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-071",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "bok",
+          "läser",
+          "i",
+          "stor"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-072",
+        "area": "grammatik",
+        "q": "Välj preteritum av 'läser'.",
+        "options": [
+          "läser",
+          "läsa",
+          "läste",
+          "läst"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-073",
+        "area": "grammatik",
+        "q": "Vilken mening är korrekt skriven?",
+        "options": [
+          "Vi åker hem.",
+          "Vi åker hem",
+          "vi Åker hem.",
+          "vi åker hem"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-074",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "i",
+          "tyst",
+          "skola",
+          "leker"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-075",
+        "area": "grammatik",
+        "q": "Välj pronomen.",
+        "options": [
+          "han",
+          "springer",
+          "snabbt",
+          "röd"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-076",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "i",
+          "bord",
+          "glad",
+          "sover"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-077",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "badar",
+          "snabb",
+          "i",
+          "bord"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-078",
+        "area": "grammatik",
+        "q": "Välj pronomen.",
+        "options": [
+          "han",
+          "springer",
+          "röd",
+          "snabbt"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-079",
+        "area": "grammatik",
+        "q": "Välj preteritum av 'läser'.",
+        "options": [
+          "läser",
+          "läst",
+          "läste",
+          "läsa"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-080",
+        "area": "grammatik",
+        "q": "Vilket är en preposition?",
+        "options": [
+          "glad",
+          "springer",
+          "bredvid",
+          "katt"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-081",
+        "area": "grammatik",
+        "q": "Vilken mening är korrekt skriven?",
+        "options": [
+          "vi Åker hem.",
+          "vi åker hem",
+          "Vi åker hem.",
+          "Vi åker hem"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-082",
+        "area": "grammatik",
+        "q": "Välj pronomen.",
+        "options": [
+          "snabbt",
+          "han",
+          "röd",
+          "springer"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-083",
+        "area": "grammatik",
+        "q": "Vilket är en preposition?",
+        "options": [
+          "glad",
+          "över",
+          "katt",
+          "springer"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-084",
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "på",
+          "bord",
+          "mjuk",
+          "sjunger"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-085",
+        "area": "grammatik",
+        "q": "Välj preteritum av 'läser'.",
+        "options": [
+          "läst",
+          "läste",
+          "läsa",
+          "läser"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-086",
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "cyklar",
+          "bord",
+          "under",
+          "glad"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-087",
+        "area": "grammatik",
+        "q": "Välj preteritum av 'läser'.",
+        "options": [
+          "läser",
+          "läst",
+          "läsa",
+          "läste"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-088",
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "vän",
+          "hård",
+          "under",
+          "skriver"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-089",
+        "area": "grammatik",
+        "q": "Vilket är en preposition?",
+        "options": [
+          "glad",
+          "under",
+          "springer",
+          "katt"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-090",
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "lärare",
+          "snabb",
+          "under",
+          "äter"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-091",
+        "area": "grammatik",
+        "q": "Vilket är en preposition?",
+        "options": [
+          "springer",
+          "glad",
+          "katt",
+          "under"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-092",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "springer",
+          "stol",
+          "i",
+          "snabb"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-093",
+        "area": "grammatik",
+        "q": "Vilket är en preposition?",
+        "options": [
+          "bredvid",
+          "springer",
+          "katt",
+          "glad"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-094",
+        "area": "grammatik",
+        "q": "Välj preteritum av 'läser'.",
+        "options": [
+          "läst",
+          "läste",
+          "läser",
+          "läsa"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-095",
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "badar",
+          "på",
+          "stor",
+          "stol"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-096",
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "liten",
+          "skriver",
+          "under",
+          "vän"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-097",
+        "area": "grammatik",
+        "q": "Vilket är en preposition?",
+        "options": [
+          "springer",
+          "katt",
+          "på",
+          "glad"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-098",
+        "area": "grammatik",
+        "q": "Välj pronomen.",
+        "options": [
+          "röd",
+          "snabbt",
+          "han",
+          "springer"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-099",
+        "area": "grammatik",
+        "q": "Vilken mening är korrekt skriven?",
+        "options": [
+          "Vi åker hem.",
+          "Vi åker hem",
+          "vi åker hem",
+          "vi Åker hem."
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-100",
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "springer",
+          "under",
+          "mjuk",
+          "katt"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-101",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "badar",
+          "i",
+          "stol",
+          "hög"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-102",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "i",
+          "liten",
+          "läser",
+          "boll"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-103",
+        "area": "grammatik",
+        "q": "Vilket är en preposition?",
+        "options": [
+          "katt",
+          "över",
+          "glad",
+          "springer"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-104",
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "badar",
+          "stol",
+          "på",
+          "stor"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-105",
+        "area": "grammatik",
+        "q": "Välj pronomen.",
+        "options": [
+          "springer",
+          "snabbt",
+          "han",
+          "röd"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-106",
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "på",
+          "springer",
+          "snabb",
+          "vän"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-107",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "i",
+          "liten",
+          "skriver",
+          "lärare"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-108",
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "målar",
+          "hård",
+          "boll",
+          "under"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-109",
+        "area": "grammatik",
+        "q": "Vilket är en preposition?",
+        "options": [
+          "glad",
+          "springer",
+          "katt",
+          "under"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-110",
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "i",
+          "fönster",
+          "leker",
+          "lång"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-111",
+        "area": "ordforstaelse",
+        "q": "Ali är ___.",
+        "options": [
+          "fem",
+          "långsam",
+          "blå",
+          "rädd"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-112",
+        "area": "ordforstaelse",
+        "q": "Ali är ___.",
+        "options": [
+          "rädd",
+          "fem",
+          "långsam",
+          "blå"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-113",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'lång'?",
+        "options": [
+          "lik",
+          "kort",
+          "nära",
+          "snabb"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-114",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'lång'?",
+        "options": [
+          "nära",
+          "kort",
+          "snabb",
+          "lik"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-115",
+        "area": "ordforstaelse",
+        "q": "Lisa är ___.",
+        "options": [
+          "långsam",
+          "fem",
+          "glad",
+          "blå"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-116",
+        "area": "ordforstaelse",
+        "q": "Synonym till 'snabb'?",
+        "options": [
+          "okänt",
+          "kvick",
+          "fel",
+          "annat"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-117",
+        "area": "ordforstaelse",
+        "q": "Lisa är ___.",
+        "options": [
+          "blå",
+          "långsam",
+          "fem",
+          "glad"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-118",
+        "area": "ordforstaelse",
+        "q": "Lisa är ___.",
+        "options": [
+          "trött",
+          "fem",
+          "långsam",
+          "blå"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-119",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'lång'?",
+        "options": [
+          "kort",
+          "lik",
+          "nära",
+          "snabb"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-120",
+        "area": "ordforstaelse",
+        "q": "Noah är ___.",
+        "options": [
+          "blå",
+          "långsam",
+          "trött",
+          "fem"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-121",
+        "area": "ordforstaelse",
+        "q": "Synonym till 'tyst'?",
+        "options": [
+          "fel",
+          "annat",
+          "lågmälld",
+          "okänt"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "sv-122",
+        "area": "ordforstaelse",
+        "q": "Synonym till 'arg'?",
+        "options": [
+          "okänt",
+          "fel",
+          "annat",
+          "förbannad"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-123",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'tyst'?",
+        "options": [
+          "lik",
+          "nära",
+          "snabb",
+          "högljudd"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-124",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'varm'?",
+        "options": [
+          "nära",
+          "kall",
+          "lik",
+          "snabb"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-125",
+        "area": "ordforstaelse",
+        "q": "Ella är ___.",
+        "options": [
+          "rädd",
+          "blå",
+          "fem",
+          "långsam"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-126",
+        "area": "ordforstaelse",
+        "q": "Lisa är ___.",
+        "options": [
+          "fem",
+          "glad",
+          "blå",
+          "långsam"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-127",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'hård'?",
+        "options": [
+          "mjuk",
+          "nära",
+          "snabb",
+          "lik"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "sv-128",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'snabb'?",
+        "options": [
+          "snabb",
+          "långsam",
+          "nära",
+          "lik"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "sv-129",
+        "area": "ordforstaelse",
+        "q": "Motsats till 'snabb'?",
+        "options": [
+          "nära",
+          "lik",
+          "snabb",
+          "långsam"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "sv-130",
+        "area": "ordforstaelse",
+        "q": "Synonym till 'glad'?",
+        "options": [
+          "munter",
+          "fel",
+          "annat",
+          "okänt"
+        ],
+        "correct": 0
+      }
     ],
     "passages": [
       {
@@ -19,8 +1569,28 @@
         "title": "Lisa och skoldörren",
         "text": "Lisa sprang till skolan. Hon hade bråttom för klockan var nästan åtta. När hon kom fram var dörren stängd.",
         "questions": [
-          { "id": "sv-p-001-q1", "q": "Varför sprang Lisa?", "options": ["Hungrig","Hon hade bråttom","Hon skulle leka","Hon tappade en bok"], "correct": 1 },
-          { "id": "sv-p-001-q2", "q": "Vad var stängt?", "options": ["Fönstret","Dörren","Porten","Boken"], "correct": 1 }
+          {
+            "id": "sv-p-001-q1",
+            "q": "Varför sprang Lisa?",
+            "options": [
+              "Hungrig",
+              "Hon hade bråttom",
+              "Hon skulle leka",
+              "Hon tappade en bok"
+            ],
+            "correct": 1
+          },
+          {
+            "id": "sv-p-001-q2",
+            "q": "Vad var stängt?",
+            "options": [
+              "Fönstret",
+              "Dörren",
+              "Porten",
+              "Boken"
+            ],
+            "correct": 1
+          }
         ]
       },
       {
@@ -28,11 +1598,30 @@
         "title": "Utflykten",
         "text": "Klassen gick till skogen. De åt matsäck vid sjön. Sara tappade sin smörgås men Hugo delade med sig.",
         "questions": [
-          { "id": "sv-p-002-q1", "q": "Vart gick klassen?", "options": ["Biblioteket","Skogen","Affären","Badhuset"], "correct": 1 },
-          { "id": "sv-p-002-q2", "q": "Vem delade med sig?", "options": ["Sara","Hugo","Läraren","Ingen"], "correct": 1 }
+          {
+            "id": "sv-p-002-q1",
+            "q": "Vart gick klassen?",
+            "options": [
+              "Biblioteket",
+              "Skogen",
+              "Affären",
+              "Badhuset"
+            ],
+            "correct": 1
+          },
+          {
+            "id": "sv-p-002-q2",
+            "q": "Vem delade med sig?",
+            "options": [
+              "Sara",
+              "Hugo",
+              "Läraren",
+              "Ingen"
+            ],
+            "correct": 1
+          }
         ]
       }
-    
     ]
   }
 }

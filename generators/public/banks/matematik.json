@@ -1,0 +1,3847 @@
+{
+  "bankVersion": "1.0",
+  "matematik": {
+    "items": [
+      {
+        "id": "ma-001",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer före 17?",
+        "options": [
+          "16",
+          "27",
+          "15",
+          "18"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-002",
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 44?",
+        "options": [
+          "44",
+          "5",
+          "4",
+          "3"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-003",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "53",
+          "35",
+          "86",
+          "93"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-004",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 36?",
+        "options": [
+          "46",
+          "35",
+          "37",
+          "38"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-005",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "43",
+          "99",
+          "91",
+          "33"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-006",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 24?",
+        "options": [
+          "34",
+          "23",
+          "26",
+          "25"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-007",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 69?",
+        "options": [
+          "79",
+          "68",
+          "71",
+          "70"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-008",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "75",
+          "56",
+          "39",
+          "10"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-009",
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 45?",
+        "options": [
+          "4",
+          "45",
+          "5",
+          "3"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-010",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "32",
+          "73",
+          "66",
+          "94"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-011",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 78?",
+        "options": [
+          "77",
+          "80",
+          "79",
+          "88"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-012",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 70?",
+        "options": [
+          "69",
+          "80",
+          "72",
+          "71"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-013",
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 44?",
+        "options": [
+          "5",
+          "4",
+          "44",
+          "3"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-014",
+        "area": "addition",
+        "q": "23 + 21 =",
+        "options": [
+          "43",
+          "45",
+          "44",
+          "42"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-015",
+        "area": "addition",
+        "q": "24 + 42 =",
+        "options": [
+          "66",
+          "65",
+          "64",
+          "67"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-016",
+        "area": "addition",
+        "q": "25 + 19 =",
+        "options": [
+          "44",
+          "43",
+          "45",
+          "42"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-017",
+        "area": "addition",
+        "q": "47 + 13 =",
+        "options": [
+          "60",
+          "61",
+          "59",
+          "58"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-018",
+        "area": "addition",
+        "q": "40 + 6 =",
+        "options": [
+          "44",
+          "48",
+          "45",
+          "46"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-019",
+        "area": "addition",
+        "q": "41 + 36 =",
+        "options": [
+          "76",
+          "75",
+          "77",
+          "78"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-020",
+        "area": "addition",
+        "q": "43 + 9 =",
+        "options": [
+          "53",
+          "52",
+          "50",
+          "51"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-021",
+        "area": "addition",
+        "q": "46 + 42 =",
+        "options": [
+          "86",
+          "90",
+          "89",
+          "88"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-022",
+        "area": "addition",
+        "q": "12 + 15 =",
+        "options": [
+          "27",
+          "26",
+          "25",
+          "28"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-023",
+        "area": "addition",
+        "q": "15 + 18 =",
+        "options": [
+          "34",
+          "35",
+          "32",
+          "33"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-024",
+        "area": "addition",
+        "q": "43 + 49 =",
+        "options": [
+          "92",
+          "90",
+          "91",
+          "93"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-025",
+        "area": "addition",
+        "q": "46 + 16 =",
+        "options": [
+          "62",
+          "61",
+          "60",
+          "64"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-026",
+        "area": "addition",
+        "q": "45 + 38 =",
+        "options": [
+          "82",
+          "81",
+          "84",
+          "83"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-027",
+        "area": "addition",
+        "q": "25 + 25 =",
+        "options": [
+          "49",
+          "51",
+          "50",
+          "48"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-028",
+        "area": "subtraktion",
+        "q": "15 − 1 =",
+        "options": [
+          "14",
+          "13",
+          "12",
+          "16"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-029",
+        "area": "subtraktion",
+        "q": "37 − 15 =",
+        "options": [
+          "21",
+          "24",
+          "22",
+          "20"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-030",
+        "area": "subtraktion",
+        "q": "89 − 23 =",
+        "options": [
+          "65",
+          "67",
+          "64",
+          "66"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-031",
+        "area": "subtraktion",
+        "q": "68 − 33 =",
+        "options": [
+          "35",
+          "34",
+          "33",
+          "36"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-032",
+        "area": "subtraktion",
+        "q": "51 − 15 =",
+        "options": [
+          "37",
+          "36",
+          "35",
+          "34"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-033",
+        "area": "subtraktion",
+        "q": "85 − 11 =",
+        "options": [
+          "74",
+          "72",
+          "73",
+          "75"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-034",
+        "area": "subtraktion",
+        "q": "32 − 28 =",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "2"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-035",
+        "area": "subtraktion",
+        "q": "51 − 1 =",
+        "options": [
+          "49",
+          "51",
+          "48",
+          "50"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-036",
+        "area": "subtraktion",
+        "q": "44 − 42 =",
+        "options": [
+          "2",
+          "0",
+          "1",
+          "3"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-037",
+        "area": "subtraktion",
+        "q": "76 − 75 =",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "0"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-038",
+        "area": "subtraktion",
+        "q": "84 − 38 =",
+        "options": [
+          "46",
+          "44",
+          "45",
+          "48"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-039",
+        "area": "subtraktion",
+        "q": "77 − 76 =",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "0"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-040",
+        "area": "subtraktion",
+        "q": "73 − 39 =",
+        "options": [
+          "32",
+          "35",
+          "34",
+          "33"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-041",
+        "area": "subtraktion",
+        "q": "72 − 1 =",
+        "options": [
+          "73",
+          "72",
+          "71",
+          "69"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-042",
+        "area": "multiplikation",
+        "q": "4 × 5 =",
+        "options": [
+          "20",
+          "19",
+          "21",
+          "18"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-043",
+        "area": "multiplikation",
+        "q": "10 × 2 =",
+        "options": [
+          "19",
+          "21",
+          "20",
+          "18"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-044",
+        "area": "multiplikation",
+        "q": "4 × 8 =",
+        "options": [
+          "30",
+          "33",
+          "32",
+          "34"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-045",
+        "area": "multiplikation",
+        "q": "2 × 4 =",
+        "options": [
+          "10",
+          "8",
+          "6",
+          "9"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-046",
+        "area": "multiplikation",
+        "q": "3 × 8 =",
+        "options": [
+          "24",
+          "25",
+          "22",
+          "26"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-047",
+        "area": "multiplikation",
+        "q": "8 × 7 =",
+        "options": [
+          "58",
+          "57",
+          "54",
+          "56"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-048",
+        "area": "multiplikation",
+        "q": "2 × 7 =",
+        "options": [
+          "12",
+          "14",
+          "16",
+          "13"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-049",
+        "area": "multiplikation",
+        "q": "9 × 10 =",
+        "options": [
+          "91",
+          "89",
+          "90",
+          "88"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-050",
+        "area": "multiplikation",
+        "q": "8 × 3 =",
+        "options": [
+          "24",
+          "22",
+          "25",
+          "26"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-051",
+        "area": "multiplikation",
+        "q": "9 × 10 =",
+        "options": [
+          "90",
+          "91",
+          "88",
+          "89"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-052",
+        "area": "multiplikation",
+        "q": "9 × 10 =",
+        "options": [
+          "88",
+          "90",
+          "91",
+          "89"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-053",
+        "area": "multiplikation",
+        "q": "7 × 5 =",
+        "options": [
+          "34",
+          "33",
+          "35",
+          "36"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-054",
+        "area": "multiplikation",
+        "q": "6 × 10 =",
+        "options": [
+          "60",
+          "59",
+          "61",
+          "58"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-055",
+        "area": "multiplikation",
+        "q": "5 × 10 =",
+        "options": [
+          "51",
+          "50",
+          "49",
+          "48"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-056",
+        "area": "division",
+        "q": "16 ÷ 2 =",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "7"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-057",
+        "area": "division",
+        "q": "49 ÷ 7 =",
+        "options": [
+          "6",
+          "8",
+          "5",
+          "7"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-058",
+        "area": "division",
+        "q": "42 ÷ 7 =",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "4"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-059",
+        "area": "division",
+        "q": "14 ÷ 2 =",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-060",
+        "area": "division",
+        "q": "45 ÷ 5 =",
+        "options": [
+          "9",
+          "7",
+          "10",
+          "8"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-061",
+        "area": "division",
+        "q": "32 ÷ 4 =",
+        "options": [
+          "9",
+          "7",
+          "6",
+          "8"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-062",
+        "area": "division",
+        "q": "10 ÷ 5 =",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-063",
+        "area": "division",
+        "q": "30 ÷ 3 =",
+        "options": [
+          "9",
+          "11",
+          "10",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-064",
+        "area": "division",
+        "q": "36 ÷ 6 =",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-065",
+        "area": "division",
+        "q": "14 ÷ 7 =",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-066",
+        "area": "division",
+        "q": "15 ÷ 5 =",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-067",
+        "area": "division",
+        "q": "63 ÷ 7 =",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-068",
+        "area": "division",
+        "q": "36 ÷ 4 =",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "7"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-069",
+        "area": "geometri",
+        "q": "En rektangel har …",
+        "options": [
+          "sex sidor",
+          "tre sidor",
+          "motstående sidor lika",
+          "fyra lika sidor"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-070",
+        "area": "geometri",
+        "q": "En kub är en …",
+        "options": [
+          "3D-figur",
+          "linje",
+          "2D-figur",
+          "vinkel"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-071",
+        "area": "geometri",
+        "q": "En cirkel har …",
+        "options": [
+          "fyra kanter",
+          "en rund kant",
+          "hörn",
+          "sidor"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-072",
+        "area": "geometri",
+        "q": "En sexhörning (hexagon) har … sidor",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "7"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-073",
+        "area": "geometri",
+        "q": "En rektangel har …",
+        "options": [
+          "tre sidor",
+          "fyra lika sidor",
+          "motstående sidor lika",
+          "sex sidor"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-074",
+        "area": "geometri",
+        "q": "En kub är en …",
+        "options": [
+          "linje",
+          "2D-figur",
+          "vinkel",
+          "3D-figur"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-075",
+        "area": "geometri",
+        "q": "En kub är en …",
+        "options": [
+          "vinkel",
+          "linje",
+          "2D-figur",
+          "3D-figur"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-076",
+        "area": "geometri",
+        "q": "En rektangel har …",
+        "options": [
+          "fyra lika sidor",
+          "tre sidor",
+          "sex sidor",
+          "motstående sidor lika"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-077",
+        "area": "geometri",
+        "q": "Hur många sidor har en triangel?",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "2"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-078",
+        "area": "geometri",
+        "q": "En cylinder har baser som är …",
+        "options": [
+          "cirklar",
+          "kvadrater",
+          "rektanglar",
+          "trianglar"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-079",
+        "area": "geometri",
+        "q": "Hur många sidor har en triangel?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-080",
+        "area": "geometri",
+        "q": "En rektangel har …",
+        "options": [
+          "motstående sidor lika",
+          "fyra lika sidor",
+          "sex sidor",
+          "tre sidor"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-081",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "4"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-082",
+        "area": "klockan",
+        "q": "08:45 kallas:",
+        "options": [
+          "Kvart över 8",
+          "Halv 9",
+          "Prick 8",
+          "Kvart i 9"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-083",
+        "area": "klockan",
+        "q": "05:45 kallas:",
+        "options": [
+          "Kvart i 6",
+          "Halv 6",
+          "Prick 5",
+          "Kvart över 5"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-084",
+        "area": "klockan",
+        "q": "08:45 kallas:",
+        "options": [
+          "Halv 9",
+          "Kvart i 9",
+          "Prick 8",
+          "Kvart över 8"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-085",
+        "area": "klockan",
+        "q": "15:15 kallas:",
+        "options": [
+          "Kvart i 4",
+          "Kvart över 3",
+          "Prick 3",
+          "Halv 4"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-086",
+        "area": "klockan",
+        "q": "09:30 kallas:",
+        "options": [
+          "Kvart i 10",
+          "Halv 10",
+          "Kvart över 9",
+          "Halv 9"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-087",
+        "area": "klockan",
+        "q": "16:00 kallas:",
+        "options": [
+          "Kvart över 4",
+          "Kvart i 5",
+          "Prick 4",
+          "Halv 4"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-088",
+        "area": "klockan",
+        "q": "13:30 kallas:",
+        "options": [
+          "Kvart över 1",
+          "Halv 1",
+          "Kvart i 2",
+          "Halv 2"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-089",
+        "area": "klockan",
+        "q": "19:00 kallas:",
+        "options": [
+          "Kvart i 8",
+          "Kvart över 7",
+          "Halv 7",
+          "Prick 7"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-090",
+        "area": "klockan",
+        "q": "01:45 kallas:",
+        "options": [
+          "Prick 1",
+          "Halv 2",
+          "Kvart över 1",
+          "Kvart i 2"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-091",
+        "area": "klockan",
+        "q": "11:00 kallas:",
+        "options": [
+          "Halv 11",
+          "Kvart i 12",
+          "Kvart över 11",
+          "Prick 11"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-092",
+        "area": "klockan",
+        "q": "08:45 kallas:",
+        "options": [
+          "Kvart över 8",
+          "Kvart i 9",
+          "Prick 8",
+          "Halv 9"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-093",
+        "area": "klockan",
+        "q": "15:45 kallas:",
+        "options": [
+          "Prick 3",
+          "Kvart i 4",
+          "Halv 4",
+          "Kvart över 3"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-094",
+        "area": "klockan",
+        "q": "05:30 kallas:",
+        "options": [
+          "Halv 6",
+          "Kvart i 6",
+          "Halv 5",
+          "Kvart över 5"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-095",
+        "area": "mätning",
+        "q": "Hur många minuter är en kvart?",
+        "options": [
+          "10",
+          "20",
+          "15",
+          "30"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-096",
+        "area": "mätning",
+        "q": "Hur många minuter är en kvart?",
+        "options": [
+          "15",
+          "10",
+          "20",
+          "30"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-097",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "1000",
+          "500",
+          "100",
+          "10"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-098",
+        "area": "mätning",
+        "q": "Hur många minuter är en kvart?",
+        "options": [
+          "15",
+          "10",
+          "30",
+          "20"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-099",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "1000",
+          "100",
+          "10",
+          "500"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-100",
+        "area": "mätning",
+        "q": "1 meter = ___ cm",
+        "options": [
+          "50",
+          "100",
+          "10",
+          "1000"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-101",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "10",
+          "100",
+          "500",
+          "1000"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-102",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "100",
+          "1000",
+          "500",
+          "10"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-103",
+        "area": "mätning",
+        "q": "1 liter = ___ dl",
+        "options": [
+          "10",
+          "100",
+          "50",
+          "5"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-104",
+        "area": "mätning",
+        "q": "1 dl = ___ cl",
+        "options": [
+          "20",
+          "5",
+          "10",
+          "100"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-105",
+        "area": "mätning",
+        "q": "1 liter = ___ dl",
+        "options": [
+          "5",
+          "100",
+          "50",
+          "10"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-106",
+        "area": "mätning",
+        "q": "1 dl = ___ cl",
+        "options": [
+          "5",
+          "10",
+          "20",
+          "100"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-107",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "10",
+          "1000",
+          "500",
+          "100"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-108",
+        "area": "problem",
+        "q": "Bussen har 31 passagerare. 8 går av. Hur många kvar?",
+        "options": [
+          "24",
+          "22",
+          "26",
+          "23"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-109",
+        "area": "problem",
+        "q": "Du bakar 27 bullar. 7 äts upp. Hur många kvar?",
+        "options": [
+          "20",
+          "19",
+          "21",
+          "23"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-110",
+        "area": "problem",
+        "q": "Du sparar 5 kr per dag i 6 dagar. Hur mycket blir det?",
+        "options": [
+          "25",
+          "30",
+          "40",
+          "35"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-111",
+        "area": "problem",
+        "q": "Du sparar 10 kr per dag i 4 dagar. Hur mycket blir det?",
+        "options": [
+          "45",
+          "35",
+          "50",
+          "40"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-112",
+        "area": "problem",
+        "q": "Du bakar 27 bullar. 5 äts upp. Hur många kvar?",
+        "options": [
+          "23",
+          "25",
+          "21",
+          "22"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-113",
+        "area": "problem",
+        "q": "Ett paket kostar 30 kr. Du köper 3 paket. Vad kostar det?",
+        "options": [
+          "88",
+          "90",
+          "92",
+          "95"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-114",
+        "area": "problem",
+        "q": "Du bakar 26 bullar. 9 äts upp. Hur många kvar?",
+        "options": [
+          "18",
+          "16",
+          "20",
+          "17"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-115",
+        "area": "problem",
+        "q": "Bussen har 39 passagerare. 12 går av. Hur många kvar?",
+        "options": [
+          "27",
+          "28",
+          "26",
+          "30"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-116",
+        "area": "problem",
+        "q": "Du sparar 10 kr per dag i 5 dagar. Hur mycket blir det?",
+        "options": [
+          "50",
+          "60",
+          "45",
+          "55"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-117",
+        "area": "problem",
+        "q": "Du sparar 12 kr per dag i 3 dagar. Hur mycket blir det?",
+        "options": [
+          "46",
+          "36",
+          "41",
+          "31"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-118",
+        "area": "problem",
+        "q": "Du bakar 27 bullar. 8 äts upp. Hur många kvar?",
+        "options": [
+          "19",
+          "22",
+          "18",
+          "20"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-119",
+        "area": "problem",
+        "q": "Du sparar 5 kr per dag i 5 dagar. Hur mycket blir det?",
+        "options": [
+          "30",
+          "20",
+          "35",
+          "25"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-120",
+        "area": "problem",
+        "q": "Bussen har 33 passagerare. 9 går av. Hur många kvar?",
+        "options": [
+          "23",
+          "24",
+          "27",
+          "25"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-121",
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 75?",
+        "options": [
+          "6",
+          "7",
+          "75",
+          "8"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-122",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 33?",
+        "options": [
+          "43",
+          "35",
+          "32",
+          "34"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-123",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "61",
+          "60",
+          "88",
+          "42"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-124",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer före 55?",
+        "options": [
+          "53",
+          "45",
+          "54",
+          "56"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-125",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "24",
+          "28",
+          "49",
+          "99"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-126",
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 40?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "40"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-127",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer före 78?",
+        "options": [
+          "76",
+          "77",
+          "68",
+          "79"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-128",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "61",
+          "14",
+          "41",
+          "73"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-129",
+        "area": "taluppfattning",
+        "q": "Vilket tal är störst?",
+        "options": [
+          "40",
+          "25",
+          "31",
+          "53"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-130",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer före 98?",
+        "options": [
+          "96",
+          "99",
+          "97",
+          "88"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-131",
+        "area": "taluppfattning",
+        "q": "Vilket tal är jämnt?",
+        "options": [
+          "28",
+          "81",
+          "80",
+          "43"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-132",
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 20?",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "20"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-133",
+        "area": "taluppfattning",
+        "q": "Vilket tal är minst?",
+        "options": [
+          "96",
+          "49",
+          "88",
+          "45"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-134",
+        "area": "taluppfattning",
+        "q": "Vilket tal är störst?",
+        "options": [
+          "38",
+          "76",
+          "80",
+          "78"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-135",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 84?",
+        "options": [
+          "86",
+          "85",
+          "94",
+          "83"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-136",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 12?",
+        "options": [
+          "13",
+          "22",
+          "11",
+          "14"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-137",
+        "area": "taluppfattning",
+        "q": "Vilket tal är jämnt?",
+        "options": [
+          "70",
+          "99",
+          "86",
+          "51"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-138",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "95",
+          "27",
+          "45",
+          "94"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-139",
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 69?",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "69"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-140",
+        "area": "taluppfattning",
+        "q": "Vilket tal är udda?",
+        "options": [
+          "37",
+          "97",
+          "60",
+          "27"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-141",
+        "area": "taluppfattning",
+        "q": "Vilket tal är minst?",
+        "options": [
+          "94",
+          "78",
+          "27",
+          "75"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-142",
+        "area": "taluppfattning",
+        "q": "Vilket tal kommer efter 37?",
+        "options": [
+          "47",
+          "39",
+          "36",
+          "38"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-143",
+        "area": "addition",
+        "q": "13 + 40 =",
+        "options": [
+          "51",
+          "54",
+          "52",
+          "53"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-144",
+        "area": "addition",
+        "q": "44 + 34 =",
+        "options": [
+          "78",
+          "76",
+          "77",
+          "80"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-145",
+        "area": "addition",
+        "q": "41 + 25 =",
+        "options": [
+          "67",
+          "66",
+          "64",
+          "65"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-146",
+        "area": "addition",
+        "q": "40 + 11 =",
+        "options": [
+          "50",
+          "51",
+          "49",
+          "52"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-147",
+        "area": "addition",
+        "q": "32 + 10 =",
+        "options": [
+          "42",
+          "43",
+          "40",
+          "41"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-148",
+        "area": "addition",
+        "q": "19 + 24 =",
+        "options": [
+          "43",
+          "41",
+          "42",
+          "44"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-149",
+        "area": "addition",
+        "q": "19 + 44 =",
+        "options": [
+          "64",
+          "61",
+          "63",
+          "65"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-150",
+        "area": "addition",
+        "q": "34 + 20 =",
+        "options": [
+          "52",
+          "53",
+          "56",
+          "54"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-151",
+        "area": "addition",
+        "q": "13 + 12 =",
+        "options": [
+          "24",
+          "25",
+          "27",
+          "26"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-152",
+        "area": "addition",
+        "q": "38 + 30 =",
+        "options": [
+          "66",
+          "67",
+          "68",
+          "69"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-153",
+        "area": "addition",
+        "q": "7 + 15 =",
+        "options": [
+          "20",
+          "22",
+          "21",
+          "24"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-154",
+        "area": "addition",
+        "q": "17 + 14 =",
+        "options": [
+          "31",
+          "29",
+          "32",
+          "33"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-155",
+        "area": "addition",
+        "q": "42 + 32 =",
+        "options": [
+          "73",
+          "74",
+          "72",
+          "75"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-156",
+        "area": "addition",
+        "q": "38 + 19 =",
+        "options": [
+          "59",
+          "58",
+          "57",
+          "56"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-157",
+        "area": "addition",
+        "q": "15 + 15 =",
+        "options": [
+          "29",
+          "32",
+          "28",
+          "30"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-158",
+        "area": "addition",
+        "q": "36 + 36 =",
+        "options": [
+          "73",
+          "70",
+          "74",
+          "72"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-159",
+        "area": "addition",
+        "q": "11 + 30 =",
+        "options": [
+          "41",
+          "40",
+          "43",
+          "42"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-160",
+        "area": "addition",
+        "q": "26 + 6 =",
+        "options": [
+          "32",
+          "34",
+          "30",
+          "33"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-161",
+        "area": "addition",
+        "q": "17 + 20 =",
+        "options": [
+          "38",
+          "37",
+          "36",
+          "35"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-162",
+        "area": "addition",
+        "q": "21 + 19 =",
+        "options": [
+          "42",
+          "41",
+          "38",
+          "40"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-163",
+        "area": "addition",
+        "q": "39 + 42 =",
+        "options": [
+          "83",
+          "80",
+          "81",
+          "82"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-164",
+        "area": "addition",
+        "q": "14 + 32 =",
+        "options": [
+          "46",
+          "45",
+          "48",
+          "44"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-165",
+        "area": "addition",
+        "q": "18 + 39 =",
+        "options": [
+          "59",
+          "57",
+          "56",
+          "58"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-166",
+        "area": "subtraktion",
+        "q": "77 − 59 =",
+        "options": [
+          "17",
+          "18",
+          "16",
+          "19"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-167",
+        "area": "subtraktion",
+        "q": "74 − 47 =",
+        "options": [
+          "28",
+          "26",
+          "27",
+          "25"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-168",
+        "area": "subtraktion",
+        "q": "72 − 58 =",
+        "options": [
+          "14",
+          "13",
+          "12",
+          "16"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-169",
+        "area": "subtraktion",
+        "q": "25 − 12 =",
+        "options": [
+          "14",
+          "13",
+          "11",
+          "12"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-170",
+        "area": "subtraktion",
+        "q": "51 − 49 =",
+        "options": [
+          "3",
+          "2",
+          "0",
+          "1"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-171",
+        "area": "subtraktion",
+        "q": "18 − 6 =",
+        "options": [
+          "13",
+          "11",
+          "10",
+          "12"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-172",
+        "area": "subtraktion",
+        "q": "55 − 11 =",
+        "options": [
+          "42",
+          "43",
+          "45",
+          "44"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-173",
+        "area": "subtraktion",
+        "q": "62 − 29 =",
+        "options": [
+          "35",
+          "34",
+          "33",
+          "32"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-174",
+        "area": "subtraktion",
+        "q": "85 − 81 =",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-175",
+        "area": "subtraktion",
+        "q": "80 − 69 =",
+        "options": [
+          "10",
+          "9",
+          "11",
+          "12"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-176",
+        "area": "subtraktion",
+        "q": "42 − 34 =",
+        "options": [
+          "9",
+          "10",
+          "6",
+          "8"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-177",
+        "area": "subtraktion",
+        "q": "16 − 13 =",
+        "options": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-178",
+        "area": "subtraktion",
+        "q": "23 − 14 =",
+        "options": [
+          "10",
+          "9",
+          "11",
+          "8"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-179",
+        "area": "subtraktion",
+        "q": "15 − 5 =",
+        "options": [
+          "10",
+          "11",
+          "8",
+          "9"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-180",
+        "area": "subtraktion",
+        "q": "86 − 56 =",
+        "options": [
+          "28",
+          "29",
+          "32",
+          "30"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-181",
+        "area": "subtraktion",
+        "q": "59 − 27 =",
+        "options": [
+          "34",
+          "32",
+          "30",
+          "33"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-182",
+        "area": "subtraktion",
+        "q": "44 − 5 =",
+        "options": [
+          "37",
+          "39",
+          "40",
+          "41"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-183",
+        "area": "subtraktion",
+        "q": "66 − 41 =",
+        "options": [
+          "27",
+          "24",
+          "25",
+          "26"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-184",
+        "area": "subtraktion",
+        "q": "72 − 17 =",
+        "options": [
+          "55",
+          "57",
+          "56",
+          "53"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-185",
+        "area": "subtraktion",
+        "q": "18 − 13 =",
+        "options": [
+          "3",
+          "6",
+          "5",
+          "4"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-186",
+        "area": "subtraktion",
+        "q": "28 − 24 =",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "2"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-187",
+        "area": "subtraktion",
+        "q": "64 − 24 =",
+        "options": [
+          "42",
+          "41",
+          "38",
+          "40"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-188",
+        "area": "subtraktion",
+        "q": "86 − 30 =",
+        "options": [
+          "54",
+          "58",
+          "56",
+          "57"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-189",
+        "area": "multiplikation",
+        "q": "8 × 4 =",
+        "options": [
+          "30",
+          "33",
+          "32",
+          "34"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-190",
+        "area": "multiplikation",
+        "q": "2 × 3 =",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "8"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-191",
+        "area": "multiplikation",
+        "q": "6 × 6 =",
+        "options": [
+          "35",
+          "34",
+          "37",
+          "36"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-192",
+        "area": "multiplikation",
+        "q": "5 × 8 =",
+        "options": [
+          "41",
+          "38",
+          "42",
+          "40"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-193",
+        "area": "multiplikation",
+        "q": "2 × 2 =",
+        "options": [
+          "2",
+          "5",
+          "4",
+          "3"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-194",
+        "area": "multiplikation",
+        "q": "6 × 9 =",
+        "options": [
+          "53",
+          "56",
+          "52",
+          "54"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-195",
+        "area": "multiplikation",
+        "q": "9 × 10 =",
+        "options": [
+          "89",
+          "91",
+          "88",
+          "90"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-196",
+        "area": "multiplikation",
+        "q": "8 × 10 =",
+        "options": [
+          "82",
+          "80",
+          "78",
+          "81"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-197",
+        "area": "multiplikation",
+        "q": "4 × 4 =",
+        "options": [
+          "16",
+          "18",
+          "14",
+          "17"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-198",
+        "area": "multiplikation",
+        "q": "7 × 7 =",
+        "options": [
+          "48",
+          "51",
+          "50",
+          "49"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-199",
+        "area": "multiplikation",
+        "q": "5 × 4 =",
+        "options": [
+          "20",
+          "18",
+          "21",
+          "19"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-200",
+        "area": "multiplikation",
+        "q": "2 × 5 =",
+        "options": [
+          "10",
+          "11",
+          "8",
+          "9"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-201",
+        "area": "multiplikation",
+        "q": "4 × 6 =",
+        "options": [
+          "26",
+          "22",
+          "24",
+          "25"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-202",
+        "area": "multiplikation",
+        "q": "4 × 9 =",
+        "options": [
+          "36",
+          "34",
+          "35",
+          "37"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-203",
+        "area": "multiplikation",
+        "q": "3 × 6 =",
+        "options": [
+          "16",
+          "18",
+          "17",
+          "19"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-204",
+        "area": "multiplikation",
+        "q": "6 × 3 =",
+        "options": [
+          "16",
+          "18",
+          "19",
+          "17"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-205",
+        "area": "multiplikation",
+        "q": "4 × 9 =",
+        "options": [
+          "35",
+          "37",
+          "34",
+          "36"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-206",
+        "area": "multiplikation",
+        "q": "9 × 7 =",
+        "options": [
+          "61",
+          "64",
+          "65",
+          "63"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-207",
+        "area": "multiplikation",
+        "q": "2 × 8 =",
+        "options": [
+          "14",
+          "17",
+          "16",
+          "18"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-208",
+        "area": "multiplikation",
+        "q": "2 × 8 =",
+        "options": [
+          "18",
+          "16",
+          "14",
+          "17"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-209",
+        "area": "multiplikation",
+        "q": "6 × 9 =",
+        "options": [
+          "53",
+          "56",
+          "54",
+          "52"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-210",
+        "area": "multiplikation",
+        "q": "9 × 2 =",
+        "options": [
+          "19",
+          "18",
+          "16",
+          "17"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-211",
+        "area": "division",
+        "q": "32 ÷ 8 =",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-212",
+        "area": "division",
+        "q": "24 ÷ 6 =",
+        "options": [
+          "5",
+          "3",
+          "2",
+          "4"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-213",
+        "area": "division",
+        "q": "36 ÷ 6 =",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "4"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-214",
+        "area": "division",
+        "q": "30 ÷ 10 =",
+        "options": [
+          "4",
+          "3",
+          "1",
+          "2"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-215",
+        "area": "division",
+        "q": "48 ÷ 8 =",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "7"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-216",
+        "area": "division",
+        "q": "40 ÷ 4 =",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-217",
+        "area": "division",
+        "q": "10 ÷ 2 =",
+        "options": [
+          "6",
+          "5",
+          "3",
+          "4"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-218",
+        "area": "division",
+        "q": "90 ÷ 9 =",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "8"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-219",
+        "area": "division",
+        "q": "42 ÷ 6 =",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "7"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-220",
+        "area": "division",
+        "q": "90 ÷ 9 =",
+        "options": [
+          "10",
+          "9",
+          "11",
+          "8"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-221",
+        "area": "division",
+        "q": "15 ÷ 5 =",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-222",
+        "area": "division",
+        "q": "24 ÷ 8 =",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-223",
+        "area": "division",
+        "q": "21 ÷ 7 =",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-224",
+        "area": "division",
+        "q": "16 ÷ 4 =",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "4"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-225",
+        "area": "division",
+        "q": "25 ÷ 5 =",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "6"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-226",
+        "area": "division",
+        "q": "8 ÷ 2 =",
+        "options": [
+          "5",
+          "2",
+          "4",
+          "3"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-227",
+        "area": "division",
+        "q": "20 ÷ 5 =",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-228",
+        "area": "division",
+        "q": "24 ÷ 3 =",
+        "options": [
+          "9",
+          "6",
+          "8",
+          "7"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-229",
+        "area": "division",
+        "q": "81 ÷ 9 =",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-230",
+        "area": "division",
+        "q": "45 ÷ 5 =",
+        "options": [
+          "10",
+          "9",
+          "8",
+          "7"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-231",
+        "area": "division",
+        "q": "90 ÷ 10 =",
+        "options": [
+          "10",
+          "9",
+          "7",
+          "8"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-232",
+        "area": "division",
+        "q": "15 ÷ 3 =",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "3"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-233",
+        "area": "geometri",
+        "q": "En kub är en …",
+        "options": [
+          "2D-figur",
+          "3D-figur",
+          "linje",
+          "vinkel"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-234",
+        "area": "geometri",
+        "q": "En cylinder har baser som är …",
+        "options": [
+          "trianglar",
+          "kvadrater",
+          "rektanglar",
+          "cirklar"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-235",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "2"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-236",
+        "area": "geometri",
+        "q": "En rektangel har …",
+        "options": [
+          "motstående sidor lika",
+          "tre sidor",
+          "sex sidor",
+          "fyra lika sidor"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-237",
+        "area": "geometri",
+        "q": "En rektangel har …",
+        "options": [
+          "sex sidor",
+          "fyra lika sidor",
+          "tre sidor",
+          "motstående sidor lika"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-238",
+        "area": "geometri",
+        "q": "En cylinder har baser som är …",
+        "options": [
+          "rektanglar",
+          "kvadrater",
+          "cirklar",
+          "trianglar"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-239",
+        "area": "geometri",
+        "q": "En sexhörning (hexagon) har … sidor",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-240",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "5",
+          "4",
+          "2",
+          "3"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-241",
+        "area": "geometri",
+        "q": "En cirkel har …",
+        "options": [
+          "fyra kanter",
+          "sidor",
+          "en rund kant",
+          "hörn"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-242",
+        "area": "geometri",
+        "q": "Hur många sidor har en triangel?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-243",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "5",
+          "4",
+          "3",
+          "2"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-244",
+        "area": "geometri",
+        "q": "En kub är en …",
+        "options": [
+          "vinkel",
+          "3D-figur",
+          "2D-figur",
+          "linje"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-245",
+        "area": "geometri",
+        "q": "En sexhörning (hexagon) har … sidor",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-246",
+        "area": "geometri",
+        "q": "En cirkel har …",
+        "options": [
+          "hörn",
+          "fyra kanter",
+          "en rund kant",
+          "sidor"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-247",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "5",
+          "2",
+          "4",
+          "3"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-248",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "4"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-249",
+        "area": "geometri",
+        "q": "Hur många sidor har en triangel?",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "3"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-250",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "3"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-251",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-252",
+        "area": "geometri",
+        "q": "Hur många sidor har en triangel?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "2"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-253",
+        "area": "geometri",
+        "q": "En cirkel har …",
+        "options": [
+          "fyra kanter",
+          "hörn",
+          "sidor",
+          "en rund kant"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-254",
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "4",
+          "5",
+          "2",
+          "3"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-255",
+        "area": "klockan",
+        "q": "13:00 kallas:",
+        "options": [
+          "Prick 1",
+          "Kvart i 2",
+          "Kvart över 1",
+          "Halv 1"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-256",
+        "area": "klockan",
+        "q": "21:00 kallas:",
+        "options": [
+          "Kvart i 10",
+          "Halv 9",
+          "Kvart över 9",
+          "Prick 9"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-257",
+        "area": "klockan",
+        "q": "18:00 kallas:",
+        "options": [
+          "Kvart i 7",
+          "Prick 6",
+          "Halv 6",
+          "Kvart över 6"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-258",
+        "area": "klockan",
+        "q": "05:45 kallas:",
+        "options": [
+          "Kvart i 6",
+          "Kvart över 5",
+          "Halv 6",
+          "Prick 5"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-259",
+        "area": "klockan",
+        "q": "06:15 kallas:",
+        "options": [
+          "Kvart över 6",
+          "Kvart i 7",
+          "Prick 6",
+          "Halv 7"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-260",
+        "area": "klockan",
+        "q": "09:15 kallas:",
+        "options": [
+          "Halv 10",
+          "Kvart i 10",
+          "Kvart över 9",
+          "Prick 9"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-261",
+        "area": "klockan",
+        "q": "15:15 kallas:",
+        "options": [
+          "Kvart i 4",
+          "Halv 4",
+          "Prick 3",
+          "Kvart över 3"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-262",
+        "area": "klockan",
+        "q": "08:45 kallas:",
+        "options": [
+          "Kvart över 8",
+          "Prick 8",
+          "Kvart i 9",
+          "Halv 9"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-263",
+        "area": "klockan",
+        "q": "04:45 kallas:",
+        "options": [
+          "Prick 4",
+          "Halv 5",
+          "Kvart i 5",
+          "Kvart över 4"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-264",
+        "area": "klockan",
+        "q": "01:15 kallas:",
+        "options": [
+          "Prick 1",
+          "Kvart över 1",
+          "Kvart i 2",
+          "Halv 2"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-265",
+        "area": "klockan",
+        "q": "07:30 kallas:",
+        "options": [
+          "Kvart i 8",
+          "Halv 7",
+          "Kvart över 7",
+          "Halv 8"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-266",
+        "area": "klockan",
+        "q": "13:45 kallas:",
+        "options": [
+          "Prick 1",
+          "Kvart i 2",
+          "Kvart över 1",
+          "Halv 2"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-267",
+        "area": "klockan",
+        "q": "18:00 kallas:",
+        "options": [
+          "Prick 6",
+          "Kvart i 7",
+          "Halv 6",
+          "Kvart över 6"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-268",
+        "area": "klockan",
+        "q": "11:30 kallas:",
+        "options": [
+          "Halv 12",
+          "Kvart över 11",
+          "Halv 11",
+          "Kvart i 12"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-269",
+        "area": "klockan",
+        "q": "22:00 kallas:",
+        "options": [
+          "Halv 10",
+          "Kvart över 10",
+          "Kvart i 11",
+          "Prick 10"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-270",
+        "area": "klockan",
+        "q": "22:00 kallas:",
+        "options": [
+          "Kvart över 10",
+          "Kvart i 11",
+          "Halv 10",
+          "Prick 10"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-271",
+        "area": "klockan",
+        "q": "17:45 kallas:",
+        "options": [
+          "Kvart i 6",
+          "Halv 6",
+          "Kvart över 5",
+          "Prick 5"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-272",
+        "area": "klockan",
+        "q": "22:00 kallas:",
+        "options": [
+          "Halv 10",
+          "Kvart i 11",
+          "Kvart över 10",
+          "Prick 10"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-273",
+        "area": "klockan",
+        "q": "07:45 kallas:",
+        "options": [
+          "Halv 8",
+          "Kvart i 8",
+          "Kvart över 7",
+          "Prick 7"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-274",
+        "area": "klockan",
+        "q": "17:15 kallas:",
+        "options": [
+          "Kvart över 5",
+          "Prick 5",
+          "Halv 6",
+          "Kvart i 6"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-275",
+        "area": "klockan",
+        "q": "23:45 kallas:",
+        "options": [
+          "Halv 12",
+          "Kvart över 11",
+          "Prick 11",
+          "Kvart i 12"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-276",
+        "area": "klockan",
+        "q": "01:00 kallas:",
+        "options": [
+          "Prick 1",
+          "Halv 1",
+          "Kvart över 1",
+          "Kvart i 2"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-277",
+        "area": "mätning",
+        "q": "1 liter = ___ dl",
+        "options": [
+          "100",
+          "5",
+          "10",
+          "50"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-278",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "500",
+          "10",
+          "1000",
+          "100"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-279",
+        "area": "mätning",
+        "q": "1 liter = ___ dl",
+        "options": [
+          "10",
+          "50",
+          "100",
+          "5"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-280",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "500",
+          "1000",
+          "10",
+          "100"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-281",
+        "area": "mätning",
+        "q": "1 meter = ___ cm",
+        "options": [
+          "10",
+          "100",
+          "50",
+          "1000"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-282",
+        "area": "mätning",
+        "q": "1 dl = ___ cl",
+        "options": [
+          "20",
+          "100",
+          "5",
+          "10"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-283",
+        "area": "mätning",
+        "q": "1 dl = ___ cl",
+        "options": [
+          "100",
+          "10",
+          "20",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-284",
+        "area": "mätning",
+        "q": "Hur många minuter är en kvart?",
+        "options": [
+          "15",
+          "30",
+          "20",
+          "10"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-285",
+        "area": "mätning",
+        "q": "Hur många minuter är en kvart?",
+        "options": [
+          "30",
+          "15",
+          "20",
+          "10"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-286",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "100",
+          "10",
+          "500",
+          "1000"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-287",
+        "area": "mätning",
+        "q": "1 meter = ___ cm",
+        "options": [
+          "10",
+          "50",
+          "1000",
+          "100"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-288",
+        "area": "mätning",
+        "q": "1 dl = ___ cl",
+        "options": [
+          "5",
+          "10",
+          "100",
+          "20"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-289",
+        "area": "mätning",
+        "q": "1 liter = ___ dl",
+        "options": [
+          "10",
+          "5",
+          "50",
+          "100"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-290",
+        "area": "mätning",
+        "q": "1 dl = ___ cl",
+        "options": [
+          "10",
+          "100",
+          "5",
+          "20"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-291",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "500",
+          "100",
+          "10",
+          "1000"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-292",
+        "area": "mätning",
+        "q": "1 meter = ___ cm",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "50"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-293",
+        "area": "mätning",
+        "q": "1 liter = ___ dl",
+        "options": [
+          "5",
+          "100",
+          "10",
+          "50"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-294",
+        "area": "mätning",
+        "q": "1 liter = ___ dl",
+        "options": [
+          "100",
+          "50",
+          "10",
+          "5"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-295",
+        "area": "mätning",
+        "q": "Hur många minuter är en kvart?",
+        "options": [
+          "30",
+          "15",
+          "10",
+          "20"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-296",
+        "area": "mätning",
+        "q": "1 meter = ___ cm",
+        "options": [
+          "100",
+          "50",
+          "10",
+          "1000"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-297",
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "10",
+          "500",
+          "100",
+          "1000"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-298",
+        "area": "mätning",
+        "q": "Hur många minuter är en kvart?",
+        "options": [
+          "15",
+          "20",
+          "30",
+          "10"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-299",
+        "area": "problem",
+        "q": "Du har 4 påsar med 5 kulor i varje. Hur många kulor?",
+        "options": [
+          "22",
+          "20",
+          "18",
+          "25"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-300",
+        "area": "problem",
+        "q": "Bussen har 22 passagerare. 13 går av. Hur många kvar?",
+        "options": [
+          "8",
+          "9",
+          "12",
+          "10"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-301",
+        "area": "problem",
+        "q": "Du har 2 påsar med 5 kulor i varje. Hur många kulor?",
+        "options": [
+          "8",
+          "12",
+          "10",
+          "15"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-302",
+        "area": "problem",
+        "q": "Du har 2 påsar med 3 kulor i varje. Hur många kulor?",
+        "options": [
+          "11",
+          "4",
+          "6",
+          "8"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-303",
+        "area": "problem",
+        "q": "Du sparar 12 kr per dag i 3 dagar. Hur mycket blir det?",
+        "options": [
+          "46",
+          "31",
+          "36",
+          "41"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-304",
+        "area": "problem",
+        "q": "Ett paket kostar 30 kr. Du köper 3 paket. Vad kostar det?",
+        "options": [
+          "90",
+          "88",
+          "92",
+          "95"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-305",
+        "area": "problem",
+        "q": "Bussen har 26 passagerare. 7 går av. Hur många kvar?",
+        "options": [
+          "19",
+          "18",
+          "20",
+          "22"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-306",
+        "area": "problem",
+        "q": "Ett paket kostar 18 kr. Du köper 2 paket. Vad kostar det?",
+        "options": [
+          "38",
+          "34",
+          "41",
+          "36"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-307",
+        "area": "problem",
+        "q": "Du har 2 påsar med 3 kulor i varje. Hur många kulor?",
+        "options": [
+          "11",
+          "6",
+          "8",
+          "4"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-308",
+        "area": "problem",
+        "q": "Bussen har 36 passagerare. 18 går av. Hur många kvar?",
+        "options": [
+          "21",
+          "19",
+          "18",
+          "17"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-309",
+        "area": "problem",
+        "q": "Du bakar 30 bullar. 8 äts upp. Hur många kvar?",
+        "options": [
+          "22",
+          "21",
+          "23",
+          "25"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-310",
+        "area": "problem",
+        "q": "Du bakar 16 bullar. 12 äts upp. Hur många kvar?",
+        "options": [
+          "5",
+          "7",
+          "4",
+          "3"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-311",
+        "area": "problem",
+        "q": "Du bakar 19 bullar. 7 äts upp. Hur många kvar?",
+        "options": [
+          "13",
+          "12",
+          "15",
+          "11"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-312",
+        "area": "problem",
+        "q": "Du bakar 21 bullar. 8 äts upp. Hur många kvar?",
+        "options": [
+          "13",
+          "16",
+          "14",
+          "12"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-313",
+        "area": "problem",
+        "q": "Du har 4 påsar med 3 kulor i varje. Hur många kulor?",
+        "options": [
+          "12",
+          "10",
+          "17",
+          "14"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-314",
+        "area": "problem",
+        "q": "Du bakar 26 bullar. 10 äts upp. Hur många kvar?",
+        "options": [
+          "17",
+          "19",
+          "16",
+          "15"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-315",
+        "area": "problem",
+        "q": "Du har 2 påsar med 3 kulor i varje. Hur många kulor?",
+        "options": [
+          "8",
+          "11",
+          "4",
+          "6"
+        ],
+        "correct": 3
+      },
+      {
+        "id": "ma-316",
+        "area": "problem",
+        "q": "Du har 4 påsar med 4 kulor i varje. Hur många kulor?",
+        "options": [
+          "16",
+          "21",
+          "14",
+          "18"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-317",
+        "area": "problem",
+        "q": "Du sparar 12 kr per dag i 5 dagar. Hur mycket blir det?",
+        "options": [
+          "60",
+          "70",
+          "55",
+          "65"
+        ],
+        "correct": 0
+      },
+      {
+        "id": "ma-318",
+        "area": "problem",
+        "q": "Du har 5 påsar med 6 kulor i varje. Hur många kulor?",
+        "options": [
+          "32",
+          "35",
+          "30",
+          "28"
+        ],
+        "correct": 2
+      },
+      {
+        "id": "ma-319",
+        "area": "problem",
+        "q": "Du bakar 19 bullar. 5 äts upp. Hur många kvar?",
+        "options": [
+          "17",
+          "14",
+          "13",
+          "15"
+        ],
+        "correct": 1
+      },
+      {
+        "id": "ma-320",
+        "area": "problem",
+        "q": "Du har 4 påsar med 5 kulor i varje. Hur många kulor?",
+        "options": [
+          "25",
+          "22",
+          "20",
+          "18"
+        ],
+        "correct": 2
+      }
+    ]
+  }
+}
