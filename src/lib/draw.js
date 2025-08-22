@@ -1,5 +1,14 @@
-// Slumpa utan återläggning över flera försök (”no-repeats”).
-// Vi sparar använda id:n i localStorage under <storageKey>__usedIds
+// Slumpa (med eller utan återläggning) och hantera historik
+export function shuffle(a){
+  const x=(a||[]).slice()
+  for(let i=x.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1))
+    ;[x[i],x[j]]=[x[j],x[i]]
+  }
+  return x
+}
+
+// Bas: utan återläggning över flera försök (”no-repeats”).
 export function drawWithoutReplacement(items, count, storageKey){
   if(!Array.isArray(items)) return []
   const usedKey = `${storageKey}__usedIds`
@@ -12,7 +21,7 @@ export function drawWithoutReplacement(items, count, storageKey){
   if (available.length >= count){
     picked = shuffle(available).slice(0, count)
   } else {
-    // Ta resterande + fyll upp; nollställ used (ny cykel)
+    // Ta allt som finns kvar + fyll upp slumpmässigt, och starta en ny cykel
     picked = [...available]
     const pool = shuffle(items)
     let i=0
@@ -29,11 +38,25 @@ export function drawWithoutReplacement(items, count, storageKey){
   return picked
 }
 
-export function shuffle(a){
-  const x = (a||[]).slice()
-  for(let i=x.length-1;i>0;i--){
-    const j = Math.floor(Math.random()*(i+1))
-    ;[x[i],x[j]] = [x[j],x[i]]
-  }
-  return x
+// Med återläggning: rena, oberoende omgångar (alltid random)
+export function drawWithReplacement(items, count){
+  return shuffle(items).slice(0, Math.min(count, items.length))
+}
+
+// Smart: välj metod beroende på inställning
+export function drawSmart(items, count, storageKey, noRepeats=true){
+  return noRepeats
+    ? drawWithoutReplacement(items, count, storageKey)
+    : drawWithReplacement(items, count)
+}
+
+// Rensa historik (för en ny cykel eller om man bytt bank)
+export function clearUsed(storageKey){
+  const usedKey = `${storageKey}__usedIds`
+  localStorage.removeItem(usedKey)
+}
+
+// Hjälp: rensa flera nycklar (ex. både exam/practice och ämnen)
+export function clearUsedMany(keys=[]){
+  keys.forEach(k => clearUsed(k))
 }

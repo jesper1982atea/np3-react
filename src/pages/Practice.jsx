@@ -1,7 +1,7 @@
 // src/pages/Practice.jsx
 import { useEffect, useRef, useState } from 'react'
 import QuestionCard from '../components/QuestionCard'
-import { drawWithoutReplacement, shuffle } from '../lib/draw'
+import { drawSmart, shuffle } from '../lib/draw'
 
 export default function Practice({ profile, saveProfile, bank, setView }){
   const [topic, setTopic] = useState('svenska') // 'svenska' | 'matematik'
@@ -19,21 +19,23 @@ export default function Practice({ profile, saveProfile, bank, setView }){
   function start(topicSel = topic){
     if(!bank) return
     const storageKey = topicSel === 'svenska' ? 'practice_sv' : 'practice_ma'
+    const noRepeats = profile?.settings?.noRepeats !== false
+    //const storageKey = topicSel === 'svenska' ? 'practice_sv' : 'practice_ma'
     let items = []
+
     if(topicSel === 'svenska'){
-      const base = drawWithoutReplacement(bank.svenska?.items||[], Math.max(6, Math.min(perQuiz-2, perQuiz)), storageKey)
-      // plocka ev. 0–2 passagefrågor och blanda in
-      let extra = []
-      if ((bank.svenska?.passages?.length||0) > 0){
+    const base = drawSmart(bank.svenska?.items||[], Math.max(6, Math.min(perQuiz-2, perQuiz)), storageKey, noRepeats)
+    let extra = []
+    if ((bank.svenska?.passages?.length||0) > 0){
         const pass = bank.svenska.passages[Math.floor(Math.random()*bank.svenska.passages.length)]
         extra = shuffle(pass.questions || []).slice(0, Math.min(2, perQuiz- base.length)).map(q=>({
-          ...q, title: pass.title, text: pass.text, topic:'svenska'
+        ...q, title: pass.title, text: pass.text, topic:'svenska'
         }))
-      }
-      items = shuffle([...base.map(x=>({ ...x, topic:'svenska' })), ...extra]).slice(0, perQuiz)
+    }
+    items = shuffle([...base.map(x=>({ ...x, topic:'svenska' })), ...extra]).slice(0, perQuiz)
     }else{
-      const base = drawWithoutReplacement(bank.matematik?.items||[], perQuiz, storageKey)
-      items = base.map(x=>({ ...x, topic:'matematik' }))
+    const base = drawSmart(bank.matematik?.items||[], perQuiz, storageKey, noRepeats)
+    items = base.map(x=>({ ...x, topic:'matematik' }))
     }
 
     setTopic(topicSel)
