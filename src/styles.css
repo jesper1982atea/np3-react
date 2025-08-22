@@ -45,3 +45,16 @@ header{display:flex;align-items:center;gap:12px;padding:8px 0 4px}
 
 /* Om något globalt sätter knappar vita */
 button.choice * { color: inherit; }
+
+.dnd-pool { display:flex; gap:10px; flex-wrap:wrap; padding:8px; background:#fff; border:1px dashed #cbd5e1; border-radius:12px; margin:10px 0; }
+.dnd-tile { padding:8px 12px; border:2px solid #e5e7eb; border-radius:12px; background:#f9fafb; font-weight:600; cursor:grab; user-select:none; }
+.dnd-tile:active { cursor:grabbing; }
+.dnd-tile.in-bucket { background:#fff; position:relative; }
+.dnd-x { position:absolute; top:2px; right:6px; border:0; background:transparent; font-size:16px; cursor:pointer; color:#64748b; }
+
+.dnd-buckets { display:grid; gap:12px; grid-template-columns:1fr 1fr; }
+@media (max-width:840px){ .dnd-buckets { grid-template-columns:1fr; } }
+
+.dnd-bucket { background:#fff; border:2px dashed #cbd5e1; border-radius:12px; padding:10px; min-height:110px; }
+.dnd-bucket-title { font-weight:700; margin-bottom:6px; }
+.dnd-bucket-body { display:flex; gap:8px; flex-wrap:wrap; min-height:48px; }

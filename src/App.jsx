@@ -10,6 +10,7 @@ import Exam from './pages/Exam'
 import Stats from './pages/Stats'
 import Settings from './pages/Settings'
 import Bank from './pages/Bank'
+import Review from './pages/Review'
 
 export default function App(){
   const { bank, loading, error } = useBank()
@@ -24,7 +25,7 @@ export default function App(){
   return (
     <div className="container">
       <header>
-        <div className="logo">📚 NP åk 3 – Träning & Prov</div>
+        <div className="logo">📚 Nationella prov förberedelse åk 3 – Träning & Prov</div>
         <div className="points">
           <span>Lv {profile.level}</span>
           <span>⭐ {profile.points}</span>
@@ -46,6 +47,7 @@ export default function App(){
       {view==='stats' && <Stats profile={profile} setView={setView} />}
       {view==='settings' && <Settings profile={profile} saveProfile={saveProfile} setView={setView} />}
       {view==='bank' && <Bank />}
+      {view==='review' && <Review setView={setView} />}
 
       <div className="footer">Prototyp. Data sparas lokalt i din webbläsare.</div>
     </div>

@@ -1,46 +1,35 @@
 // src/pages/Practice.jsx
 import { useEffect, useRef, useState } from 'react'
 import QuestionCard from '../components/QuestionCard'
+import DragDropCard from '../components/DragDropCard'
 import { drawSmart, shuffle } from '../lib/draw'
 
 const FALLBACK_EXPLAINS = {
-  stavning: "Stavning: Välj den korrekta stavningen. Jämför bokstäver och ljud – särskilt svåra ljud som sj-, tj-, hj-, lj-, skj-.",
-  grammatik: "Grammatik: Substantiv = namn på saker/djur/personer/platser. Verb = något man gör (handling). Adjektiv = ord som beskriver (t.ex. stor, röd).",
-  ordforstaelse: "Ordförståelse: Tänk på ordens betydelse. Synonym betyder liknande ord. Motsats betyder tvärtom.",
-  läsförståelse: "Läsförståelse: Leta svar i texten. Ofta står svaret tydligt uttryckt.",
-  matematik: "Välj det svar som stämmer. Tänk på tiotal/ental och räknesättets regler."
+  stavning: "Stavning: Välj den korrekta stavningen. Jämför bokstäver och ljud – särskilt sj-, tj-, hj-, lj-, skj-.",
+  grammatik: "Grammatik: Substantiv = namn på saker/djur/personer/platser. Verb = något man gör. Adjektiv = beskriver egenskaper.",
+  ordforstaelse: "Ordförståelse: Synonym betyder liknande ord. Motsats betyder tvärtom.",
+  'läsförståelse': "Läsförståelse: Leta efter stöd i texten. Svaret står ofta tydligt uttryckt.",
+  matematik: "Matematik: Följ räknesättets regler och tänk steg för steg (tiotal/ental)."
 }
 
 function buildFallbackExplain(q){
-  // Om frågan själv har explain → använd den
   if(q?.explain) return q.explain
-
-  // Gissa kategori
+  const text = (q?.q || '').toLowerCase()
   const area = q?.area || (q?.topic === 'svenska' ? (q?.title ? 'läsförståelse' : 'grammatik') : 'matematik')
 
-  // Några mer precisa grammar-hints utifrån frågetext
   if(area === 'grammatik'){
-    const text = (q?.q || '').toLowerCase()
     if(text.includes('substantiv')) return "Substantiv är namn på saker, djur, personer eller platser (t.ex. 'katt', 'bord', 'Lisa')."
-    if(text.includes('verb')) return "Verb beskriver handlingar eller tillstånd (t.ex. 'springer', 'läser', 'är')."
+    if(text.includes('verb')) return "Verb beskriver handling eller tillstånd (t.ex. 'springer', 'läser', 'är')."
     if(text.includes('adjektiv')) return "Adjektiv beskriver egenskaper (t.ex. 'stor', 'röd', 'snabb')."
     if(text.includes('pronomen')) return "Pronomen ersätter substantiv (t.ex. 'han', 'hon', 'den', 'det')."
     if(text.includes('preposition')) return "Prepositioner beskriver läge/riktning (t.ex. 'på', 'under', 'i', 'bakom')."
-    if(text.includes('preteritum') || text.includes("tempus")) return "Preteritum är dåtid (igår). Ex: läser → läste, skriver → skrev."
+    if(text.includes('preteritum') || text.includes('tempus')) return "Preteritum = dåtid (igår). Ex: läser→läste, skriver→skrev."
+    return FALLBACK_EXPLAINS.grammatik
   }
-
-  if(area === 'stavning'){
-    return FALLBACK_EXPLAINS.stavning
-  }
-  if(area === 'ordforstaelse'){
-    return FALLBACK_EXPLAINS.ordforstaelse
-  }
-  if(area === 'läsförståelse'){
-    return FALLBACK_EXPLAINS['läsförståelse']
-  }
-  if(q?.topic === 'matematik'){
-    return FALLBACK_EXPLAINS.matematik
-  }
+  if(area === 'stavning') return FALLBACK_EXPLAINS.stavning
+  if(area === 'ordforstaelse') return FALLBACK_EXPLAINS.ordforstaelse
+  if(area === 'läsförståelse') return FALLBACK_EXPLAINS['läsförståelse']
+  if(q?.topic === 'matematik') return FALLBACK_EXPLAINS.matematik
   return FALLBACK_EXPLAINS.grammatik
 }
 
@@ -61,7 +50,9 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     if(!bank) return
     const storageKey = topicSel === 'svenska' ? 'practice_sv' : 'practice_ma'
     let items = []
+
     if(topicSel === 'svenska'){
+      // Plocka fristående + ev. några passagefrågor
       const base = drawSmart(bank.svenska?.items||[], Math.max(6, Math.min(perQuiz-2, perQuiz)), storageKey, noRepeats)
       let extra = []
       if ((bank.svenska?.passages?.length||0) > 0){
@@ -93,7 +84,8 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       setRemaining(r=>{
         if(r<=1){
           clearInterval(timerRef.current)
-          handleChoose(-1, true)
+          // Timeout räknas som fel och gå till review
+          onAnswered(false, true)
           return perQSec
         }
         return r-1
@@ -110,7 +102,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       setRemaining(r=>{
         if(r<=1){
           clearInterval(timerRef.current)
-          handleChoose(-1, true)
+          onAnswered(false, true)
           return perQSec
         }
         return r-1
@@ -118,11 +110,10 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     }, 1000)
   }
 
-  function handleChoose(chosenIndex, timeout=false){
+  // Kallas när man svarat (MC eller DnD)
+  function onAnswered(isCorrect, wasTimeout=false){
     const q = setQ[idx]
-    const isCorrect = !timeout && chosenIndex === q.correct
-
-    // poäng & stats
+    // uppdatera profil
     if(profile && saveProfile){
       const p = { ...profile }
       const t = q.topic || topic
@@ -131,17 +122,26 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       p.stats[t].answered++
       if(isCorrect){
         p.stats[t].correct++
-        p.points = (p.points||0) + 2
+        p.points = (p.points||0) + 2 // övning = 2p / rätt
         if(p.points % 50 === 0) p.level = (p.level||1)+1
       }
       saveProfile(p)
     }
-
-    // visa förklaring och pausa
     clearInterval(timerRef.current)
-    const explain = buildFallbackExplain(q)
-    setLast({correct:isCorrect, explain})
+    setLast({ correct: isCorrect, explain: buildFallbackExplain(q) })
     setState('review')
+  }
+
+  // Flervalsval -> översätt till onAnswered
+  function handleChoose(chosenIndex, timeout=false){
+    const q = setQ[idx]
+    const isCorrect = !timeout && chosenIndex === q.correct
+    onAnswered(isCorrect, timeout)
+  }
+
+  // DnD-svar -> ok (true/false) -> onAnswered
+  function handleDnd(ok){
+    onAnswered(!!ok, false)
   }
 
   function nextQuestion(){
@@ -168,6 +168,8 @@ export default function Practice({ profile, saveProfile, bank, setView }){
 
   if(!bank) return <div className="card">Laddar…</div>
 
+  const current = setQ[idx]
+
   return (
     <div className="grid">
       <div className="card">
@@ -188,10 +190,10 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       <div className="card">
         {state==='idle' && <p className="tiny">Välj ämne och klicka <b>Starta</b>.</p>}
 
-        {(state==='running' || state==='review') && setQ.length>0 && (
+        {(state==='running' || state==='review') && current && (
           <>
             <div className="row" style={{justifyContent:'space-between'}}>
-              <div className="chip">{(setQ[idx]?.topic||topic)==='matematik'?'🧮 Matematik':'📖 Svenska'}</div>
+              <div className="chip">{(current.topic||topic)==='matematik'?'🧮 Matematik':'📖 Svenska'}</div>
               <div className="chip">Fråga {idx+1} / {setQ.length}</div>
               {state==='running'
                 ? <div className="pill">⏱️ {remaining}s</div>
@@ -199,8 +201,22 @@ export default function Practice({ profile, saveProfile, bank, setView }){
             </div>
             <div className="progress"><div className="bar" style={{width:`${progressPct}%`}}/></div>
 
-            <QuestionCard q={setQ[idx]} onChoose={state==='running' ? handleChoose : ()=>{}} locked={state!=='running'} />
+            {/* Passageheader om svensk läsförståelse */}
+            {current?.title && <h3 style={{marginTop:8}}>{current.title}</h3>}
+            {current?.text && <div className="passage" style={{marginTop:6}}>{current.text}</div>}
 
+            {/* Själva frågekortet */}
+            {current?.type === 'dnd' ? (
+              <DragDropCard
+                q={current}
+                locked={state!=='running'}
+                onAnswer={handleDnd} // ok => true/false
+              />
+            ) : (
+              <QuestionCard q={current} onChoose={handleChoose} locked={state!=='running'} />
+            )}
+
+            {/* Feedback + knappar */}
             {state==='review' && (
               <div className="hint" style={{marginTop:10}}>
                 {last.correct ? '✅ Rätt!' : '❌ Inte riktigt.'}
