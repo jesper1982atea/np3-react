@@ -29,3 +29,19 @@ header{display:flex;align-items:center;gap:12px;padding:8px 0 4px}
 .list{display:grid;gap:10px}
 .item{padding:10px;border-radius:10px;border:1px solid #e5e7eb;background:#fff}
 .footer{text-align:center;color:var(--muted);padding:18px 0 30px;font-size:.9rem}
+
+/* Svarsalternativ: tvinga textfärg och bredd */
+.choices button.choice {
+  width: 100%;
+  color: var(--fg);         /* <-- tvinga textfärg */
+  background: #fff;
+  border: 2px solid #e5e7eb;
+  text-align: left;
+}
+
+.choice.correct { border-color: var(--ok); background: #ecfdf5; color: var(--fg); }
+.choice.wrong   { border-color: var(--error); background: #fef2f2; color: var(--fg); }
+.choice:disabled { opacity: .85; }
+
+/* Om något globalt sätter knappar vita */
+button.choice * { color: inherit; }
