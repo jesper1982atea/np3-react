@@ -1,0 +1,18 @@
+{
+  "bankVersion": "1.0",
+  "matematik": {
+    "items": [
+      { "id": "ma-001", "area": "addition", "q": "7 + 8 =", "options": ["13","14","15","16"], "correct": 2 },
+      { "id": "ma-002", "area": "subtraktion", "q": "12 − 5 =", "options": ["5","6","7","8"], "correct": 2 },
+      { "id": "ma-003", "area": "taluppfattning", "q": "Vilket tal är störst?", "options": ["49","51","50","48"], "correct": 1 },
+      { "id": "ma-004", "area": "taluppfattning", "q": "Hur många tiotal i 37?", "options": ["2","3","4","30"], "correct": 1 },
+      { "id": "ma-005", "area": "multiplikation", "q": "4 × 6 =", "options": ["20","22","24","26"], "correct": 2 },
+      { "id": "ma-006", "area": "division", "q": "30 ÷ 5 =", "options": ["4","5","6","7"], "correct": 2 },
+      { "id": "ma-007", "area": "geometri", "q": "Hur många hörn har en kvadrat?", "options": ["2","3","4","5"], "correct": 2 },
+      { "id": "ma-008", "area": "klockan", "q": "Halv tre i digital tid:", "options": ["02:30","03:30","15:30","14:30"], "correct": 0 },
+      { "id": "ma-009", "area": "problem", "q": "Lisa har 12 kulor och får 5 till. Hur många har hon?", "options": ["15","16","17","18"], "correct": 2 },
+      { "id": "ma-010", "area": "mätning", "q": "1 meter = ___ cm", "options": ["10","50","100","1000"], "correct": 2 }
+     
+    ]
+  }
+}

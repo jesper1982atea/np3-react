@@ -1,0 +1,38 @@
+{
+  "bankVersion": "1.0",
+  "svenska": {
+    "items": [
+      { "id": "sv-001", "area": "stavning", "q": "Vilket ord stavas rätt?", "options": ["Kjolpanna","Köttpanna","Kjöttpanna","Köttpana"], "correct": 1 },
+      { "id": "sv-002", "area": "stavning", "q": "Vilket ord stavas rätt?", "options": ["Stiarna","Stjärna","Stiarhna","Stiarnaa"], "correct": 1 },
+      { "id": "sv-003", "area": "stavning", "q": "Vilket ord stavas rätt?", "options": ["Skoja","Skojjja","Skåja","Skoje"], "correct": 0 },
+      { "id": "sv-004", "area": "grammatik", "q": "Vilket är ett verb?", "options": ["springer","blå","katt","rolig"], "correct": 0 },
+      { "id": "sv-005", "area": "grammatik", "q": "Vilket är ett adjektiv?", "options": ["snabb","springa","boll","katt"], "correct": 0 },
+      { "id": "sv-006", "area": "grammatik", "q": "Välj rätt: 'De ___ glass.'", "options": ["äter","äterna","ätar","ätit"], "correct": 0 },
+      { "id": "sv-007", "area": "ordforstaelse", "q": "Motsats till 'stor'?", "options": ["storlek","liten","mindre","kort"], "correct": 1 },
+      { "id": "sv-008", "area": "ordforstaelse", "q": "Synonym till 'glad'?", "options": ["olycklig","munter","trött","arg"], "correct": 1 },
+      { "id": "sv-009", "area": "ordforstaelse", "q": "Vad betyder 'försiktig'?", "options": ["våghalsig","tar det lugnt","snabb","orolig"], "correct": 1 },
+      { "id": "sv-010", "area": "ordforstaelse", "q": "Vad är ett substantiv?", "options": ["En sak eller ett namn","Ett doing-ord","Ett beskrivande ord","Ett litet ord"], "correct": 0 }
+    ],
+    "passages": [
+      {
+        "id": "sv-p-001",
+        "title": "Lisa och skoldörren",
+        "text": "Lisa sprang till skolan. Hon hade bråttom för klockan var nästan åtta. När hon kom fram var dörren stängd.",
+        "questions": [
+          { "id": "sv-p-001-q1", "q": "Varför sprang Lisa?", "options": ["Hungrig","Hon hade bråttom","Hon skulle leka","Hon tappade en bok"], "correct": 1 },
+          { "id": "sv-p-001-q2", "q": "Vad var stängt?", "options": ["Fönstret","Dörren","Porten","Boken"], "correct": 1 }
+        ]
+      },
+      {
+        "id": "sv-p-002",
+        "title": "Utflykten",
+        "text": "Klassen gick till skogen. De åt matsäck vid sjön. Sara tappade sin smörgås men Hugo delade med sig.",
+        "questions": [
+          { "id": "sv-p-002-q1", "q": "Vart gick klassen?", "options": ["Biblioteket","Skogen","Affären","Badhuset"], "correct": 1 },
+          { "id": "sv-p-002-q2", "q": "Vem delade med sig?", "options": ["Sara","Hugo","Läraren","Ingen"], "correct": 1 }
+        ]
+      }
+    
+    ]
+  }
+}
