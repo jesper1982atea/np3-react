@@ -33,6 +33,7 @@ function buildFallbackExplain(q){
   return FALLBACK_EXPLAINS.grammatik
 }
 
+// Mer kort, “uppslagsboks-lik” hjälptext som visas när man klickar 🆘 Hjälp
 function buildConceptHint(q){
   if(q?.hint) return q.hint
   const t = (q?.q || '').toLowerCase()
@@ -44,7 +45,7 @@ function buildConceptHint(q){
     if(t.includes('pronomen')) return "Pronomen: ersätter substantiv. Ex: han, hon, den, det."
     if(t.includes('preposition')) return "Preposition: läge/riktning. Ex: på, i, under, bakom."
     if(t.includes('mening')) return "Mening: stor bokstav i början och punkt/!? på slutet."
-    if(t.includes('ordföljd')) return "Ordföljd: t.ex. 'Igår åt jag glass.' (tid) + subjekt + verb + objekt."
+    if(t.includes('ordföljd')) return "Ordföljd: T.ex. 'Igår åt jag glass.' (tid) + subjekt + verb + objekt."
     if(t.includes('kongruens')) return "Kongruens: ord ska passa ihop i form. 'Den stora katten…' (bestämd form)."
     if(t.includes('preteritum') || t.includes('tempus')) return "Preteritum = dåtid: läser→läste, skriver→skrev, är→var."
     return "Grammatik: Substantiv (namn), verb (handling), adjektiv (beskriver)."
@@ -57,13 +58,13 @@ function buildConceptHint(q){
 }
 
 export default function Practice({ profile, saveProfile, bank, setView }){
-  const [topic, setTopic] = useState('svenska')
+  const [topic, setTopic] = useState('svenska') // 'svenska' | 'matematik'
   const [setQ, setSetQ] = useState([])
   const [idx, setIdx] = useState(0)
   const [state, setState] = useState('idle') // 'idle' | 'running' | 'review' | 'done'
   const [remaining, setRemaining] = useState(profile?.settings?.perQuestionTimerSec || 45)
   const [last, setLast] = useState({correct:null, explain:''})
-  const [showHelp, setShowHelp] = useState(false)
+  const [showHelp, setShowHelp] = useState(false) // styr visning av ledtråd
   const timerRef = useRef(null)
 
   const perQuiz = profile?.settings?.perQuiz || 10
@@ -76,6 +77,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     let items = []
 
     if(topicSel === 'svenska'){
+      // Fristående + ev. några passagefrågor
       const base = drawSmart(bank.svenska?.items||[], Math.max(6, Math.min(perQuiz-2, perQuiz)), storageKey, noRepeats)
       let extra = []
       if ((bank.svenska?.passages?.length||0) > 0){
@@ -108,7 +110,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       setRemaining(r=>{
         if(r<=1){
           clearInterval(timerRef.current)
-          onAnswered(false, true) // timeout = fel
+          onAnswered(false) // timeout = fel
           return perQSec
         }
         return r-1
@@ -125,7 +127,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       setRemaining(r=>{
         if(r<=1){
           clearInterval(timerRef.current)
-          onAnswered(false, true)
+          onAnswered(false)
           return perQSec
         }
         return r-1
@@ -143,7 +145,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       p.stats[t].answered++
       if(isCorrect){
         p.stats[t].correct++
-        p.points = (p.points||0) + 2
+        p.points = (p.points||0) + 2 // övning = 2p / rätt
         if(p.points % 50 === 0) p.level = (p.level||1)+1
       }
       saveProfile(p)
@@ -154,9 +156,9 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     setState('review')
   }
 
-  function handleChoose(chosenIndex, timeout=false){
+  function handleChoose(chosenIndex){
     const q = setQ[idx]
-    const isCorrect = !timeout && chosenIndex === q.correct
+    const isCorrect = chosenIndex === q.correct
     onAnswered(isCorrect)
   }
 
@@ -223,11 +225,14 @@ export default function Practice({ profile, saveProfile, bank, setView }){
             </div>
             <div className="progress"><div className="bar" style={{width:`${progressPct}%`}}/></div>
 
+            {/* Frågekort */}
             {current?.type === 'dnd' ? (
               <DragDropCard
                 q={current}
                 locked={state!=='running'}
                 onAnswer={handleDnd}
+                showHint={showHelp}
+                hintText={helpText}
               />
             ) : (
               <QuestionCard
@@ -259,7 +264,9 @@ export default function Practice({ profile, saveProfile, bank, setView }){
                     >
                       {showHelp ? '🙈 Dölj hjälp' : '🆘 Hjälp'}
                     </button>
-                    <button className="btn small ghost" onClick={()=>handleChoose(-1,false)}>⏭️ Hoppa över</button>
+                    {current?.type !== 'dnd' && (
+                      <button className="btn small ghost" onClick={()=>handleChoose(-1)}>⏭️ Hoppa över</button>
+                    )}
                   </>
                 )}
                 {state==='review' && <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>}
@@ -267,6 +274,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
               </div>
             </div>
 
+            {/* Feedback i review */}
             {state==='review' && (
               <div className="hint" style={{marginTop:10}}>
                 {last.correct ? '✅ Rätt!' : '❌ Inte riktigt.'}
