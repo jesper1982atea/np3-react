@@ -351,58 +351,136 @@ DND_TEMPLATES: List[Callable[[str], Dict]] = [
 ]
 
 # ------------- Läsförståelse -------------
-def build_passage_text(level: str, target_chars: int):
-  namn1 = random.choice(NAMN)
-  plats = random.choice(PLATSER)
-  title = f"{namn1} i {plats}"
-  sentences_easy = [
-    f"{namn1} var i {plats}.", f"Hen {random.choice(AKTIVITETER)}.",
-    f"En {random.choice(SAKER)} blev viktig.", "Till slut var allt bra."
-  ]
-  sentences_med = [
-    f"{namn1} begav sig till {plats} tidigt på morgonen.",
-    f"Hen {random.choice(AKTIVITETER)} tillsammans med en vän.",
-    f"Under tiden försvann en {random.choice(SAKER)}, vilket gjorde {namn1} orolig.",
-    "Efter en stund hittades den och stämningen blev lugn igen."
-  ]
-  sentences_hard = [
-    f"{namn1} gick mot {plats} där mycket var på gång.",
-    f"Hen {random.choice(AKTIVITETER)} och försökte samtidigt hålla ordning på sin {random.choice(SAKER)}.",
-    "När tempot ökade tappades fokus en kort stund, vilket fick konsekvenser.",
-    "Med hjälp av andra återställdes ordningen och situationen kändes trygg igen."
-  ]
-  pool = {"easy":sentences_easy,"medium":sentences_med,"hard":sentences_hard}[level]
-  text = " ".join(pool)
-  while len(text) < target_chars:
-    text += " " + random.choice(pool)
-    if len(text) > target_chars*1.2: break
-  return title, text
+def build_passage(level: str, target_chars: int):
+    """
+    Bygger en passage baserad på fasta 'facts' så att frågorna kan referera
+    till exakt samma ord som förekommer i texten.
+    Returnerar: title, text, facts-dict
+    """
+    namn1 = random.choice(NAMN)
+    plats = random.choice(PLATSER)
+    aktivitet = random.choice(AKTIVITETER)          # en aktivitet som vi sätter in i texten
+    sak = random.choice(SAKER)                      # ett föremål som vi sätter in i texten
+    kansla_slut = "lugnt"                           # känsla i slutet (kan göras variabel vid behov)
 
-def passage_questions_for(level: str, title: str, text: str, qpp: int) -> List[Dict]:
-  out = []
-  plats = None
-  for pl in PLATSER:
-    if f" {pl}" in title or f" {pl}" in text:
-      plats = pl; break
-  if not plats: plats = random.choice(PLATSER)
-  opts1 = [plats] + random.sample([p for p in PLATSER if p != plats], k=min(3, len(PLATSER)-1))
-  opts1 = (opts1 + ["parken","skolan","biblioteket","skogen"])[:4]
-  def shuf(opts, c=0):
-    o, ci = shuffle_options_with_correct(opts, c); return o, ci
-  o1,c1 = shuf(opts1, 0)
-  out.append({ "q": "Var utspelar sig texten?", "options": o1, "correct": c1, "explain": "Läsförståelse: Orten/platsen brukar stå nämnd i texten." })
-  if qpp >= 2:
-    akt = random.choice(AKTIVITETER)
-    o2,c2 = shuf([akt, "sover", "äter", "gråter"], 0)
-    out.append({ "q": "Vad gör personen i texten?", "options": o2, "correct": c2, "explain": "Hitta verbet/aktiviteten som beskrivs i texten." })
-  if qpp >= 3:
-    sak = random.choice(SAKER)
-    o3,c3 = shuf([sak, "penna", "bok", "cykel"], 0)
-    out.append({ "q": "Vad blir viktigt i texten?", "options": o3, "correct": c3, "explain": "Nyckelord i texten kan vara föremål som nämns flera gånger." })
-  if qpp >= 4:
-    o4,c4 = shuf(["lugnt", "oroligt", "argt", "stökigt"], 0)
-    out.append({ "q": "Hur känns slutet av texten?", "options": o4, "correct": c4, "explain": "Notera hur problemet löstes – då blir känslan ofta lugn/trygg." })
-  return out
+    title = f"{namn1} i {plats}"
+
+    if level == "easy":
+        sentences = [
+            f"{namn1} var i {plats}.",
+            f"Hen {aktivitet}.",
+            f"En {sak} blev viktig.",
+            "Till slut var allt lugnt."
+        ]
+    elif level == "medium":
+        sentences = [
+            f"{namn1} begav sig till {plats} tidigt på morgonen.",
+            f"Hen {aktivitet} tillsammans med en vän.",
+            f"Under tiden försvann en {sak}, vilket gjorde {namn1} orolig.",
+            "Efter en stund hittades den och allt kändes lugnt igen."
+        ]
+    else:  # hard
+        sentences = [
+            f"{namn1} gick mot {plats} där mycket var på gång.",
+            f"Hen {aktivitet} och försökte samtidigt hålla ordning på sin {sak}.",
+            "När tempot ökade tappades fokus en kort stund, vilket fick konsekvenser.",
+            "Med hjälp av andra återställdes ordningen och stämningen blev lugn igen."
+        ]
+
+    text = " ".join(sentences)
+    while len(text) < target_chars:
+        # upprepa neutrala meningar för längd utan att ändra fakta
+        text += " " + random.choice(sentences[:-1])
+        if len(text) > target_chars * 1.2:
+            break
+
+    facts = {
+        "namn": namn1,
+        "plats": plats,
+        "aktivitet": aktivitet,
+        "sak": sak,
+        "kansla_slut": kansla_slut
+    }
+    return title, text, facts
+
+def passage_questions_for(level: str, facts: dict, qpp: int) -> List[Dict]:
+    """
+    Bygger frågor direkt från 'facts' så att korrekt svar alltid förekommer i texten.
+    """
+    out = []
+    plats = facts["plats"]
+    aktivitet = facts["aktivitet"]
+    sak = facts["sak"]
+    kansla_slut = facts["kansla_slut"]  # just nu alltid "lugnt"
+
+    def shuf(opts, c=0):
+        o, ci = shuffle_options_with_correct(opts, c); return o, ci
+
+    # Q1: Plats
+    distr_plats = [p for p in PLATSER if p != plats]
+    while len(distr_plats) < 3:
+        distr_plats.append(random.choice(PLATSER))
+        distr_plats = list(dict.fromkeys(distr_plats))
+    opts1 = [plats] + random.sample(distr_plats, k=3)
+    o1, c1 = shuf(opts1, 0)
+    out.append({
+        "q": "Var utspelar sig texten?",
+        "options": o1, "correct": c1,
+        "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+    })
+
+    if qpp >= 2:
+        # Q2: Aktivitet
+        # Ta några vanliga distraktorer som INTE är samma som aktiviteten
+        vanliga = ["sover","äter","gråter","springer","läser"]
+        distr_akt = [a for a in vanliga if a != aktivitet]
+        while len(distr_akt) < 3:
+            cand = random.choice(AKTIVITETER)
+            if cand != aktivitet and cand not in distr_akt:
+                distr_akt.append(cand)
+        opts2 = [aktivitet] + random.sample(distr_akt, k=3)
+        o2, c2 = shuf(opts2, 0)
+        out.append({
+            "q": "Vad gör personen i texten?",
+            "options": o2, "correct": c2,
+            "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        })
+
+    if qpp >= 3:
+        # Q3: Viktigt föremål
+        distr_sak = [s for s in SAKER if s != sak]
+        while len(distr_sak) < 3:
+            cand = random.choice(SAKER)
+            if cand != sak and cand not in distr_sak:
+                distr_sak.append(cand)
+        opts3 = [sak] + random.sample(distr_sak, k=3)
+        o3, c3 = shuf(opts3, 0)
+        out.append({
+            "q": "Vad blir viktigt i texten?",
+            "options": o3, "correct": c3,
+            "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        })
+
+    if qpp >= 4:
+        # Q4: Känsla i slutet
+        alla = ["lugnt", "oroligt", "argt", "stökigt"]
+        # se till att korrekt finns med
+        if kansla_slut not in alla:
+            alla[0] = kansla_slut
+        # korrekt först, resten som distraktorer
+        opts4 = [kansla_slut] + [x for x in alla if x != kansla_slut][:3]
+        # om duplicates, fyll upp
+        while len(opts4) < 4:
+            cand = random.choice(["glatt","tryggt","oroligt","stökigt"])
+            if cand not in opts4: opts4.append(cand)
+        o4, c4 = shuf(opts4, 0)
+        out.append({
+            "q": "Hur känns slutet av texten?",
+            "options": o4, "correct": c4,
+            "explain": "Notera hur problemet löstes – då blir känslan ofta lugn/trygg."
+        })
+
+    return out
 
 # ------------- CLI & logik -------------
 def parse_plan(plan: str) -> Dict[str, int]:
@@ -491,26 +569,37 @@ def main():
       next_item_num += 1
 
   # --- Generera passager ---
-  created_passages: List[Dict] = []
+  created_passages = []
   for _ in range(args.passages):
-    qpp = max(2, min(4, random.randint(args.qpp_min, args.qpp_max)))
-    target_len = level_passage_len(args.level, args.passage_chars)
-    title, text = build_passage_text(args.level, target_len)
-    if any(p.get("title")==title and p.get("text")==text for p in passages+created_passages):
-      continue
-    pid = f"sv-p-{next_pass_num:03d}"
-    next_pass_num += 1
-    qs = passage_questions_for(args.level, title, text, qpp)
-    out_qs = []
-    for i, qd in enumerate(qs, start=1):
-      out_qs.append({
-        "id": f"{pid}-q{i}",
-        "q": qd["q"],
-        "options": qd["options"],
-        "correct": qd["correct"],
-        "explain": qd.get("explain","Läsförståelse: hitta stöd i texten.")
-      })
-    created_passages.append({"id": pid, "title": title, "text": text, "questions": out_qs})
+        qpp = max(2, min(4, random.randint(args.qpp_min, args.qpp_max)))
+        target_len = level_passage_len(args.level, args.passage_chars)
+
+        title, text, facts = build_passage(args.level, target_len)
+
+        # undvik exakta dubletter (titel+text)
+        if any(p.get("title")==title and p.get("text")==text for p in passages+created_passages):
+            continue
+
+        pid = f"sv-p-{next_pass_num:03d}"
+        next_pass_num += 1
+
+        qs = passage_questions_for(args.level, facts, qpp)
+        out_qs = []
+        for i, qd in enumerate(qs, start=1):
+            out_qs.append({
+                "id": f"{pid}-q{i}",
+                "q": qd["q"],
+                "options": qd["options"],
+                "correct": qd["correct"],
+                "explain": qd.get("explain","Läsförståelse: hitta stöd i texten.")
+            })
+
+        created_passages.append({
+            "id": pid,
+            "title": title,
+            "text": text,
+            "questions": out_qs
+        })
 
   # --- DRY RUN ---
   if args.dry:
