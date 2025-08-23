@@ -33,6 +33,30 @@ function buildFallbackExplain(q){
   return FALLBACK_EXPLAINS.grammatik
 }
 
+// Mer kort, “uppslagsboks-lik” hjälptext som visas när man klickar 🆘 Hjälp
+function buildConceptHint(q){
+  if(q?.hint) return q.hint
+  const t = (q?.q || '').toLowerCase()
+  const area = q?.area || (q?.topic === 'svenska' ? (q?.title ? 'läsförståelse' : 'grammatik') : 'matematik')
+  if(area === 'grammatik'){
+    if(t.includes('substantiv')) return "Substantiv: namn på saker/djur/personer/platser. Ex: katt, bok, Lisa."
+    if(t.includes('verb')) return "Verb: något man gör eller är. Ex: springer, läser, är."
+    if(t.includes('adjektiv')) return "Adjektiv: beskriver egenskaper. Ex: stor, röd, snabb."
+    if(t.includes('pronomen')) return "Pronomen: ersätter substantiv. Ex: han, hon, den, det."
+    if(t.includes('preposition')) return "Preposition: läge/riktning. Ex: på, i, under, bakom."
+    if(t.includes('mening')) return "Mening: stor bokstav i början och punkt/!? på slutet."
+    if(t.includes('ordföljd')) return "Ordföljd: T.ex. 'Igår åt jag glass.' (tid) + subjekt + verb + objekt."
+    if(t.includes('kongruens')) return "Kongruens: ord ska passa ihop i form. 'Den stora katten…' (bestämd form)."
+    if(t.includes('preteritum') || t.includes('tempus')) return "Preteritum = dåtid: läser→läste, skriver→skrev, är→var."
+    return "Grammatik: Substantiv (namn), verb (handling), adjektiv (beskriver)."
+  }
+  if(area === 'stavning') return "Titta noga på bokstäverna. Ljud som sj-, tj-, hj-, lj-, skj- är vanliga fällor."
+  if(area === 'ordforstaelse') return "Synonym = liknande ord. Motsats = tvärtom. Välj det som passar bäst i meningen."
+  if(area === 'läsförståelse') return "Läs en gång till. Leta efter ord i texten som matchar frågan ordagrant."
+  if(q?.topic === 'matematik') return "Tänk på räknesättet. Dela upp i tiotal/ental. Prova överslagsräkning."
+  return "Fundera på vad frågan egentligen frågar efter och jämför alternativen."
+}
+
 export default function Practice({ profile, saveProfile, bank, setView }){
   const [topic, setTopic] = useState('svenska') // 'svenska' | 'matematik'
   const [setQ, setSetQ] = useState([])
@@ -40,6 +64,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
   const [state, setState] = useState('idle') // 'idle' | 'running' | 'review' | 'done'
   const [remaining, setRemaining] = useState(profile?.settings?.perQuestionTimerSec || 45)
   const [last, setLast] = useState({correct:null, explain:''})
+  const [showHelp, setShowHelp] = useState(false) // ⬅️ NYTT: styr visning av ledtråd
   const timerRef = useRef(null)
 
   const perQuiz = profile?.settings?.perQuiz || 10
@@ -52,7 +77,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     let items = []
 
     if(topicSel === 'svenska'){
-      // Plocka fristående + ev. några passagefrågor
+      // Fristående + ev. några passagefrågor
       const base = drawSmart(bank.svenska?.items||[], Math.max(6, Math.min(perQuiz-2, perQuiz)), storageKey, noRepeats)
       let extra = []
       if ((bank.svenska?.passages?.length||0) > 0){
@@ -72,6 +97,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     setIdx(0)
     setState('running')
     setLast({correct:null, explain:''})
+    setShowHelp(false)
     resetTimer()
   }
 
@@ -84,8 +110,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       setRemaining(r=>{
         if(r<=1){
           clearInterval(timerRef.current)
-          // Timeout räknas som fel och gå till review
-          onAnswered(false, true)
+          onAnswered(false, true) // timeout = fel
           return perQSec
         }
         return r-1
@@ -110,7 +135,6 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     }, 1000)
   }
 
-  // Kallas när man svarat (MC eller DnD)
   function onAnswered(isCorrect, wasTimeout=false){
     const q = setQ[idx]
     // uppdatera profil
@@ -129,17 +153,16 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     }
     clearInterval(timerRef.current)
     setLast({ correct: isCorrect, explain: buildFallbackExplain(q) })
+    setShowHelp(false) // stäng hjälp vid review
     setState('review')
   }
 
-  // Flervalsval -> översätt till onAnswered
   function handleChoose(chosenIndex, timeout=false){
     const q = setQ[idx]
     const isCorrect = !timeout && chosenIndex === q.correct
     onAnswered(isCorrect, timeout)
   }
 
-  // DnD-svar -> ok (true/false) -> onAnswered
   function handleDnd(ok){
     onAnswered(!!ok, false)
   }
@@ -151,6 +174,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     }else{
       setIdx(next)
       setLast({correct:null, explain:''})
+      setShowHelp(false)
       setState('running')
     }
   }
@@ -160,15 +184,16 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     setSetQ([])
     setIdx(0)
     setLast({correct:null, explain:''})
+    setShowHelp(false)
     clearInterval(timerRef.current)
     setRemaining(perQSec)
   }
 
   const progressPct = setQ.length ? Math.round((idx/setQ.length)*100) : 0
-
   if(!bank) return <div className="card">Laddar…</div>
 
   const current = setQ[idx]
+  const helpText = current ? buildConceptHint(current) : ''
 
   return (
     <div className="grid">
@@ -201,34 +226,52 @@ export default function Practice({ profile, saveProfile, bank, setView }){
             </div>
             <div className="progress"><div className="bar" style={{width:`${progressPct}%`}}/></div>
 
-            {/* Passageheader om svensk läsförståelse */}
+            {/* Passageheader */}
             {current?.title && <h3 style={{marginTop:8}}>{current.title}</h3>}
             {current?.text && <div className="passage" style={{marginTop:6}}>{current.text}</div>}
 
-            {/* Själva frågekortet */}
+            {/* Frågekort */}
             {current?.type === 'dnd' ? (
               <DragDropCard
                 q={current}
                 locked={state!=='running'}
-                onAnswer={handleDnd} // ok => true/false
+                onAnswer={handleDnd}
               />
             ) : (
-              <QuestionCard q={current} onChoose={handleChoose} locked={state!=='running'} />
+              <QuestionCard
+                q={current}
+                onChoose={handleChoose}
+                locked={state!=='running'}
+                showHint={showHelp}           // ⬅️ visa ledtråd när klickad
+                hintText={helpText}
+              />
             )}
 
-            {/* Feedback + knappar */}
+            {/* Hjälp + knappar */}
+            <div className="row" style={{marginTop:10}}>
+              {state==='running' && (
+                <>
+                  <button
+                    className="btn small ghost"
+                    onClick={()=>setShowHelp(h => !h)}
+                    title="Visa ledtråd"
+                  >
+                    {showHelp ? '🙈 Dölj hjälp' : '🆘 Hjälp'}
+                  </button>
+                  <button className="btn small ghost" onClick={()=>handleChoose(-1,false)}>⏭️ Hoppa över</button>
+                </>
+              )}
+              {state==='review' && <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>}
+              <button className="btn small" onClick={restart}>🔁 Avsluta övning</button>
+            </div>
+
+            {/* Feedback i review */}
             {state==='review' && (
               <div className="hint" style={{marginTop:10}}>
                 {last.correct ? '✅ Rätt!' : '❌ Inte riktigt.'}
                 <div style={{marginTop:6, whiteSpace:'pre-wrap'}}><b>Förklaring:</b> {last.explain}</div>
               </div>
             )}
-
-            <div className="row" style={{marginTop:10}}>
-              {state==='running' && <button className="btn small ghost" onClick={()=>handleChoose(-1,false)}>⏭️ Hoppa över</button>}
-              {state==='review' && <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>}
-              <button className="btn small" onClick={restart}>🔁 Avsluta övning</button>
-            </div>
           </>
         )}
 
