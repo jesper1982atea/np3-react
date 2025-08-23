@@ -64,7 +64,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
   const [state, setState] = useState('idle') // 'idle' | 'running' | 'review' | 'done'
   const [remaining, setRemaining] = useState(profile?.settings?.perQuestionTimerSec || 45)
   const [last, setLast] = useState({correct:null, explain:''})
-  const [showHelp, setShowHelp] = useState(false) // ⬅️ NYTT: styr visning av ledtråd
+  const [showHelp, setShowHelp] = useState(false)
   const timerRef = useRef(null)
 
   const perQuiz = profile?.settings?.perQuiz || 10
@@ -226,11 +226,7 @@ export default function Practice({ profile, saveProfile, bank, setView }){
             </div>
             <div className="progress"><div className="bar" style={{width:`${progressPct}%`}}/></div>
 
-            {/* Passageheader */}
-            {current?.title && <h3 style={{marginTop:8}}>{current.title}</h3>}
-            {current?.text && <div className="passage" style={{marginTop:6}}>{current.text}</div>}
-
-            {/* Frågekort */}
+            {/* Frågekort – observera: titel/text renderas inuti kortkomponenterna */}
             {current?.type === 'dnd' ? (
               <DragDropCard
                 q={current}
@@ -242,46 +238,36 @@ export default function Practice({ profile, saveProfile, bank, setView }){
                 q={current}
                 onChoose={handleChoose}
                 locked={state!=='running'}
-                showHint={showHelp}           // ⬅️ visa ledtråd när klickad
+                showHint={showHelp}
                 hintText={helpText}
               />
             )}
 
             {/* Hjälp + knappar */}
             <div className="row" style={{marginTop:10}}>
-            {state==='running' && (
+              {state==='running' && (
                 <>
-                <button
+                  <button
                     className="btn small ghost"
                     onClick={()=>{
-                    setShowHelp(h=>{
-                        // endast första gången på den här frågan + bara om helpPenalty är på
+                      setShowHelp(h=>{
+                        // endast första gången per fråga + om helpPenalty är på
                         if(!h && profile?.settings?.helpPenalty && profile && saveProfile){
-                        const p = { ...profile, points: Math.max(0, (profile.points||0) - 1) }
-                        saveProfile(p)
+                          const p = { ...profile, points: Math.max(0, (profile.points||0) - 1) }
+                          saveProfile(p)
                         }
                         return !h
-                    })
+                      })
                     }}
                     title="Visa ledtråd"
-                >
+                  >
                     {showHelp ? '🙈 Dölj hjälp' : '🆘 Hjälp'}
-                </button>
-
-                <button
-                    className="btn small ghost"
-                    onClick={()=>handleChoose(-1,false)}
-                >
-                    ⏭️ Hoppa över
-                </button>
+                  </button>
+                  <button className="btn small ghost" onClick={()=>handleChoose(-1,false)}>⏭️ Hoppa över</button>
                 </>
-            )}
-
-            {state==='review' && (
-                <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>
-            )}
-
-            <button className="btn small" onClick={restart}>🔁 Avsluta övning</button>
+              )}
+              {state==='review' && <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>}
+              <button className="btn small" onClick={restart}>🔁 Avsluta övning</button>
             </div>
 
             {/* Feedback i review */}

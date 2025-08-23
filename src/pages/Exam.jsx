@@ -30,7 +30,7 @@ export default function Exam({ profile, saveProfile, bank, setView }){
   const [idx, setIdx] = useState(0)
   const [state, setState] = useState('idle') // 'idle' | 'running' | 'done'
   const [remaining, setRemaining] = useState((profile?.settings?.examTimerTotalMin || 25) * 60)
-  const [answers, setAnswers] = useState({}) // id -> chosen index (för DnD använder vi 0=ok, -1=fel)
+  const [answers, setAnswers] = useState({}) // id -> chosen index (för DnD: 0=ok, -1=fel)
   const timerRef = useRef(null)
 
   const totalQ = profile?.settings?.perExam || 20
@@ -106,7 +106,6 @@ export default function Exam({ profile, saveProfile, bank, setView }){
     const items = setQ.map((q, i) => {
       const id = q.id || `q-${i}`
       const chosen = typeof answers[id] === 'number' ? answers[id] : -1
-      // DnD: vi skickar 0 = rätt, -1 = fel via onAnswer; annars jämför med q.correct
       const isDnd = q.type === 'dnd'
       const isCorrect = isDnd ? (chosen === 0) : (chosen === q.correct)
       return {
@@ -170,9 +169,6 @@ export default function Exam({ profile, saveProfile, bank, setView }){
       <div className="card">
         {state==='running' && current && (
           <>
-            {current.title && <h3>{current.title}</h3>}
-            {current.text && <div className="passage">{current.text}</div>}
-
             {current.type === 'dnd' ? (
               <DragDropCard
                 q={current}
