@@ -249,20 +249,39 @@ export default function Practice({ profile, saveProfile, bank, setView }){
 
             {/* Hjälp + knappar */}
             <div className="row" style={{marginTop:10}}>
-              {state==='running' && (
+            {state==='running' && (
                 <>
-                  <button
+                <button
                     className="btn small ghost"
-                    onClick={()=>setShowHelp(h => !h)}
+                    onClick={()=>{
+                    setShowHelp(h=>{
+                        // endast första gången på den här frågan + bara om helpPenalty är på
+                        if(!h && profile?.settings?.helpPenalty && profile && saveProfile){
+                        const p = { ...profile, points: Math.max(0, (profile.points||0) - 1) }
+                        saveProfile(p)
+                        }
+                        return !h
+                    })
+                    }}
                     title="Visa ledtråd"
-                  >
+                >
                     {showHelp ? '🙈 Dölj hjälp' : '🆘 Hjälp'}
-                  </button>
-                  <button className="btn small ghost" onClick={()=>handleChoose(-1,false)}>⏭️ Hoppa över</button>
+                </button>
+
+                <button
+                    className="btn small ghost"
+                    onClick={()=>handleChoose(-1,false)}
+                >
+                    ⏭️ Hoppa över
+                </button>
                 </>
-              )}
-              {state==='review' && <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>}
-              <button className="btn small" onClick={restart}>🔁 Avsluta övning</button>
+            )}
+
+            {state==='review' && (
+                <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>
+            )}
+
+            <button className="btn small" onClick={restart}>🔁 Avsluta övning</button>
             </div>
 
             {/* Feedback i review */}

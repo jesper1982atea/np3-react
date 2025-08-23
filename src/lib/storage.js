@@ -40,7 +40,8 @@ export function loadProfile(){
       perExam: 20,
       perQuestionTimerSec: 45,
       examTimerTotalMin: 25,
-      noRepeats: true // undvik upprepning mellan omgångar
+      noRepeats: true,   // undvik upprepning mellan omgångar
+      helpPenalty: false // ⬅️ NYTT: poängavdrag när man använder Hjälp?
     },
     stats: {
       svenska: { answered: 0, correct: 0 },
@@ -65,7 +66,6 @@ export function loadProfile(){
   }
 }
 
-// ⬅️ EXPORTERA DENNA – används i App.jsx m.fl.
 export function saveProfile(p){
   SafeStore.set(p)
 }
