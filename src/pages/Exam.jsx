@@ -4,13 +4,12 @@ import QuestionCard from '../components/QuestionCard'
 import DragDropCard from '../components/DragDropCard'
 import { drawSmart, shuffle } from '../lib/draw'
 
-// Enkel fallback-förklaring om frågan inte har 'explain'
 function fallbackExplain(q){
   if(q?.explain) return q.explain
   const text = (q?.q || '').toLowerCase()
   const area = q?.area || (q?.topic === 'svenska' ? (q?.title ? 'läsförståelse' : 'grammatik') : 'matematik')
   if(area === 'grammatik'){
-    if(text.includes('substantiv')) return "Substantiv är namn på saker, djur, personer eller platser (t.ex. 'katt', 'bord', 'Lisa')."
+    if(text.includes('substantiv')) return "Substantiv är namn på saker, djur, personer eller platser."
     if(text.includes('verb')) return "Verb beskriver handlingar eller tillstånd (t.ex. 'springer', 'läser', 'är')."
     if(text.includes('adjektiv')) return "Adjektiv beskriver egenskaper (t.ex. 'stor', 'röd', 'snabb')."
     if(text.includes('pronomen')) return "Pronomen ersätter substantiv (t.ex. 'han', 'hon', 'den', 'det')."
@@ -30,18 +29,16 @@ export default function Exam({ profile, saveProfile, bank, setView }){
   const [idx, setIdx] = useState(0)
   const [state, setState] = useState('idle') // 'idle' | 'running' | 'done'
   const [remaining, setRemaining] = useState((profile?.settings?.examTimerTotalMin || 25) * 60)
-  const [answers, setAnswers] = useState({}) // id -> chosen index (för DnD: 0=ok, -1=fel)
+  const [answers, setAnswers] = useState({}) // id -> chosen index (DnD: 0=ok, -1=fel)
   const timerRef = useRef(null)
 
   const totalQ = profile?.settings?.perExam || 20
   const noRepeats = profile?.settings?.noRepeats !== false
 
-  // Initiera provet när banken finns
   useEffect(()=>{
     if(!bank) return
     const half = Math.floor(totalQ/2)
 
-    // Svenska: blandning av fristående + ev. passagefrågor
     const svItems = drawSmart(bank.svenska?.items||[], Math.max(half-3,7), 'exam_sv', noRepeats)
       .map(x=>({...x, topic:'svenska'}))
 
@@ -57,18 +54,15 @@ export default function Exam({ profile, saveProfile, bank, setView }){
 
     const svSet = [...svItems, ...shuffle(svPassQs).slice(0,3)]
 
-    // Matematik fyller upp återstoden
     const maSet = drawSmart(bank.matematik?.items||[], totalQ - svSet.length, 'exam_ma', noRepeats)
       .map(x=>({...x, topic:'matematik'}))
 
     const all = shuffle([...svSet, ...maSet])
-
     setSetQ(all)
     setIdx(0)
     setState('running')
     setAnswers({})
 
-    // total provtimer
     clearInterval(timerRef.current)
     const totalSec = (profile?.settings?.examTimerTotalMin || 25) * 60
     setRemaining(totalSec)
@@ -87,7 +81,6 @@ export default function Exam({ profile, saveProfile, bank, setView }){
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bank])
 
-  // Registrera val (flervals eller DnD)
   function choose(i){
     const q = setQ[idx]
     const id = q.id || `q-${idx}`
@@ -100,7 +93,6 @@ export default function Exam({ profile, saveProfile, bank, setView }){
     }
   }
 
-  // Avsluta provet: räkna resultat, spara, ge poäng, gå till review
   function finishExam(){
     clearInterval(timerRef.current)
     const items = setQ.map((q, i) => {
@@ -123,20 +115,12 @@ export default function Exam({ profile, saveProfile, bank, setView }){
       }
     })
     const score = items.filter(x=>x.isCorrect).length
-    const payload = {
-      when: new Date().toISOString(),
-      total: items.length,
-      score,
-      items
-    }
-    try{
-      localStorage.setItem('exam_last', JSON.stringify(payload))
-    }catch(e){ /* ignore */ }
+    const payload = { when: new Date().toISOString(), total: items.length, score, items }
+    try{ localStorage.setItem('exam_last', JSON.stringify(payload)) }catch(e){}
 
-    // Profilpoäng
     if(profile && saveProfile){
       const p = { ...profile }
-      p.points = (p.points||0) + score*3 // prov ger mer än övning
+      p.points = (p.points||0) + score*3
       if(p.points % 50 === 0) p.level = (p.level||1)+1
       saveProfile(p)
     }
@@ -149,7 +133,6 @@ export default function Exam({ profile, saveProfile, bank, setView }){
 
   const remainMin = Math.floor(remaining/60)
   const remainSec = (remaining%60).toString().padStart(2,'0')
-
   const current = setQ[idx]
 
   return (
@@ -172,16 +155,21 @@ export default function Exam({ profile, saveProfile, bank, setView }){
             {current.type === 'dnd' ? (
               <DragDropCard
                 q={current}
-                onAnswer={(ok)=>choose(ok ? 0 : -1)} // DnD: översätt ok->0 (rätt) / -1 (fel)
+                onAnswer={(ok)=>choose(ok ? 0 : -1)}
               />
             ) : (
-              <>
-                <QuestionCard q={current} onChoose={choose} />
-                <div className="row" style={{marginTop:10}}>
-                  <button className="btn small ghost" onClick={()=>choose(-1)}>⏭️ Hoppa över</button>
-                </div>
-              </>
+              <QuestionCard q={current} onChoose={choose} />
             )}
+
+            {/* Sticky action-bar för mobil */}
+            <div className="sticky-actions">
+              <div className="row">
+                {current?.type !== 'dnd' && (
+                  <button className="btn small ghost" onClick={()=>choose(-1)}>⏭️ Hoppa över</button>
+                )}
+                <button className="btn small alt" onClick={()=>setView?.('home')}>🏠 Avsluta</button>
+              </div>
+            </div>
           </>
         )}
 

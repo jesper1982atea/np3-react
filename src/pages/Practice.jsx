@@ -33,7 +33,6 @@ function buildFallbackExplain(q){
   return FALLBACK_EXPLAINS.grammatik
 }
 
-// Mer kort, “uppslagsboks-lik” hjälptext som visas när man klickar 🆘 Hjälp
 function buildConceptHint(q){
   if(q?.hint) return q.hint
   const t = (q?.q || '').toLowerCase()
@@ -45,7 +44,7 @@ function buildConceptHint(q){
     if(t.includes('pronomen')) return "Pronomen: ersätter substantiv. Ex: han, hon, den, det."
     if(t.includes('preposition')) return "Preposition: läge/riktning. Ex: på, i, under, bakom."
     if(t.includes('mening')) return "Mening: stor bokstav i början och punkt/!? på slutet."
-    if(t.includes('ordföljd')) return "Ordföljd: T.ex. 'Igår åt jag glass.' (tid) + subjekt + verb + objekt."
+    if(t.includes('ordföljd')) return "Ordföljd: t.ex. 'Igår åt jag glass.' (tid) + subjekt + verb + objekt."
     if(t.includes('kongruens')) return "Kongruens: ord ska passa ihop i form. 'Den stora katten…' (bestämd form)."
     if(t.includes('preteritum') || t.includes('tempus')) return "Preteritum = dåtid: läser→läste, skriver→skrev, är→var."
     return "Grammatik: Substantiv (namn), verb (handling), adjektiv (beskriver)."
@@ -58,7 +57,7 @@ function buildConceptHint(q){
 }
 
 export default function Practice({ profile, saveProfile, bank, setView }){
-  const [topic, setTopic] = useState('svenska') // 'svenska' | 'matematik'
+  const [topic, setTopic] = useState('svenska')
   const [setQ, setSetQ] = useState([])
   const [idx, setIdx] = useState(0)
   const [state, setState] = useState('idle') // 'idle' | 'running' | 'review' | 'done'
@@ -77,7 +76,6 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     let items = []
 
     if(topicSel === 'svenska'){
-      // Fristående + ev. några passagefrågor
       const base = drawSmart(bank.svenska?.items||[], Math.max(6, Math.min(perQuiz-2, perQuiz)), storageKey, noRepeats)
       let extra = []
       if ((bank.svenska?.passages?.length||0) > 0){
@@ -135,9 +133,8 @@ export default function Practice({ profile, saveProfile, bank, setView }){
     }, 1000)
   }
 
-  function onAnswered(isCorrect, wasTimeout=false){
+  function onAnswered(isCorrect){
     const q = setQ[idx]
-    // uppdatera profil
     if(profile && saveProfile){
       const p = { ...profile }
       const t = q.topic || topic
@@ -146,25 +143,25 @@ export default function Practice({ profile, saveProfile, bank, setView }){
       p.stats[t].answered++
       if(isCorrect){
         p.stats[t].correct++
-        p.points = (p.points||0) + 2 // övning = 2p / rätt
+        p.points = (p.points||0) + 2
         if(p.points % 50 === 0) p.level = (p.level||1)+1
       }
       saveProfile(p)
     }
     clearInterval(timerRef.current)
     setLast({ correct: isCorrect, explain: buildFallbackExplain(q) })
-    setShowHelp(false) // stäng hjälp vid review
+    setShowHelp(false)
     setState('review')
   }
 
   function handleChoose(chosenIndex, timeout=false){
     const q = setQ[idx]
     const isCorrect = !timeout && chosenIndex === q.correct
-    onAnswered(isCorrect, timeout)
+    onAnswered(isCorrect)
   }
 
   function handleDnd(ok){
-    onAnswered(!!ok, false)
+    onAnswered(!!ok)
   }
 
   function nextQuestion(){
@@ -226,7 +223,6 @@ export default function Practice({ profile, saveProfile, bank, setView }){
             </div>
             <div className="progress"><div className="bar" style={{width:`${progressPct}%`}}/></div>
 
-            {/* Frågekort – observera: titel/text renderas inuti kortkomponenterna */}
             {current?.type === 'dnd' ? (
               <DragDropCard
                 q={current}
@@ -243,34 +239,34 @@ export default function Practice({ profile, saveProfile, bank, setView }){
               />
             )}
 
-            {/* Hjälp + knappar */}
-            <div className="row" style={{marginTop:10}}>
-              {state==='running' && (
-                <>
-                  <button
-                    className="btn small ghost"
-                    onClick={()=>{
-                      setShowHelp(h=>{
-                        // endast första gången per fråga + om helpPenalty är på
-                        if(!h && profile?.settings?.helpPenalty && profile && saveProfile){
-                          const p = { ...profile, points: Math.max(0, (profile.points||0) - 1) }
-                          saveProfile(p)
-                        }
-                        return !h
-                      })
-                    }}
-                    title="Visa ledtråd"
-                  >
-                    {showHelp ? '🙈 Dölj hjälp' : '🆘 Hjälp'}
-                  </button>
-                  <button className="btn small ghost" onClick={()=>handleChoose(-1,false)}>⏭️ Hoppa över</button>
-                </>
-              )}
-              {state==='review' && <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>}
-              <button className="btn small" onClick={restart}>🔁 Avsluta övning</button>
+            {/* Sticky action-bar för mobil */}
+            <div className="sticky-actions">
+              <div className="row">
+                {state==='running' && (
+                  <>
+                    <button
+                      className="btn small ghost"
+                      onClick={()=>{
+                        setShowHelp(h=>{
+                          if(!h && profile?.settings?.helpPenalty && profile && saveProfile){
+                            const p = { ...profile, points: Math.max(0, (profile.points||0) - 1) }
+                            saveProfile(p)
+                          }
+                          return !h
+                        })
+                      }}
+                      title="Visa ledtråd"
+                    >
+                      {showHelp ? '🙈 Dölj hjälp' : '🆘 Hjälp'}
+                    </button>
+                    <button className="btn small ghost" onClick={()=>handleChoose(-1,false)}>⏭️ Hoppa över</button>
+                  </>
+                )}
+                {state==='review' && <button className="btn small" onClick={nextQuestion}>➡️ Nästa</button>}
+                <button className="btn small" onClick={restart}>🔁 Avsluta övning</button>
+              </div>
             </div>
 
-            {/* Feedback i review */}
             {state==='review' && (
               <div className="hint" style={{marginTop:10}}>
                 {last.correct ? '✅ Rätt!' : '❌ Inte riktigt.'}
