@@ -82,3 +82,19 @@ button.choice *{color:inherit}
   background:linear-gradient(180deg, rgba(247,247,251,0), #f7f7fb 40%);
 }
 .sticky-actions .row{gap:8px}
+
+/* Stabilitet / mindre layout-hopp */
+.pill{ justify-content:center; min-width:92px; font-variant-numeric: tabular-nums; }
+.chip{ min-height:36px }
+
+/* Sticky-bar: håll höjden stabil även när knappar visas/döljs */
+.sticky-actions{ min-height:64px }
+.sticky-actions .row > .btn{ flex:1 }
+
+/* Förhindra pull-to-refresh (Chrome/Android) som kan kännas som "autoladdning" */
+html, body { overscroll-behavior-y: contain; }
+
+/* Dämpa animationer om användaren föredrar det */
+@media (prefers-reduced-motion: reduce){
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}

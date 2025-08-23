@@ -57,96 +57,170 @@ function buildConceptHint(q){
   return "Fundera på vad frågan egentligen frågar efter och jämför alternativen."
 }
 
-// Bygger en lösningsstrategi för matte utan att avslöja svaret
+// Bygger en lösningsstrategi för matte utan att avslöja svaret – med små "bilder"
 function buildMathStrategy(q){
   const txt = (q?.q || '').toLowerCase()
-  const area = q?.area || 'matematik'
+  const area = (q?.area || 'matematik').toLowerCase()
 
-  // fånga heltal i uppgiften
+  // Hitta heltal i texten
   const nums = (txt.match(/-?\d+/g) || []).map(n => parseInt(n,10))
-  const [a,b,c] = nums
+  const [a,b] = nums
 
-  // Hjälpregler per område
+  // Små hjälpfunktioner för “bilder”
+  const hoppar = (start, steg, antal) => {
+    // ex: hoppar(7, +5, 2) => "7 ──➜ 12 ──➜ 17"
+    let out = `${start}`
+    let cur = start
+    for(let i=0;i<antal;i++){
+      cur += steg
+      out += ` ──➜ ${cur}`
+    }
+    return out
+  }
+  const tallinje = (start, slut, steg) => {
+    // bygger en liten tallinje  ex: 30 till 45 i 5-steg
+    const asc = start <= slut
+    const dir = asc ? 1 : -1
+    let cur = start, pts = [cur]
+    while ((asc && cur < slut) || (!asc && cur > slut)){
+      cur += dir * Math.abs(steg)
+      pts.push(cur)
+      if(pts.length>12) break
+    }
+    return pts.join('  →  ')
+  }
+
+  // Addition
   if(area.includes('addition')){
-    if(nums.length >= 2){
+    if(nums.length>=2){
       const big = Math.max(a,b), small = Math.min(a,b)
-      const onesSum = (a%10 + b%10)
-      if(onesSum >= 10){
-        const tillTio = 10 - (big%10)
-        return `Tänk "gör en tia": ta ${tillTio} från det andra talet så du får en jämn tia (${big} + ${tillTio}). Lägg sedan på resten. Det gör huvudräkningen lätt.`
+      const tillTio = (10 - (big % 10)) % 10
+      if(tillTio && tillTio <= small){
+        return (
+`🎯 Gör en tia:
+• ${big} + ${tillTio} = ${big + tillTio} (jämn tia)
+• Lägg på resterande ${small - tillTio}
+🧠 Huvudräkning blir lättare med 10/20/30.
+
+` + hoppar(big, tillTio, 1) + ` ──➜ ${big + tillTio}  … + ${small - tillTio}`
+        )
       }
-      if(a===b) return `Dubbelt tänk: ${a}+${b} är dubbelt av ${a}. Räkna dubblan först och justera vid behov.`
-      return `Räkna från det större talet och "räkna på": börja på ${big} och hoppa ${small} steg framåt (5-steg och 1-steg).`
+      return (
+`🎯 Räkna från det större talet:
+• Börja på ${big} och "hoppa" ${small} steg (t.ex. 5-steg + 1-steg).
+` + hoppar(big, 1, Math.min(small,5)) + (small>5?` …`:'')
+      )
     }
-    return `Gör hela tiotal först. Dela upp så du träffar 10/20/30 och lägg på resten.`
+    return `🎯 Gör hela tiotal först. Sikta på 10/20/30 och lägg på resten.`
   }
 
+  // Subtraktion
   if(area.includes('subtraktion')){
-    if(nums.length >= 2){
+    if(nums.length>=2){
       const from = a, take = b
-      const ones = from % 10
-      if(ones < (take % 10)){
-        return `Låna till en tia: gå först ner till närmaste jämna tia (${from - ones} eller ${from - (ones+10) + 10}), räkna sedan resten. Att sikta på 10/20 gör det lätt.`
+      const nerTillTia = from % 10
+      if(nerTillTia && (take > nerTillTia)){
+        return (
+`🎯 Dela upp borttag till närmaste tia:
+• ${from} → ${from - nerTillTia} (ner ${nerTillTia} till jämn tia)
+• Ta resten: ${take - nerTillTia}
+` + tallinje(from, from - take,  nerTillTia) + (take - nerTillTia ? `  →  ${from - take}` : '')
+        )
       }
-      return `Dela upp borttag: ta först ner till närmaste tia (${from - ones}) och ta sedan resten. Alternativt: "räkna upp" från det mindre talet till det större.`
+      return (
+`🎯 Räkna upp: börja vid ${from - take} och hoppa till ${from}.
+• Summan av hoppen = skillnaden.
+` + tallinje(from - take, from, 1)
+      )
     }
-    return `Använd "räkna upp": börja vid det mindre talet, hoppa till tian, och vidare till det större. Summan av hoppen är svaret.`
+    return `🎯 Antingen räkna ner till jämn tia först eller "räkna upp" från det mindre till det större.`
   }
 
+  // Multiplikation
   if(area.includes('multiplikation')){
-    if(nums.length >= 2){
-      if((a===5||b===5)) return `Femmornas tabell: räkna i 5-steg (5,10,15,20...). Dela upp i tiotal/ental om det blir många steg.`
-      if((a===9||b===9)) return `Niornas knep: produkten är 10×talet minus talet själv. Ex: 9×6 = 10×6 − 6.`
-      if((a===4||b===4)) return `Dubbla-dubbla: 4×n är dubbla dubblan av n. Dubbla n → dubbla igen.`
-      if((a===8||b===8)) return `Dubbla tre gånger: 8×n = n × 2 × 2 × 2.`
-      return `Bryt upp: n×m = n×(m−1) + n. Använd en tabell du kan (t.ex. ×5 eller ×10) och justera.`
+    if(nums.length>=2){
+      if(a===9||b===9){
+        const n = a===9 ? b : a
+        return (
+`🎯 9-knepet: 10×${n} − ${n}
+• 10×${n} = ${10*n}
+• ${10*n} − ${n} = …`
+        )
+      }
+      if(a===4||b===4){
+        const n = a===4 ? b : a
+        return (
+`🎯 Dubbla-dubbla (4×n):
+• Dubbla ${n} → ${n*2}
+• Dubbla igen → …`
+        )
+      }
+      if(a===8||b===8){
+        const n = a===8 ? b : a
+        return (
+`🎯 Dubbla tre gånger (8×n):
+• ${n} → ${n*2} → ${n*4} → …`
+        )
+      }
+      if(a===5||b===5){
+        const n = a===5 ? b : a
+        return (
+`🎯 5-steg:
+• Räkna ${n} femmor: 5, 10, 15, …
+` + hoppar(0, 5, Math.min(n,6)) + (n>6?' …':'')
+        )
+      }
+      return `🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som "ankare" och justera.`
     }
-    return `Använd upprepad addition eller bryt mot 10: n×m = n×10 − n×(10−m).`
+    return `🎯 Upprepad addition eller bryt mot 10: n×m = n×10 − n×(10−m).`
   }
 
+  // Division
   if(area.includes('division')){
-    if(nums.length >= 2){
-      return `Tänk "hur många ${b} får plats i ${a}?". Använd en närliggande multiplikationstabell: ${b}×? ≈ ${a}. Prova med tiotal och justera.`
+    if(nums.length>=2){
+      return (
+`🎯 Tänk multiplikation baklänges:
+• Hur många ${b}:or ryms i ${a}?
+• Sök i ${b}-tabellen nära ${a} och justera.
+` + tallinje(0, a, b)
+      )
     }
-    return `Kom ihåg: division är omvänd multiplikation. Hitta faktan 'deler × kvot = talet'.`
+    return `🎯 Division är “hur många grupper?”. Använd tabellen du kan bäst och närma dig.`
   }
 
+  // Taluppfattning
   if(area.includes('taluppfattning')){
     if(txt.includes('tiotal') && nums.length){
       const n = a
-      return `${n} har ${Math.floor(n/10)} hela tiotal och ${n%10} ental. Dela upp talet i tioklump + ental för att resonera.`
+      return (
+`🎯 Dela upp i tiotal och ental:
+• ${n} = ${Math.floor(n/10)} tiotal och ${n%10} ental.
+`
+      )
     }
-    if(txt.includes('störst') && nums.length>=2){
-      return `Jämför först tiotalen. Om de är lika, jämför entalen. Störst tiotal vinner.`
+    if(txt.includes('störst')){
+      return `🎯 Jämför först tiotalen. Om lika – jämför entalen.`
     }
-    return `Dela upp tal i tiotal och ental. Resonera först på tiotalen, sedan på entalen.`
+    return `🎯 Dela upp tal i tiotal/ental. Resonera på tiotal först.`
   }
 
+  // Klockan / mätning / geometri / problem
   if(area.includes('klock') || txt.includes('halv') || txt.includes('kvart')){
-    if(txt.includes('halv')){
-      return `“Halv tre” betyder 30 minuter innan tre → klockan har passerat två: digitalt 02:30 (eller 14:30 på eftermiddagen).`
-    }
-    if(txt.includes('kvart')){
-      return `“Kvart” är 15 minuter. “Kvart över X” = X:15. “Kvart i X” = (X−1):45.`
-    }
-    return `Tänk i 60 minuter per varv. Halv = :30, kvart = :15 eller :45.`
+    if(txt.includes('halv')) return `🎯 “Halv tre” = 30 min innan tre → den har passerat två: …:30. (Förmiddag 02:30 / Eftermiddag 14:30) `
+    if(txt.includes('kvart')) return `🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.`
+    return `🎯 Tänk i 60 min/varv. Halv = :30, kvart = :15 eller :45.`
   }
-
-  if(area.includes('mätning')){
-    return `Kom ihåg prefix: 1 m = 100 cm, 1 km = 1000 m. För vikt: 1 kg = 1000 g. Flytta decimalen enligt prefixet.`
-  }
-
+  if(area.includes('mätning')) return `🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.`
   if(area.includes('geometri')){
-    if(txt.includes('hörn')) return `En kvadrat har 4 hörn och 4 lika långa sidor. Räkna hörnen ett och ett.`
-    return `Tänk på egenskaper: antal sidor/hörn, lika långa sidor, räta hörn. Skissa snabbt i huvudet.`
+    if(txt.includes('hörn')) return `🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor.`
+    return `🎯 Titta på antal sidor/hörn och om sidorna är lika långa.`
   }
-
   if(area.includes('problem') || txt.includes('har') || txt.includes('får')){
-    return `Skriv upp det som en liten ekvation: vad börjar man med, vad läggs till eller tas bort? Rita gärna streck eller klossar i huvudet för att se förändringen.`
+    return `🎯 Skriv en mini-ekvation: start ± förändring = svar. Rita hoppen på tallinjen i huvudet (upp vid +, ner vid −).`
   }
 
-  // Fallback för okända/övriga mattefrågor
-  return `Dela upp i enklare steg: sikta på 10/100, använd dubbla/halvera, och kontrollera rimlighet med överslag.`
+  // Fallback
+  return `🎯 Dela upp i enkla steg: sikta på 10/100, använd dubbla/halvera, kontrollera rimlighet med överslag.`
 }
 
 export default function Practice({ profile, saveProfile, bank, setView }){

@@ -11,8 +11,10 @@ export default function QuestionCard({ q, onChoose, locked=false, showHint=false
           </button>
         ))}
       </div>
-      {showHint && (q.hint || hintText) && (
-        <div className="hint">💡 Tips: {q.hint || hintText}</div>
+     {showHint && (q.hint || hintText) && (
+        <div className="hint" style={{marginTop:8, whiteSpace:'pre-wrap', fontFamily:'ui-monospace, SFMono-Regular, Menlo, Consolas, monospace'}}>
+          💡 {q.hint || hintText}
+        </div>
       )}
     </div>
   )
