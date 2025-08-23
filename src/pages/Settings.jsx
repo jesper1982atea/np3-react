@@ -3,15 +3,10 @@ import { useState } from 'react'
 
 export default function Settings({ profile, saveProfile, setView }){
   const [loc, setLoc] = useState(profile)
+  const s = loc.settings
 
-  function upd(part){
-    const next = { ...loc, ...part }
-    setLoc(next)
-    saveProfile(next)
-  }
-  function updSet(k, v){
-    upd({ settings: { ...loc.settings, [k]: v } })
-  }
+  function upd(part){ const next = { ...loc, ...part }; setLoc(next); saveProfile(next) }
+  function updSet(k, v){ upd({ settings: { ...loc.settings, [k]: v } }) }
 
   function resetStats(){
     const p = { ...loc, stats: { svenska:{answered:0,correct:0}, matematik:{answered:0,correct:0} } }
@@ -22,7 +17,12 @@ export default function Settings({ profile, saveProfile, setView }){
     localStorage.removeItem('practice_ma__usedIds')
     localStorage.removeItem('exam_sv__usedIds')
     localStorage.removeItem('exam_ma__usedIds')
-    alert('Frågehistorik nollställd.')
+    alert('Frågehistorik (no-repeats) nollställd.')
+  }
+  function clearAdaptiveHistory(){
+    localStorage.removeItem('hist_svenska')
+    localStorage.removeItem('hist_matematik')
+    alert('Adaptiv historik nollställd.')
   }
   function resetAll(){
     if(!confirm('Återställ alla inställningar och poäng?')) return
@@ -31,14 +31,14 @@ export default function Settings({ profile, saveProfile, setView }){
       settings: {
         perQuiz: 10, perExam: 20,
         perQuestionTimerSec: 45, examTimerTotalMin: 25,
-        noRepeats: true, helpPenalty: false
+        noRepeats: true, helpPenalty: false,
+        difficultyMode: 'np', adaptiveDifficulty: true,
+        adaptWindow: 10, adaptRaiseAt: 0.85, adaptLowerAt: 0.55
       },
       stats: { svenska:{answered:0,correct:0}, matematik:{answered:0,correct:0} }
     }
     setLoc(p); saveProfile(p)
   }
-
-  const s = loc.settings
 
   return (
     <div className="grid">
@@ -99,6 +99,72 @@ export default function Settings({ profile, saveProfile, setView }){
       </div>
 
       <div className="card">
+        <h2>🎚️ Svårighetsgrad</h2>
+        <div className="list">
+          <div className="item">
+            <label>Basnivå</label>
+            <select
+              value={s.difficultyMode || 'np'}
+              onChange={e=>updSet('difficultyMode', e.target.value)}
+              style={{marginLeft:10}}
+            >
+              <option value="easy">Lätt</option>
+              <option value="np">NP (åk 3)</option>
+              <option value="hard">Svårare</option>
+            </select>
+            <p className="tiny" style={{marginTop:6}}>
+              <b>NP</b> försöker matcha nivån i nationella prov åk 3. Lätt/Svårare är under/över den nivån.
+            </p>
+          </div>
+
+          <div className="item">
+            <label className="row" style={{gap:10}}>
+              <input
+                type="checkbox"
+                checked={!!s.adaptiveDifficulty}
+                onChange={e=>updSet('adaptiveDifficulty', e.target.checked)}
+              />
+              Anpassa svårighetsgrad efter prestation
+            </label>
+            <p className="tiny">Systemet höjer/sänker nivån baserat på senaste svaren.</p>
+          </div>
+
+          <div className="row" style={{gap:12}}>
+            <div className="item">
+              <label>Fönster (senaste N)</label>
+              <input
+                type="number" min={5} max={30} value={s.adaptWindow ?? 10}
+                onChange={e=>updSet('adaptWindow', Math.max(5, Math.min(30, +e.target.value||10)))}
+                style={{width:100, marginLeft:10}}
+              />
+            </div>
+            <div className="item">
+              <label>Höj vid ≥</label>
+              <input
+                type="number" step="0.05" min={0.5} max={1} value={s.adaptRaiseAt ?? 0.85}
+                onChange={e=>updSet('adaptRaiseAt', Math.min(1, Math.max(0.5, +e.target.value||0.85)))}
+                style={{width:100, marginLeft:10}}
+              />
+            </div>
+            <div className="item">
+              <label>Sänk vid &lt;</label>
+              <input
+                type="number" step="0.05" min={0.3} max={0.8} value={s.adaptLowerAt ?? 0.55}
+                onChange={e=>updSet('adaptLowerAt', Math.min(0.8, Math.max(0.3, +e.target.value||0.55)))}
+                style={{width:100, marginLeft:10}}
+              />
+            </div>
+          </div>
+
+          <div className="row" style={{gap:10, marginTop:8}}>
+            <button className="btn small ghost" onClick={()=>{ localStorage.removeItem('hist_svenska'); localStorage.removeItem('hist_matematik'); alert('Adaptiv historik nollställd.') }}>
+              ♻️ Nollställ adaptiv historik
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="card">
         <h2>📝 Provläge</h2>
         <div className="list">
           <div className="item">
@@ -123,7 +189,8 @@ export default function Settings({ profile, saveProfile, setView }){
       <div className="card">
         <h2>🧹 Underhåll</h2>
         <div className="row" style={{gap:10, flexWrap:'wrap'}}>
-          <button className="btn small ghost" onClick={clearUsedIds}>♻️ Nollställ frågehistorik</button>
+          <button className="btn small ghost" onClick={clearUsedIds}>♻️ Nollställ no-repeats</button>
+          <button className="btn small ghost" onClick={clearAdaptiveHistory}>♻️ Nollställ adaptiv historik</button>
           <button className="btn small ghost" onClick={resetStats}>🗑️ Nollställ statistik</button>
           <button className="btn small" onClick={resetAll}>🚨 Återställ allt</button>
         </div>

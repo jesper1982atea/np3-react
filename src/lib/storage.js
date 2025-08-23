@@ -41,7 +41,12 @@ export function loadProfile(){
       perQuestionTimerSec: 45,
       examTimerTotalMin: 25,
       noRepeats: true,   // undvik upprepning mellan omgångar
-      helpPenalty: false // ⬅️ NYTT: poängavdrag när man använder Hjälp?
+      helpPenalty: false, // ⬅️ NYTT: poängavdrag när man använder Hjälp?
+      difficultyMode: 'np',      // 'easy' | 'np' | 'hard'
+      adaptiveDifficulty: true,  // slå på/av adaptiv
+      adaptWindow: 10,           // hur många senaste frågor vi tittar på
+      adaptRaiseAt: 0.85,        // höj om träff% >= 85%
+      adaptLowerAt: 0.55         // sänk om träff% < 55%
     },
     stats: {
       svenska: { answered: 0, correct: 0 },

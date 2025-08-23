@@ -98,3 +98,33 @@ html, body { overscroll-behavior-y: contain; }
 @media (prefers-reduced-motion: reduce){
   * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
 }
+
+/* ==== Svarsalternativ: tvinga synlig text och layout ==== */
+.choices { display:grid; gap:10px; margin-top:10px; grid-template-columns:1fr 1fr; }
+@media (max-width:600px){ .choices{ grid-template-columns:1fr } }
+
+.choice {
+  display:block; width:100%;
+  padding:14px;
+  border-radius:12px;
+  border:2px solid #e5e7eb;
+  background:#fff;
+  color: var(--fg);              /* ⬅️ viktigt */
+  cursor:pointer;
+  font-weight:600;
+  text-align:left;
+  min-height:48px;
+}
+button.choice * { color: inherit; } /* ikoner/span etc. */
+.choice.correct { border-color: var(--ok); background:#ecfdf5; color: var(--fg); }
+.choice.wrong   { border-color: var(--error); background:#fef2f2; color: var(--fg); }
+.choice:disabled { opacity:.85; }
+
+/* Gör små knappar mer konsekventa i storlek */
+.btn.small {
+  padding: 9px 12px;
+  font-size: .95rem;
+  min-width: 120px;       /* <-- samma basbredd för alla små-knappar */
+  text-align: center;
+  justify-content: center;
+}

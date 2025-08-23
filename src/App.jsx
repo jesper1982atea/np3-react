@@ -1,4 +1,5 @@
-import { useState } from 'react'
+// src/App.jsx
+import { useState, useMemo } from 'react'
 import './styles.css'
 import useBank from './hooks/useBank'
 import { loadProfile, saveProfile as persist } from './lib/storage'
@@ -12,6 +13,9 @@ import Settings from './pages/Settings'
 import Bank from './pages/Bank'
 import Review from './pages/Review'
 
+// error boundary
+import ErrorBoundary from './components/ErrorBoundary'
+
 export default function App(){
   const { bank, loading, error } = useBank()
   const [view, setView] = useState('home')
@@ -19,35 +23,60 @@ export default function App(){
 
   const saveProfile = (p) => { setProfile(p); persist(p) }
 
-  if(loading) return <div className="container"><div className="card">⏳ Laddar frågebank…</div></div>
-  if(error) return <div className="container"><div className="card">⚠️ Kunde inte ladda frågebank.</div></div>
+  const Tab = ({ id, children }) => {
+    const active = view === id
+    return (
+      <button
+        className={`btn small ghost${active ? ' alt' : ''}`}
+        aria-current={active ? 'page' : undefined}
+        onClick={()=>setView(id)}
+      >
+        {children}
+      </button>
+    )
+  }
+
+  // pre-render main content (inside ErrorBoundary) so header/tabs alltid syns
+  const mainContent = useMemo(()=>{
+    if(loading) return <div className="card">⏳ Laddar frågebank…</div>
+    if(error)   return <div className="card">⚠️ Kunde inte ladda frågebank.</div>
+
+    return (
+      <>
+        {view==='home' && <Home profile={profile} setView={setView} />}
+        {view==='practice' && <Practice profile={profile} saveProfile={saveProfile} bank={bank} setView={setView} />}
+        {view==='exam' && <Exam profile={profile} saveProfile={saveProfile} bank={bank} setView={setView} />}
+        {view==='stats' && <Stats profile={profile} setView={setView} />}
+        {view==='settings' && <Settings profile={profile} saveProfile={saveProfile} setView={setView} />}
+        {view==='bank' && <Bank />}
+        {view==='review' && <Review setView={setView} />}
+      </>
+    )
+  }, [view, loading, error, bank, profile])
 
   return (
     <div className="container">
       <header>
-        <div className="logo">📚 Nationella prov förberedelse åk 3 – Träning & Prov</div>
+        <div className="logo">📚 Nationella prov åk 3 – Träning & Prov</div>
         <div className="points">
           <span>Lv {profile.level}</span>
           <span>⭐ {profile.points}</span>
         </div>
       </header>
 
-      <div className="tabs">
-        <button className="btn small ghost" onClick={()=>setView('home')}>🏠 Startsida</button>
-        <button className="btn small ghost" onClick={()=>setView('practice')}>🧩 Öva</button>
-        <button className="btn small ghost" onClick={()=>setView('exam')}>📝 Provläge</button>
-        <button className="btn small ghost" onClick={()=>setView('stats')}>📊 Statistik</button>
-        <button className="btn small ghost" onClick={()=>setView('settings')}>⚙️ Inställningar</button>
-        <button className="btn small ghost" onClick={()=>setView('bank')}>📚 Frågebank</button>
-      </div>
+      <nav className="tabs" aria-label="Huvudnavigering">
+        <Tab id="home">🏠 Startsida</Tab>
+        <Tab id="practice">🧩 Öva</Tab>
+        <Tab id="exam">📝 Provläge</Tab>
+        <Tab id="stats">📊 Statistik</Tab>
+        <Tab id="settings">⚙️ Inställningar</Tab>
+        <Tab id="bank">📚 Frågebank</Tab>
+      </nav>
 
-      {view==='home' && <Home profile={profile} setView={setView} />}
-      {view==='practice' && <Practice profile={profile} saveProfile={saveProfile} bank={bank} setView={setView} />}
-      {view==='exam' && <Exam profile={profile} saveProfile={saveProfile} bank={bank} setView={setView} />}
-      {view==='stats' && <Stats profile={profile} setView={setView} />}
-      {view==='settings' && <Settings profile={profile} saveProfile={saveProfile} setView={setView} />}
-      {view==='bank' && <Bank />}
-      {view==='review' && <Review setView={setView} />}
+      {/* Allt innehåll wrappas i ErrorBoundary – om något smäller visas en snäll fallback */}
+      <ErrorBoundary>
+        {mainContent}
+      </ErrorBoundary>
 
       <div className="footer">Prototyp. Data sparas lokalt i din webbläsare.</div>
     </div>

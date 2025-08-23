@@ -4,1359 +4,631 @@
     "items": [
       {
         "area": "addition",
-        "q": "11 + 39 =",
+        "q": "43 + 10 =",
         "options": [
-          "49",
+          "52",
+          "43",
           "51",
-          "48",
-          "50"
+          "53"
         ],
         "correct": 3,
         "id": "ma-001",
-        "hint": "🎯 Gör en tia:\n• 39 + 1 = 40 (jämn tia)\n• Lägg på resten: 10\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n39 ──➜ 40 ──➜ 40  … + 10",
-        "explain": "🎯 Gör en tia:\n• 39 + 1 = 40 (jämn tia)\n• Lägg på resten: 10\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n39 ──➜ 40 ──➜ 40  … + 10"
+        "hint": "🎯 Gör en tia:\n• 43 + 7 = 50\n• Lägg på resten: 3\n43 ──➜ 50 ──➜ 50  … + 3",
+        "explain": "🎯 Gör en tia:\n• 43 + 7 = 50\n• Lägg på resten: 3\n43 ──➜ 50 ──➜ 50  … + 3"
       },
       {
         "area": "addition",
-        "q": "34 + 31 =",
+        "q": "18 + 17 =",
         "options": [
-          "65",
-          "63",
-          "64",
-          "66"
+          "34",
+          "35",
+          "33",
+          "25"
         ],
-        "correct": 0,
+        "correct": 1,
         "id": "ma-002",
-        "hint": "🎯 Gör en tia:\n• 34 + 6 = 40 (jämn tia)\n• Lägg på resten: 25\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n34 ──➜ 40 ──➜ 40  … + 25",
-        "explain": "🎯 Gör en tia:\n• 34 + 6 = 40 (jämn tia)\n• Lägg på resten: 25\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n34 ──➜ 40 ──➜ 40  … + 25"
+        "hint": "🎯 Gör en tia:\n• 18 + 2 = 20\n• Lägg på resten: 15\n18 ──➜ 20 ──➜ 20  … + 15",
+        "explain": "🎯 Gör en tia:\n• 18 + 2 = 20\n• Lägg på resten: 15\n18 ──➜ 20 ──➜ 20  … + 15"
       },
       {
         "area": "addition",
-        "q": "16 + 9 =",
+        "q": "46 + 37 =",
         "options": [
-          "24",
-          "23",
-          "25",
-          "26"
+          "82",
+          "73",
+          "81",
+          "83"
         ],
-        "correct": 2,
+        "correct": 3,
         "id": "ma-003",
-        "hint": "🎯 Gör en tia:\n• 16 + 4 = 20 (jämn tia)\n• Lägg på resten: 5\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n16 ──➜ 20 ──➜ 20  … + 5",
-        "explain": "🎯 Gör en tia:\n• 16 + 4 = 20 (jämn tia)\n• Lägg på resten: 5\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n16 ──➜ 20 ──➜ 20  … + 5"
+        "hint": "🎯 Gör en tia:\n• 46 + 4 = 50\n• Lägg på resten: 33\n46 ──➜ 50 ──➜ 50  … + 33",
+        "explain": "🎯 Gör en tia:\n• 46 + 4 = 50\n• Lägg på resten: 33\n46 ──➜ 50 ──➜ 50  … + 33"
       },
       {
         "area": "addition",
-        "q": "30 + 41 =",
+        "q": "5 + 4 =",
         "options": [
-          "72",
-          "69",
-          "70",
-          "71"
+          "7",
+          "8",
+          "10",
+          "9"
         ],
         "correct": 3,
         "id": "ma-004",
-        "hint": "🎯 Gör en tia:\n• 41 + 9 = 50 (jämn tia)\n• Lägg på resten: 21\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n41 ──➜ 50 ──➜ 50  … + 21",
-        "explain": "🎯 Gör en tia:\n• 41 + 9 = 50 (jämn tia)\n• Lägg på resten: 21\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n41 ──➜ 50 ──➜ 50  … + 21"
+        "hint": "🎯 Räkna från det större talet:\n• Börja på 5 och hoppa 4 steg.\n5 ──➜ 6 ──➜ 7 ──➜ 8 ──➜ 9",
+        "explain": "🎯 Räkna från det större talet:\n• Börja på 5 och hoppa 4 steg.\n5 ──➜ 6 ──➜ 7 ──➜ 8 ──➜ 9"
       },
       {
         "area": "addition",
-        "q": "20 + 49 =",
+        "q": "35 + 41 =",
         "options": [
-          "70",
-          "69",
-          "68",
-          "67"
-        ],
-        "correct": 1,
-        "id": "ma-005",
-        "hint": "🎯 Gör en tia:\n• 49 + 1 = 50 (jämn tia)\n• Lägg på resten: 19\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n49 ──➜ 50 ──➜ 50  … + 19",
-        "explain": "🎯 Gör en tia:\n• 49 + 1 = 50 (jämn tia)\n• Lägg på resten: 19\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n49 ──➜ 50 ──➜ 50  … + 19"
-      },
-      {
-        "area": "addition",
-        "q": "23 + 4 =",
-        "options": [
-          "25",
-          "26",
-          "28",
-          "27"
-        ],
-        "correct": 3,
-        "id": "ma-006",
-        "hint": "🎯 Räkna från det större talet:\n• Börja på 23 och hoppa 4 steg (t.ex. 5-steg + 1-steg).\n23 ──➜ 24 ──➜ 25 ──➜ 26 ──➜ 27",
-        "explain": "🎯 Räkna från det större talet:\n• Börja på 23 och hoppa 4 steg (t.ex. 5-steg + 1-steg).\n23 ──➜ 24 ──➜ 25 ──➜ 26 ──➜ 27"
-      },
-      {
-        "area": "addition",
-        "q": "27 + 46 =",
-        "options": [
-          "72",
-          "73",
+          "66",
+          "75",
           "74",
-          "71"
-        ],
-        "correct": 1,
-        "id": "ma-007",
-        "hint": "🎯 Gör en tia:\n• 46 + 4 = 50 (jämn tia)\n• Lägg på resten: 23\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n46 ──➜ 50 ──➜ 50  … + 23",
-        "explain": "🎯 Gör en tia:\n• 46 + 4 = 50 (jämn tia)\n• Lägg på resten: 23\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n46 ──➜ 50 ──➜ 50  … + 23"
-      },
-      {
-        "area": "addition",
-        "q": "36 + 17 =",
-        "options": [
-          "52",
-          "53",
-          "51",
-          "54"
-        ],
-        "correct": 1,
-        "id": "ma-008",
-        "hint": "🎯 Gör en tia:\n• 36 + 4 = 40 (jämn tia)\n• Lägg på resten: 13\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n36 ──➜ 40 ──➜ 40  … + 13",
-        "explain": "🎯 Gör en tia:\n• 36 + 4 = 40 (jämn tia)\n• Lägg på resten: 13\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n36 ──➜ 40 ──➜ 40  … + 13"
-      },
-      {
-        "area": "addition",
-        "q": "25 + 17 =",
-        "options": [
-          "42",
-          "41",
-          "43",
-          "40"
-        ],
-        "correct": 0,
-        "id": "ma-009",
-        "hint": "🎯 Gör en tia:\n• 25 + 5 = 30 (jämn tia)\n• Lägg på resten: 12\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n25 ──➜ 30 ──➜ 30  … + 12",
-        "explain": "🎯 Gör en tia:\n• 25 + 5 = 30 (jämn tia)\n• Lägg på resten: 12\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n25 ──➜ 30 ──➜ 30  … + 12"
-      },
-      {
-        "area": "addition",
-        "q": "4 + 29 =",
-        "options": [
-          "32",
-          "31",
-          "34",
-          "33"
+          "76"
         ],
         "correct": 3,
-        "id": "ma-010",
-        "hint": "🎯 Gör en tia:\n• 29 + 1 = 30 (jämn tia)\n• Lägg på resten: 3\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n29 ──➜ 30 ──➜ 30  … + 3",
-        "explain": "🎯 Gör en tia:\n• 29 + 1 = 30 (jämn tia)\n• Lägg på resten: 3\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n29 ──➜ 30 ──➜ 30  … + 3"
+        "id": "ma-005",
+        "hint": "🎯 Gör en tia:\n• 41 + 9 = 50\n• Lägg på resten: 26\n41 ──➜ 50 ──➜ 50  … + 26",
+        "explain": "🎯 Gör en tia:\n• 41 + 9 = 50\n• Lägg på resten: 26\n41 ──➜ 50 ──➜ 50  … + 26"
       },
       {
         "area": "addition",
-        "q": "10 + 24 =",
+        "q": "48 + 44 =",
         "options": [
-          "32",
-          "34",
-          "33",
-          "35"
+          "90",
+          "82",
+          "92",
+          "91"
         ],
-        "correct": 1,
-        "id": "ma-011",
-        "hint": "🎯 Gör en tia:\n• 24 + 6 = 30 (jämn tia)\n• Lägg på resten: 4\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n24 ──➜ 30 ──➜ 30  … + 4",
-        "explain": "🎯 Gör en tia:\n• 24 + 6 = 30 (jämn tia)\n• Lägg på resten: 4\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n24 ──➜ 30 ──➜ 30  … + 4"
+        "correct": 2,
+        "id": "ma-006",
+        "hint": "🎯 Gör en tia:\n• 48 + 2 = 50\n• Lägg på resten: 42\n48 ──➜ 50 ──➜ 50  … + 42",
+        "explain": "🎯 Gör en tia:\n• 48 + 2 = 50\n• Lägg på resten: 42\n48 ──➜ 50 ──➜ 50  … + 42"
       },
       {
         "area": "addition",
-        "q": "22 + 21 =",
+        "q": "40 + 20 =",
         "options": [
-          "43",
-          "41",
+          "58",
+          "50",
+          "59",
+          "60"
+        ],
+        "correct": 3,
+        "id": "ma-007",
+        "hint": "🎯 Räkna från det större talet:\n• Börja på 40 och hoppa 20 steg.\n40 ──➜ 41 ──➜ 42 ──➜ 43 ──➜ 44 ──➜ 45 ──➜ 46 …",
+        "explain": "🎯 Räkna från det större talet:\n• Börja på 40 och hoppa 20 steg.\n40 ──➜ 41 ──➜ 42 ──➜ 43 ──➜ 44 ──➜ 45 ──➜ 46 …"
+      },
+      {
+        "area": "addition",
+        "q": "24 + 20 =",
+        "options": [
           "42",
-          "44"
+          "43",
+          "44",
+          "34"
         ],
-        "correct": 0,
-        "id": "ma-012",
-        "hint": "🎯 Gör en tia:\n• 22 + 8 = 30 (jämn tia)\n• Lägg på resten: 13\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n22 ──➜ 30 ──➜ 30  … + 13",
-        "explain": "🎯 Gör en tia:\n• 22 + 8 = 30 (jämn tia)\n• Lägg på resten: 13\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n22 ──➜ 30 ──➜ 30  … + 13"
+        "correct": 2,
+        "id": "ma-008",
+        "hint": "🎯 Gör en tia:\n• 24 + 6 = 30\n• Lägg på resten: 14\n24 ──➜ 30 ──➜ 30  … + 14",
+        "explain": "🎯 Gör en tia:\n• 24 + 6 = 30\n• Lägg på resten: 14\n24 ──➜ 30 ──➜ 30  … + 14"
       },
       {
         "area": "addition",
-        "q": "40 + 5 =",
+        "q": "9 + 8 =",
         "options": [
-          "44",
-          "43",
+          "15",
+          "7",
+          "17",
+          "16"
+        ],
+        "correct": 2,
+        "id": "ma-009",
+        "hint": "🎯 Gör en tia:\n• 9 + 1 = 10\n• Lägg på resten: 7\n9 ──➜ 10 ──➜ 10  … + 7",
+        "explain": "🎯 Gör en tia:\n• 9 + 1 = 10\n• Lägg på resten: 7\n9 ──➜ 10 ──➜ 10  … + 7"
+      },
+      {
+        "area": "addition",
+        "q": "25 + 41 =",
+        "options": [
+          "65",
+          "56",
+          "66",
+          "64"
+        ],
+        "correct": 2,
+        "id": "ma-010",
+        "hint": "🎯 Gör en tia:\n• 41 + 9 = 50\n• Lägg på resten: 16\n41 ──➜ 50 ──➜ 50  … + 16",
+        "explain": "🎯 Gör en tia:\n• 41 + 9 = 50\n• Lägg på resten: 16\n41 ──➜ 50 ──➜ 50  … + 16"
+      },
+      {
+        "area": "addition",
+        "q": "37 + 10 =",
+        "options": [
           "45",
+          "37",
+          "47",
           "46"
         ],
         "correct": 2,
-        "id": "ma-013",
-        "hint": "🎯 Räkna från det större talet:\n• Börja på 40 och hoppa 5 steg (t.ex. 5-steg + 1-steg).\n40 ──➜ 41 ──➜ 42 ──➜ 43 ──➜ 44 ──➜ 45",
-        "explain": "🎯 Räkna från det större talet:\n• Börja på 40 och hoppa 5 steg (t.ex. 5-steg + 1-steg).\n40 ──➜ 41 ──➜ 42 ──➜ 43 ──➜ 44 ──➜ 45"
+        "id": "ma-011",
+        "hint": "🎯 Gör en tia:\n• 37 + 3 = 40\n• Lägg på resten: 7\n37 ──➜ 40 ──➜ 40  … + 7",
+        "explain": "🎯 Gör en tia:\n• 37 + 3 = 40\n• Lägg på resten: 7\n37 ──➜ 40 ──➜ 40  … + 7"
       },
       {
         "area": "addition",
-        "q": "29 + 45 =",
+        "q": "43 + 42 =",
         "options": [
-          "74",
-          "73",
           "75",
-          "72"
+          "85",
+          "84",
+          "83"
         ],
-        "correct": 0,
-        "id": "ma-014",
-        "hint": "🎯 Gör en tia:\n• 45 + 5 = 50 (jämn tia)\n• Lägg på resten: 24\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n45 ──➜ 50 ──➜ 50  … + 24",
-        "explain": "🎯 Gör en tia:\n• 45 + 5 = 50 (jämn tia)\n• Lägg på resten: 24\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n45 ──➜ 50 ──➜ 50  … + 24"
+        "correct": 1,
+        "id": "ma-012",
+        "hint": "🎯 Gör en tia:\n• 43 + 7 = 50\n• Lägg på resten: 35\n43 ──➜ 50 ──➜ 50  … + 35",
+        "explain": "🎯 Gör en tia:\n• 43 + 7 = 50\n• Lägg på resten: 35\n43 ──➜ 50 ──➜ 50  … + 35"
       },
       {
         "area": "addition",
-        "q": "8 + 31 =",
+        "q": "48 + 7 =",
         "options": [
-          "38",
-          "37",
+          "45",
+          "54",
+          "53",
+          "55"
+        ],
+        "correct": 3,
+        "id": "ma-013",
+        "hint": "🎯 Gör en tia:\n• 48 + 2 = 50\n• Lägg på resten: 5\n48 ──➜ 50 ──➜ 50  … + 5",
+        "explain": "🎯 Gör en tia:\n• 48 + 2 = 50\n• Lägg på resten: 5\n48 ──➜ 50 ──➜ 50  … + 5"
+      },
+      {
+        "area": "addition",
+        "q": "21 + 8 =",
+        "options": [
+          "27",
+          "28",
+          "29",
+          "19"
+        ],
+        "correct": 2,
+        "id": "ma-014",
+        "hint": "🎯 Räkna från det större talet:\n• Börja på 21 och hoppa 8 steg.\n21 ──➜ 22 ──➜ 23 ──➜ 24 ──➜ 25 ──➜ 26 ──➜ 27 …",
+        "explain": "🎯 Räkna från det större talet:\n• Börja på 21 och hoppa 8 steg.\n21 ──➜ 22 ──➜ 23 ──➜ 24 ──➜ 25 ──➜ 26 ──➜ 27 …"
+      },
+      {
+        "area": "addition",
+        "q": "20 + 32 =",
+        "options": [
+          "51",
+          "42",
+          "52",
+          "50"
+        ],
+        "correct": 2,
+        "id": "ma-015",
+        "hint": "🎯 Gör en tia:\n• 32 + 8 = 40\n• Lägg på resten: 12\n32 ──➜ 40 ──➜ 40  … + 12",
+        "explain": "🎯 Gör en tia:\n• 32 + 8 = 40\n• Lägg på resten: 12\n32 ──➜ 40 ──➜ 40  … + 12"
+      },
+      {
+        "area": "addition",
+        "q": "25 + 16 =",
+        "options": [
+          "31",
+          "41",
           "40",
           "39"
         ],
-        "correct": 3,
-        "id": "ma-015",
-        "hint": "🎯 Räkna från det större talet:\n• Börja på 31 och hoppa 8 steg (t.ex. 5-steg + 1-steg).\n31 ──➜ 32 ──➜ 33 ──➜ 34 ──➜ 35 ──➜ 36 …",
-        "explain": "🎯 Räkna från det större talet:\n• Börja på 31 och hoppa 8 steg (t.ex. 5-steg + 1-steg).\n31 ──➜ 32 ──➜ 33 ──➜ 34 ──➜ 35 ──➜ 36 …"
-      },
-      {
-        "area": "addition",
-        "q": "26 + 34 =",
-        "options": [
-          "59",
-          "61",
-          "58",
-          "60"
-        ],
-        "correct": 3,
+        "correct": 1,
         "id": "ma-016",
-        "hint": "🎯 Gör en tia:\n• 34 + 6 = 40 (jämn tia)\n• Lägg på resten: 20\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n34 ──➜ 40 ──➜ 40  … + 20",
-        "explain": "🎯 Gör en tia:\n• 34 + 6 = 40 (jämn tia)\n• Lägg på resten: 20\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n34 ──➜ 40 ──➜ 40  … + 20"
+        "hint": "🎯 Gör en tia:\n• 25 + 5 = 30\n• Lägg på resten: 11\n25 ──➜ 30 ──➜ 30  … + 11",
+        "explain": "🎯 Gör en tia:\n• 25 + 5 = 30\n• Lägg på resten: 11\n25 ──➜ 30 ──➜ 30  … + 11"
       },
       {
         "area": "addition",
-        "q": "22 + 48 =",
+        "q": "41 + 43 =",
         "options": [
-          "68",
-          "70",
-          "69",
-          "71"
+          "83",
+          "84",
+          "82",
+          "74"
         ],
         "correct": 1,
         "id": "ma-017",
-        "hint": "🎯 Gör en tia:\n• 48 + 2 = 50 (jämn tia)\n• Lägg på resten: 20\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n48 ──➜ 50 ──➜ 50  … + 20",
-        "explain": "🎯 Gör en tia:\n• 48 + 2 = 50 (jämn tia)\n• Lägg på resten: 20\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n48 ──➜ 50 ──➜ 50  … + 20"
+        "hint": "🎯 Gör en tia:\n• 43 + 7 = 50\n• Lägg på resten: 34\n43 ──➜ 50 ──➜ 50  … + 34",
+        "explain": "🎯 Gör en tia:\n• 43 + 7 = 50\n• Lägg på resten: 34\n43 ──➜ 50 ──➜ 50  … + 34"
       },
       {
         "area": "addition",
-        "q": "13 + 35 =",
+        "q": "13 + 32 =",
         "options": [
-          "49",
-          "47",
-          "48",
-          "46"
-        ],
-        "correct": 2,
-        "id": "ma-018",
-        "hint": "🎯 Gör en tia:\n• 35 + 5 = 40 (jämn tia)\n• Lägg på resten: 8\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n35 ──➜ 40 ──➜ 40  … + 8",
-        "explain": "🎯 Gör en tia:\n• 35 + 5 = 40 (jämn tia)\n• Lägg på resten: 8\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n35 ──➜ 40 ──➜ 40  … + 8"
-      },
-      {
-        "area": "addition",
-        "q": "37 + 38 =",
-        "options": [
-          "75",
-          "74",
-          "76",
-          "73"
-        ],
-        "correct": 0,
-        "id": "ma-019",
-        "hint": "🎯 Gör en tia:\n• 38 + 2 = 40 (jämn tia)\n• Lägg på resten: 35\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n38 ──➜ 40 ──➜ 40  … + 35",
-        "explain": "🎯 Gör en tia:\n• 38 + 2 = 40 (jämn tia)\n• Lägg på resten: 35\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n38 ──➜ 40 ──➜ 40  … + 35"
-      },
-      {
-        "area": "addition",
-        "q": "39 + 25 =",
-        "options": [
-          "63",
-          "64",
-          "62",
-          "65"
-        ],
-        "correct": 1,
-        "id": "ma-020",
-        "hint": "🎯 Gör en tia:\n• 39 + 1 = 40 (jämn tia)\n• Lägg på resten: 24\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n39 ──➜ 40 ──➜ 40  … + 24",
-        "explain": "🎯 Gör en tia:\n• 39 + 1 = 40 (jämn tia)\n• Lägg på resten: 24\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n39 ──➜ 40 ──➜ 40  … + 24"
-      },
-      {
-        "area": "addition",
-        "q": "27 + 35 =",
-        "options": [
-          "63",
-          "62",
-          "61",
-          "60"
-        ],
-        "correct": 1,
-        "id": "ma-021",
-        "hint": "🎯 Gör en tia:\n• 35 + 5 = 40 (jämn tia)\n• Lägg på resten: 22\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n35 ──➜ 40 ──➜ 40  … + 22",
-        "explain": "🎯 Gör en tia:\n• 35 + 5 = 40 (jämn tia)\n• Lägg på resten: 22\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n35 ──➜ 40 ──➜ 40  … + 22"
-      },
-      {
-        "area": "addition",
-        "q": "30 + 6 =",
-        "options": [
-          "35",
-          "36",
-          "34",
-          "37"
-        ],
-        "correct": 1,
-        "id": "ma-022",
-        "hint": "🎯 Räkna från det större talet:\n• Börja på 30 och hoppa 6 steg (t.ex. 5-steg + 1-steg).\n30 ──➜ 31 ──➜ 32 ──➜ 33 ──➜ 34 ──➜ 35 …",
-        "explain": "🎯 Räkna från det större talet:\n• Börja på 30 och hoppa 6 steg (t.ex. 5-steg + 1-steg).\n30 ──➜ 31 ──➜ 32 ──➜ 33 ──➜ 34 ──➜ 35 …"
-      },
-      {
-        "area": "addition",
-        "q": "35 + 29 =",
-        "options": [
-          "64",
-          "63",
-          "62",
-          "65"
-        ],
-        "correct": 0,
-        "id": "ma-023",
-        "hint": "🎯 Gör en tia:\n• 35 + 5 = 40 (jämn tia)\n• Lägg på resten: 24\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n35 ──➜ 40 ──➜ 40  … + 24",
-        "explain": "🎯 Gör en tia:\n• 35 + 5 = 40 (jämn tia)\n• Lägg på resten: 24\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n35 ──➜ 40 ──➜ 40  … + 24"
-      },
-      {
-        "area": "addition",
-        "q": "25 + 3 =",
-        "options": [
-          "29",
-          "28",
-          "26",
-          "27"
-        ],
-        "correct": 1,
-        "id": "ma-024",
-        "hint": "🎯 Räkna från det större talet:\n• Börja på 25 och hoppa 3 steg (t.ex. 5-steg + 1-steg).\n25 ──➜ 26 ──➜ 27 ──➜ 28",
-        "explain": "🎯 Räkna från det större talet:\n• Börja på 25 och hoppa 3 steg (t.ex. 5-steg + 1-steg).\n25 ──➜ 26 ──➜ 27 ──➜ 28"
-      },
-      {
-        "area": "addition",
-        "q": "17 + 43 =",
-        "options": [
-          "61",
-          "60",
-          "59",
-          "58"
-        ],
-        "correct": 1,
-        "id": "ma-025",
-        "hint": "🎯 Gör en tia:\n• 43 + 7 = 50 (jämn tia)\n• Lägg på resten: 10\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n43 ──➜ 50 ──➜ 50  … + 10",
-        "explain": "🎯 Gör en tia:\n• 43 + 7 = 50 (jämn tia)\n• Lägg på resten: 10\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n43 ──➜ 50 ──➜ 50  … + 10"
-      },
-      {
-        "area": "addition",
-        "q": "8 + 38 =",
-        "options": [
-          "44",
-          "47",
-          "46",
-          "45"
-        ],
-        "correct": 2,
-        "id": "ma-026",
-        "hint": "🎯 Gör en tia:\n• 38 + 2 = 40 (jämn tia)\n• Lägg på resten: 6\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n38 ──➜ 40 ──➜ 40  … + 6",
-        "explain": "🎯 Gör en tia:\n• 38 + 2 = 40 (jämn tia)\n• Lägg på resten: 6\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n38 ──➜ 40 ──➜ 40  … + 6"
-      },
-      {
-        "area": "addition",
-        "q": "8 + 4 =",
-        "options": [
-          "11",
-          "10",
-          "12",
-          "13"
-        ],
-        "correct": 2,
-        "id": "ma-027",
-        "hint": "🎯 Gör en tia:\n• 8 + 2 = 10 (jämn tia)\n• Lägg på resten: 2\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n8 ──➜ 10 ──➜ 10  … + 2",
-        "explain": "🎯 Gör en tia:\n• 8 + 2 = 10 (jämn tia)\n• Lägg på resten: 2\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n8 ──➜ 10 ──➜ 10  … + 2"
-      },
-      {
-        "area": "addition",
-        "q": "18 + 20 =",
-        "options": [
-          "36",
-          "39",
-          "37",
-          "38"
-        ],
-        "correct": 3,
-        "id": "ma-028",
-        "hint": "🎯 Räkna från det större talet:\n• Börja på 20 och hoppa 18 steg (t.ex. 5-steg + 1-steg).\n20 ──➜ 21 ──➜ 22 ──➜ 23 ──➜ 24 ──➜ 25 …",
-        "explain": "🎯 Räkna från det större talet:\n• Börja på 20 och hoppa 18 steg (t.ex. 5-steg + 1-steg).\n20 ──➜ 21 ──➜ 22 ──➜ 23 ──➜ 24 ──➜ 25 …"
-      },
-      {
-        "area": "addition",
-        "q": "25 + 21 =",
-        "options": [
-          "44",
+          "43",
           "45",
-          "47",
-          "46"
+          "35",
+          "44"
         ],
-        "correct": 3,
-        "id": "ma-029",
-        "hint": "🎯 Gör en tia:\n• 25 + 5 = 30 (jämn tia)\n• Lägg på resten: 16\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n25 ──➜ 30 ──➜ 30  … + 16",
-        "explain": "🎯 Gör en tia:\n• 25 + 5 = 30 (jämn tia)\n• Lägg på resten: 16\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n25 ──➜ 30 ──➜ 30  … + 16"
+        "correct": 1,
+        "id": "ma-018",
+        "hint": "🎯 Gör en tia:\n• 32 + 8 = 40\n• Lägg på resten: 5\n32 ──➜ 40 ──➜ 40  … + 5",
+        "explain": "🎯 Gör en tia:\n• 32 + 8 = 40\n• Lägg på resten: 5\n32 ──➜ 40 ──➜ 40  … + 5"
       },
       {
         "area": "addition",
-        "q": "19 + 36 =",
+        "q": "46 + 23 =",
         "options": [
-          "55",
-          "56",
-          "54",
-          "53"
-        ],
-        "correct": 0,
-        "id": "ma-030",
-        "hint": "🎯 Gör en tia:\n• 36 + 4 = 40 (jämn tia)\n• Lägg på resten: 15\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n36 ──➜ 40 ──➜ 40  … + 15",
-        "explain": "🎯 Gör en tia:\n• 36 + 4 = 40 (jämn tia)\n• Lägg på resten: 15\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n36 ──➜ 40 ──➜ 40  … + 15"
-      },
-      {
-        "area": "addition",
-        "q": "44 + 48 =",
-        "options": [
-          "92",
-          "93",
-          "90",
-          "91"
-        ],
-        "correct": 0,
-        "id": "ma-031",
-        "hint": "🎯 Gör en tia:\n• 48 + 2 = 50 (jämn tia)\n• Lägg på resten: 42\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n48 ──➜ 50 ──➜ 50  … + 42",
-        "explain": "🎯 Gör en tia:\n• 48 + 2 = 50 (jämn tia)\n• Lägg på resten: 42\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n48 ──➜ 50 ──➜ 50  … + 42"
-      },
-      {
-        "area": "addition",
-        "q": "34 + 33 =",
-        "options": [
-          "66",
-          "65",
-          "68",
-          "67"
-        ],
-        "correct": 3,
-        "id": "ma-032",
-        "hint": "🎯 Gör en tia:\n• 34 + 6 = 40 (jämn tia)\n• Lägg på resten: 27\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n34 ──➜ 40 ──➜ 40  … + 27",
-        "explain": "🎯 Gör en tia:\n• 34 + 6 = 40 (jämn tia)\n• Lägg på resten: 27\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n34 ──➜ 40 ──➜ 40  … + 27"
-      },
-      {
-        "area": "addition",
-        "q": "27 + 24 =",
-        "options": [
-          "50",
-          "49",
-          "51",
-          "52"
-        ],
-        "correct": 2,
-        "id": "ma-033",
-        "hint": "🎯 Gör en tia:\n• 27 + 3 = 30 (jämn tia)\n• Lägg på resten: 21\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n27 ──➜ 30 ──➜ 30  … + 21",
-        "explain": "🎯 Gör en tia:\n• 27 + 3 = 30 (jämn tia)\n• Lägg på resten: 21\n🧠 Huvudräkning blir lätt med 10/20/30.\n\n27 ──➜ 30 ──➜ 30  … + 21"
-      },
-      {
-        "area": "subtraktion",
-        "q": "21 − 10 =",
-        "options": [
-          "11",
-          "12",
-          "10",
-          "9"
-        ],
-        "correct": 0,
-        "id": "ma-034",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 21 → 20 (ner 1 till jämn tia)\n• Ta resten: 9\n21  →  20  →  19  →  18  →  17  →  16  →  15  →  14  →  13  →  12  →  11  →  11",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 21 → 20 (ner 1 till jämn tia)\n• Ta resten: 9\n21  →  20  →  19  →  18  →  17  →  16  →  15  →  14  →  13  →  12  →  11  →  11"
-      },
-      {
-        "area": "subtraktion",
-        "q": "10 − 5 =",
-        "options": [
-          "4",
-          "6",
-          "3",
-          "5"
-        ],
-        "correct": 3,
-        "id": "ma-035",
-        "hint": "🎯 Räkna upp: börja vid 5 och hoppa till 10.\n• Summan av hoppen = skillnaden.\n5  →  6  →  7  →  8  →  9  →  10",
-        "explain": "🎯 Räkna upp: börja vid 5 och hoppa till 10.\n• Summan av hoppen = skillnaden.\n5  →  6  →  7  →  8  →  9  →  10"
-      },
-      {
-        "area": "subtraktion",
-        "q": "12 − 4 =",
-        "options": [
-          "8",
-          "6",
-          "7",
-          "9"
-        ],
-        "correct": 0,
-        "id": "ma-036",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 12 → 10 (ner 2 till jämn tia)\n• Ta resten: 2\n12  →  10  →  8  →  8",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 12 → 10 (ner 2 till jämn tia)\n• Ta resten: 2\n12  →  10  →  8  →  8"
-      },
-      {
-        "area": "subtraktion",
-        "q": "77 − 9 =",
-        "options": [
-          "66",
+          "59",
           "67",
           "68",
           "69"
         ],
+        "correct": 3,
+        "id": "ma-019",
+        "hint": "🎯 Gör en tia:\n• 46 + 4 = 50\n• Lägg på resten: 19\n46 ──➜ 50 ──➜ 50  … + 19",
+        "explain": "🎯 Gör en tia:\n• 46 + 4 = 50\n• Lägg på resten: 19\n46 ──➜ 50 ──➜ 50  … + 19"
+      },
+      {
+        "area": "addition",
+        "q": "23 + 28 =",
+        "options": [
+          "41",
+          "50",
+          "51",
+          "49"
+        ],
         "correct": 2,
-        "id": "ma-037",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 77 → 70 (ner 7 till jämn tia)\n• Ta resten: 2\n77  →  70  →  63  →  68",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 77 → 70 (ner 7 till jämn tia)\n• Ta resten: 2\n77  →  70  →  63  →  68"
+        "id": "ma-020",
+        "hint": "🎯 Gör en tia:\n• 28 + 2 = 30\n• Lägg på resten: 21\n28 ──➜ 30 ──➜ 30  … + 21",
+        "explain": "🎯 Gör en tia:\n• 28 + 2 = 30\n• Lägg på resten: 21\n28 ──➜ 30 ──➜ 30  … + 21"
       },
       {
         "area": "subtraktion",
-        "q": "58 − 20 =",
+        "q": "80 − 12 =",
         "options": [
-          "38",
-          "36",
-          "39",
-          "37"
+          "68",
+          "67",
+          "66",
+          "58"
         ],
         "correct": 0,
-        "id": "ma-038",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 58 → 50 (ner 8 till jämn tia)\n• Ta resten: 12\n58  →  50  →  42  →  34  →  38",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 58 → 50 (ner 8 till jämn tia)\n• Ta resten: 12\n58  →  50  →  42  →  34  →  38"
+        "id": "ma-021",
+        "hint": "🎯 Räkna upp: börja vid 68 och hoppa till 80.\n68  →  69  →  70  →  71  →  72  →  73  →  74  →  75  →  76  →  77  →  78  →  79  →  80",
+        "explain": "🎯 Räkna upp: börja vid 68 och hoppa till 80.\n68  →  69  →  70  →  71  →  72  →  73  →  74  →  75  →  76  →  77  →  78  →  79  →  80"
       },
       {
         "area": "subtraktion",
-        "q": "15 − 13 =",
+        "q": "58 − 16 =",
+        "options": [
+          "40",
+          "42",
+          "41",
+          "32"
+        ],
+        "correct": 1,
+        "id": "ma-022",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 58 → 50\n• Ta resten: 8\n58  →  50  →  42  →  42",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 58 → 50\n• Ta resten: 8\n58  →  50  →  42  →  42"
+      },
+      {
+        "area": "subtraktion",
+        "q": "39 − 19 =",
+        "options": [
+          "20",
+          "10",
+          "19",
+          "18"
+        ],
+        "correct": 0,
+        "id": "ma-023",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 39 → 30\n• Ta resten: 10\n39  →  30  →  21  →  12  →  20",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 39 → 30\n• Ta resten: 10\n39  →  30  →  21  →  12  →  20"
+      },
+      {
+        "area": "subtraktion",
+        "q": "82 − 14 =",
+        "options": [
+          "58",
+          "67",
+          "68",
+          "66"
+        ],
+        "correct": 2,
+        "id": "ma-024",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 82 → 80\n• Ta resten: 12\n82  →  80  →  78  →  76  →  74  →  72  →  70  →  68  →  68",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 82 → 80\n• Ta resten: 12\n82  →  80  →  78  →  76  →  74  →  72  →  70  →  68  →  68"
+      },
+      {
+        "area": "subtraktion",
+        "q": "73 − 17 =",
+        "options": [
+          "46",
+          "54",
+          "55",
+          "56"
+        ],
+        "correct": 3,
+        "id": "ma-025",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 73 → 70\n• Ta resten: 14\n73  →  70  →  67  →  64  →  61  →  58  →  55  →  56",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 73 → 70\n• Ta resten: 14\n73  →  70  →  67  →  64  →  61  →  58  →  55  →  56"
+      },
+      {
+        "area": "subtraktion",
+        "q": "27 − 7 =",
+        "options": [
+          "10",
+          "20",
+          "18",
+          "19"
+        ],
+        "correct": 1,
+        "id": "ma-026",
+        "hint": "🎯 Räkna upp: börja vid 20 och hoppa till 27.\n20  →  21  →  22  →  23  →  24  →  25  →  26  →  27",
+        "explain": "🎯 Räkna upp: börja vid 20 och hoppa till 27.\n20  →  21  →  22  →  23  →  24  →  25  →  26  →  27"
+      },
+      {
+        "area": "subtraktion",
+        "q": "57 − 14 =",
+        "options": [
+          "43",
+          "33",
+          "41",
+          "42"
+        ],
+        "correct": 0,
+        "id": "ma-027",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 57 → 50\n• Ta resten: 7\n57  →  50  →  43  →  43",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 57 → 50\n• Ta resten: 7\n57  →  50  →  43  →  43"
+      },
+      {
+        "area": "subtraktion",
+        "q": "78 − 2 =",
+        "options": [
+          "75",
+          "66",
+          "74",
+          "76"
+        ],
+        "correct": 3,
+        "id": "ma-028",
+        "hint": "🎯 Räkna upp: börja vid 76 och hoppa till 78.\n76  →  77  →  78",
+        "explain": "🎯 Räkna upp: börja vid 76 och hoppa till 78.\n76  →  77  →  78"
+      },
+      {
+        "area": "subtraktion",
+        "q": "90 − 12 =",
+        "options": [
+          "77",
+          "76",
+          "68",
+          "78"
+        ],
+        "correct": 3,
+        "id": "ma-029",
+        "hint": "🎯 Räkna upp: börja vid 78 och hoppa till 90.\n78  →  79  →  80  →  81  →  82  →  83  →  84  →  85  →  86  →  87  →  88  →  89  →  90",
+        "explain": "🎯 Räkna upp: börja vid 78 och hoppa till 90.\n78  →  79  →  80  →  81  →  82  →  83  →  84  →  85  →  86  →  87  →  88  →  89  →  90"
+      },
+      {
+        "area": "subtraktion",
+        "q": "28 − 16 =",
+        "options": [
+          "11",
+          "2",
+          "10",
+          "12"
+        ],
+        "correct": 3,
+        "id": "ma-030",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 28 → 20\n• Ta resten: 8\n28  →  20  →  12  →  12",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 28 → 20\n• Ta resten: 8\n28  →  20  →  12  →  12"
+      },
+      {
+        "area": "subtraktion",
+        "q": "72 − 7 =",
+        "options": [
+          "64",
+          "55",
+          "63",
+          "65"
+        ],
+        "correct": 3,
+        "id": "ma-031",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 72 → 70\n• Ta resten: 5\n72  →  70  →  68  →  66  →  64  →  65",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 72 → 70\n• Ta resten: 5\n72  →  70  →  68  →  66  →  64  →  65"
+      },
+      {
+        "area": "subtraktion",
+        "q": "89 − 18 =",
+        "options": [
+          "69",
+          "70",
+          "71",
+          "61"
+        ],
+        "correct": 2,
+        "id": "ma-032",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 89 → 80\n• Ta resten: 9\n89  →  80  →  71  →  71",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 89 → 80\n• Ta resten: 9\n89  →  80  →  71  →  71"
+      },
+      {
+        "area": "subtraktion",
+        "q": "28 − 19 =",
+        "options": [
+          "10",
+          "7",
+          "8",
+          "9"
+        ],
+        "correct": 3,
+        "id": "ma-033",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 28 → 20\n• Ta resten: 11\n28  →  20  →  12  →  4  →  9",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 28 → 20\n• Ta resten: 11\n28  →  20  →  12  →  4  →  9"
+      },
+      {
+        "area": "subtraktion",
+        "q": "70 − 2 =",
+        "options": [
+          "67",
+          "66",
+          "58",
+          "68"
+        ],
+        "correct": 3,
+        "id": "ma-034",
+        "hint": "🎯 Räkna upp: börja vid 68 och hoppa till 70.\n68  →  69  →  70",
+        "explain": "🎯 Räkna upp: börja vid 68 och hoppa till 70.\n68  →  69  →  70"
+      },
+      {
+        "area": "subtraktion",
+        "q": "38 − 3 =",
+        "options": [
+          "34",
+          "35",
+          "33",
+          "25"
+        ],
+        "correct": 1,
+        "id": "ma-035",
+        "hint": "🎯 Räkna upp: börja vid 35 och hoppa till 38.\n35  →  36  →  37  →  38",
+        "explain": "🎯 Räkna upp: börja vid 35 och hoppa till 38.\n35  →  36  →  37  →  38"
+      },
+      {
+        "area": "subtraktion",
+        "q": "18 − 17 =",
         "options": [
           "0",
           "3",
           "2",
           "1"
         ],
-        "correct": 2,
-        "id": "ma-039",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 15 → 10 (ner 5 till jämn tia)\n• Ta resten: 8\n15  →  10  →  5  →  0  →  2",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 15 → 10 (ner 5 till jämn tia)\n• Ta resten: 8\n15  →  10  →  5  →  0  →  2"
+        "correct": 3,
+        "id": "ma-036",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 18 → 10\n• Ta resten: 9\n18  →  10  →  2  →  -6  →  1",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 18 → 10\n• Ta resten: 9\n18  →  10  →  2  →  -6  →  1"
       },
       {
         "area": "subtraktion",
-        "q": "14 − 6 =",
+        "q": "24 − 17 =",
         "options": [
           "7",
           "6",
-          "9",
-          "8"
-        ],
-        "correct": 3,
-        "id": "ma-040",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 14 → 10 (ner 4 till jämn tia)\n• Ta resten: 2\n14  →  10  →  6  →  8",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 14 → 10 (ner 4 till jämn tia)\n• Ta resten: 2\n14  →  10  →  6  →  8"
-      },
-      {
-        "area": "subtraktion",
-        "q": "46 − 7 =",
-        "options": [
-          "39",
-          "37",
-          "38",
-          "40"
-        ],
-        "correct": 0,
-        "id": "ma-041",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 46 → 40 (ner 6 till jämn tia)\n• Ta resten: 1\n46  →  40  →  34  →  39",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 46 → 40 (ner 6 till jämn tia)\n• Ta resten: 1\n46  →  40  →  34  →  39"
-      },
-      {
-        "area": "subtraktion",
-        "q": "24 − 2 =",
-        "options": [
-          "20",
-          "23",
-          "21",
-          "22"
-        ],
-        "correct": 3,
-        "id": "ma-042",
-        "hint": "🎯 Räkna upp: börja vid 22 och hoppa till 24.\n• Summan av hoppen = skillnaden.\n22  →  23  →  24",
-        "explain": "🎯 Räkna upp: börja vid 22 och hoppa till 24.\n• Summan av hoppen = skillnaden.\n22  →  23  →  24"
-      },
-      {
-        "area": "subtraktion",
-        "q": "80 − 16 =",
-        "options": [
-          "65",
-          "64",
-          "63",
-          "62"
-        ],
-        "correct": 1,
-        "id": "ma-043",
-        "hint": "🎯 Räkna upp: börja vid 64 och hoppa till 80.\n• Summan av hoppen = skillnaden.\n64  →  65  →  66  →  67  →  68  →  69  →  70  →  71  →  72  →  73  →  74  →  75  →  76",
-        "explain": "🎯 Räkna upp: börja vid 64 och hoppa till 80.\n• Summan av hoppen = skillnaden.\n64  →  65  →  66  →  67  →  68  →  69  →  70  →  71  →  72  →  73  →  74  →  75  →  76"
-      },
-      {
-        "area": "subtraktion",
-        "q": "56 − 8 =",
-        "options": [
-          "46",
-          "49",
-          "48",
-          "47"
-        ],
-        "correct": 2,
-        "id": "ma-044",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 56 → 50 (ner 6 till jämn tia)\n• Ta resten: 2\n56  →  50  →  44  →  48",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 56 → 50 (ner 6 till jämn tia)\n• Ta resten: 2\n56  →  50  →  44  →  48"
-      },
-      {
-        "area": "subtraktion",
-        "q": "81 − 15 =",
-        "options": [
-          "65",
-          "66",
-          "67",
-          "64"
-        ],
-        "correct": 1,
-        "id": "ma-045",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 81 → 80 (ner 1 till jämn tia)\n• Ta resten: 14\n81  →  80  →  79  →  78  →  77  →  76  →  75  →  74  →  73  →  72  →  71  →  70  →  69  →  66",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 81 → 80 (ner 1 till jämn tia)\n• Ta resten: 14\n81  →  80  →  79  →  78  →  77  →  76  →  75  →  74  →  73  →  72  →  71  →  70  →  69  →  66"
-      },
-      {
-        "area": "subtraktion",
-        "q": "93 − 14 =",
-        "options": [
-          "79",
-          "77",
-          "80",
-          "78"
-        ],
-        "correct": 0,
-        "id": "ma-046",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 93 → 90 (ner 3 till jämn tia)\n• Ta resten: 11\n93  →  90  →  87  →  84  →  81  →  78  →  79",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 93 → 90 (ner 3 till jämn tia)\n• Ta resten: 11\n93  →  90  →  87  →  84  →  81  →  78  →  79"
-      },
-      {
-        "area": "subtraktion",
-        "q": "10 − 7 =",
-        "options": [
-          "2",
-          "3",
-          "1",
-          "4"
-        ],
-        "correct": 1,
-        "id": "ma-047",
-        "hint": "🎯 Räkna upp: börja vid 3 och hoppa till 10.\n• Summan av hoppen = skillnaden.\n3  →  4  →  5  →  6  →  7  →  8  →  9  →  10",
-        "explain": "🎯 Räkna upp: börja vid 3 och hoppa till 10.\n• Summan av hoppen = skillnaden.\n3  →  4  →  5  →  6  →  7  →  8  →  9  →  10"
-      },
-      {
-        "area": "subtraktion",
-        "q": "28 − 8 =",
-        "options": [
-          "18",
-          "20",
-          "21",
-          "19"
-        ],
-        "correct": 1,
-        "id": "ma-048",
-        "hint": "🎯 Räkna upp: börja vid 20 och hoppa till 28.\n• Summan av hoppen = skillnaden.\n20  →  21  →  22  →  23  →  24  →  25  →  26  →  27  →  28",
-        "explain": "🎯 Räkna upp: börja vid 20 och hoppa till 28.\n• Summan av hoppen = skillnaden.\n20  →  21  →  22  →  23  →  24  →  25  →  26  →  27  →  28"
-      },
-      {
-        "area": "subtraktion",
-        "q": "51 − 15 =",
-        "options": [
-          "35",
-          "36",
-          "37",
-          "34"
-        ],
-        "correct": 1,
-        "id": "ma-049",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 51 → 50 (ner 1 till jämn tia)\n• Ta resten: 14\n51  →  50  →  49  →  48  →  47  →  46  →  45  →  44  →  43  →  42  →  41  →  40  →  39  →  36",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 51 → 50 (ner 1 till jämn tia)\n• Ta resten: 14\n51  →  50  →  49  →  48  →  47  →  46  →  45  →  44  →  43  →  42  →  41  →  40  →  39  →  36"
-      },
-      {
-        "area": "subtraktion",
-        "q": "56 − 19 =",
-        "options": [
-          "37",
-          "35",
-          "38",
-          "36"
-        ],
-        "correct": 0,
-        "id": "ma-050",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 56 → 50 (ner 6 till jämn tia)\n• Ta resten: 13\n56  →  50  →  44  →  38  →  32  →  37",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 56 → 50 (ner 6 till jämn tia)\n• Ta resten: 13\n56  →  50  →  44  →  38  →  32  →  37"
-      },
-      {
-        "area": "subtraktion",
-        "q": "76 − 9 =",
-        "options": [
-          "65",
-          "68",
-          "66",
-          "67"
-        ],
-        "correct": 3,
-        "id": "ma-051",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 76 → 70 (ner 6 till jämn tia)\n• Ta resten: 3\n76  →  70  →  64  →  67",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 76 → 70 (ner 6 till jämn tia)\n• Ta resten: 3\n76  →  70  →  64  →  67"
-      },
-      {
-        "area": "subtraktion",
-        "q": "18 − 6 =",
-        "options": [
-          "13",
-          "11",
-          "12",
-          "10"
-        ],
-        "correct": 2,
-        "id": "ma-052",
-        "hint": "🎯 Räkna upp: börja vid 12 och hoppa till 18.\n• Summan av hoppen = skillnaden.\n12  →  13  →  14  →  15  →  16  →  17  →  18",
-        "explain": "🎯 Räkna upp: börja vid 12 och hoppa till 18.\n• Summan av hoppen = skillnaden.\n12  →  13  →  14  →  15  →  16  →  17  →  18"
-      },
-      {
-        "area": "subtraktion",
-        "q": "42 − 12 =",
-        "options": [
-          "30",
-          "31",
-          "28",
-          "29"
-        ],
-        "correct": 0,
-        "id": "ma-053",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 42 → 40 (ner 2 till jämn tia)\n• Ta resten: 10\n42  →  40  →  38  →  36  →  34  →  32  →  30  →  30",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 42 → 40 (ner 2 till jämn tia)\n• Ta resten: 10\n42  →  40  →  38  →  36  →  34  →  32  →  30  →  30"
-      },
-      {
-        "area": "subtraktion",
-        "q": "51 − 5 =",
-        "options": [
-          "47",
-          "44",
-          "46",
-          "45"
-        ],
-        "correct": 2,
-        "id": "ma-054",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 51 → 50 (ner 1 till jämn tia)\n• Ta resten: 4\n51  →  50  →  49  →  48  →  47  →  46  →  46",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 51 → 50 (ner 1 till jämn tia)\n• Ta resten: 4\n51  →  50  →  49  →  48  →  47  →  46  →  46"
-      },
-      {
-        "area": "subtraktion",
-        "q": "25 − 20 =",
-        "options": [
-          "4",
-          "6",
-          "3",
+          "8",
           "5"
         ],
-        "correct": 3,
-        "id": "ma-055",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 25 → 20 (ner 5 till jämn tia)\n• Ta resten: 15\n25  →  20  →  15  →  10  →  5  →  5",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 25 → 20 (ner 5 till jämn tia)\n• Ta resten: 15\n25  →  20  →  15  →  10  →  5  →  5"
-      },
-      {
-        "area": "subtraktion",
-        "q": "60 − 4 =",
-        "options": [
-          "54",
-          "55",
-          "56",
-          "57"
-        ],
-        "correct": 2,
-        "id": "ma-056",
-        "hint": "🎯 Räkna upp: börja vid 56 och hoppa till 60.\n• Summan av hoppen = skillnaden.\n56  →  57  →  58  →  59  →  60",
-        "explain": "🎯 Räkna upp: börja vid 56 och hoppa till 60.\n• Summan av hoppen = skillnaden.\n56  →  57  →  58  →  59  →  60"
-      },
-      {
-        "area": "subtraktion",
-        "q": "51 − 5 =",
-        "options": [
-          "44",
-          "45",
-          "46",
-          "47"
-        ],
-        "correct": 2,
-        "id": "ma-057",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 51 → 50 (ner 1 till jämn tia)\n• Ta resten: 4\n51  →  50  →  49  →  48  →  47  →  46  →  46",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 51 → 50 (ner 1 till jämn tia)\n• Ta resten: 4\n51  →  50  →  49  →  48  →  47  →  46  →  46"
-      },
-      {
-        "area": "subtraktion",
-        "q": "80 − 4 =",
-        "options": [
-          "76",
-          "77",
-          "74",
-          "75"
-        ],
         "correct": 0,
-        "id": "ma-058",
-        "hint": "🎯 Räkna upp: börja vid 76 och hoppa till 80.\n• Summan av hoppen = skillnaden.\n76  →  77  →  78  →  79  →  80",
-        "explain": "🎯 Räkna upp: börja vid 76 och hoppa till 80.\n• Summan av hoppen = skillnaden.\n76  →  77  →  78  →  79  →  80"
+        "id": "ma-037",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 24 → 20\n• Ta resten: 13\n24  →  20  →  16  →  12  →  8  →  4  →  7",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 24 → 20\n• Ta resten: 13\n24  →  20  →  16  →  12  →  8  →  4  →  7"
       },
       {
         "area": "subtraktion",
-        "q": "80 − 19 =",
-        "options": [
-          "62",
-          "60",
-          "59",
-          "61"
-        ],
-        "correct": 3,
-        "id": "ma-059",
-        "hint": "🎯 Räkna upp: börja vid 61 och hoppa till 80.\n• Summan av hoppen = skillnaden.\n61  →  62  →  63  →  64  →  65  →  66  →  67  →  68  →  69  →  70  →  71  →  72  →  73",
-        "explain": "🎯 Räkna upp: börja vid 61 och hoppa till 80.\n• Summan av hoppen = skillnaden.\n61  →  62  →  63  →  64  →  65  →  66  →  67  →  68  →  69  →  70  →  71  →  72  →  73"
-      },
-      {
-        "area": "subtraktion",
-        "q": "21 − 3 =",
+        "q": "35 − 19 =",
         "options": [
           "16",
-          "19",
-          "18",
-          "17"
+          "15",
+          "14",
+          "6"
         ],
-        "correct": 2,
-        "id": "ma-060",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 21 → 20 (ner 1 till jämn tia)\n• Ta resten: 2\n21  →  20  →  19  →  18  →  18",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 21 → 20 (ner 1 till jämn tia)\n• Ta resten: 2\n21  →  20  →  19  →  18  →  18"
+        "correct": 0,
+        "id": "ma-038",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 35 → 30\n• Ta resten: 14\n35  →  30  →  25  →  20  →  15  →  16",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 35 → 30\n• Ta resten: 14\n35  →  30  →  25  →  20  →  15  →  16"
       },
       {
         "area": "subtraktion",
-        "q": "19 − 15 =",
+        "q": "59 − 13 =",
         "options": [
-          "2",
-          "3",
-          "5",
+          "46",
+          "36",
+          "44",
+          "45"
+        ],
+        "correct": 0,
+        "id": "ma-039",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 59 → 50\n• Ta resten: 4\n59  →  50  →  41  →  46",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 59 → 50\n• Ta resten: 4\n59  →  50  →  41  →  46"
+      },
+      {
+        "area": "subtraktion",
+        "q": "23 − 9 =",
+        "options": [
+          "12",
+          "13",
+          "14",
           "4"
         ],
-        "correct": 3,
-        "id": "ma-061",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 19 → 10 (ner 9 till jämn tia)\n• Ta resten: 6\n19  →  10  →  1  →  4",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 19 → 10 (ner 9 till jämn tia)\n• Ta resten: 6\n19  →  10  →  1  →  4"
-      },
-      {
-        "area": "subtraktion",
-        "q": "38 − 20 =",
-        "options": [
-          "16",
-          "17",
-          "18",
-          "19"
-        ],
         "correct": 2,
-        "id": "ma-062",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 38 → 30 (ner 8 till jämn tia)\n• Ta resten: 12\n38  →  30  →  22  →  14  →  18",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 38 → 30 (ner 8 till jämn tia)\n• Ta resten: 12\n38  →  30  →  22  →  14  →  18"
-      },
-      {
-        "area": "subtraktion",
-        "q": "65 − 7 =",
-        "options": [
-          "59",
-          "57",
-          "58",
-          "56"
-        ],
-        "correct": 2,
-        "id": "ma-063",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 65 → 60 (ner 5 till jämn tia)\n• Ta resten: 2\n65  →  60  →  55  →  58",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 65 → 60 (ner 5 till jämn tia)\n• Ta resten: 2\n65  →  60  →  55  →  58"
-      },
-      {
-        "area": "subtraktion",
-        "q": "63 − 14 =",
-        "options": [
-          "49",
-          "47",
-          "50",
-          "48"
-        ],
-        "correct": 0,
-        "id": "ma-064",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 63 → 60 (ner 3 till jämn tia)\n• Ta resten: 11\n63  →  60  →  57  →  54  →  51  →  48  →  49",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 63 → 60 (ner 3 till jämn tia)\n• Ta resten: 11\n63  →  60  →  57  →  54  →  51  →  48  →  49"
-      },
-      {
-        "area": "subtraktion",
-        "q": "99 − 17 =",
-        "options": [
-          "80",
-          "83",
-          "82",
-          "81"
-        ],
-        "correct": 2,
-        "id": "ma-065",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 99 → 90 (ner 9 till jämn tia)\n• Ta resten: 8\n99  →  90  →  81  →  82",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 99 → 90 (ner 9 till jämn tia)\n• Ta resten: 8\n99  →  90  →  81  →  82"
-      },
-      {
-        "area": "subtraktion",
-        "q": "91 − 12 =",
-        "options": [
-          "77",
-          "78",
-          "80",
-          "79"
-        ],
-        "correct": 3,
-        "id": "ma-066",
-        "hint": "🎯 Dela upp till närmaste tia:\n• 91 → 90 (ner 1 till jämn tia)\n• Ta resten: 11\n91  →  90  →  89  →  88  →  87  →  86  →  85  →  84  →  83  →  82  →  81  →  80  →  79  →  79",
-        "explain": "🎯 Dela upp till närmaste tia:\n• 91 → 90 (ner 1 till jämn tia)\n• Ta resten: 11\n91  →  90  →  89  →  88  →  87  →  86  →  85  →  84  →  83  →  82  →  81  →  80  →  79  →  79"
+        "id": "ma-040",
+        "hint": "🎯 Dela upp till närmaste tia:\n• 23 → 20\n• Ta resten: 6\n23  →  20  →  17  →  14  →  14",
+        "explain": "🎯 Dela upp till närmaste tia:\n• 23 → 20\n• Ta resten: 6\n23  →  20  →  17  →  14  →  14"
       },
       {
         "area": "multiplikation",
-        "q": "6 × 7 =",
+        "q": "2 × 5 =",
         "options": [
-          "42",
-          "41",
-          "40",
-          "43"
-        ],
-        "correct": 0,
-        "id": "ma-067",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
-      },
-      {
-        "area": "multiplikation",
-        "q": "8 × 3 =",
-        "options": [
-          "25",
-          "23",
-          "22",
-          "24"
-        ],
-        "correct": 3,
-        "id": "ma-068",
-        "hint": "🎯 Dubbla tre gånger (8×3):\n• 3 → 6 → 12 → …",
-        "explain": "🎯 Dubbla tre gånger (8×3):\n• 3 → 6 → 12 → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "3 × 6 =",
-        "options": [
-          "18",
-          "19",
-          "17",
-          "16"
-        ],
-        "correct": 0,
-        "id": "ma-069",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
-      },
-      {
-        "area": "multiplikation",
-        "q": "7 × 6 =",
-        "options": [
-          "43",
-          "42",
-          "41",
-          "40"
-        ],
-        "correct": 1,
-        "id": "ma-070",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
-      },
-      {
-        "area": "multiplikation",
-        "q": "6 × 5 =",
-        "options": [
-          "29",
-          "30",
-          "31",
-          "28"
-        ],
-        "correct": 1,
-        "id": "ma-071",
-        "hint": "🎯 5-steg:\n• Räkna 6 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15 ──➜ 20 ──➜ 25 ──➜ 30",
-        "explain": "🎯 5-steg:\n• Räkna 6 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15 ──➜ 20 ──➜ 25 ──➜ 30"
-      },
-      {
-        "area": "multiplikation",
-        "q": "6 × 3 =",
-        "options": [
-          "17",
-          "16",
-          "18",
-          "19"
-        ],
-        "correct": 2,
-        "id": "ma-072",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
-      },
-      {
-        "area": "multiplikation",
-        "q": "5 × 8 =",
-        "options": [
-          "41",
-          "38",
-          "40",
-          "39"
-        ],
-        "correct": 2,
-        "id": "ma-073",
-        "hint": "🎯 Dubbla tre gånger (8×5):\n• 5 → 10 → 20 → …",
-        "explain": "🎯 Dubbla tre gånger (8×5):\n• 5 → 10 → 20 → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "4 × 7 =",
-        "options": [
-          "29",
-          "26",
-          "28",
-          "27"
-        ],
-        "correct": 2,
-        "id": "ma-074",
-        "hint": "🎯 Dubbla-dubbla (4×7):\n• Dubbla 7 → 14\n• Dubbla igen → …",
-        "explain": "🎯 Dubbla-dubbla (4×7):\n• Dubbla 7 → 14\n• Dubbla igen → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "3 × 3 =",
-        "options": [
+          "9",
+          "8",
           "10",
-          "8",
-          "9",
-          "7"
+          "0"
         ],
         "correct": 2,
-        "id": "ma-075",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
-      },
-      {
-        "area": "multiplikation",
-        "q": "5 × 8 =",
-        "options": [
-          "39",
-          "41",
-          "38",
-          "40"
-        ],
-        "correct": 3,
-        "id": "ma-076",
-        "hint": "🎯 Dubbla tre gånger (8×5):\n• 5 → 10 → 20 → …",
-        "explain": "🎯 Dubbla tre gånger (8×5):\n• 5 → 10 → 20 → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "3 × 2 =",
-        "options": [
-          "7",
-          "5",
-          "4",
-          "6"
-        ],
-        "correct": 3,
-        "id": "ma-077",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
-      },
-      {
-        "area": "multiplikation",
-        "q": "9 × 9 =",
-        "options": [
-          "80",
-          "82",
-          "81",
-          "79"
-        ],
-        "correct": 2,
-        "id": "ma-078",
-        "hint": "🎯 9-knepet: 10×9 − 9\n• 10×9 = 90\n• 90 − 9 = …",
-        "explain": "🎯 9-knepet: 10×9 − 9\n• 10×9 = 90\n• 90 − 9 = …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "3 × 4 =",
-        "options": [
-          "13",
-          "11",
-          "12",
-          "10"
-        ],
-        "correct": 2,
-        "id": "ma-079",
-        "hint": "🎯 Dubbla-dubbla (4×3):\n• Dubbla 3 → 6\n• Dubbla igen → …",
-        "explain": "🎯 Dubbla-dubbla (4×3):\n• Dubbla 3 → 6\n• Dubbla igen → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "7 × 6 =",
-        "options": [
-          "43",
-          "40",
-          "41",
-          "42"
-        ],
-        "correct": 3,
-        "id": "ma-080",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
-      },
-      {
-        "area": "multiplikation",
-        "q": "4 × 5 =",
-        "options": [
-          "21",
-          "20",
-          "19",
-          "18"
-        ],
-        "correct": 1,
-        "id": "ma-081",
-        "hint": "🎯 Dubbla-dubbla (4×5):\n• Dubbla 5 → 10\n• Dubbla igen → …",
-        "explain": "🎯 Dubbla-dubbla (4×5):\n• Dubbla 5 → 10\n• Dubbla igen → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "7 × 5 =",
-        "options": [
-          "35",
-          "34",
-          "36",
-          "33"
-        ],
-        "correct": 0,
-        "id": "ma-082",
-        "hint": "🎯 5-steg:\n• Räkna 7 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15 ──➜ 20 ──➜ 25 ──➜ 30 …",
-        "explain": "🎯 5-steg:\n• Räkna 7 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15 ──➜ 20 ──➜ 25 ──➜ 30 …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "4 × 2 =",
-        "options": [
-          "7",
-          "8",
-          "9",
-          "6"
-        ],
-        "correct": 1,
-        "id": "ma-083",
-        "hint": "🎯 Dubbla-dubbla (4×2):\n• Dubbla 2 → 4\n• Dubbla igen → …",
-        "explain": "🎯 Dubbla-dubbla (4×2):\n• Dubbla 2 → 4\n• Dubbla igen → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "9 × 8 =",
-        "options": [
-          "72",
-          "70",
-          "73",
-          "71"
-        ],
-        "correct": 0,
-        "id": "ma-084",
-        "hint": "🎯 9-knepet: 10×8 − 8\n• 10×8 = 80\n• 80 − 8 = …",
-        "explain": "🎯 9-knepet: 10×8 − 8\n• 10×8 = 80\n• 80 − 8 = …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "9 × 2 =",
-        "options": [
-          "17",
-          "18",
-          "16",
-          "19"
-        ],
-        "correct": 1,
-        "id": "ma-085",
-        "hint": "🎯 9-knepet: 10×2 − 2\n• 10×2 = 20\n• 20 − 2 = …",
-        "explain": "🎯 9-knepet: 10×2 − 2\n• 10×2 = 20\n• 20 − 2 = …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "6 × 9 =",
-        "options": [
-          "55",
-          "52",
-          "53",
-          "54"
-        ],
-        "correct": 3,
-        "id": "ma-086",
-        "hint": "🎯 9-knepet: 10×6 − 6\n• 10×6 = 60\n• 60 − 6 = …",
-        "explain": "🎯 9-knepet: 10×6 − 6\n• 10×6 = 60\n• 60 − 6 = …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "2 × 2 =",
-        "options": [
-          "2",
-          "4",
-          "5",
-          "3"
-        ],
-        "correct": 1,
-        "id": "ma-087",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
-      },
-      {
-        "area": "multiplikation",
-        "q": "4 × 4 =",
-        "options": [
-          "16",
-          "17",
-          "14",
-          "15"
-        ],
-        "correct": 0,
-        "id": "ma-088",
-        "hint": "🎯 Dubbla-dubbla (4×4):\n• Dubbla 4 → 8\n• Dubbla igen → …",
-        "explain": "🎯 Dubbla-dubbla (4×4):\n• Dubbla 4 → 8\n• Dubbla igen → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "8 × 4 =",
-        "options": [
-          "31",
-          "30",
-          "33",
-          "32"
-        ],
-        "correct": 3,
-        "id": "ma-089",
-        "hint": "🎯 Dubbla-dubbla (4×8):\n• Dubbla 8 → 16\n• Dubbla igen → …",
-        "explain": "🎯 Dubbla-dubbla (4×8):\n• Dubbla 8 → 16\n• Dubbla igen → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "2 × 4 =",
-        "options": [
-          "8",
-          "6",
-          "9",
-          "7"
-        ],
-        "correct": 0,
-        "id": "ma-090",
-        "hint": "🎯 Dubbla-dubbla (4×2):\n• Dubbla 2 → 4\n• Dubbla igen → …",
-        "explain": "🎯 Dubbla-dubbla (4×2):\n• Dubbla 2 → 4\n• Dubbla igen → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "5 × 5 =",
-        "options": [
-          "25",
-          "26",
-          "23",
-          "24"
-        ],
-        "correct": 0,
-        "id": "ma-091",
-        "hint": "🎯 5-steg:\n• Räkna 5 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15 ──➜ 20 ──➜ 25",
-        "explain": "🎯 5-steg:\n• Räkna 5 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15 ──➜ 20 ──➜ 25"
-      },
-      {
-        "area": "multiplikation",
-        "q": "5 × 8 =",
-        "options": [
-          "40",
-          "38",
-          "41",
-          "39"
-        ],
-        "correct": 0,
-        "id": "ma-092",
-        "hint": "🎯 Dubbla tre gånger (8×5):\n• 5 → 10 → 20 → …",
-        "explain": "🎯 Dubbla tre gånger (8×5):\n• 5 → 10 → 20 → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "5 × 2 =",
-        "options": [
-          "11",
-          "8",
-          "9",
-          "10"
-        ],
-        "correct": 3,
-        "id": "ma-093",
+        "id": "ma-041",
         "hint": "🎯 5-steg:\n• Räkna 2 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10",
         "explain": "🎯 5-steg:\n• Räkna 2 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10"
       },
       {
         "area": "multiplikation",
-        "q": "4 × 5 =",
+        "q": "2 × 5 =",
         "options": [
-          "20",
-          "21",
-          "18",
-          "19"
+          "8",
+          "0",
+          "9",
+          "10"
+        ],
+        "correct": 3,
+        "id": "ma-042",
+        "hint": "🎯 5-steg:\n• Räkna 2 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10",
+        "explain": "🎯 5-steg:\n• Räkna 2 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10"
+      },
+      {
+        "area": "multiplikation",
+        "q": "3 × 5 =",
+        "options": [
+          "15",
+          "5",
+          "14",
+          "13"
         ],
         "correct": 0,
-        "id": "ma-094",
+        "id": "ma-043",
+        "hint": "🎯 5-steg:\n• Räkna 3 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15",
+        "explain": "🎯 5-steg:\n• Räkna 3 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15"
+      },
+      {
+        "area": "multiplikation",
+        "q": "5 × 4 =",
+        "options": [
+          "18",
+          "10",
+          "20",
+          "19"
+        ],
+        "correct": 2,
+        "id": "ma-044",
         "hint": "🎯 Dubbla-dubbla (4×5):\n• Dubbla 5 → 10\n• Dubbla igen → …",
         "explain": "🎯 Dubbla-dubbla (4×5):\n• Dubbla 5 → 10\n• Dubbla igen → …"
       },
       {
         "area": "multiplikation",
-        "q": "7 × 4 =",
-        "options": [
-          "26",
-          "28",
-          "27",
-          "29"
-        ],
-        "correct": 1,
-        "id": "ma-095",
-        "hint": "🎯 Dubbla-dubbla (4×7):\n• Dubbla 7 → 14\n• Dubbla igen → …",
-        "explain": "🎯 Dubbla-dubbla (4×7):\n• Dubbla 7 → 14\n• Dubbla igen → …"
-      },
-      {
-        "area": "multiplikation",
-        "q": "3 × 8 =",
-        "options": [
-          "23",
-          "25",
-          "24",
-          "22"
-        ],
-        "correct": 2,
-        "id": "ma-096",
-        "hint": "🎯 Dubbla tre gånger (8×3):\n• 3 → 6 → 12 → …",
-        "explain": "🎯 Dubbla tre gånger (8×3):\n• 3 → 6 → 12 → …"
-      },
-      {
-        "area": "multiplikation",
         "q": "8 × 5 =",
         "options": [
-          "41",
-          "39",
           "38",
+          "30",
+          "39",
           "40"
         ],
         "correct": 3,
-        "id": "ma-097",
+        "id": "ma-045",
         "hint": "🎯 Dubbla tre gånger (8×5):\n• 5 → 10 → 20 → …",
         "explain": "🎯 Dubbla tre gånger (8×5):\n• 5 → 10 → 20 → …"
       },
@@ -1364,545 +636,503 @@
         "area": "multiplikation",
         "q": "7 × 8 =",
         "options": [
-          "57",
+          "54",
           "56",
-          "55",
-          "54"
+          "46",
+          "55"
         ],
         "correct": 1,
-        "id": "ma-098",
+        "id": "ma-046",
         "hint": "🎯 Dubbla tre gånger (8×7):\n• 7 → 14 → 28 → …",
         "explain": "🎯 Dubbla tre gånger (8×7):\n• 7 → 14 → 28 → …"
       },
       {
         "area": "multiplikation",
-        "q": "3 × 6 =",
+        "q": "3 × 2 =",
         "options": [
-          "17",
-          "19",
-          "16",
-          "18"
+          "6",
+          "4",
+          "5",
+          "7"
+        ],
+        "correct": 0,
+        "id": "ma-047",
+        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare.",
+        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare."
+      },
+      {
+        "area": "multiplikation",
+        "q": "3 × 5 =",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "5"
+        ],
+        "correct": 2,
+        "id": "ma-048",
+        "hint": "🎯 5-steg:\n• Räkna 3 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15",
+        "explain": "🎯 5-steg:\n• Räkna 3 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15"
+      },
+      {
+        "area": "multiplikation",
+        "q": "4 × 8 =",
+        "options": [
+          "32",
+          "30",
+          "31",
+          "22"
+        ],
+        "correct": 0,
+        "id": "ma-049",
+        "hint": "🎯 Dubbla-dubbla (4×8):\n• Dubbla 8 → 16\n• Dubbla igen → …",
+        "explain": "🎯 Dubbla-dubbla (4×8):\n• Dubbla 8 → 16\n• Dubbla igen → …"
+      },
+      {
+        "area": "multiplikation",
+        "q": "5 × 3 =",
+        "options": [
+          "5",
+          "15",
+          "13",
+          "14"
+        ],
+        "correct": 1,
+        "id": "ma-050",
+        "hint": "🎯 5-steg:\n• Räkna 3 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15",
+        "explain": "🎯 5-steg:\n• Räkna 3 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15"
+      },
+      {
+        "area": "multiplikation",
+        "q": "2 × 2 =",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "4"
         ],
         "correct": 3,
-        "id": "ma-099",
-        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera.",
-        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare och justera."
+        "id": "ma-051",
+        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare.",
+        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare."
+      },
+      {
+        "area": "multiplikation",
+        "q": "8 × 9 =",
+        "options": [
+          "70",
+          "62",
+          "72",
+          "71"
+        ],
+        "correct": 2,
+        "id": "ma-052",
+        "hint": "🎯 9-knepet: 10×8 − 8\n• 10×8 = 80\n• 80 − 8 = …",
+        "explain": "🎯 9-knepet: 10×8 − 8\n• 10×8 = 80\n• 80 − 8 = …"
+      },
+      {
+        "area": "multiplikation",
+        "q": "2 × 4 =",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "correct": 2,
+        "id": "ma-053",
+        "hint": "🎯 Dubbla-dubbla (4×2):\n• Dubbla 2 → 4\n• Dubbla igen → …",
+        "explain": "🎯 Dubbla-dubbla (4×2):\n• Dubbla 2 → 4\n• Dubbla igen → …"
+      },
+      {
+        "area": "multiplikation",
+        "q": "6 × 9 =",
+        "options": [
+          "54",
+          "53",
+          "44",
+          "52"
+        ],
+        "correct": 0,
+        "id": "ma-054",
+        "hint": "🎯 9-knepet: 10×6 − 6\n• 10×6 = 60\n• 60 − 6 = …",
+        "explain": "🎯 9-knepet: 10×6 − 6\n• 10×6 = 60\n• 60 − 6 = …"
+      },
+      {
+        "area": "multiplikation",
+        "q": "4 × 5 =",
+        "options": [
+          "10",
+          "19",
+          "20",
+          "18"
+        ],
+        "correct": 2,
+        "id": "ma-055",
+        "hint": "🎯 Dubbla-dubbla (4×5):\n• Dubbla 5 → 10\n• Dubbla igen → …",
+        "explain": "🎯 Dubbla-dubbla (4×5):\n• Dubbla 5 → 10\n• Dubbla igen → …"
+      },
+      {
+        "area": "multiplikation",
+        "q": "2 × 7 =",
+        "options": [
+          "12",
+          "4",
+          "13",
+          "14"
+        ],
+        "correct": 3,
+        "id": "ma-056",
+        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare.",
+        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare."
+      },
+      {
+        "area": "multiplikation",
+        "q": "4 × 2 =",
+        "options": [
+          "6",
+          "7",
+          "9",
+          "8"
+        ],
+        "correct": 3,
+        "id": "ma-057",
+        "hint": "🎯 Dubbla-dubbla (4×2):\n• Dubbla 2 → 4\n• Dubbla igen → …",
+        "explain": "🎯 Dubbla-dubbla (4×2):\n• Dubbla 2 → 4\n• Dubbla igen → …"
+      },
+      {
+        "area": "multiplikation",
+        "q": "3 × 5 =",
+        "options": [
+          "5",
+          "13",
+          "15",
+          "14"
+        ],
+        "correct": 2,
+        "id": "ma-058",
+        "hint": "🎯 5-steg:\n• Räkna 3 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15",
+        "explain": "🎯 5-steg:\n• Räkna 3 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15"
+      },
+      {
+        "area": "multiplikation",
+        "q": "2 × 3 =",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "7"
+        ],
+        "correct": 0,
+        "id": "ma-059",
+        "hint": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare.",
+        "explain": "🎯 Bryt upp: n×m = n×(m−1) + n. Använd ×10 eller ×5 som ankare."
+      },
+      {
+        "area": "multiplikation",
+        "q": "6 × 5 =",
+        "options": [
+          "29",
+          "20",
+          "30",
+          "28"
+        ],
+        "correct": 2,
+        "id": "ma-060",
+        "hint": "🎯 5-steg:\n• Räkna 6 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15 ──➜ 20 ──➜ 25 ──➜ 30",
+        "explain": "🎯 5-steg:\n• Räkna 6 femmor: 5, 10, 15, …\n0 ──➜ 5 ──➜ 10 ──➜ 15 ──➜ 20 ──➜ 25 ──➜ 30"
       },
       {
         "area": "division",
-        "q": "12 ÷ 4 =",
+        "q": "32 ÷ 8 =",
         "options": [
+          "4",
+          "5",
           "2",
+          "3"
+        ],
+        "correct": 0,
+        "id": "ma-061",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 32?\n0  →  8  →  16  →  24  →  32",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 32?\n0  →  8  →  16  →  24  →  32"
+      },
+      {
+        "area": "division",
+        "q": "6 ÷ 3 =",
+        "options": [
           "1",
+          "2",
           "3",
           "4"
         ],
-        "correct": 2,
-        "id": "ma-100",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 12?\n• Sök i 4-tabellen nära 12 och justera.\n0  →  4  →  8  →  12",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 12?\n• Sök i 4-tabellen nära 12 och justera.\n0  →  4  →  8  →  12"
+        "correct": 1,
+        "id": "ma-062",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 6?\n0  →  3  →  6",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 6?\n0  →  3  →  6"
       },
       {
         "area": "division",
-        "q": "64 ÷ 8 =",
+        "q": "30 ÷ 3 =",
         "options": [
-          "8",
-          "7",
+          "10",
+          "11",
           "9",
-          "6"
+          "8"
         ],
         "correct": 0,
-        "id": "ma-101",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n• Sök i 8-tabellen nära 64 och justera.\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n• Sök i 8-tabellen nära 64 och justera.\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64"
+        "id": "ma-063",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 30?\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21  →  24  →  27  →  30",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 30?\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21  →  24  →  27  →  30"
       },
       {
         "area": "division",
-        "q": "36 ÷ 4 =",
+        "q": "28 ÷ 4 =",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "7"
+        ],
+        "correct": 3,
+        "id": "ma-064",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 28?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 28?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28"
+      },
+      {
+        "area": "division",
+        "q": "24 ÷ 6 =",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "5"
+        ],
+        "correct": 0,
+        "id": "ma-065",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n0  →  6  →  12  →  18  →  24",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n0  →  6  →  12  →  18  →  24"
+      },
+      {
+        "area": "division",
+        "q": "20 ÷ 2 =",
         "options": [
           "8",
           "10",
-          "9",
-          "7"
-        ],
-        "correct": 2,
-        "id": "ma-102",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n• Sök i 4-tabellen nära 36 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n• Sök i 4-tabellen nära 36 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36"
-      },
-      {
-        "area": "division",
-        "q": "24 ÷ 8 =",
-        "options": [
-          "4",
-          "3",
-          "1",
-          "2"
-        ],
-        "correct": 1,
-        "id": "ma-103",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 24?\n• Sök i 8-tabellen nära 24 och justera.\n0  →  8  →  16  →  24",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 24?\n• Sök i 8-tabellen nära 24 och justera.\n0  →  8  →  16  →  24"
-      },
-      {
-        "area": "division",
-        "q": "80 ÷ 8 =",
-        "options": [
-          "9",
-          "8",
           "11",
-          "10"
-        ],
-        "correct": 3,
-        "id": "ma-104",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 80?\n• Sök i 8-tabellen nära 80 och justera.\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72  →  80",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 80?\n• Sök i 8-tabellen nära 80 och justera.\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72  →  80"
-      },
-      {
-        "area": "division",
-        "q": "4 ÷ 2 =",
-        "options": [
-          "3",
-          "2",
-          "4",
-          "1"
+          "9"
         ],
         "correct": 1,
-        "id": "ma-105",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 4?\n• Sök i 2-tabellen nära 4 och justera.\n0  →  2  →  4",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 4?\n• Sök i 2-tabellen nära 4 och justera.\n0  →  2  →  4"
+        "id": "ma-066",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 20?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14  →  16  →  18  →  20",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 20?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14  →  16  →  18  →  20"
       },
       {
         "area": "division",
         "q": "24 ÷ 4 =",
         "options": [
-          "7",
-          "6",
+          "4",
           "5",
-          "4"
+          "7",
+          "6"
         ],
-        "correct": 1,
-        "id": "ma-106",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 24?\n• Sök i 4-tabellen nära 24 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 24?\n• Sök i 4-tabellen nära 24 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24"
+        "correct": 3,
+        "id": "ma-067",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 24?\n0  →  4  →  8  →  12  →  16  →  20  →  24",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 24?\n0  →  4  →  8  →  12  →  16  →  20  →  24"
       },
       {
         "area": "division",
         "q": "36 ÷ 6 =",
         "options": [
           "6",
-          "4",
           "7",
-          "5"
-        ],
-        "correct": 0,
-        "id": "ma-107",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n• Sök i 6-tabellen nära 36 och justera.\n0  →  6  →  12  →  18  →  24  →  30  →  36",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n• Sök i 6-tabellen nära 36 och justera.\n0  →  6  →  12  →  18  →  24  →  30  →  36"
-      },
-      {
-        "area": "division",
-        "q": "40 ÷ 4 =",
-        "options": [
-          "10",
-          "11",
-          "8",
-          "9"
-        ],
-        "correct": 0,
-        "id": "ma-108",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 40?\n• Sök i 4-tabellen nära 40 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36  →  40",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 40?\n• Sök i 4-tabellen nära 40 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36  →  40"
-      },
-      {
-        "area": "division",
-        "q": "15 ÷ 3 =",
-        "options": [
-          "4",
-          "3",
           "5",
-          "6"
-        ],
-        "correct": 2,
-        "id": "ma-109",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 15?\n• Sök i 3-tabellen nära 15 och justera.\n0  →  3  →  6  →  9  →  12  →  15",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 15?\n• Sök i 3-tabellen nära 15 och justera.\n0  →  3  →  6  →  9  →  12  →  15"
-      },
-      {
-        "area": "division",
-        "q": "6 ÷ 3 =",
-        "options": [
-          "1",
-          "4",
-          "3",
-          "2"
-        ],
-        "correct": 3,
-        "id": "ma-110",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 6?\n• Sök i 3-tabellen nära 6 och justera.\n0  →  3  →  6",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 6?\n• Sök i 3-tabellen nära 6 och justera.\n0  →  3  →  6"
-      },
-      {
-        "area": "division",
-        "q": "24 ÷ 6 =",
-        "options": [
-          "5",
-          "2",
-          "3",
-          "4"
-        ],
-        "correct": 3,
-        "id": "ma-111",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n• Sök i 6-tabellen nära 24 och justera.\n0  →  6  →  12  →  18  →  24",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n• Sök i 6-tabellen nära 24 och justera.\n0  →  6  →  12  →  18  →  24"
-      },
-      {
-        "area": "division",
-        "q": "48 ÷ 6 =",
-        "options": [
-          "8",
-          "6",
-          "9",
-          "7"
-        ],
-        "correct": 0,
-        "id": "ma-112",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 48?\n• Sök i 6-tabellen nära 48 och justera.\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 48?\n• Sök i 6-tabellen nära 48 och justera.\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48"
-      },
-      {
-        "area": "division",
-        "q": "6 ÷ 2 =",
-        "options": [
-          "3",
-          "1",
-          "2",
           "4"
         ],
         "correct": 0,
-        "id": "ma-113",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 6?\n• Sök i 2-tabellen nära 6 och justera.\n0  →  2  →  4  →  6",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 6?\n• Sök i 2-tabellen nära 6 och justera.\n0  →  2  →  4  →  6"
+        "id": "ma-068",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n0  →  6  →  12  →  18  →  24  →  30  →  36",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n0  →  6  →  12  →  18  →  24  →  30  →  36"
       },
       {
         "area": "division",
-        "q": "42 ÷ 7 =",
+        "q": "30 ÷ 5 =",
         "options": [
-          "6",
           "5",
+          "6",
           "4",
           "7"
         ],
-        "correct": 0,
-        "id": "ma-114",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 42?\n• Sök i 7-tabellen nära 42 och justera.\n0  →  7  →  14  →  21  →  28  →  35  →  42",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 42?\n• Sök i 7-tabellen nära 42 och justera.\n0  →  7  →  14  →  21  →  28  →  35  →  42"
+        "correct": 1,
+        "id": "ma-069",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 30?\n0  →  5  →  10  →  15  →  20  →  25  →  30",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 30?\n0  →  5  →  10  →  15  →  20  →  25  →  30"
       },
       {
         "area": "division",
         "q": "24 ÷ 3 =",
         "options": [
           "6",
-          "7",
+          "9",
           "8",
-          "9"
+          "7"
         ],
         "correct": 2,
-        "id": "ma-115",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 24?\n• Sök i 3-tabellen nära 24 och justera.\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21  →  24",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 24?\n• Sök i 3-tabellen nära 24 och justera.\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21  →  24"
+        "id": "ma-070",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 24?\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21  →  24",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 24?\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21  →  24"
       },
       {
         "area": "division",
-        "q": "60 ÷ 6 =",
+        "q": "28 ÷ 7 =",
         "options": [
-          "10",
-          "9",
-          "11",
-          "8"
-        ],
-        "correct": 0,
-        "id": "ma-116",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 60?\n• Sök i 6-tabellen nära 60 och justera.\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48  →  54  →  60",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 60?\n• Sök i 6-tabellen nära 60 och justera.\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48  →  54  →  60"
-      },
-      {
-        "area": "division",
-        "q": "24 ÷ 6 =",
-        "options": [
+          "5",
           "2",
           "4",
-          "3",
-          "5"
+          "3"
         ],
-        "correct": 1,
-        "id": "ma-117",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n• Sök i 6-tabellen nära 24 och justera.\n0  →  6  →  12  →  18  →  24",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n• Sök i 6-tabellen nära 24 och justera.\n0  →  6  →  12  →  18  →  24"
+        "correct": 2,
+        "id": "ma-071",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 28?\n0  →  7  →  14  →  21  →  28",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 28?\n0  →  7  →  14  →  21  →  28"
       },
       {
         "area": "division",
-        "q": "70 ÷ 7 =",
+        "q": "80 ÷ 8 =",
         "options": [
-          "11",
           "8",
           "9",
+          "11",
           "10"
         ],
         "correct": 3,
-        "id": "ma-118",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 70?\n• Sök i 7-tabellen nära 70 och justera.\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63  →  70",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 70?\n• Sök i 7-tabellen nära 70 och justera.\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63  →  70"
+        "id": "ma-072",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 80?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72  →  80",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 80?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72  →  80"
       },
       {
         "area": "division",
-        "q": "64 ÷ 8 =",
+        "q": "40 ÷ 4 =",
         "options": [
-          "6",
-          "8",
           "9",
-          "7"
+          "11",
+          "8",
+          "10"
         ],
-        "correct": 1,
-        "id": "ma-119",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n• Sök i 8-tabellen nära 64 och justera.\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n• Sök i 8-tabellen nära 64 och justera.\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64"
-      },
-      {
-        "area": "division",
-        "q": "45 ÷ 9 =",
-        "options": [
-          "3",
-          "5",
-          "6",
-          "4"
-        ],
-        "correct": 1,
-        "id": "ma-120",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 45?\n• Sök i 9-tabellen nära 45 och justera.\n0  →  9  →  18  →  27  →  36  →  45",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 45?\n• Sök i 9-tabellen nära 45 och justera.\n0  →  9  →  18  →  27  →  36  →  45"
+        "correct": 3,
+        "id": "ma-073",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 40?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36  →  40",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 40?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36  →  40"
       },
       {
         "area": "division",
         "q": "32 ÷ 8 =",
         "options": [
+          "5",
           "3",
-          "4",
           "2",
-          "5"
+          "4"
         ],
-        "correct": 1,
-        "id": "ma-121",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 32?\n• Sök i 8-tabellen nära 32 och justera.\n0  →  8  →  16  →  24  →  32",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 32?\n• Sök i 8-tabellen nära 32 och justera.\n0  →  8  →  16  →  24  →  32"
+        "correct": 3,
+        "id": "ma-074",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 32?\n0  →  8  →  16  →  24  →  32",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 32?\n0  →  8  →  16  →  24  →  32"
       },
       {
         "area": "division",
-        "q": "6 ÷ 3 =",
+        "q": "14 ÷ 2 =",
         "options": [
-          "2",
-          "4",
-          "1",
-          "3"
+          "8",
+          "7",
+          "6",
+          "5"
         ],
-        "correct": 0,
-        "id": "ma-122",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 6?\n• Sök i 3-tabellen nära 6 och justera.\n0  →  3  →  6",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 6?\n• Sök i 3-tabellen nära 6 och justera.\n0  →  3  →  6"
+        "correct": 1,
+        "id": "ma-075",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 14?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 14?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14"
+      },
+      {
+        "area": "division",
+        "q": "21 ÷ 3 =",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "correct": 1,
+        "id": "ma-076",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 21?\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 21?\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21"
+      },
+      {
+        "area": "division",
+        "q": "20 ÷ 5 =",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "correct": 1,
+        "id": "ma-077",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 20?\n0  →  5  →  10  →  15  →  20",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 20?\n0  →  5  →  10  →  15  →  20"
+      },
+      {
+        "area": "division",
+        "q": "28 ÷ 4 =",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "correct": 1,
+        "id": "ma-078",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 28?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 28?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28"
       },
       {
         "area": "division",
         "q": "24 ÷ 6 =",
         "options": [
-          "4",
           "3",
+          "5",
           "2",
-          "5"
-        ],
-        "correct": 0,
-        "id": "ma-123",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n• Sök i 6-tabellen nära 24 och justera.\n0  →  6  →  12  →  18  →  24",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n• Sök i 6-tabellen nära 24 och justera.\n0  →  6  →  12  →  18  →  24"
-      },
-      {
-        "area": "division",
-        "q": "36 ÷ 4 =",
-        "options": [
-          "8",
-          "10",
-          "7",
-          "9"
-        ],
-        "correct": 3,
-        "id": "ma-124",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n• Sök i 4-tabellen nära 36 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n• Sök i 4-tabellen nära 36 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36"
-      },
-      {
-        "area": "division",
-        "q": "24 ÷ 8 =",
-        "options": [
-          "4",
-          "1",
-          "3",
-          "2"
-        ],
-        "correct": 2,
-        "id": "ma-125",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 24?\n• Sök i 8-tabellen nära 24 och justera.\n0  →  8  →  16  →  24",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 24?\n• Sök i 8-tabellen nära 24 och justera.\n0  →  8  →  16  →  24"
-      },
-      {
-        "area": "division",
-        "q": "8 ÷ 2 =",
-        "options": [
-          "5",
-          "4",
-          "3",
-          "2"
-        ],
-        "correct": 1,
-        "id": "ma-126",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 8?\n• Sök i 2-tabellen nära 8 och justera.\n0  →  2  →  4  →  6  →  8",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 8?\n• Sök i 2-tabellen nära 8 och justera.\n0  →  2  →  4  →  6  →  8"
-      },
-      {
-        "area": "division",
-        "q": "48 ÷ 8 =",
-        "options": [
-          "4",
-          "7",
-          "6",
-          "5"
-        ],
-        "correct": 2,
-        "id": "ma-127",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 48?\n• Sök i 8-tabellen nära 48 och justera.\n0  →  8  →  16  →  24  →  32  →  40  →  48",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 48?\n• Sök i 8-tabellen nära 48 och justera.\n0  →  8  →  16  →  24  →  32  →  40  →  48"
-      },
-      {
-        "area": "division",
-        "q": "35 ÷ 5 =",
-        "options": [
-          "5",
-          "8",
-          "7",
-          "6"
-        ],
-        "correct": 2,
-        "id": "ma-128",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 35?\n• Sök i 5-tabellen nära 35 och justera.\n0  →  5  →  10  →  15  →  20  →  25  →  30  →  35",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 35?\n• Sök i 5-tabellen nära 35 och justera.\n0  →  5  →  10  →  15  →  20  →  25  →  30  →  35"
-      },
-      {
-        "area": "division",
-        "q": "63 ÷ 7 =",
-        "options": [
-          "8",
-          "7",
-          "10",
-          "9"
-        ],
-        "correct": 3,
-        "id": "ma-129",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 63?\n• Sök i 7-tabellen nära 63 och justera.\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 63?\n• Sök i 7-tabellen nära 63 och justera.\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63"
-      },
-      {
-        "area": "division",
-        "q": "42 ÷ 6 =",
-        "options": [
-          "7",
-          "6",
-          "8",
-          "5"
-        ],
-        "correct": 0,
-        "id": "ma-130",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 42?\n• Sök i 6-tabellen nära 42 och justera.\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 42?\n• Sök i 6-tabellen nära 42 och justera.\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42"
-      },
-      {
-        "area": "division",
-        "q": "36 ÷ 4 =",
-        "options": [
-          "9",
-          "7",
-          "10",
-          "8"
-        ],
-        "correct": 0,
-        "id": "ma-131",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n• Sök i 4-tabellen nära 36 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n• Sök i 4-tabellen nära 36 och justera.\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36"
-      },
-      {
-        "area": "division",
-        "q": "30 ÷ 5 =",
-        "options": [
-          "7",
-          "6",
-          "5",
           "4"
         ],
-        "correct": 1,
-        "id": "ma-132",
-        "hint": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 30?\n• Sök i 5-tabellen nära 30 och justera.\n0  →  5  →  10  →  15  →  20  →  25  →  30",
-        "explain": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 30?\n• Sök i 5-tabellen nära 30 och justera.\n0  →  5  →  10  →  15  →  20  →  25  →  30"
+        "correct": 3,
+        "id": "ma-079",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n0  →  6  →  12  →  18  →  24",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 24?\n0  →  6  →  12  →  18  →  24"
       },
       {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 90?",
+        "area": "division",
+        "q": "45 ÷ 9 =",
         "options": [
-          "10",
-          "8",
-          "9",
-          "11"
-        ],
-        "correct": 2,
-        "id": "ma-133",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 90 = 9 tiotal och 0 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 90 = 9 tiotal och 0 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 35?",
-        "options": [
-          "3",
           "5",
           "4",
-          "2"
+          "6",
+          "3"
         ],
         "correct": 0,
-        "id": "ma-134",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 35 = 3 tiotal och 5 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 35 = 3 tiotal och 5 ental."
+        "id": "ma-080",
+        "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 45?\n0  →  9  →  18  →  27  →  36  →  45",
+        "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 45?\n0  →  9  →  18  →  27  →  36  →  45"
       },
       {
         "area": "taluppfattning",
         "q": "Vilket tal är störst?",
         "options": [
-          "35",
-          "53",
-          "34",
-          "33"
+          "38",
+          "37",
+          "57",
+          "36"
         ],
-        "correct": 1,
-        "id": "ma-135",
-        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
-        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Vilket tal är störst?",
-        "options": [
-          "58",
-          "51",
-          "52",
-          "53"
-        ],
-        "correct": 0,
-        "id": "ma-136",
+        "correct": 2,
+        "id": "ma-081",
         "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
         "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
       },
@@ -1910,447 +1140,279 @@
         "area": "taluppfattning",
         "q": "Hur många tiotal i 62?",
         "options": [
-          "6",
           "8",
           "7",
-          "5"
-        ],
-        "correct": 0,
-        "id": "ma-137",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 62 = 6 tiotal och 2 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 62 = 6 tiotal och 2 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 19?",
-        "options": [
-          "1",
-          "2",
-          "0",
-          "3"
-        ],
-        "correct": 0,
-        "id": "ma-138",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 19 = 1 tiotal och 9 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 19 = 1 tiotal och 9 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Vilket tal är störst?",
-        "options": [
-          "31",
-          "30",
-          "32",
-          "55"
+          "5",
+          "6"
         ],
         "correct": 3,
-        "id": "ma-139",
-        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
-        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
+        "id": "ma-082",
+        "hint": "🎯 Dela upp i tiotal/ental:\n• 62 = 6 tiotal och 2 ental.",
+        "explain": "🎯 Dela upp i tiotal/ental:\n• 62 = 6 tiotal och 2 ental."
       },
       {
         "area": "taluppfattning",
         "q": "Vilket tal är störst?",
         "options": [
-          "56",
+          "50",
           "52",
-          "53",
-          "54"
-        ],
-        "correct": 0,
-        "id": "ma-140",
-        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
-        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Vilket tal är störst?",
-        "options": [
-          "32",
-          "35",
-          "34",
-          "33"
-        ],
-        "correct": 1,
-        "id": "ma-141",
-        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
-        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 74?",
-        "options": [
-          "9",
-          "8",
-          "7",
-          "6"
+          "56",
+          "51"
         ],
         "correct": 2,
-        "id": "ma-142",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 74 = 7 tiotal och 4 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 74 = 7 tiotal och 4 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 47?",
-        "options": [
-          "5",
-          "3",
-          "4",
-          "6"
-        ],
-        "correct": 2,
-        "id": "ma-143",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 47 = 4 tiotal och 7 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 47 = 4 tiotal och 7 ental."
+        "id": "ma-083",
+        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
+        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
       },
       {
         "area": "taluppfattning",
         "q": "Hur många tiotal i 44?",
         "options": [
           "3",
-          "5",
           "6",
-          "4"
+          "4",
+          "5"
         ],
-        "correct": 3,
-        "id": "ma-144",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 44 = 4 tiotal och 4 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 44 = 4 tiotal och 4 ental."
+        "correct": 2,
+        "id": "ma-084",
+        "hint": "🎯 Dela upp i tiotal/ental:\n• 44 = 4 tiotal och 4 ental.",
+        "explain": "🎯 Dela upp i tiotal/ental:\n• 44 = 4 tiotal och 4 ental."
       },
       {
         "area": "taluppfattning",
-        "q": "Hur många tiotal i 16?",
-        "options": [
-          "3",
-          "2",
-          "0",
-          "1"
-        ],
-        "correct": 3,
-        "id": "ma-145",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 16 = 1 tiotal och 6 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 16 = 1 tiotal och 6 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Vilket tal är störst?",
-        "options": [
-          "38",
-          "59",
-          "40",
-          "39"
-        ],
-        "correct": 1,
-        "id": "ma-146",
-        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
-        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 93?",
+        "q": "Hur många tiotal i 87?",
         "options": [
           "10",
           "8",
-          "11",
+          "7",
           "9"
         ],
-        "correct": 3,
-        "id": "ma-147",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 93 = 9 tiotal och 3 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 93 = 9 tiotal och 3 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Vilket tal är störst?",
-        "options": [
-          "30",
-          "47",
-          "31",
-          "32"
-        ],
         "correct": 1,
-        "id": "ma-148",
-        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
-        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 21?",
-        "options": [
-          "1",
-          "4",
-          "2",
-          "3"
-        ],
-        "correct": 2,
-        "id": "ma-149",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 21 = 2 tiotal och 1 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 21 = 2 tiotal och 1 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 79?",
-        "options": [
-          "8",
-          "9",
-          "7",
-          "6"
-        ],
-        "correct": 2,
-        "id": "ma-150",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 79 = 7 tiotal och 9 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 79 = 7 tiotal och 9 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 26?",
-        "options": [
-          "3",
-          "4",
-          "2",
-          "1"
-        ],
-        "correct": 2,
-        "id": "ma-151",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 26 = 2 tiotal och 6 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 26 = 2 tiotal och 6 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 92?",
-        "options": [
-          "8",
-          "9",
-          "11",
-          "10"
-        ],
-        "correct": 1,
-        "id": "ma-152",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 92 = 9 tiotal och 2 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 92 = 9 tiotal och 2 ental."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Hur många tiotal i 95?",
-        "options": [
-          "9",
-          "8",
-          "11",
-          "10"
-        ],
-        "correct": 0,
-        "id": "ma-153",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 95 = 9 tiotal och 5 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 95 = 9 tiotal och 5 ental."
+        "id": "ma-085",
+        "hint": "🎯 Dela upp i tiotal/ental:\n• 87 = 8 tiotal och 7 ental.",
+        "explain": "🎯 Dela upp i tiotal/ental:\n• 87 = 8 tiotal och 7 ental."
       },
       {
         "area": "taluppfattning",
         "q": "Vilket tal är störst?",
         "options": [
           "37",
-          "30",
-          "32",
-          "31"
-        ],
-        "correct": 0,
-        "id": "ma-154",
-        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
-        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
-      },
-      {
-        "area": "taluppfattning",
-        "q": "Vilket tal är störst?",
-        "options": [
-          "47",
-          "45",
-          "46",
-          "50"
+          "35",
+          "36",
+          "38"
         ],
         "correct": 3,
-        "id": "ma-155",
+        "id": "ma-086",
         "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
         "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
       },
       {
         "area": "taluppfattning",
-        "q": "Hur många tiotal i 79?",
-        "options": [
-          "6",
-          "7",
-          "8",
-          "9"
-        ],
-        "correct": 1,
-        "id": "ma-156",
-        "hint": "🎯 Dela upp i tiotal och ental:\n• 79 = 7 tiotal och 9 ental.",
-        "explain": "🎯 Dela upp i tiotal och ental:\n• 79 = 7 tiotal och 9 ental."
-      },
-      {
-        "area": "taluppfattning",
         "q": "Vilket tal är störst?",
         "options": [
-          "52",
           "55",
-          "53",
-          "54"
+          "47",
+          "48",
+          "46"
         ],
-        "correct": 3,
-        "id": "ma-157",
+        "correct": 0,
+        "id": "ma-087",
         "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
         "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
       },
       {
-        "area": "geometri",
-        "q": "Vilken figur har alla sidor lika långa?",
+        "area": "taluppfattning",
+        "q": "Vilket tal är störst?",
         "options": [
-          "Romb",
-          "Triangel",
-          "Kvadrat",
-          "Rektangel"
-        ],
-        "correct": 2,
-        "id": "ma-158",
-        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
-        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
-      },
-      {
-        "area": "geometri",
-        "q": "Vilken figur har alla sidor lika långa?",
-        "options": [
-          "Rektangel",
-          "Triangel",
-          "Romb",
-          "Kvadrat"
-        ],
-        "correct": 3,
-        "id": "ma-159",
-        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
-        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
-      },
-      {
-        "area": "geometri",
-        "q": "Vilken figur har alla sidor lika långa?",
-        "options": [
-          "Kvadrat",
-          "Rektangel",
-          "Triangel",
-          "Romb"
-        ],
-        "correct": 0,
-        "id": "ma-160",
-        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
-        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
-      },
-      {
-        "area": "geometri",
-        "q": "Hur många hörn har en kvadrat?",
-        "options": [
-          "2",
-          "5",
-          "4",
-          "3"
-        ],
-        "correct": 2,
-        "id": "ma-161",
-        "hint": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor.",
-        "explain": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor."
-      },
-      {
-        "area": "geometri",
-        "q": "Vilken figur har alla sidor lika långa?",
-        "options": [
-          "Rektangel",
-          "Kvadrat",
-          "Triangel",
-          "Romb"
+          "39",
+          "59",
+          "41",
+          "40"
         ],
         "correct": 1,
-        "id": "ma-162",
-        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
-        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
+        "id": "ma-088",
+        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
+        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
       },
       {
-        "area": "geometri",
-        "q": "Vilken figur har alla sidor lika långa?",
+        "area": "taluppfattning",
+        "q": "Vilket tal är störst?",
         "options": [
-          "Triangel",
-          "Rektangel",
-          "Kvadrat",
-          "Romb"
+          "51",
+          "44",
+          "42",
+          "43"
         ],
-        "correct": 2,
-        "id": "ma-163",
-        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
-        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
+        "correct": 0,
+        "id": "ma-089",
+        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
+        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
       },
       {
-        "area": "geometri",
-        "q": "Hur många hörn har en kvadrat?",
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 81?",
         "options": [
-          "5",
-          "2",
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "correct": 0,
+        "id": "ma-090",
+        "hint": "🎯 Dela upp i tiotal/ental:\n• 81 = 8 tiotal och 1 ental.",
+        "explain": "🎯 Dela upp i tiotal/ental:\n• 81 = 8 tiotal och 1 ental."
+      },
+      {
+        "area": "taluppfattning",
+        "q": "Vilket tal är störst?",
+        "options": [
+          "36",
+          "49",
+          "34",
+          "35"
+        ],
+        "correct": 1,
+        "id": "ma-091",
+        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
+        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
+      },
+      {
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 49?",
+        "options": [
           "4",
-          "3"
-        ],
-        "correct": 2,
-        "id": "ma-164",
-        "hint": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor.",
-        "explain": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor."
-      },
-      {
-        "area": "geometri",
-        "q": "Hur många hörn har en kvadrat?",
-        "options": [
           "3",
+          "5",
+          "6"
+        ],
+        "correct": 0,
+        "id": "ma-092",
+        "hint": "🎯 Dela upp i tiotal/ental:\n• 49 = 4 tiotal och 9 ental.",
+        "explain": "🎯 Dela upp i tiotal/ental:\n• 49 = 4 tiotal och 9 ental."
+      },
+      {
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 70?",
+        "options": [
+          "7",
+          "9",
+          "8",
+          "6"
+        ],
+        "correct": 0,
+        "id": "ma-093",
+        "hint": "🎯 Dela upp i tiotal/ental:\n• 70 = 7 tiotal och 0 ental.",
+        "explain": "🎯 Dela upp i tiotal/ental:\n• 70 = 7 tiotal och 0 ental."
+      },
+      {
+        "area": "taluppfattning",
+        "q": "Vilket tal är störst?",
+        "options": [
+          "38",
+          "40",
+          "46",
+          "39"
+        ],
+        "correct": 2,
+        "id": "ma-094",
+        "hint": "🎯 Jämför först tiotalen. Om lika – jämför entalen.",
+        "explain": "🎯 Jämför först tiotalen. Om lika – jämför entalen."
+      },
+      {
+        "area": "taluppfattning",
+        "q": "Hur många tiotal i 97?",
+        "options": [
+          "11",
+          "10",
+          "9",
+          "8"
+        ],
+        "correct": 2,
+        "id": "ma-095",
+        "hint": "🎯 Dela upp i tiotal/ental:\n• 97 = 9 tiotal och 7 ental.",
+        "explain": "🎯 Dela upp i tiotal/ental:\n• 97 = 9 tiotal och 7 ental."
+      },
+      {
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
           "2",
           "4",
+          "3",
           "5"
         ],
-        "correct": 2,
-        "id": "ma-165",
-        "hint": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor.",
-        "explain": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor."
+        "correct": 1,
+        "id": "ma-096",
+        "hint": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor.",
+        "explain": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor."
       },
       {
         "area": "geometri",
         "q": "Hur många hörn har en kvadrat?",
         "options": [
           "4",
-          "3",
           "5",
+          "3",
           "2"
         ],
         "correct": 0,
-        "id": "ma-166",
-        "hint": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor.",
-        "explain": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor."
+        "id": "ma-097",
+        "hint": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor.",
+        "explain": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor."
       },
       {
         "area": "geometri",
-        "q": "Vilken figur har alla sidor lika långa?",
+        "q": "Hur många hörn har en kvadrat?",
         "options": [
-          "Romb",
-          "Rektangel",
-          "Kvadrat",
-          "Triangel"
+          "5",
+          "3",
+          "4",
+          "2"
         ],
         "correct": 2,
-        "id": "ma-167",
-        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
-        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
+        "id": "ma-098",
+        "hint": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor.",
+        "explain": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor."
       },
       {
         "area": "geometri",
         "q": "Vilken figur har alla sidor lika långa?",
         "options": [
-          "Kvadrat",
           "Triangel",
           "Romb",
-          "Rektangel"
+          "Rektangel",
+          "Kvadrat"
         ],
-        "correct": 0,
-        "id": "ma-168",
+        "correct": 3,
+        "id": "ma-099",
+        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
+        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
+      },
+      {
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct": 2,
+        "id": "ma-100",
+        "hint": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor.",
+        "explain": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor."
+      },
+      {
+        "area": "geometri",
+        "q": "Vilken figur har alla sidor lika långa?",
+        "options": [
+          "Triangel",
+          "Romb",
+          "Rektangel",
+          "Kvadrat"
+        ],
+        "correct": 3,
+        "id": "ma-101",
         "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
         "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
       },
@@ -2359,518 +1421,1122 @@
         "q": "Vilken figur har alla sidor lika långa?",
         "options": [
           "Kvadrat",
+          "Romb",
           "Rektangel",
+          "Triangel"
+        ],
+        "correct": 0,
+        "id": "ma-102",
+        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
+        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
+      },
+      {
+        "area": "geometri",
+        "q": "Vilken figur har alla sidor lika långa?",
+        "options": [
+          "Triangel",
+          "Rektangel",
+          "Kvadrat",
+          "Romb"
+        ],
+        "correct": 2,
+        "id": "ma-103",
+        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
+        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
+      },
+      {
+        "area": "geometri",
+        "q": "Hur många hörn har en kvadrat?",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "2"
+        ],
+        "correct": 0,
+        "id": "ma-104",
+        "hint": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor.",
+        "explain": "🎯 Räkna hörn. Kvadrat har 4 hörn och 4 lika sidor."
+      },
+      {
+        "area": "geometri",
+        "q": "Vilken figur har alla sidor lika långa?",
+        "options": [
+          "Rektangel",
+          "Kvadrat",
           "Triangel",
           "Romb"
         ],
-        "correct": 0,
-        "id": "ma-169",
+        "correct": 1,
+        "id": "ma-105",
         "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
         "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
       },
       {
-        "area": "geometri",
-        "q": "Hur många hörn har en kvadrat?",
-        "options": [
-          "2",
-          "4",
-          "3",
-          "5"
-        ],
-        "correct": 1,
-        "id": "ma-170",
-        "hint": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor.",
-        "explain": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor."
-      },
-      {
-        "area": "geometri",
-        "q": "Vilken figur har alla sidor lika långa?",
-        "options": [
-          "Rektangel",
-          "Kvadrat",
-          "Romb",
-          "Triangel"
-        ],
-        "correct": 1,
-        "id": "ma-171",
-        "hint": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa.",
-        "explain": "🎯 Titta på antal sidor/hörn och om sidorna är lika långa."
-      },
-      {
-        "area": "geometri",
-        "q": "Hur många hörn har en kvadrat?",
-        "options": [
-          "4",
-          "2",
-          "3",
-          "5"
-        ],
-        "correct": 0,
-        "id": "ma-172",
-        "hint": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor.",
-        "explain": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor."
-      },
-      {
-        "area": "geometri",
-        "q": "Hur många hörn har en kvadrat?",
-        "options": [
-          "2",
-          "5",
-          "4",
-          "3"
-        ],
-        "correct": 2,
-        "id": "ma-173",
-        "hint": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor.",
-        "explain": "🎯 Räkna hörnen ett i taget. Kvadrat har 4 hörn och 4 lika sidor."
-      },
-      {
-        "area": "klockan",
-        "q": "Halv tre i digital tid:",
-        "options": [
-          "02:30",
-          "14:30",
-          "03:30",
-          "15:30"
-        ],
-        "correct": 0,
-        "id": "ma-174",
-        "hint": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30).",
-        "explain": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30)."
-      },
-      {
         "area": "klockan",
         "q": "Halv tre i digital tid:",
         "options": [
           "14:30",
-          "02:30",
           "03:30",
-          "15:30"
-        ],
-        "correct": 1,
-        "id": "ma-175",
-        "hint": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30).",
-        "explain": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30)."
-      },
-      {
-        "area": "klockan",
-        "q": "Kvart i fem i digital tid:",
-        "options": [
-          "16:45",
-          "17:15",
-          "17:45",
-          "05:15"
-        ],
-        "correct": 0,
-        "id": "ma-176",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
-      },
-      {
-        "area": "klockan",
-        "q": "Kvart i fem i digital tid:",
-        "options": [
-          "17:45",
-          "17:15",
-          "05:15",
-          "16:45"
-        ],
-        "correct": 3,
-        "id": "ma-177",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
-      },
-      {
-        "area": "klockan",
-        "q": "Halv tre i digital tid:",
-        "options": [
-          "02:30",
-          "03:30",
-          "14:30",
-          "15:30"
-        ],
-        "correct": 0,
-        "id": "ma-178",
-        "hint": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30).",
-        "explain": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30)."
-      },
-      {
-        "area": "klockan",
-        "q": "Kvart i fem i digital tid:",
-        "options": [
-          "05:15",
-          "17:45",
-          "17:15",
-          "16:45"
-        ],
-        "correct": 3,
-        "id": "ma-179",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
-      },
-      {
-        "area": "klockan",
-        "q": "Halv tre i digital tid:",
-        "options": [
-          "02:30",
-          "03:30",
-          "15:30",
-          "14:30"
-        ],
-        "correct": 0,
-        "id": "ma-180",
-        "hint": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30).",
-        "explain": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30)."
-      },
-      {
-        "area": "klockan",
-        "q": "Kvart i fem i digital tid:",
-        "options": [
-          "16:45",
-          "17:45",
-          "05:15",
-          "17:15"
-        ],
-        "correct": 0,
-        "id": "ma-181",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
-      },
-      {
-        "area": "klockan",
-        "q": "Halv tre i digital tid:",
-        "options": [
-          "02:30",
-          "03:30",
-          "15:30",
-          "14:30"
-        ],
-        "correct": 0,
-        "id": "ma-182",
-        "hint": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30).",
-        "explain": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30)."
-      },
-      {
-        "area": "klockan",
-        "q": "Kvart i fem i digital tid:",
-        "options": [
-          "17:45",
-          "17:15",
-          "16:45",
-          "05:15"
-        ],
-        "correct": 2,
-        "id": "ma-183",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
-      },
-      {
-        "area": "klockan",
-        "q": "Halv tre i digital tid:",
-        "options": [
-          "14:30",
-          "02:30",
-          "15:30",
-          "03:30"
-        ],
-        "correct": 1,
-        "id": "ma-184",
-        "hint": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30).",
-        "explain": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30)."
-      },
-      {
-        "area": "klockan",
-        "q": "Kvart i fem i digital tid:",
-        "options": [
-          "17:15",
-          "16:45",
-          "17:45",
-          "05:15"
-        ],
-        "correct": 1,
-        "id": "ma-185",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
-      },
-      {
-        "area": "klockan",
-        "q": "Kvart i fem i digital tid:",
-        "options": [
-          "05:15",
-          "16:45",
-          "17:45",
-          "17:15"
-        ],
-        "correct": 1,
-        "id": "ma-186",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
-      },
-      {
-        "area": "klockan",
-        "q": "Halv tre i digital tid:",
-        "options": [
-          "03:30",
-          "14:30",
           "15:30",
           "02:30"
         ],
         "correct": 3,
-        "id": "ma-187",
-        "hint": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30).",
-        "explain": "🎯 “Halv tre” = 30 min innan tre → klockan har passerat två: …:30 (02:30/14:30)."
+        "id": "ma-106",
+        "hint": "🎯 “Halv tre” = 30 min innan tre → …:30.",
+        "explain": "🎯 “Halv tre” = 30 min innan tre → …:30."
+      },
+      {
+        "area": "klockan",
+        "q": "Halv tre i digital tid:",
+        "options": [
+          "14:30",
+          "02:30",
+          "03:30",
+          "15:30"
+        ],
+        "correct": 1,
+        "id": "ma-107",
+        "hint": "🎯 “Halv tre” = 30 min innan tre → …:30.",
+        "explain": "🎯 “Halv tre” = 30 min innan tre → …:30."
+      },
+      {
+        "area": "klockan",
+        "q": "Halv tre i digital tid:",
+        "options": [
+          "15:30",
+          "02:30",
+          "14:30",
+          "03:30"
+        ],
+        "correct": 1,
+        "id": "ma-108",
+        "hint": "🎯 “Halv tre” = 30 min innan tre → …:30.",
+        "explain": "🎯 “Halv tre” = 30 min innan tre → …:30."
       },
       {
         "area": "klockan",
         "q": "Kvart i fem i digital tid:",
         "options": [
           "17:45",
-          "16:45",
           "17:15",
-          "05:15"
+          "05:15",
+          "16:45"
+        ],
+        "correct": 3,
+        "id": "ma-109",
+        "hint": "🎯 Kvart = 15 min. 'Kvart över X'=X:15, 'Kvart i X'=(X−1):45.",
+        "explain": "🎯 Kvart = 15 min. 'Kvart över X'=X:15, 'Kvart i X'=(X−1):45."
+      },
+      {
+        "area": "klockan",
+        "q": "Halv tre i digital tid:",
+        "options": [
+          "15:30",
+          "02:30",
+          "03:30",
+          "14:30"
         ],
         "correct": 1,
-        "id": "ma-188",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
+        "id": "ma-110",
+        "hint": "🎯 “Halv tre” = 30 min innan tre → …:30.",
+        "explain": "🎯 “Halv tre” = 30 min innan tre → …:30."
+      },
+      {
+        "area": "klockan",
+        "q": "Halv tre i digital tid:",
+        "options": [
+          "15:30",
+          "02:30",
+          "03:30",
+          "14:30"
+        ],
+        "correct": 1,
+        "id": "ma-111",
+        "hint": "🎯 “Halv tre” = 30 min innan tre → …:30.",
+        "explain": "🎯 “Halv tre” = 30 min innan tre → …:30."
       },
       {
         "area": "klockan",
         "q": "Kvart i fem i digital tid:",
         "options": [
           "17:15",
-          "05:15",
           "16:45",
+          "05:15",
           "17:45"
         ],
+        "correct": 1,
+        "id": "ma-112",
+        "hint": "🎯 Kvart = 15 min. 'Kvart över X'=X:15, 'Kvart i X'=(X−1):45.",
+        "explain": "🎯 Kvart = 15 min. 'Kvart över X'=X:15, 'Kvart i X'=(X−1):45."
+      },
+      {
+        "area": "klockan",
+        "q": "Kvart i fem i digital tid:",
+        "options": [
+          "16:45",
+          "17:45",
+          "05:15",
+          "17:15"
+        ],
+        "correct": 0,
+        "id": "ma-113",
+        "hint": "🎯 Kvart = 15 min. 'Kvart över X'=X:15, 'Kvart i X'=(X−1):45.",
+        "explain": "🎯 Kvart = 15 min. 'Kvart över X'=X:15, 'Kvart i X'=(X−1):45."
+      },
+      {
+        "area": "klockan",
+        "q": "Kvart i fem i digital tid:",
+        "options": [
+          "17:15",
+          "16:45",
+          "17:45",
+          "05:15"
+        ],
+        "correct": 1,
+        "id": "ma-114",
+        "hint": "🎯 Kvart = 15 min. 'Kvart över X'=X:15, 'Kvart i X'=(X−1):45.",
+        "explain": "🎯 Kvart = 15 min. 'Kvart över X'=X:15, 'Kvart i X'=(X−1):45."
+      },
+      {
+        "area": "klockan",
+        "q": "Halv tre i digital tid:",
+        "options": [
+          "15:30",
+          "03:30",
+          "02:30",
+          "14:30"
+        ],
         "correct": 2,
-        "id": "ma-189",
-        "hint": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45.",
-        "explain": "🎯 Kvart = 15 min. “Kvart över X” = X:15, “kvart i X” = (X−1):45."
-      },
-      {
-        "area": "mätning",
-        "q": "1 kg = ___ g",
-        "options": [
-          "1000",
-          "100",
-          "10",
-          "500"
-        ],
-        "correct": 0,
-        "id": "ma-190",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "id": "ma-115",
+        "hint": "🎯 “Halv tre” = 30 min innan tre → …:30.",
+        "explain": "🎯 “Halv tre” = 30 min innan tre → …:30."
       },
       {
         "area": "mätning",
         "q": "1 meter = ___ cm",
         "options": [
-          "100",
-          "1000",
-          "50",
-          "10"
-        ],
-        "correct": 0,
-        "id": "ma-191",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
-      },
-      {
-        "area": "mätning",
-        "q": "1 kg = ___ g",
-        "options": [
-          "1000",
           "10",
-          "500",
-          "100"
-        ],
-        "correct": 0,
-        "id": "ma-192",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
-      },
-      {
-        "area": "mätning",
-        "q": "1 kg = ___ g",
-        "options": [
-          "10",
-          "1000",
-          "500",
-          "100"
-        ],
-        "correct": 1,
-        "id": "ma-193",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
-      },
-      {
-        "area": "mätning",
-        "q": "1 kg = ___ g",
-        "options": [
-          "500",
-          "1000",
           "100",
-          "10"
-        ],
-        "correct": 1,
-        "id": "ma-194",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
-      },
-      {
-        "area": "mätning",
-        "q": "1 meter = ___ cm",
-        "options": [
-          "100",
-          "10",
           "50",
           "1000"
         ],
-        "correct": 0,
-        "id": "ma-195",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
-      },
-      {
-        "area": "mätning",
-        "q": "1 meter = ___ cm",
-        "options": [
-          "50",
-          "10",
-          "100",
-          "1000"
-        ],
-        "correct": 2,
-        "id": "ma-196",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "correct": 1,
+        "id": "ma-116",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
       },
       {
         "area": "mätning",
         "q": "1 kg = ___ g",
         "options": [
-          "100",
-          "10",
+          "500",
           "1000",
-          "500"
+          "10",
+          "100"
         ],
-        "correct": 2,
-        "id": "ma-197",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "correct": 1,
+        "id": "ma-117",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
       },
       {
         "area": "mätning",
         "q": "1 kg = ___ g",
         "options": [
+          "10",
           "100",
           "500",
-          "10",
           "1000"
         ],
         "correct": 3,
-        "id": "ma-198",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "id": "ma-118",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
       },
       {
         "area": "mätning",
-        "q": "1 kg = ___ g",
+        "q": "1 meter = ___ cm",
         "options": [
-          "1000",
-          "100",
-          "500",
-          "10"
-        ],
-        "correct": 0,
-        "id": "ma-199",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
-      },
-      {
-        "area": "mätning",
-        "q": "1 kg = ___ g",
-        "options": [
-          "1000",
-          "100",
           "10",
-          "500"
+          "50",
+          "100",
+          "1000"
         ],
-        "correct": 0,
-        "id": "ma-200",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "correct": 2,
+        "id": "ma-119",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
+      },
+      {
+        "area": "mätning",
+        "q": "1 meter = ___ cm",
+        "options": [
+          "1000",
+          "10",
+          "100",
+          "50"
+        ],
+        "correct": 2,
+        "id": "ma-120",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
       },
       {
         "area": "mätning",
         "q": "1 meter = ___ cm",
         "options": [
           "100",
-          "1000",
           "50",
-          "10"
+          "10",
+          "1000"
         ],
         "correct": 0,
-        "id": "ma-201",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "id": "ma-121",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
       },
       {
         "area": "mätning",
-        "q": "1 kg = ___ g",
+        "q": "1 meter = ___ cm",
         "options": [
-          "10",
+          "50",
           "1000",
-          "500",
+          "10",
           "100"
         ],
-        "correct": 1,
-        "id": "ma-202",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "correct": 3,
+        "id": "ma-122",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
       },
       {
         "area": "mätning",
         "q": "1 kg = ___ g",
         "options": [
-          "500",
           "10",
+          "500",
           "100",
           "1000"
         ],
         "correct": 3,
-        "id": "ma-203",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "id": "ma-123",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
+      },
+      {
+        "area": "mätning",
+        "q": "1 kg = ___ g",
+        "options": [
+          "100",
+          "10",
+          "500",
+          "1000"
+        ],
+        "correct": 3,
+        "id": "ma-124",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
       },
       {
         "area": "mätning",
         "q": "1 meter = ___ cm",
         "options": [
           "10",
-          "50",
           "1000",
+          "50",
           "100"
         ],
         "correct": 3,
-        "id": "ma-204",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "id": "ma-125",
+        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g.",
+        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g."
       },
       {
-        "area": "mätning",
-        "q": "1 kg = ___ g",
-        "options": [
-          "1000",
-          "10",
-          "100",
-          "500"
+        "topic": "matematik",
+        "area": "tabell-diagram",
+        "type": "table-fill",
+        "q": "Fyll i de tomma rutorna.",
+        "table": {
+          "headers": [
+            "Första",
+            "Andra",
+            "Tredje"
+          ],
+          "rows": [
+            {
+              "key": "Gabriel",
+              "cells": [
+                "109",
+                "113",
+                ""
+              ]
+            },
+            {
+              "key": "Sara",
+              "cells": [
+                "106",
+                "112",
+                ""
+              ]
+            },
+            {
+              "key": "Maja",
+              "cells": [
+                "",
+                "",
+                "118"
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "Gabriel|Tredje": "117",
+          "Sara|Tredje": "117",
+          "Maja|Andra": "113",
+          "Maja|Första": "106"
+        },
+        "hint": "Jämför inom samma rad. Leta efter jämna steg mellan försöken.",
+        "explain": "Titta rad för rad. Skillnaderna är små och relativt jämna mellan försöken.",
+        "difficulty": "np",
+        "id": "ma-126"
+      },
+      {
+        "topic": "matematik",
+        "area": "tabell-diagram",
+        "type": "table-fill",
+        "q": "Fyll i de tomma rutorna.",
+        "table": {
+          "headers": [
+            "Första",
+            "Andra",
+            "Tredje"
+          ],
+          "rows": [
+            {
+              "key": "Vera",
+              "cells": [
+                "103",
+                "",
+                "113"
+              ]
+            },
+            {
+              "key": "Omar",
+              "cells": [
+                "116",
+                "",
+                ""
+              ]
+            },
+            {
+              "key": "Gabriel",
+              "cells": [
+                "",
+                "130",
+                "133"
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "Vera|Andra": "108",
+          "Omar|Andra": "123",
+          "Gabriel|Första": "122",
+          "Omar|Tredje": "126"
+        },
+        "hint": "Jämför inom samma rad. Leta efter jämna steg mellan försöken.",
+        "explain": "Titta rad för rad. Skillnaderna är små och relativt jämna mellan försöken.",
+        "difficulty": "np",
+        "id": "ma-127"
+      },
+      {
+        "topic": "matematik",
+        "area": "tabell-diagram",
+        "type": "table-fill",
+        "q": "Fyll i de tomma rutorna.",
+        "table": {
+          "headers": [
+            "Första",
+            "Andra",
+            "Tredje"
+          ],
+          "rows": [
+            {
+              "key": "Maja",
+              "cells": [
+                "",
+                "129",
+                "135"
+              ]
+            },
+            {
+              "key": "Gabriel",
+              "cells": [
+                "120",
+                "",
+                "131"
+              ]
+            },
+            {
+              "key": "Sara",
+              "cells": [
+                "117",
+                "125",
+                ""
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "Maja|Första": "124",
+          "Gabriel|Andra": "127",
+          "Sara|Tredje": "131"
+        },
+        "hint": "Jämför inom samma rad. Leta efter jämna steg mellan försöken.",
+        "explain": "Titta rad för rad. Skillnaderna är små och relativt jämna mellan försöken.",
+        "difficulty": "np",
+        "id": "ma-128"
+      },
+      {
+        "topic": "matematik",
+        "area": "tabell-diagram",
+        "type": "table-fill",
+        "q": "Fyll i de tomma rutorna.",
+        "table": {
+          "headers": [
+            "Första",
+            "Andra",
+            "Tredje"
+          ],
+          "rows": [
+            {
+              "key": "Maja",
+              "cells": [
+                "",
+                "169",
+                "174"
+              ]
+            },
+            {
+              "key": "Ahmed",
+              "cells": [
+                "",
+                "166",
+                "171"
+              ]
+            },
+            {
+              "key": "Vera",
+              "cells": [
+                "",
+                "169",
+                "176"
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "Maja|Första": "165",
+          "Ahmed|Första": "161",
+          "Vera|Första": "160"
+        },
+        "hint": "Jämför inom samma rad. Leta efter jämna steg mellan försöken.",
+        "explain": "Titta rad för rad. Skillnaderna är små och relativt jämna mellan försöken.",
+        "difficulty": "np",
+        "id": "ma-129"
+      },
+      {
+        "topic": "matematik",
+        "area": "tabell-diagram",
+        "type": "table-fill",
+        "q": "Fyll i de tomma rutorna.",
+        "table": {
+          "headers": [
+            "Första",
+            "Andra",
+            "Tredje"
+          ],
+          "rows": [
+            {
+              "key": "Maja",
+              "cells": [
+                "161",
+                "167",
+                ""
+              ]
+            },
+            {
+              "key": "Omar",
+              "cells": [
+                "158",
+                "",
+                "172"
+              ]
+            },
+            {
+              "key": "Gabriel",
+              "cells": [
+                "160",
+                "",
+                "177"
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "Maja|Tredje": "170",
+          "Omar|Andra": "166",
+          "Gabriel|Andra": "169"
+        },
+        "hint": "Jämför inom samma rad. Leta efter jämna steg mellan försöken.",
+        "explain": "Titta rad för rad. Skillnaderna är små och relativt jämna mellan försöken.",
+        "difficulty": "np",
+        "id": "ma-130"
+      },
+      {
+        "topic": "matematik",
+        "area": "tabell-diagram",
+        "type": "table-fill",
+        "q": "Fyll i de tomma rutorna.",
+        "table": {
+          "headers": [
+            "Första",
+            "Andra",
+            "Tredje"
+          ],
+          "rows": [
+            {
+              "key": "Ahmed",
+              "cells": [
+                "",
+                "146",
+                "150"
+              ]
+            },
+            {
+              "key": "Maja",
+              "cells": [
+                "137",
+                "143",
+                ""
+              ]
+            },
+            {
+              "key": "Sara",
+              "cells": [
+                "139",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "Ahmed|Första": "141",
+          "Maja|Tredje": "148",
+          "Sara|Andra": "147",
+          "Sara|Tredje": "151"
+        },
+        "hint": "Jämför inom samma rad. Leta efter jämna steg mellan försöken.",
+        "explain": "Titta rad för rad. Skillnaderna är små och relativt jämna mellan försöken.",
+        "difficulty": "np",
+        "id": "ma-131"
+      },
+      {
+        "topic": "matematik",
+        "area": "tabell-diagram",
+        "type": "table-fill",
+        "q": "Fyll i de tomma rutorna.",
+        "table": {
+          "headers": [
+            "Första",
+            "Andra",
+            "Tredje"
+          ],
+          "rows": [
+            {
+              "key": "Omar",
+              "cells": [
+                "",
+                "120",
+                ""
+              ]
+            },
+            {
+              "key": "Ahmed",
+              "cells": [
+                "118",
+                "123",
+                ""
+              ]
+            },
+            {
+              "key": "Vera",
+              "cells": [
+                "118",
+                "",
+                "135"
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "Omar|Första": "116",
+          "Ahmed|Tredje": "126",
+          "Vera|Andra": "127",
+          "Omar|Tredje": "123"
+        },
+        "hint": "Jämför inom samma rad. Leta efter jämna steg mellan försöken.",
+        "explain": "Titta rad för rad. Skillnaderna är små och relativt jämna mellan försöken.",
+        "difficulty": "np",
+        "id": "ma-132"
+      },
+      {
+        "topic": "matematik",
+        "area": "tabell-diagram",
+        "type": "table-fill",
+        "q": "Fyll i de tomma rutorna.",
+        "table": {
+          "headers": [
+            "Första",
+            "Andra",
+            "Tredje"
+          ],
+          "rows": [
+            {
+              "key": "Ahmed",
+              "cells": [
+                "",
+                "154",
+                "157"
+              ]
+            },
+            {
+              "key": "Maja",
+              "cells": [
+                "149",
+                "153",
+                ""
+              ]
+            },
+            {
+              "key": "Omar",
+              "cells": [
+                "147",
+                "",
+                "156"
+              ]
+            }
+          ]
+        },
+        "answers": {
+          "Ahmed|Första": "151",
+          "Maja|Tredje": "159",
+          "Omar|Andra": "152"
+        },
+        "hint": "Jämför inom samma rad. Leta efter jämna steg mellan försöken.",
+        "explain": "Titta rad för rad. Skillnaderna är små och relativt jämna mellan försöken.",
+        "difficulty": "np",
+        "id": "ma-133"
+      },
+      {
+        "topic": "matematik",
+        "area": "diagram",
+        "type": "pie-assign",
+        "q": "Para ihop aktiviteter med andelar i cirkeldiagrammet.",
+        "segments": [
+          {
+            "id": "s1",
+            "percent": 60
+          },
+          {
+            "id": "s2",
+            "percent": 20
+          },
+          {
+            "id": "s3",
+            "percent": 20
+          }
         ],
-        "correct": 0,
-        "id": "ma-205",
-        "hint": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet.",
-        "explain": "🎯 Prefix: 1 m = 100 cm, 1 km = 1000 m, 1 kg = 1000 g. Flytta decimalen enligt prefixet."
+        "labels": [
+          "Cykling",
+          "Längdhopp",
+          "Innebandy"
+        ],
+        "solution": {
+          "s1": "Cykling",
+          "s2": "Längdhopp",
+          "s3": "Innebandy"
+        },
+        "hint": "Hälften = 50%. En fjärdedel = 25%. Titta på vilken bit som är störst/mellan/minst.",
+        "explain": "Största andelen matchar den aktivitet som flest valde osv.",
+        "difficulty": "np",
+        "id": "ma-134"
+      },
+      {
+        "topic": "matematik",
+        "area": "diagram",
+        "type": "pie-assign",
+        "q": "Para ihop aktiviteter med andelar i cirkeldiagrammet.",
+        "segments": [
+          {
+            "id": "s1",
+            "percent": 60
+          },
+          {
+            "id": "s2",
+            "percent": 20
+          },
+          {
+            "id": "s3",
+            "percent": 20
+          }
+        ],
+        "labels": [
+          "Cykling",
+          "Fotboll",
+          "Längdhopp"
+        ],
+        "solution": {
+          "s1": "Cykling",
+          "s2": "Fotboll",
+          "s3": "Längdhopp"
+        },
+        "hint": "Hälften = 50%. En fjärdedel = 25%. Titta på vilken bit som är störst/mellan/minst.",
+        "explain": "Största andelen matchar den aktivitet som flest valde osv.",
+        "difficulty": "np",
+        "id": "ma-135"
+      },
+      {
+        "topic": "matematik",
+        "area": "diagram",
+        "type": "pie-assign",
+        "q": "Para ihop aktiviteter med andelar i cirkeldiagrammet.",
+        "segments": [
+          {
+            "id": "s1",
+            "percent": 20
+          },
+          {
+            "id": "s2",
+            "percent": 30
+          },
+          {
+            "id": "s3",
+            "percent": 50
+          }
+        ],
+        "labels": [
+          "Längdhopp",
+          "Cykling",
+          "Löpning"
+        ],
+        "solution": {
+          "s3": "Längdhopp",
+          "s2": "Cykling",
+          "s1": "Löpning"
+        },
+        "hint": "Hälften = 50%. En fjärdedel = 25%. Titta på vilken bit som är störst/mellan/minst.",
+        "explain": "Största andelen matchar den aktivitet som flest valde osv.",
+        "difficulty": "np",
+        "id": "ma-136"
+      },
+      {
+        "topic": "matematik",
+        "area": "diagram",
+        "type": "pie-assign",
+        "q": "Para ihop aktiviteter med andelar i cirkeldiagrammet.",
+        "segments": [
+          {
+            "id": "s1",
+            "percent": 60
+          },
+          {
+            "id": "s2",
+            "percent": 20
+          },
+          {
+            "id": "s3",
+            "percent": 20
+          }
+        ],
+        "labels": [
+          "Längdhopp",
+          "Dans",
+          "Fotboll"
+        ],
+        "solution": {
+          "s1": "Längdhopp",
+          "s2": "Dans",
+          "s3": "Fotboll"
+        },
+        "hint": "Hälften = 50%. En fjärdedel = 25%. Titta på vilken bit som är störst/mellan/minst.",
+        "explain": "Största andelen matchar den aktivitet som flest valde osv.",
+        "difficulty": "np",
+        "id": "ma-137"
+      },
+      {
+        "topic": "matematik",
+        "area": "diagram",
+        "type": "pie-assign",
+        "q": "Para ihop aktiviteter med andelar i cirkeldiagrammet.",
+        "segments": [
+          {
+            "id": "s1",
+            "percent": 40
+          },
+          {
+            "id": "s2",
+            "percent": 30
+          },
+          {
+            "id": "s3",
+            "percent": 30
+          }
+        ],
+        "labels": [
+          "Fotboll",
+          "Innebandy",
+          "Löpning"
+        ],
+        "solution": {
+          "s1": "Fotboll",
+          "s2": "Innebandy",
+          "s3": "Löpning"
+        },
+        "hint": "Hälften = 50%. En fjärdedel = 25%. Titta på vilken bit som är störst/mellan/minst.",
+        "explain": "Största andelen matchar den aktivitet som flest valde osv.",
+        "difficulty": "np",
+        "id": "ma-138"
+      },
+      {
+        "topic": "matematik",
+        "area": "diagram",
+        "type": "pie-assign",
+        "q": "Para ihop aktiviteter med andelar i cirkeldiagrammet.",
+        "segments": [
+          {
+            "id": "s1",
+            "percent": 50
+          },
+          {
+            "id": "s2",
+            "percent": 25
+          },
+          {
+            "id": "s3",
+            "percent": 25
+          }
+        ],
+        "labels": [
+          "Innebandy",
+          "Fotboll",
+          "Längdhopp"
+        ],
+        "solution": {
+          "s1": "Innebandy",
+          "s2": "Fotboll",
+          "s3": "Längdhopp"
+        },
+        "hint": "Hälften = 50%. En fjärdedel = 25%. Titta på vilken bit som är störst/mellan/minst.",
+        "explain": "Största andelen matchar den aktivitet som flest valde osv.",
+        "difficulty": "np",
+        "id": "ma-139"
+      },
+      {
+        "topic": "matematik",
+        "area": "sannolikhet",
+        "type": "chance-matrix",
+        "q": "Kryssa Sant/Falskt utifrån antalen.",
+        "context": {
+          "gul": 5,
+          "blå": 5,
+          "grön": 2
+        },
+        "statements": [
+          {
+            "text": "Det är lika stor chans att få blå som grön.",
+            "answer": false
+          },
+          {
+            "text": "Det är störst chans att få en gul klubba.",
+            "answer": true
+          },
+          {
+            "text": "Det är minst chans att få en blå klubba.",
+            "answer": false
+          }
+        ],
+        "hint": "Jämför andelar: antal färg / totalt.",
+        "explain": "Totalt 12. Jämför t.ex. gul: 5/12 osv.",
+        "difficulty": "np",
+        "id": "ma-140"
+      },
+      {
+        "topic": "matematik",
+        "area": "sannolikhet",
+        "type": "chance-matrix",
+        "q": "Kryssa Sant/Falskt utifrån antalen.",
+        "context": {
+          "röd": 5,
+          "gul": 3,
+          "grön": 2
+        },
+        "statements": [
+          {
+            "text": "Det är minst chans att få en gul klubba.",
+            "answer": false
+          },
+          {
+            "text": "Det är störst chans att få en röd klubba.",
+            "answer": true
+          },
+          {
+            "text": "Det är större chans att få gul än grön.",
+            "answer": true
+          },
+          {
+            "text": "Det är lika stor chans att få gul som grön.",
+            "answer": false
+          }
+        ],
+        "hint": "Jämför andelar: antal färg / totalt.",
+        "explain": "Totalt 10. Jämför t.ex. röd: 5/10 osv.",
+        "difficulty": "np",
+        "id": "ma-141"
+      },
+      {
+        "topic": "matematik",
+        "area": "sannolikhet",
+        "type": "chance-matrix",
+        "q": "Kryssa Sant/Falskt utifrån antalen.",
+        "context": {
+          "blå": 4,
+          "svart": 3,
+          "röd": 3
+        },
+        "statements": [
+          {
+            "text": "Det är minst chans att få en svart klubba.",
+            "answer": true
+          },
+          {
+            "text": "Det är lika stor chans att få svart som röd.",
+            "answer": true
+          },
+          {
+            "text": "Det är större chans att få svart än röd.",
+            "answer": false
+          },
+          {
+            "text": "Det är störst chans att få en blå klubba.",
+            "answer": true
+          }
+        ],
+        "hint": "Jämför andelar: antal färg / totalt.",
+        "explain": "Totalt 10. Jämför t.ex. blå: 4/10 osv.",
+        "difficulty": "np",
+        "id": "ma-142"
+      },
+      {
+        "topic": "matematik",
+        "area": "sannolikhet",
+        "type": "chance-matrix",
+        "q": "Kryssa Sant/Falskt utifrån antalen.",
+        "context": {
+          "gul": 5,
+          "röd": 4,
+          "svart": 2
+        },
+        "statements": [
+          {
+            "text": "Det är störst chans att få en gul klubba.",
+            "answer": true
+          },
+          {
+            "text": "Det är lika stor chans att få röd som svart.",
+            "answer": false
+          },
+          {
+            "text": "Det är minst chans att få en röd klubba.",
+            "answer": false
+          },
+          {
+            "text": "Det är större chans att få röd än svart.",
+            "answer": true
+          }
+        ],
+        "hint": "Jämför andelar: antal färg / totalt.",
+        "explain": "Totalt 11. Jämför t.ex. gul: 5/11 osv.",
+        "difficulty": "np",
+        "id": "ma-143"
+      },
+      {
+        "topic": "matematik",
+        "area": "sannolikhet",
+        "type": "chance-matrix",
+        "q": "Kryssa Sant/Falskt utifrån antalen.",
+        "context": {
+          "blå": 4,
+          "gul": 4,
+          "svart": 2
+        },
+        "statements": [
+          {
+            "text": "Det är minst chans att få en gul klubba.",
+            "answer": false
+          },
+          {
+            "text": "Det är lika stor chans att få gul som svart.",
+            "answer": false
+          },
+          {
+            "text": "Det är större chans att få gul än svart.",
+            "answer": true
+          },
+          {
+            "text": "Det är störst chans att få en blå klubba.",
+            "answer": true
+          }
+        ],
+        "hint": "Jämför andelar: antal färg / totalt.",
+        "explain": "Totalt 10. Jämför t.ex. blå: 4/10 osv.",
+        "difficulty": "np",
+        "id": "ma-144"
+      },
+      {
+        "topic": "matematik",
+        "area": "sannolikhet",
+        "type": "chance-matrix",
+        "q": "Kryssa Sant/Falskt utifrån antalen.",
+        "context": {
+          "gul": 5,
+          "blå": 5,
+          "grön": 4
+        },
+        "statements": [
+          {
+            "text": "Det är störst chans att få en gul klubba.",
+            "answer": true
+          },
+          {
+            "text": "Det är större chans att få blå än grön.",
+            "answer": true
+          },
+          {
+            "text": "Det är lika stor chans att få blå som grön.",
+            "answer": false
+          },
+          {
+            "text": "Det är minst chans att få en blå klubba.",
+            "answer": false
+          }
+        ],
+        "hint": "Jämför andelar: antal färg / totalt.",
+        "explain": "Totalt 14. Jämför t.ex. gul: 5/14 osv.",
+        "difficulty": "np",
+        "id": "ma-145"
       }
     ]
   }
