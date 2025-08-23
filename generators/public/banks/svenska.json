@@ -1,0 +1,2672 @@
+{
+  "bankVersion": "1.0",
+  "svenska": {
+    "items": [
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sjorta",
+          "skjorta",
+          "scjorta",
+          "skjortaa"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-001",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "genaste",
+          "genasta",
+          "jennast",
+          "genast"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-002",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'glad'?",
+        "options": [
+          "trött",
+          "lycklig",
+          "ledsen",
+          "arg"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-003",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "jennast",
+          "genaste",
+          "genast",
+          "genasta"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-004",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'lång'?",
+        "options": [
+          "snabb",
+          "mjuk",
+          "kort",
+          "tyst"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-005",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skjortaa",
+          "skjorta",
+          "sjorta",
+          "scjorta"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-006",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "skog",
+          "bakom",
+          "katt",
+          "varm"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-007",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "känna",
+          "cänna",
+          "kenna",
+          "kjänna"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-008",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skeda",
+          "ked",
+          "sced",
+          "sked"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-009",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "äter",
+          "på",
+          "springer",
+          "blå"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-010",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "snabb",
+          "bakom",
+          "boll",
+          "Lisa"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-011",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "ked",
+          "sced",
+          "sked",
+          "skeda"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-012",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sjoklad",
+          "choclad",
+          "choklad",
+          "choklada"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-013",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "på",
+          "Lisa",
+          "glad",
+          "röd"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-014",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'glad'?",
+        "options": [
+          "lycklig",
+          "ledsen",
+          "arg",
+          "trött"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-015",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'snabb'?",
+        "options": [
+          "långsam",
+          "kvick",
+          "mjuk",
+          "tyst"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-016",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "hon",
+          "äter",
+          "under",
+          "bord"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-017",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "fisk",
+          "skriver",
+          "den",
+          "cykel"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-018",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'vacker'?",
+        "options": [
+          "ful",
+          "högljudd",
+          "fin",
+          "snäll"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-019",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'kall'?",
+        "options": [
+          "varm",
+          "frusen",
+          "ljus",
+          "torr"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-020",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "fisk",
+          "glad",
+          "bakom",
+          "ritar"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-021",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "mjuk",
+          "simmar",
+          "katt",
+          "mellan"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-022",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "vid",
+          "lång",
+          "hund",
+          "stor"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-023",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'rätt'?",
+        "options": [
+          "sant",
+          "snällt",
+          "klart",
+          "fel"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-024",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "gärnae",
+          "gjärna",
+          "gärna",
+          "gerna"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-025",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'stor'?",
+        "options": [
+          "smal",
+          "kort",
+          "enorm",
+          "liten"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-026",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'rätt'?",
+        "options": [
+          "sant",
+          "klart",
+          "snällt",
+          "fel"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-027",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'hård'?",
+        "options": [
+          "torr",
+          "mjuk",
+          "tung",
+          "lätt"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-028",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "hjärtae",
+          "hjerta",
+          "hjärta"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-029",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skjorta",
+          "scjorta",
+          "skjortaa",
+          "sjorta"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-030",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "känna",
+          "kjänna",
+          "kenna",
+          "cänna"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-031",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "cemi",
+          "kemi",
+          "kemia",
+          "schemi"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-032",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "lexor",
+          "läxore",
+          "läxorr",
+          "läxor"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-033",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "mjuk",
+          "skog",
+          "äter",
+          "boll"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-034",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skeda",
+          "ked",
+          "sked",
+          "sced"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-035",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'lång'?",
+        "options": [
+          "kort",
+          "mjuk",
+          "tyst",
+          "snabb"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-036",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "gjärna",
+          "gerna",
+          "gärnae",
+          "gärna"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-037",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'glad'?",
+        "options": [
+          "ledsen",
+          "arg",
+          "lycklig",
+          "trött"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-038",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sked",
+          "sced",
+          "ked",
+          "skeda"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-039",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "ked",
+          "skeda",
+          "sked",
+          "sced"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-040",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skjorta",
+          "skjortaa",
+          "sjorta",
+          "scjorta"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-041",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "springer",
+          "snabb",
+          "varm",
+          "hund"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-042",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'vacker'?",
+        "options": [
+          "snäll",
+          "ful",
+          "fin",
+          "högljudd"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-043",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kjör",
+          "cör",
+          "kör",
+          "köra"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-044",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kör",
+          "cör",
+          "kjör",
+          "köra"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-045",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'kall'?",
+        "options": [
+          "torr",
+          "varm",
+          "frusen",
+          "ljus"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-046",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kjänna",
+          "cänna",
+          "känna",
+          "kenna"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-047",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'rätt'?",
+        "options": [
+          "snällt",
+          "fel",
+          "sant",
+          "klart"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-048",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "hund",
+          "mjuk",
+          "mellan",
+          "ritar"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-049",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "vid",
+          "i",
+          "ljus",
+          "simmar"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-050",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "i",
+          "hund",
+          "Lisa",
+          "skriver"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-051",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "skeda",
+          "ked",
+          "sced",
+          "sked"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-052",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "hjärta",
+          "hjerta",
+          "hjärtae"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-053",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "choclad",
+          "choklad",
+          "sjoklad",
+          "choklada"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-054",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "bord",
+          "över",
+          "framför",
+          "tyst"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-055",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "stor",
+          "under",
+          "leker",
+          "den"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-056",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "cänna",
+          "kjänna",
+          "känna",
+          "kenna"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-057",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sced",
+          "ked",
+          "sked",
+          "skeda"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-058",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "gärnae",
+          "gerna",
+          "gjärna",
+          "gärna"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-059",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'rätt'?",
+        "options": [
+          "fel",
+          "snällt",
+          "sant",
+          "klart"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-060",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'rätt'?",
+        "options": [
+          "fel",
+          "snällt",
+          "sant",
+          "klart"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-061",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "cala",
+          "calla",
+          "kallaa",
+          "kalla"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-062",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "macka",
+          "macca",
+          "maka",
+          "mackaa"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-063",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'hård'?",
+        "options": [
+          "tung",
+          "lätt",
+          "mjuk",
+          "torr"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-064",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'hård'?",
+        "options": [
+          "mjuk",
+          "lätt",
+          "torr",
+          "tung"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-065",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "skog",
+          "de",
+          "blå",
+          "leker"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-066",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "vi",
+          "de",
+          "framför",
+          "glad"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-067",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "röd",
+          "ritar",
+          "bakom",
+          "skriver"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-068",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "över",
+          "springer",
+          "ritar",
+          "ljus"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-069",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'stor'?",
+        "options": [
+          "liten",
+          "smal",
+          "enorm",
+          "kort"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-070",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'kall'?",
+        "options": [
+          "ljus",
+          "frusen",
+          "torr",
+          "varm"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-071",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'kall'?",
+        "options": [
+          "torr",
+          "varm",
+          "frusen",
+          "ljus"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-072",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "mackaa",
+          "macka",
+          "macca",
+          "maka"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-073",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "framför",
+          "hoppar",
+          "jag",
+          "katt"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-074",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett pronomen?",
+        "options": [
+          "bil",
+          "ljus",
+          "hund",
+          "den"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Pronomen: ersätter substantiv (han, hon, den, det).",
+        "explain": "Pronomen: ersätter substantiv (han, hon, den, det).",
+        "id": "sv-075",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kallaa",
+          "kalla",
+          "cala",
+          "calla"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-076",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kör",
+          "köra",
+          "cör",
+          "kjör"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-077",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "katt",
+          "fisk",
+          "ritar",
+          "mjuk"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-078",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "genast",
+          "genasta",
+          "jennast",
+          "genaste"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-079",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'hård'?",
+        "options": [
+          "mjuk",
+          "lätt",
+          "torr",
+          "tung"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-080",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "de",
+          "röd",
+          "den",
+          "är"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-081",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "genast",
+          "jennast",
+          "genasta",
+          "genaste"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-082",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett pronomen?",
+        "options": [
+          "är",
+          "simmar",
+          "det",
+          "sover"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Pronomen: ersätter substantiv (han, hon, den, det).",
+        "explain": "Pronomen: ersätter substantiv (han, hon, den, det).",
+        "id": "sv-083",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "gjärna",
+          "gerna",
+          "gärna",
+          "gärnae"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-084",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "maka",
+          "macka",
+          "mackaa",
+          "macca"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-085",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "genast",
+          "jennast",
+          "genaste",
+          "genasta"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-086",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sjoklad",
+          "choklada",
+          "choclad",
+          "choklad"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-087",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "choclad",
+          "choklada",
+          "choklad",
+          "sjoklad"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-088",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "läxorr",
+          "läxor",
+          "lexor",
+          "läxore"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-089",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett pronomen?",
+        "options": [
+          "röd",
+          "cykel",
+          "ni",
+          "tyst"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Pronomen: ersätter substantiv (han, hon, den, det).",
+        "explain": "Pronomen: ersätter substantiv (han, hon, den, det).",
+        "id": "sv-090",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "gjärna",
+          "gärnae",
+          "gerna",
+          "gärna"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-091",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'rätt'?",
+        "options": [
+          "sant",
+          "klart",
+          "fel",
+          "snällt"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-092",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "sked",
+          "sced",
+          "skeda",
+          "ked"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-093",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kemia",
+          "cemi",
+          "schemi",
+          "kemi"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-094",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'stor'?",
+        "options": [
+          "enorm",
+          "liten",
+          "smal",
+          "kort"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-095",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'lång'?",
+        "options": [
+          "mjuk",
+          "snabb",
+          "kort",
+          "tyst"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-096",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "lång",
+          "hund",
+          "röd",
+          "jag"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-097",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett pronomen?",
+        "options": [
+          "ritar",
+          "hon",
+          "cykel",
+          "katt"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Pronomen: ersätter substantiv (han, hon, den, det).",
+        "explain": "Pronomen: ersätter substantiv (han, hon, den, det).",
+        "id": "sv-098",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "ljus",
+          "framför",
+          "skola",
+          "vi"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-099",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "sover",
+          "vid",
+          "snabb",
+          "framför"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-100",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'kall'?",
+        "options": [
+          "ljus",
+          "varm",
+          "torr",
+          "frusen"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-101",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "äter",
+          "fisk",
+          "Lisa",
+          "skola"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-102",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "schemi",
+          "kemi",
+          "cemi",
+          "kemia"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-103",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'tidig'?",
+        "options": [
+          "tyst",
+          "kort",
+          "sen",
+          "långsam"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-104",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'snabb'?",
+        "options": [
+          "långsam",
+          "kvick",
+          "tyst",
+          "mjuk"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-105",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'kall'?",
+        "options": [
+          "ljus",
+          "frusen",
+          "varm",
+          "torr"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-106",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'snabb'?",
+        "options": [
+          "kvick",
+          "långsam",
+          "mjuk",
+          "tyst"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-107",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'hård'?",
+        "options": [
+          "lätt",
+          "tung",
+          "mjuk",
+          "torr"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-108",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "han",
+          "mjuk",
+          "bakom",
+          "leker"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-109",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "glad",
+          "simmar",
+          "bil",
+          "bakom"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-110",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "skola",
+          "mellan",
+          "på",
+          "ljus"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-111",
+        "topic": "svenska"
+      },
+      {
+        "area": "stavning",
+        "q": "Vilket ord stavas rätt?",
+        "options": [
+          "kemia",
+          "schemi",
+          "kemi",
+          "cemi"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "explain": "Titta noga på bokstäver och ljud – sj-, tj-, hj-, lj- och dubbelteckning (tt/ss) är vanliga fällor.",
+        "id": "sv-112",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'stor'?",
+        "options": [
+          "liten",
+          "smal",
+          "enorm",
+          "kort"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-113",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'vacker'?",
+        "options": [
+          "ful",
+          "fin",
+          "högljudd",
+          "snäll"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-114",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "glad",
+          "stor",
+          "lång",
+          "katt"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-115",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett substantiv?",
+        "options": [
+          "den",
+          "de",
+          "han",
+          "fisk"
+        ],
+        "correct": 3,
+        "difficulty": "np",
+        "hint": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "explain": "Substantiv: namn på saker/djur/personer/platser (katt, bok, Lisa).",
+        "id": "sv-116",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett verb?",
+        "options": [
+          "röd",
+          "lång",
+          "springer",
+          "vi"
+        ],
+        "correct": 2,
+        "difficulty": "np",
+        "hint": "Verb: något man gör/är (springer, läser, är).",
+        "explain": "Verb: något man gör/är (springer, läser, är).",
+        "id": "sv-117",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord betyder ungefär samma som 'kall'?",
+        "options": [
+          "frusen",
+          "ljus",
+          "varm",
+          "torr"
+        ],
+        "correct": 0,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-118",
+        "topic": "svenska"
+      },
+      {
+        "area": "ordförståelse",
+        "q": "Vilket ord är motsats till 'rätt'?",
+        "options": [
+          "snällt",
+          "fel",
+          "sant",
+          "klart"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "explain": "Läs meningen och byt ut med förslagen. Synonym ≈ liknande ord. Motsats = tvärtom.",
+        "id": "sv-119",
+        "topic": "svenska"
+      },
+      {
+        "area": "grammatik",
+        "q": "Vilket ord är ett adjektiv?",
+        "options": [
+          "skriver",
+          "blå",
+          "över",
+          "cykel"
+        ],
+        "correct": 1,
+        "difficulty": "np",
+        "hint": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "explain": "Adjektiv: beskriver egenskaper (stor, röd, snabb).",
+        "id": "sv-120",
+        "topic": "svenska"
+      },
+      {
+        "id": "sv-121",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden som är prepositioner till 'Preposition' och resten till 'Inte preposition'.",
+        "buckets": [
+          {
+            "label": "Preposition"
+          },
+          {
+            "label": "Inte preposition"
+          }
+        ],
+        "tokens": [
+          "hund",
+          "mellan",
+          "snabb",
+          "ljus",
+          "i",
+          "de",
+          "på",
+          "blå",
+          "under",
+          "framför"
+        ],
+        "solution": {
+          "mellan": "Preposition",
+          "framför": "Preposition",
+          "i": "Preposition",
+          "under": "Preposition",
+          "på": "Preposition",
+          "ljus": "Inte preposition",
+          "blå": "Inte preposition",
+          "de": "Inte preposition",
+          "hund": "Inte preposition",
+          "snabb": "Inte preposition"
+        },
+        "hint": "Prepositioner anger läge/riktning: på, i, under, bakom, framför, vid, mellan…",
+        "explain": "Prepositioner anger läge/riktning: på, i, under, bakom, framför, vid, mellan…",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-122",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden till rätt kategori.",
+        "buckets": [
+          {
+            "label": "Substantiv"
+          },
+          {
+            "label": "Verb"
+          },
+          {
+            "label": "Adjektiv"
+          }
+        ],
+        "tokens": [
+          "sover",
+          "varm",
+          "cykel",
+          "skola",
+          "snabb",
+          "boll",
+          "simmar",
+          "röd",
+          "glad",
+          "Lisa",
+          "ritar",
+          "äter"
+        ],
+        "solution": {
+          "boll": "Substantiv",
+          "Lisa": "Substantiv",
+          "skola": "Substantiv",
+          "cykel": "Substantiv",
+          "sover": "Verb",
+          "ritar": "Verb",
+          "simmar": "Verb",
+          "äter": "Verb",
+          "varm": "Adjektiv",
+          "snabb": "Adjektiv",
+          "glad": "Adjektiv",
+          "röd": "Adjektiv"
+        },
+        "hint": "Substantiv = namn (katt). Verb = något man gör (springer). Adjektiv = beskriver (röd).",
+        "explain": "Tänk: Kan jag sätta 'en/ett' före? (substantiv). Kan jag sätta 'att' före? (verb). Beskriver ordet något? (adjektiv).",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-123",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden till rätt kategori.",
+        "buckets": [
+          {
+            "label": "Substantiv"
+          },
+          {
+            "label": "Verb"
+          },
+          {
+            "label": "Adjektiv"
+          }
+        ],
+        "tokens": [
+          "ljus",
+          "leker",
+          "är",
+          "bil",
+          "hoppar",
+          "katt",
+          "stor",
+          "skog",
+          "äter",
+          "Lisa",
+          "glad",
+          "tyst"
+        ],
+        "solution": {
+          "skog": "Substantiv",
+          "katt": "Substantiv",
+          "Lisa": "Substantiv",
+          "bil": "Substantiv",
+          "äter": "Verb",
+          "hoppar": "Verb",
+          "leker": "Verb",
+          "är": "Verb",
+          "ljus": "Adjektiv",
+          "tyst": "Adjektiv",
+          "stor": "Adjektiv",
+          "glad": "Adjektiv"
+        },
+        "hint": "Substantiv = namn (katt). Verb = något man gör (springer). Adjektiv = beskriver (röd).",
+        "explain": "Tänk: Kan jag sätta 'en/ett' före? (substantiv). Kan jag sätta 'att' före? (verb). Beskriver ordet något? (adjektiv).",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-124",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden till rätt kategori.",
+        "buckets": [
+          {
+            "label": "Substantiv"
+          },
+          {
+            "label": "Verb"
+          },
+          {
+            "label": "Adjektiv"
+          }
+        ],
+        "tokens": [
+          "läser",
+          "skriver",
+          "skog",
+          "fisk",
+          "ritar",
+          "varm",
+          "ljus",
+          "leker",
+          "stor",
+          "hund",
+          "mjuk",
+          "boll"
+        ],
+        "solution": {
+          "skog": "Substantiv",
+          "hund": "Substantiv",
+          "fisk": "Substantiv",
+          "boll": "Substantiv",
+          "läser": "Verb",
+          "skriver": "Verb",
+          "leker": "Verb",
+          "ritar": "Verb",
+          "stor": "Adjektiv",
+          "ljus": "Adjektiv",
+          "mjuk": "Adjektiv",
+          "varm": "Adjektiv"
+        },
+        "hint": "Substantiv = namn (katt). Verb = något man gör (springer). Adjektiv = beskriver (röd).",
+        "explain": "Tänk: Kan jag sätta 'en/ett' före? (substantiv). Kan jag sätta 'att' före? (verb). Beskriver ordet något? (adjektiv).",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-125",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden till rätt kategori.",
+        "buckets": [
+          {
+            "label": "Substantiv"
+          },
+          {
+            "label": "Verb"
+          },
+          {
+            "label": "Adjektiv"
+          }
+        ],
+        "tokens": [
+          "röd",
+          "blå",
+          "hund",
+          "lång",
+          "varm",
+          "sover",
+          "skriver",
+          "springer",
+          "bil",
+          "bord",
+          "leker",
+          "katt"
+        ],
+        "solution": {
+          "bord": "Substantiv",
+          "hund": "Substantiv",
+          "katt": "Substantiv",
+          "bil": "Substantiv",
+          "springer": "Verb",
+          "leker": "Verb",
+          "sover": "Verb",
+          "skriver": "Verb",
+          "varm": "Adjektiv",
+          "lång": "Adjektiv",
+          "röd": "Adjektiv",
+          "blå": "Adjektiv"
+        },
+        "hint": "Substantiv = namn (katt). Verb = något man gör (springer). Adjektiv = beskriver (röd).",
+        "explain": "Tänk: Kan jag sätta 'en/ett' före? (substantiv). Kan jag sätta 'att' före? (verb). Beskriver ordet något? (adjektiv).",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-126",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden till rätt kategori.",
+        "buckets": [
+          {
+            "label": "Substantiv"
+          },
+          {
+            "label": "Verb"
+          },
+          {
+            "label": "Adjektiv"
+          }
+        ],
+        "tokens": [
+          "är",
+          "hoppar",
+          "lång",
+          "snabb",
+          "läser",
+          "röd",
+          "skriver",
+          "Lisa",
+          "mjuk",
+          "hund",
+          "cykel",
+          "boll"
+        ],
+        "solution": {
+          "cykel": "Substantiv",
+          "Lisa": "Substantiv",
+          "hund": "Substantiv",
+          "boll": "Substantiv",
+          "skriver": "Verb",
+          "är": "Verb",
+          "hoppar": "Verb",
+          "läser": "Verb",
+          "snabb": "Adjektiv",
+          "röd": "Adjektiv",
+          "lång": "Adjektiv",
+          "mjuk": "Adjektiv"
+        },
+        "hint": "Substantiv = namn (katt). Verb = något man gör (springer). Adjektiv = beskriver (röd).",
+        "explain": "Tänk: Kan jag sätta 'en/ett' före? (substantiv). Kan jag sätta 'att' före? (verb). Beskriver ordet något? (adjektiv).",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-127",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden som är prepositioner till 'Preposition' och resten till 'Inte preposition'.",
+        "buckets": [
+          {
+            "label": "Preposition"
+          },
+          {
+            "label": "Inte preposition"
+          }
+        ],
+        "tokens": [
+          "glad",
+          "bil",
+          "fisk",
+          "över",
+          "mellan",
+          "stor",
+          "han",
+          "under",
+          "i",
+          "framför"
+        ],
+        "solution": {
+          "i": "Preposition",
+          "över": "Preposition",
+          "under": "Preposition",
+          "framför": "Preposition",
+          "mellan": "Preposition",
+          "han": "Inte preposition",
+          "fisk": "Inte preposition",
+          "glad": "Inte preposition",
+          "bil": "Inte preposition",
+          "stor": "Inte preposition"
+        },
+        "hint": "Prepositioner anger läge/riktning: på, i, under, bakom, framför, vid, mellan…",
+        "explain": "Prepositioner anger läge/riktning: på, i, under, bakom, framför, vid, mellan…",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-128",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden till rätt kategori.",
+        "buckets": [
+          {
+            "label": "Substantiv"
+          },
+          {
+            "label": "Verb"
+          },
+          {
+            "label": "Adjektiv"
+          }
+        ],
+        "tokens": [
+          "ljus",
+          "röd",
+          "ritar",
+          "katt",
+          "snabb",
+          "cykel",
+          "sover",
+          "skola",
+          "boll",
+          "lång",
+          "skriver",
+          "leker"
+        ],
+        "solution": {
+          "cykel": "Substantiv",
+          "boll": "Substantiv",
+          "skola": "Substantiv",
+          "katt": "Substantiv",
+          "sover": "Verb",
+          "leker": "Verb",
+          "ritar": "Verb",
+          "skriver": "Verb",
+          "snabb": "Adjektiv",
+          "ljus": "Adjektiv",
+          "lång": "Adjektiv",
+          "röd": "Adjektiv"
+        },
+        "hint": "Substantiv = namn (katt). Verb = något man gör (springer). Adjektiv = beskriver (röd).",
+        "explain": "Tänk: Kan jag sätta 'en/ett' före? (substantiv). Kan jag sätta 'att' före? (verb). Beskriver ordet något? (adjektiv).",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-129",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden till rätt kategori.",
+        "buckets": [
+          {
+            "label": "Substantiv"
+          },
+          {
+            "label": "Verb"
+          },
+          {
+            "label": "Adjektiv"
+          }
+        ],
+        "tokens": [
+          "leker",
+          "ljus",
+          "skola",
+          "hund",
+          "tyst",
+          "snabb",
+          "läser",
+          "simmar",
+          "boll",
+          "cykel",
+          "äter",
+          "röd"
+        ],
+        "solution": {
+          "boll": "Substantiv",
+          "hund": "Substantiv",
+          "cykel": "Substantiv",
+          "skola": "Substantiv",
+          "äter": "Verb",
+          "leker": "Verb",
+          "läser": "Verb",
+          "simmar": "Verb",
+          "ljus": "Adjektiv",
+          "tyst": "Adjektiv",
+          "snabb": "Adjektiv",
+          "röd": "Adjektiv"
+        },
+        "hint": "Substantiv = namn (katt). Verb = något man gör (springer). Adjektiv = beskriver (röd).",
+        "explain": "Tänk: Kan jag sätta 'en/ett' före? (substantiv). Kan jag sätta 'att' före? (verb). Beskriver ordet något? (adjektiv).",
+        "difficulty": "np"
+      },
+      {
+        "id": "sv-130",
+        "topic": "svenska",
+        "area": "grammatik",
+        "type": "dnd",
+        "q": "Dra orden som är prepositioner till 'Preposition' och resten till 'Inte preposition'.",
+        "buckets": [
+          {
+            "label": "Preposition"
+          },
+          {
+            "label": "Inte preposition"
+          }
+        ],
+        "tokens": [
+          "jag",
+          "på",
+          "hoppar",
+          "bakom",
+          "äter",
+          "i",
+          "tyst",
+          "över",
+          "läser",
+          "under"
+        ],
+        "solution": {
+          "bakom": "Preposition",
+          "i": "Preposition",
+          "under": "Preposition",
+          "över": "Preposition",
+          "på": "Preposition",
+          "tyst": "Inte preposition",
+          "äter": "Inte preposition",
+          "hoppar": "Inte preposition",
+          "jag": "Inte preposition",
+          "läser": "Inte preposition"
+        },
+        "hint": "Prepositioner anger läge/riktning: på, i, under, bakom, framför, vid, mellan…",
+        "explain": "Prepositioner anger läge/riktning: på, i, under, bakom, framför, vid, mellan…",
+        "difficulty": "np"
+      }
+    ],
+    "passages": [
+      {
+        "id": "sv-p-001",
+        "title": "Utflykten till skogen",
+        "text": "Klassen gick till skogen. De plockade kottar och letade efter spår. Adam hittade ett litet fågelbo på marken. Läraren berättade att man bara fick titta och inte röra.",
+        "questions": [
+          {
+            "id": "sv-p-001-q1",
+            "q": "Vad sa läraren att man skulle göra?",
+            "options": [
+              "Ta med boet hem",
+              "Inte röra boet",
+              "Röra försiktigt",
+              "Bygga ett nytt"
+            ],
+            "correct": 1,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-001-q2",
+            "q": "Var var klassen?",
+            "options": [
+              "I stan",
+              "Vid sjön",
+              "I skogen",
+              "I klassrummet"
+            ],
+            "correct": 2,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-001-q3",
+            "q": "Vad hittade Adam?",
+            "options": [
+              "Ett fågelbo",
+              "En sten",
+              "En fjäder",
+              "En blomma"
+            ],
+            "correct": 0,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          }
+        ]
+      },
+      {
+        "id": "sv-p-002",
+        "title": "Tågförseningen",
+        "text": "Maja skulle åka till mormor. Tåget var försenat och hon väntade på perrongen. Hon läste skyltarna och drack lite saft. När tåget kom vinkade hon till konduktören.",
+        "questions": [
+          {
+            "id": "sv-p-002-q1",
+            "q": "Var väntade Maja?",
+            "options": [
+              "På perrongen",
+              "I tåget",
+              "I bilen",
+              "I klassrummet"
+            ],
+            "correct": 0,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-002-q2",
+            "q": "Vart skulle Maja åka?",
+            "options": [
+              "Till skolan",
+              "Till mormor",
+              "Till en vän",
+              "Till simhallen"
+            ],
+            "correct": 1,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-002-q3",
+            "q": "Vad gjorde Maja medan hon väntade?",
+            "options": [
+              "Sov",
+              "Läste skyltar",
+              "Lekte",
+              "Pratade i telefon"
+            ],
+            "correct": 1,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          }
+        ]
+      },
+      {
+        "id": "sv-p-003",
+        "title": "Lisa och skoldörren",
+        "text": "Lisa sprang mot skolan. Hon hade nästan försovit sig. När hon kom fram var dörren stängd. Hon knackade försiktigt, och vaktmästaren öppnade med ett leende. Lisa tackade och skyndade till klassrummet.",
+        "questions": [
+          {
+            "id": "sv-p-003-q1",
+            "q": "Vem öppnade dörren?",
+            "options": [
+              "Rektorn",
+              "Läraren",
+              "Vaktmästaren",
+              "Kompisen"
+            ],
+            "correct": 2,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-003-q2",
+            "q": "Hur kände sig Lisa när dörren öppnades?",
+            "options": [
+              "Ledsen",
+              "Arg",
+              "Lättad",
+              "Trött"
+            ],
+            "correct": 2,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-003-q3",
+            "q": "Varför sprang Lisa?",
+            "options": [
+              "Hon var hungrig",
+              "Hon hade bråttom",
+              "Hon skulle leka",
+              "Hon tappade en bok"
+            ],
+            "correct": 1,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          }
+        ]
+      },
+      {
+        "id": "sv-p-004",
+        "title": "Tågförseningen",
+        "text": "Maja skulle åka till mormor. Tåget var försenat och hon väntade på perrongen. Hon läste skyltarna och drack lite saft. När tåget kom vinkade hon till konduktören.",
+        "questions": [
+          {
+            "id": "sv-p-004-q1",
+            "q": "Vad gjorde Maja medan hon väntade?",
+            "options": [
+              "Sov",
+              "Läste skyltar",
+              "Lekte",
+              "Pratade i telefon"
+            ],
+            "correct": 1,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-004-q2",
+            "q": "Var väntade Maja?",
+            "options": [
+              "På perrongen",
+              "I tåget",
+              "I bilen",
+              "I klassrummet"
+            ],
+            "correct": 0,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-004-q3",
+            "q": "Vart skulle Maja åka?",
+            "options": [
+              "Till skolan",
+              "Till mormor",
+              "Till en vän",
+              "Till simhallen"
+            ],
+            "correct": 1,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          }
+        ]
+      },
+      {
+        "id": "sv-p-005",
+        "title": "Utflykten till skogen",
+        "text": "Klassen gick till skogen. De plockade kottar och letade efter spår. Adam hittade ett litet fågelbo på marken. Läraren berättade att man bara fick titta och inte röra.",
+        "questions": [
+          {
+            "id": "sv-p-005-q1",
+            "q": "Vad hittade Adam?",
+            "options": [
+              "Ett fågelbo",
+              "En sten",
+              "En fjäder",
+              "En blomma"
+            ],
+            "correct": 0,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-005-q2",
+            "q": "Vad sa läraren att man skulle göra?",
+            "options": [
+              "Ta med boet hem",
+              "Inte röra boet",
+              "Röra försiktigt",
+              "Bygga ett nytt"
+            ],
+            "correct": 1,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-005-q3",
+            "q": "Var var klassen?",
+            "options": [
+              "I stan",
+              "Vid sjön",
+              "I skogen",
+              "I klassrummet"
+            ],
+            "correct": 2,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          }
+        ]
+      },
+      {
+        "id": "sv-p-006",
+        "title": "Lisa och skoldörren",
+        "text": "Lisa sprang mot skolan. Hon hade nästan försovit sig. När hon kom fram var dörren stängd. Hon knackade försiktigt, och vaktmästaren öppnade med ett leende. Lisa tackade och skyndade till klassrummet.",
+        "questions": [
+          {
+            "id": "sv-p-006-q1",
+            "q": "Varför sprang Lisa?",
+            "options": [
+              "Hon var hungrig",
+              "Hon hade bråttom",
+              "Hon skulle leka",
+              "Hon tappade en bok"
+            ],
+            "correct": 1,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-006-q2",
+            "q": "Hur kände sig Lisa när dörren öppnades?",
+            "options": [
+              "Ledsen",
+              "Arg",
+              "Lättad",
+              "Trött"
+            ],
+            "correct": 2,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          },
+          {
+            "id": "sv-p-006-q3",
+            "q": "Vem öppnade dörren?",
+            "options": [
+              "Rektorn",
+              "Läraren",
+              "Vaktmästaren",
+              "Kompisen"
+            ],
+            "correct": 2,
+            "hint": "Läs texten en gång till. Leta ord i frågan som också finns i texten.",
+            "explain": "Läs texten en gång till. Leta ord i frågan som också finns i texten."
+          }
+        ]
+      }
+    ]
+  }
+}
