@@ -143,3 +143,28 @@ button.choice * { color: inherit; } /* ikoner/span etc. */
   color: var(--fg);
   border: 2px solid var(--brand);
 }
+
+/* ==== Mobile horizontal scroll for nav (force overrides) ==== */
+.tabs-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 -8px;           /* låt knappar nå kanten */
+  padding-bottom: 4px;      /* undvik att scrollbar täcker */
+  touch-action: pan-x;
+  overscroll-behavior-x: contain;
+}
+.tabs-scroll::-webkit-scrollbar { display: none; }
+
+/* Innehållet ska kunna bli bredare än viewport */
+.tabs-scroll .tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  padding: 0 8px;
+  min-width: max-content;
+  scroll-snap-type: x proximity; /* mjukt snap */
+}
+
+/* Överstyr globala knapplayouter just här */
+.tabs-scroll .tabs button { flex: 0 0 auto !important; }
+.tabs-scroll .tabs .btn { width: auto !important; white-space: nowrap; scroll-snap-align: start; }
