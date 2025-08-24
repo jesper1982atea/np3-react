@@ -1727,20 +1727,6 @@
     },
     {
       "area": "division",
-      "q": "70 ÷ 7 =",
-      "options": [
-        "8",
-        "9",
-        "11",
-        "10"
-      ],
-      "correct": 3,
-      "id": "ma-124",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 70?\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63  →  70",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 70?\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63  →  70"
-    },
-    {
-      "area": "division",
       "q": "32 ÷ 8 =",
       "options": [
         "2",
@@ -1752,20 +1738,6 @@
       "id": "ma-125",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 32?\n0  →  8  →  16  →  24  →  32",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 32?\n0  →  8  →  16  →  24  →  32"
-    },
-    {
-      "area": "division",
-      "q": "60 ÷ 6 =",
-      "options": [
-        "8",
-        "10",
-        "9",
-        "11"
-      ],
-      "correct": 1,
-      "id": "ma-126",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 60?\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48  →  54  →  60",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 60?\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48  →  54  →  60"
     },
     {
       "area": "division",
@@ -1825,20 +1797,6 @@
     },
     {
       "area": "division",
-      "q": "90 ÷ 9 =",
-      "options": [
-        "9",
-        "8",
-        "10",
-        "11"
-      ],
-      "correct": 2,
-      "id": "ma-131",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 90?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81  →  90",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 90?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81  →  90"
-    },
-    {
-      "area": "division",
       "q": "15 ÷ 3 =",
       "options": [
         "6",
@@ -1850,20 +1808,6 @@
       "id": "ma-132",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 15?\n0  →  3  →  6  →  9  →  12  →  15",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 15?\n0  →  3  →  6  →  9  →  12  →  15"
-    },
-    {
-      "area": "division",
-      "q": "18 ÷ 2 =",
-      "options": [
-        "8",
-        "9",
-        "10",
-        "7"
-      ],
-      "correct": 1,
-      "id": "ma-133",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 18?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14  →  16  →  18",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 18?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14  →  16  →  18"
     },
     {
       "area": "division",
@@ -1909,48 +1853,6 @@
     },
     {
       "area": "division",
-      "q": "18 ÷ 6 =",
-      "options": [
-        "2",
-        "3",
-        "1",
-        "4"
-      ],
-      "correct": 1,
-      "id": "ma-137",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 18?\n0  →  6  →  12  →  18",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 18?\n0  →  6  →  12  →  18"
-    },
-    {
-      "area": "division",
-      "q": "63 ÷ 7 =",
-      "options": [
-        "8",
-        "9",
-        "10",
-        "7"
-      ],
-      "correct": 1,
-      "id": "ma-138",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 63?\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 63?\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63"
-    },
-    {
-      "area": "division",
-      "q": "36 ÷ 4 =",
-      "options": [
-        "9",
-        "7",
-        "8",
-        "10"
-      ],
-      "correct": 0,
-      "id": "ma-139",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36"
-    },
-    {
-      "area": "division",
       "q": "20 ÷ 2 =",
       "options": [
         "11",
@@ -1962,34 +1864,6 @@
       "id": "ma-140",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 20?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14  →  16  →  18  →  20",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 20?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14  →  16  →  18  →  20"
-    },
-    {
-      "area": "division",
-      "q": "36 ÷ 4 =",
-      "options": [
-        "9",
-        "8",
-        "7",
-        "10"
-      ],
-      "correct": 0,
-      "id": "ma-141",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 4:or ryms i 36?\n0  →  4  →  8  →  12  →  16  →  20  →  24  →  28  →  32  →  36"
-    },
-    {
-      "area": "division",
-      "q": "27 ÷ 3 =",
-      "options": [
-        "9",
-        "10",
-        "7",
-        "8"
-      ],
-      "correct": 0,
-      "id": "ma-142",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 27?\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21  →  24  →  27",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 27?\n0  →  3  →  6  →  9  →  12  →  15  →  18  →  21  →  24  →  27"
     },
     {
       "area": "division",
@@ -2231,34 +2105,6 @@
     },
     {
       "area": "division",
-      "q": "72 ÷ 8 =",
-      "options": [
-        "10",
-        "9",
-        "7",
-        "8"
-      ],
-      "correct": 1,
-      "id": "ma-160",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 72?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 72?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72"
-    },
-    {
-      "area": "division",
-      "q": "18 ÷ 2 =",
-      "options": [
-        "8",
-        "7",
-        "10",
-        "9"
-      ],
-      "correct": 3,
-      "id": "ma-161",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 18?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14  →  16  →  18",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 18?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14  →  16  →  18"
-    },
-    {
-      "area": "division",
       "q": "35 ÷ 7 =",
       "options": [
         "5",
@@ -2270,20 +2116,6 @@
       "id": "ma-162",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 35?\n0  →  7  →  14  →  21  →  28  →  35",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 35?\n0  →  7  →  14  →  21  →  28  →  35"
-    },
-    {
-      "area": "division",
-      "q": "63 ÷ 7 =",
-      "options": [
-        "9",
-        "7",
-        "10",
-        "8"
-      ],
-      "correct": 0,
-      "id": "ma-163",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 63?\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 63?\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56  →  63"
     },
     {
       "area": "division",
@@ -6169,34 +6001,6 @@
     },
     {
       "area": "division",
-      "q": "64 ÷ 8 =",
-      "options": [
-        "9",
-        "8",
-        "7",
-        "6"
-      ],
-      "correct": 1,
-      "id": "ma-403",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64"
-    },
-    {
-      "area": "division",
-      "q": "90 ÷ 9 =",
-      "options": [
-        "11",
-        "8",
-        "10",
-        "9"
-      ],
-      "correct": 2,
-      "id": "ma-404",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 90?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81  →  90",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 90?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81  →  90"
-    },
-    {
-      "area": "division",
       "q": "49 ÷ 7 =",
       "options": [
         "5",
@@ -6239,20 +6043,6 @@
     },
     {
       "area": "division",
-      "q": "18 ÷ 9 =",
-      "options": [
-        "1",
-        "3",
-        "4",
-        "2"
-      ],
-      "correct": 3,
-      "id": "ma-408",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 18?\n0  →  9  →  18",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 18?\n0  →  9  →  18"
-    },
-    {
-      "area": "division",
       "q": "15 ÷ 5 =",
       "options": [
         "3",
@@ -6267,48 +6057,6 @@
     },
     {
       "area": "division",
-      "q": "81 ÷ 9 =",
-      "options": [
-        "9",
-        "7",
-        "10",
-        "8"
-      ],
-      "correct": 0,
-      "id": "ma-410",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 81?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 81?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81"
-    },
-    {
-      "area": "division",
-      "q": "72 ÷ 8 =",
-      "options": [
-        "10",
-        "8",
-        "7",
-        "9"
-      ],
-      "correct": 3,
-      "id": "ma-411",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 72?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 72?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72"
-    },
-    {
-      "area": "division",
-      "q": "56 ÷ 7 =",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "9"
-      ],
-      "correct": 1,
-      "id": "ma-412",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 56?\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 56?\n0  →  7  →  14  →  21  →  28  →  35  →  42  →  49  →  56"
-    },
-    {
-      "area": "division",
       "q": "21 ÷ 7 =",
       "options": [
         "4",
@@ -6320,34 +6068,6 @@
       "id": "ma-413",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 21?\n0  →  7  →  14  →  21",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 21?\n0  →  7  →  14  →  21"
-    },
-    {
-      "area": "division",
-      "q": "9 ÷ 3 =",
-      "options": [
-        "4",
-        "3",
-        "1",
-        "2"
-      ],
-      "correct": 1,
-      "id": "ma-414",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 9?\n0  →  3  →  6  →  9",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 3:or ryms i 9?\n0  →  3  →  6  →  9"
-    },
-    {
-      "area": "division",
-      "q": "18 ÷ 6 =",
-      "options": [
-        "2",
-        "3",
-        "1",
-        "4"
-      ],
-      "correct": 1,
-      "id": "ma-415",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 18?\n0  →  6  →  12  →  18",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 18?\n0  →  6  →  12  →  18"
     },
     {
       "area": "division",
@@ -6393,34 +6113,6 @@
     },
     {
       "area": "division",
-      "q": "81 ÷ 9 =",
-      "options": [
-        "7",
-        "10",
-        "8",
-        "9"
-      ],
-      "correct": 3,
-      "id": "ma-419",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 81?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 81?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81"
-    },
-    {
-      "area": "division",
-      "q": "36 ÷ 6 =",
-      "options": [
-        "7",
-        "5",
-        "4",
-        "6"
-      ],
-      "correct": 3,
-      "id": "ma-420",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n0  →  6  →  12  →  18  →  24  →  30  →  36",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n0  →  6  →  12  →  18  →  24  →  30  →  36"
-    },
-    {
-      "area": "division",
       "q": "14 ÷ 2 =",
       "options": [
         "6",
@@ -6432,20 +6124,6 @@
       "id": "ma-421",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 14?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 14?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14"
-    },
-    {
-      "area": "division",
-      "q": "63 ÷ 9 =",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "5"
-      ],
-      "correct": 0,
-      "id": "ma-422",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 63?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 63?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63"
     },
     {
       "area": "division",
@@ -6463,34 +6141,6 @@
     },
     {
       "area": "division",
-      "q": "72 ÷ 9 =",
-      "options": [
-        "8",
-        "7",
-        "9",
-        "6"
-      ],
-      "correct": 0,
-      "id": "ma-424",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 72?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 72?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72"
-    },
-    {
-      "area": "division",
-      "q": "36 ÷ 6 =",
-      "options": [
-        "7",
-        "4",
-        "6",
-        "5"
-      ],
-      "correct": 2,
-      "id": "ma-425",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n0  →  6  →  12  →  18  →  24  →  30  →  36",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n0  →  6  →  12  →  18  →  24  →  30  →  36"
-    },
-    {
-      "area": "division",
       "q": "12 ÷ 2 =",
       "options": [
         "7",
@@ -6505,34 +6155,6 @@
     },
     {
       "area": "division",
-      "q": "54 ÷ 6 =",
-      "options": [
-        "7",
-        "8",
-        "10",
-        "9"
-      ],
-      "correct": 3,
-      "id": "ma-427",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 54?\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48  →  54",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 54?\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48  →  54"
-    },
-    {
-      "area": "division",
-      "q": "64 ÷ 8 =",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "9"
-      ],
-      "correct": 1,
-      "id": "ma-428",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64"
-    },
-    {
-      "area": "division",
       "q": "40 ÷ 5 =",
       "options": [
         "8",
@@ -6544,20 +6166,6 @@
       "id": "ma-429",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 40?\n0  →  5  →  10  →  15  →  20  →  25  →  30  →  35  →  40",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 40?\n0  →  5  →  10  →  15  →  20  →  25  →  30  →  35  →  40"
-    },
-    {
-      "area": "division",
-      "q": "56 ÷ 8 =",
-      "options": [
-        "5",
-        "7",
-        "6",
-        "8"
-      ],
-      "correct": 1,
-      "id": "ma-430",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 56?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 56?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56"
     },
     {
       "area": "division",
@@ -6586,20 +6194,6 @@
       "id": "ma-432",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 24?\n0  →  8  →  16  →  24",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 24?\n0  →  8  →  16  →  24"
-    },
-    {
-      "area": "division",
-      "q": "36 ÷ 6 =",
-      "options": [
-        "5",
-        "7",
-        "4",
-        "6"
-      ],
-      "correct": 3,
-      "id": "ma-433",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n0  →  6  →  12  →  18  →  24  →  30  →  36",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 36?\n0  →  6  →  12  →  18  →  24  →  30  →  36"
     },
     {
       "area": "division",
@@ -6642,20 +6236,6 @@
       "id": "ma-436",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 21?\n0  →  7  →  14  →  21",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 7:or ryms i 21?\n0  →  7  →  14  →  21"
-    },
-    {
-      "area": "division",
-      "q": "80 ÷ 8 =",
-      "options": [
-        "10",
-        "9",
-        "11",
-        "8"
-      ],
-      "correct": 0,
-      "id": "ma-437",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 80?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72  →  80",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 80?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64  →  72  →  80"
     },
     {
       "area": "division",
@@ -10613,20 +10193,6 @@
     },
     {
       "area": "division",
-      "q": "60 ÷ 6 =",
-      "options": [
-        "11",
-        "8",
-        "10",
-        "9"
-      ],
-      "correct": 2,
-      "id": "ma-682",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 60?\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48  →  54  →  60",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 6:or ryms i 60?\n0  →  6  →  12  →  18  →  24  →  30  →  36  →  42  →  48  →  54  →  60"
-    },
-    {
-      "area": "division",
       "q": "24 ÷ 3 =",
       "options": [
         "8",
@@ -10641,34 +10207,6 @@
     },
     {
       "area": "division",
-      "q": "81 ÷ 9 =",
-      "options": [
-        "9",
-        "8",
-        "7",
-        "10"
-      ],
-      "correct": 0,
-      "id": "ma-684",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 81?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 81?\n0  →  9  →  18  →  27  →  36  →  45  →  54  →  63  →  72  →  81"
-    },
-    {
-      "area": "division",
-      "q": "36 ÷ 9 =",
-      "options": [
-        "4",
-        "2",
-        "5",
-        "3"
-      ],
-      "correct": 0,
-      "id": "ma-685",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 36?\n0  →  9  →  18  →  27  →  36",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 36?\n0  →  9  →  18  →  27  →  36"
-    },
-    {
-      "area": "division",
       "q": "40 ÷ 5 =",
       "options": [
         "9",
@@ -10680,20 +10218,6 @@
       "id": "ma-686",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 40?\n0  →  5  →  10  →  15  →  20  →  25  →  30  →  35  →  40",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 40?\n0  →  5  →  10  →  15  →  20  →  25  →  30  →  35  →  40"
-    },
-    {
-      "area": "division",
-      "q": "18 ÷ 9 =",
-      "options": [
-        "4",
-        "2",
-        "3",
-        "1"
-      ],
-      "correct": 1,
-      "id": "ma-687",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 18?\n0  →  9  →  18",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 18?\n0  →  9  →  18"
     },
     {
       "area": "division",
@@ -10736,20 +10260,6 @@
       "id": "ma-690",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 14?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 2:or ryms i 14?\n0  →  2  →  4  →  6  →  8  →  10  →  12  →  14"
-    },
-    {
-      "area": "division",
-      "q": "64 ÷ 8 =",
-      "options": [
-        "6",
-        "9",
-        "8",
-        "7"
-      ],
-      "correct": 2,
-      "id": "ma-691",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 8:or ryms i 64?\n0  →  8  →  16  →  24  →  32  →  40  →  48  →  56  →  64"
     },
     {
       "area": "division",
@@ -10876,20 +10386,6 @@
       "id": "ma-700",
       "hint": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 35?\n0  →  5  →  10  →  15  →  20  →  25  →  30  →  35",
       "explain": "🎯 Multiplikation baklänges:\n• Hur många 5:or ryms i 35?\n0  →  5  →  10  →  15  →  20  →  25  →  30  →  35"
-    },
-    {
-      "area": "division",
-      "q": "36 ÷ 9 =",
-      "options": [
-        "3",
-        "5",
-        "4",
-        "2"
-      ],
-      "correct": 2,
-      "id": "ma-701",
-      "hint": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 36?\n0  →  9  →  18  →  27  →  36",
-      "explain": "🎯 Multiplikation baklänges:\n• Hur många 9:or ryms i 36?\n0  →  9  →  18  →  27  →  36"
     },
     {
       "area": "division",
@@ -13245,6 +12741,749 @@
       "explain": "Totalt 14. Jämför t.ex. gul: 5/14 osv.",
       "difficulty": "np",
       "id": "ma-831"
+    },
+    {
+      "id": "ma-832",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Sålda frukter'?",
+      "chart": {
+        "labels": [
+          "Boll",
+          "Snöre",
+          "Spel",
+          "Bok"
+        ],
+        "values": [
+          2,
+          1,
+          5,
+          4
+        ],
+        "unit": "elever",
+        "title": "Sålda frukter"
+      },
+      "options": [
+        "Boll",
+        "Snöre",
+        "Spel",
+        "Bok"
+      ],
+      "correct": 2,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Spel (5 elever)."
+    },
+    {
+      "id": "ma-833",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler st är det i Boll än i Bok?",
+      "chart": {
+        "labels": [
+          "Boll",
+          "Snöre",
+          "Spel",
+          "Bok"
+        ],
+        "values": [
+          2,
+          9,
+          2,
+          7
+        ],
+        "unit": "st",
+        "title": "Antal i klassen"
+      },
+      "options": [
+        "7",
+        "4",
+        "6",
+        "5"
+      ],
+      "correct": 3,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Boll har 2 och Bok har 7. Skillnad = 5."
+    },
+    {
+      "id": "ma-834",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Samlade poäng'?",
+      "chart": {
+        "labels": [
+          "Keps",
+          "Mössa",
+          "Halsduk",
+          "Vantar"
+        ],
+        "values": [
+          4,
+          9,
+          7,
+          4
+        ],
+        "unit": "röster",
+        "title": "Samlade poäng"
+      },
+      "options": [
+        "Keps",
+        "Mössa",
+        "Halsduk",
+        "Vantar"
+      ],
+      "correct": 1,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Mössa (9 röster)."
+    },
+    {
+      "id": "ma-835",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler frukter är det i Banan än i Apelsin?",
+      "chart": {
+        "labels": [
+          "Äpple",
+          "Banan",
+          "Päron",
+          "Apelsin"
+        ],
+        "values": [
+          1,
+          3,
+          7,
+          6
+        ],
+        "unit": "frukter",
+        "title": "Sålda frukter"
+      },
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Banan har 3 och Apelsin har 6. Skillnad = 3."
+    },
+    {
+      "id": "ma-836",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Samlade poäng'?",
+      "chart": {
+        "labels": [
+          "Mån",
+          "Tis",
+          "Ons",
+          "Tors"
+        ],
+        "values": [
+          6,
+          6,
+          5,
+          1
+        ],
+        "unit": "röster",
+        "title": "Samlade poäng"
+      },
+      "options": [
+        "Mån",
+        "Tis",
+        "Ons",
+        "Tors"
+      ],
+      "correct": 0,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Mån (6 röster)."
+    },
+    {
+      "id": "ma-837",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler poäng är det i Tis än i Ons?",
+      "chart": {
+        "labels": [
+          "Mån",
+          "Tis",
+          "Ons",
+          "Tors"
+        ],
+        "values": [
+          7,
+          2,
+          9,
+          5
+        ],
+        "unit": "poäng",
+        "title": "Röster i omröstning"
+      },
+      "options": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "correct": 0,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Tis har 2 och Ons har 9. Skillnad = 7."
+    },
+    {
+      "id": "ma-838",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Utlånade böcker'?",
+      "chart": {
+        "labels": [
+          "Äpple",
+          "Banan",
+          "Päron",
+          "Apelsin"
+        ],
+        "values": [
+          2,
+          4,
+          2,
+          7
+        ],
+        "unit": "frukter",
+        "title": "Utlånade böcker"
+      },
+      "options": [
+        "Äpple",
+        "Banan",
+        "Päron",
+        "Apelsin"
+      ],
+      "correct": 3,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Apelsin (7 frukter)."
+    },
+    {
+      "id": "ma-839",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler elever är det i Boll än i Spel?",
+      "chart": {
+        "labels": [
+          "Boll",
+          "Snöre",
+          "Spel",
+          "Bok"
+        ],
+        "values": [
+          6,
+          3,
+          6,
+          6
+        ],
+        "unit": "elever",
+        "title": "Röster i omröstning"
+      },
+      "options": [
+        "1",
+        "0",
+        "2"
+      ],
+      "correct": 1,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Boll har 6 och Spel har 6. Skillnad = 0."
+    },
+    {
+      "id": "ma-840",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Samlade poäng'?",
+      "chart": {
+        "labels": [
+          "Keps",
+          "Mössa",
+          "Halsduk",
+          "Vantar"
+        ],
+        "values": [
+          4,
+          3,
+          8,
+          7
+        ],
+        "unit": "frukter",
+        "title": "Samlade poäng"
+      },
+      "options": [
+        "Keps",
+        "Mössa",
+        "Halsduk",
+        "Vantar"
+      ],
+      "correct": 2,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Halsduk (8 frukter)."
+    },
+    {
+      "id": "ma-841",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler frukter är det i Grön än i Röd?",
+      "chart": {
+        "labels": [
+          "Röd",
+          "Blå",
+          "Grön",
+          "Gul"
+        ],
+        "values": [
+          6,
+          1,
+          4,
+          1
+        ],
+        "unit": "frukter",
+        "title": "Utlånade böcker"
+      },
+      "options": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct": 3,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Grön har 4 och Röd har 6. Skillnad = 2."
+    },
+    {
+      "id": "ma-842",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Sålda frukter'?",
+      "chart": {
+        "labels": [
+          "Röd",
+          "Blå",
+          "Grön",
+          "Gul"
+        ],
+        "values": [
+          8,
+          7,
+          8,
+          3
+        ],
+        "unit": "frukter",
+        "title": "Sålda frukter"
+      },
+      "options": [
+        "Röd",
+        "Blå",
+        "Grön",
+        "Gul"
+      ],
+      "correct": 0,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Röd (8 frukter)."
+    },
+    {
+      "id": "ma-843",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler poäng är det i Grön än i Röd?",
+      "chart": {
+        "labels": [
+          "Röd",
+          "Blå",
+          "Grön",
+          "Gul"
+        ],
+        "values": [
+          9,
+          9,
+          5,
+          7
+        ],
+        "unit": "poäng",
+        "title": "Utlånade böcker"
+      },
+      "options": [
+        "3",
+        "6",
+        "5",
+        "4"
+      ],
+      "correct": 3,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Grön har 5 och Röd har 9. Skillnad = 4."
+    },
+    {
+      "id": "ma-844",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Samlade poäng'?",
+      "chart": {
+        "labels": [
+          "Mån",
+          "Tis",
+          "Ons",
+          "Tors"
+        ],
+        "values": [
+          1,
+          2,
+          3,
+          3
+        ],
+        "unit": "röster",
+        "title": "Samlade poäng"
+      },
+      "options": [
+        "Mån",
+        "Tis",
+        "Ons",
+        "Tors"
+      ],
+      "correct": 2,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Ons (3 röster)."
+    },
+    {
+      "id": "ma-845",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler frukter är det i Mån än i Ons?",
+      "chart": {
+        "labels": [
+          "Mån",
+          "Tis",
+          "Ons",
+          "Tors"
+        ],
+        "values": [
+          7,
+          7,
+          8,
+          9
+        ],
+        "unit": "frukter",
+        "title": "Samlade poäng"
+      },
+      "options": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ],
+      "correct": 1,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Mån har 7 och Ons har 8. Skillnad = 1."
+    },
+    {
+      "id": "ma-846",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Utlånade böcker'?",
+      "chart": {
+        "labels": [
+          "Boll",
+          "Snöre",
+          "Spel",
+          "Bok"
+        ],
+        "values": [
+          6,
+          2,
+          5,
+          7
+        ],
+        "unit": "elever",
+        "title": "Utlånade böcker"
+      },
+      "options": [
+        "Boll",
+        "Snöre",
+        "Spel",
+        "Bok"
+      ],
+      "correct": 3,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Bok (7 elever)."
+    },
+    {
+      "id": "ma-847",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler st är det i Tis än i Mån?",
+      "chart": {
+        "labels": [
+          "Mån",
+          "Tis",
+          "Ons",
+          "Tors"
+        ],
+        "values": [
+          5,
+          9,
+          3,
+          9
+        ],
+        "unit": "st",
+        "title": "Röster i omröstning"
+      },
+      "options": [
+        "4",
+        "6",
+        "3",
+        "5"
+      ],
+      "correct": 0,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Tis har 9 och Mån har 5. Skillnad = 4."
+    },
+    {
+      "id": "ma-848",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Röster i omröstning'?",
+      "chart": {
+        "labels": [
+          "Keps",
+          "Mössa",
+          "Halsduk",
+          "Vantar"
+        ],
+        "values": [
+          6,
+          8,
+          1,
+          2
+        ],
+        "unit": "frukter",
+        "title": "Röster i omröstning"
+      },
+      "options": [
+        "Keps",
+        "Mössa",
+        "Halsduk",
+        "Vantar"
+      ],
+      "correct": 1,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Mössa (8 frukter)."
+    },
+    {
+      "id": "ma-849",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler röster är det i Blå än i Röd?",
+      "chart": {
+        "labels": [
+          "Röd",
+          "Blå",
+          "Grön",
+          "Gul"
+        ],
+        "values": [
+          1,
+          4,
+          2,
+          2
+        ],
+        "unit": "röster",
+        "title": "Antal i klassen"
+      },
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct": 0,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Blå har 4 och Röd har 1. Skillnad = 3."
+    },
+    {
+      "id": "ma-850",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Röster i omröstning'?",
+      "chart": {
+        "labels": [
+          "Äpple",
+          "Banan",
+          "Päron",
+          "Apelsin"
+        ],
+        "values": [
+          9,
+          7,
+          4,
+          9
+        ],
+        "unit": "elever",
+        "title": "Röster i omröstning"
+      },
+      "options": [
+        "Äpple",
+        "Banan",
+        "Päron",
+        "Apelsin"
+      ],
+      "correct": 0,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Äpple (9 elever)."
+    },
+    {
+      "id": "ma-851",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler st är det i Katt än i Hund?",
+      "chart": {
+        "labels": [
+          "Hund",
+          "Katt",
+          "Kanin",
+          "Fisk"
+        ],
+        "values": [
+          6,
+          8,
+          9,
+          8
+        ],
+        "unit": "st",
+        "title": "Sålda frukter"
+      },
+      "options": [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      "correct": 0,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Katt har 8 och Hund har 6. Skillnad = 2."
+    },
+    {
+      "id": "ma-852",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Antal i klassen'?",
+      "chart": {
+        "labels": [
+          "Keps",
+          "Mössa",
+          "Halsduk",
+          "Vantar"
+        ],
+        "values": [
+          4,
+          1,
+          2,
+          1
+        ],
+        "unit": "elever",
+        "title": "Antal i klassen"
+      },
+      "options": [
+        "Keps",
+        "Mössa",
+        "Halsduk",
+        "Vantar"
+      ],
+      "correct": 0,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Keps (4 elever)."
+    },
+    {
+      "id": "ma-853",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler frukter är det i Tis än i Ons?",
+      "chart": {
+        "labels": [
+          "Mån",
+          "Tis",
+          "Ons",
+          "Tors"
+        ],
+        "values": [
+          6,
+          2,
+          9,
+          4
+        ],
+        "unit": "frukter",
+        "title": "Utlånade böcker"
+      },
+      "options": [
+        "6",
+        "9",
+        "8",
+        "7"
+      ],
+      "correct": 3,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Tis har 2 och Ons har 9. Skillnad = 7."
+    },
+    {
+      "id": "ma-854",
+      "type": "bar-max",
+      "area": "diagram",
+      "q": "Vilken har flest i 'Utlånade böcker'?",
+      "chart": {
+        "labels": [
+          "Röd",
+          "Blå",
+          "Grön",
+          "Gul"
+        ],
+        "values": [
+          8,
+          7,
+          4,
+          2
+        ],
+        "unit": "st",
+        "title": "Utlånade böcker"
+      },
+      "options": [
+        "Röd",
+        "Blå",
+        "Grön",
+        "Gul"
+      ],
+      "correct": 0,
+      "hint": "Titta på stapeln som är högst.",
+      "explain": "Den högsta stapeln är Röd (8 st)."
+    },
+    {
+      "id": "ma-855",
+      "type": "bar-compare",
+      "area": "diagram",
+      "q": "Hur många fler st är det i Apelsin än i Päron?",
+      "chart": {
+        "labels": [
+          "Äpple",
+          "Banan",
+          "Päron",
+          "Apelsin"
+        ],
+        "values": [
+          7,
+          7,
+          8,
+          1
+        ],
+        "unit": "st",
+        "title": "Antal i klassen"
+      },
+      "options": [
+        "7",
+        "9",
+        "6",
+        "8"
+      ],
+      "correct": 0,
+      "hint": "Jämför staplarnas höjd: skillnaden är hur mycket högre den ena är.",
+      "explain": "Apelsin har 1 och Päron har 8. Skillnad = 7."
     }
   ],
   "passages": []
