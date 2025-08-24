@@ -8,6 +8,7 @@ import ChanceMatrixCard from '../components/ChanceMatrixCard'
 import { drawWeighted, shuffle } from '../lib/draw'
 import { normalizeBank } from '../lib/bankUtils'
 import { recordOutcome, weaknessWeights } from '../lib/coach'
+import { beginSession, logAnswer, endSession } from '../lib/session.js'
 
 const DAILY_COUNT = 6
 const DAILY_KEY_LAST = 'daily_last'
@@ -15,7 +16,6 @@ const DAILY_KEY_STREAK = 'daily_streak'
 
 function todayISO(){
   const d = new Date()
-  // YYYY-MM-DD
   const yyyy = d.getFullYear()
   const mm = String(d.getMonth()+1).padStart(2,'0')
   const dd = String(d.getDate()).padStart(2,'0')
@@ -39,8 +39,10 @@ export default function Daily({ profile, saveProfile, bank, setView }){
   const [idx, setIdx] = useState(0)
   const [showHelp, setShowHelp] = useState(false)
   const [lastExplain, setLastExplain] = useState('')
+  const [lastChoice, setLastChoice] = useState(-1)
   const [remaining, setRemaining] = useState(30)
   const timerRef = useRef(null)
+  const sessionRef = useRef(null)
 
   const nb = useMemo(()=> normalizeBank(bank), [bank])
   const items = nb?.items || []
@@ -49,16 +51,21 @@ export default function Daily({ profile, saveProfile, bank, setView }){
 
   function start(){
     if(!items.length) return
-    // viktade områden mot svagheter inom den aktuella banken
     const areas = Array.from(new Set(items.map(x => (x.area||'okänd').toLowerCase())))
     const w = weaknessWeights(subject, areas, 50)
     const set = drawWeighted(items, DAILY_COUNT, w, `daily_${subject}`, noRepeats)
       .map(x => ({...x, topic: subject}))
-    setQs(shuffle(set))
+    const picked = shuffle(set)
+    setQs(picked)
     setIdx(0)
     setState('running')
     setShowHelp(false)
     setLastExplain('')
+    setLastChoice(-1)
+
+    // starta sessionlogg
+    sessionRef.current = beginSession('daily', { subject, count: picked.length })
+
     resetTimer()
   }
 
@@ -71,7 +78,7 @@ export default function Daily({ profile, saveProfile, bank, setView }){
       setRemaining(r=>{
         if(r<=1){
           clearInterval(timerRef.current)
-          onAnswered(false)
+          onAnsweredWithChoice(-1) // timeout = obesvarad
           return 30
         }
         return r-1
@@ -87,7 +94,7 @@ export default function Daily({ profile, saveProfile, bank, setView }){
       setRemaining(r=>{
         if(r<=1){
           clearInterval(timerRef.current)
-          onAnswered(false)
+          onAnsweredWithChoice(-1)
           return 30
         }
         return r-1
@@ -113,9 +120,13 @@ export default function Daily({ profile, saveProfile, bank, setView }){
     }
   }
 
-  function onAnswered(ok){
+  function onAnsweredWithChoice(chosenIdx){
     const q = qs[idx]
+    const ok = (chosenIdx === q.correct)
     recordOutcome(subject, q, !!ok)
+
+    // logga i sessionshistorik
+    logAnswer(sessionRef.current, q, chosenIdx)
 
     // poäng
     if(profile && saveProfile){
@@ -131,19 +142,23 @@ export default function Daily({ profile, saveProfile, bank, setView }){
       saveProfile(p)
     }
 
+    // spara valt svar på frågan för sammanfattning
+    q.__chosen = chosenIdx
+
+    setLastChoice(chosenIdx)
     setLastExplain(q.explain || buildHint(q))
     setState('review')
     clearInterval(timerRef.current)
   }
 
-  function handleChoose(i){ onAnswered(i === qs[idx].correct) }
-  function handleBinary(ok){ onAnswered(!!ok) }
+  function handleChoose(i){ onAnsweredWithChoice(i) }
+  function handleBinary(ok){ onAnsweredWithChoice(ok ? qs[idx].correct : -1) }
 
   function next(){
     const n = idx+1
     if(n >= qs.length){ completeDaily() }
     else{
-      setIdx(n); setShowHelp(false); setLastExplain(''); setState('running'); resetTimer()
+      setIdx(n); setShowHelp(false); setLastExplain(''); setLastChoice(-1); setState('running'); resetTimer()
     }
   }
 
@@ -164,12 +179,16 @@ export default function Daily({ profile, saveProfile, bank, setView }){
         if(p.points % 50 === 0) p.level = (p.level||1)+1
         saveProfile(p)
       }
-    }catch(_){}
+    }catch(_){ }
+
+    // avsluta sessionslogg
+    endSession(sessionRef.current)
+
     setState('done')
   }
 
   function restart(){
-    setState('idle'); setQs([]); setIdx(0); setShowHelp(false); setLastExplain('')
+    setState('idle'); setQs([]); setIdx(0); setShowHelp(false); setLastExplain(''); setLastChoice(-1)
     clearInterval(timerRef.current); setRemaining(30)
   }
 
@@ -179,7 +198,35 @@ export default function Daily({ profile, saveProfile, bank, setView }){
   try{
     streak = parseInt(localStorage.getItem(DAILY_KEY_STREAK) || '0',10) || 0
     last = localStorage.getItem(DAILY_KEY_LAST) || ''
-  }catch(_){}
+  }catch(_){ }
+
+  // sammanfattningsdata när done
+  const summary = state==='done' ? (()=>{
+    const rights = qs.filter(q => (q.__chosen ?? -1) === q.correct).length
+    const total = qs.length
+    const areaStats = {}
+    qs.forEach(q => {
+      const a = (q.area || 'okänd').toLowerCase()
+      const ok = (q.__chosen === q.correct)
+      areaStats[a] = areaStats[a] || { right:0, total:0 }
+      areaStats[a].total++
+      if(ok) areaStats[a].right++
+    })
+    const entries = Object.entries(areaStats).map(([a,s]) => ({ area:a, acc: s.total? Math.round(100*s.right/s.total):0, total:s.total }))
+    entries.sort((x,y)=>x.acc - y.acc)
+    return { rights, total, entries }
+  })() : null
+
+  const areaTips = {
+    'addition': 'Träna tiokamrater och att räkna från det större talet.',
+    'subtraktion': 'Räkna upp till närmaste tia, använd tallinjen.',
+    'multiplikation': 'Öva 2-, 5- och 10-tabellen först.',
+    'division': 'Tänk multiplikation baklänges: 3×?=talet.',
+    'klockan': 'Öva hel/halv/kvart, analog vs digital.',
+    'läsförståelse': 'Markera nyckelord i texten och jämför mot frågan.',
+    'grammatik': 'Substantiv = namn, Verb = gör/är, Adjektiv = beskriver.',
+    'stavning': 'Lyssna på sj-/tj-/hj- ljud, dubbelteckning efter kort vokal.'
+  }
 
   return (
     <div className="grid">
@@ -231,9 +278,18 @@ export default function Daily({ profile, saveProfile, bank, setView }){
             </div>
 
             {state==='review' && (
-              <div className="hint" style={{marginTop:10, whiteSpace:'pre-wrap'}}>
-                <b>Tips:</b> {lastExplain}
-              </div>
+              <>
+                <div className="row" style={{marginTop:10, flexWrap:'wrap', gap:8}}>
+                  {lastChoice === current.correct
+                    ? <span className="chip" style={{color:'var(--ok)'}}>✔️ Rätt</span>
+                    : <span className="chip" style={{color:'var(--error)'}}>✘ Fel</span>}
+                  <span className="chip">Ditt svar: {lastChoice>=0 ? String.fromCharCode(65+lastChoice) : '—'}</span>
+                  <span className="chip">Rätt svar: {String.fromCharCode(65+current.correct)}</span>
+                </div>
+                <div className="hint" style={{marginTop:10}}>
+                  <b>Tips:</b> {lastExplain}
+                </div>
+              </>
             )}
           </>
         )}
@@ -245,6 +301,42 @@ export default function Daily({ profile, saveProfile, bank, setView }){
             <div className="row" style={{marginTop:10}}>
               <button className="btn" onClick={start}>▶️ Kör igen (utan bonus)</button>
               <button className="btn alt" onClick={()=>setView?.('home')}>🏠 Hem</button>
+              <button className="btn small ghost" onClick={()=>setView?.('review')}>🧾 Visa detaljerad historik</button>
+            </div>
+
+            {/* Sammanfattning */}
+            <div className="list" style={{marginTop:14}}>
+              <div className="item"><b>Resultat:</b> {summary?.rights ?? 0} / {summary?.total ?? 0}</div>
+
+              {qs.map((q,i) => (
+                <div key={q.id || i} className="item">
+                  {q.title && <div style={{fontWeight:700}}>{q.title}</div>}
+                  {q.text && <div className="passage" style={{marginTop:6}}>{q.text}</div>}
+                  <div style={{marginTop:6}}><b>{i+1}. {q.q}</b></div>
+                  <div className="tiny">Område: {q.area || 'okänd'}</div>
+                  <div className="row" style={{marginTop:6, flexWrap:'wrap', gap:8}}>
+                    <span className="chip">Rätt svar: {String.fromCharCode(65 + q.correct)}</span>
+                    {typeof q.__chosen === 'number' && q.__chosen >= 0
+                      ? <span className="chip">Ditt svar: {String.fromCharCode(65 + q.__chosen)}</span>
+                      : <span className="chip">Ditt svar: —</span>}
+                    {(q.__chosen === q.correct)
+                      ? <span className="chip" style={{color:'var(--ok)'}}>✔️ Rätt</span>
+                      : <span className="chip" style={{color:'var(--error)'}}>✘ Fel</span>}
+                  </div>
+                  {q.hint && <div className="hint" style={{marginTop:8}}>💡 Tips: {q.hint}</div>}
+                </div>
+              ))}
+
+              <div className="item">
+                <b>Det här kan du öva på:</b>
+                <ul className="tiny" style={{marginTop:6}}>
+                  {(summary?.entries || []).map(e => (
+                    <li key={e.area}>
+                      <b>{e.area}</b>: {e.acc}% rätt av {e.total} frågor. {areaTips[e.area] || ''}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </>
         )}

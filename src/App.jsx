@@ -104,14 +104,16 @@ export default function App(){
         </div>
       </header>
 
-      <div className="tabs">
-        <button className="btn small ghost" onClick={()=>setView('home')}>🏠 Start</button>
-        <button className="btn small ghost" onClick={()=>setView('daily')}>⭐ Dagens</button>
-        <button className="btn small ghost" onClick={()=>setView('practice')}>🧩 Öva</button>
-        <button className="btn small ghost" onClick={()=>setView('exam')}>📝 Provläge</button>
-        <button className="btn small ghost" onClick={()=>setView('stats')}>📊 Statistik</button>
-        <button className="btn small ghost" onClick={()=>setView('settings')}>⚙️ Inställningar</button>
-        <button className="btn small ghost" onClick={()=>setView('bank')}>📚 Frågebank</button>
+      <div className="tabs-scroll">
+        <div className="tabs">
+          <button className="btn small ghost" onClick={()=>setView('home')}>🏠 Start</button>
+          <button className="btn small ghost" onClick={()=>setView('daily')}>⭐ Dagens</button>
+          <button className="btn small ghost" onClick={()=>setView('practice')}>🧩 Öva</button>
+          <button className="btn small ghost" onClick={()=>setView('exam')}>📝 Provläge</button>
+          <button className="btn small ghost" onClick={()=>setView('stats')}>📊 Statistik</button>
+          <button className="btn small ghost" onClick={()=>setView('settings')}>⚙️ Inställningar</button>
+          <button className="btn small ghost" onClick={()=>setView('bank')}>📚 Frågebank</button>
+        </div>
       </div>
 
       {view==='home' && <Home profile={profile} setView={setView} />}
