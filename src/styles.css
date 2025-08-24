@@ -128,3 +128,18 @@ button.choice * { color: inherit; } /* ikoner/span etc. */
   text-align: center;
   justify-content: center;
 }
+
+/* ==== Fix: SubjectPicker med .item + .btn (vit text på vit bakgrund) ==== */
+.item.btn.small:not(.ghost) {
+  background: #fff;
+  color: var(--fg);
+  border: 1px solid #e5e7eb;
+}
+
+/* Aktiv vald bank: tydlig markering + läsbar text */
+.item.btn.small:not(.ghost).active,
+.item.btn.small:not(.ghost)[aria-pressed="true"] {
+  background: #eff6ff;
+  color: var(--fg);
+  border: 2px solid var(--brand);
+}

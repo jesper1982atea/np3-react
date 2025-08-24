@@ -1,0 +1,3519 @@
+{
+  "version": "1.0",
+  "subject": "svenska",
+  "grade": 3,
+  "items": [
+    {
+      "id": "sv-001",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "tjärna",
+        "stjerna",
+        "stjärna",
+        "stärna"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-002",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "ficlampa",
+        "fikklampa",
+        "ficklampa",
+        "fickllampa"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-003",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "skjorta",
+        "sjorta",
+        "schjorta",
+        "skåjorta"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-004",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "kykling",
+        "kyckling",
+        "kycklig",
+        "kycklingskj"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-005",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "färglägga",
+        "färglgäga",
+        "färgägga",
+        "färlägga"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-006",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "jsälv",
+        "skjälv",
+        "själv",
+        "sälv"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-007",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "ficklampa",
+        "ficklapa",
+        "fickllampa",
+        "fikclampa"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-008",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "skjälv",
+        "skälv",
+        "sjävl",
+        "själv"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-009",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "biblitoek",
+        "bibliteket",
+        "bibiliotek",
+        "bibliotek"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-010",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "frågetecken",
+        "frågeecken",
+        "frågetäcken",
+        "frågeteckan"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-011",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "museum",
+        "museeum",
+        "muesum",
+        "msueum"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-012",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "färglgäga",
+        "färlägga",
+        "färglägga",
+        "färgläga"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-013",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "uljus",
+        "lujs",
+        "ljuss",
+        "ljus"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-014",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "växthuseffet",
+        "växthuseffekt",
+        "växthusefekt",
+        "växthusseffekt"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-015",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "djjärnväg",
+        "järnväg",
+        "jiärnväg",
+        "järnväyg"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-016",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "mäniskor",
+        "människår",
+        "männisckor",
+        "människor"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-017",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "staket",
+        "staekt",
+        "stket",
+        "stakschet"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-018",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "kjläxor",
+        "läxor",
+        "lyäxor",
+        "läxogr"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-019",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "färglägga",
+        "fäglägga",
+        "äfrglägga",
+        "färgläga"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-020",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "färglägg",
+        "färglägga",
+        "fräglägga",
+        "färgläga"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-021",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "sjärna",
+        "stiarna",
+        "sjtärna",
+        "stjärna"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-022",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "tävling",
+        "tävlign",
+        "tävlin",
+        "ätvling"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-023",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "kykling",
+        "kyckilng",
+        "kyckling",
+        "schkyckling"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-024",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "färglägga",
+        "färglägag",
+        "färgälgga",
+        "färgläga"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-025",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "tjje",
+        "tjej",
+        "tjejj",
+        "tej"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-026",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "museum",
+        "museun",
+        "museeum",
+        "muséum"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-027",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "stjärna",
+        "sjärna",
+        "stjarna",
+        "såtjärna"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-028",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "gnyckel",
+        "nükel",
+        "nukkel",
+        "nyckel"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-029",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "tjei",
+        "tjej",
+        "tjj",
+        "chej"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-030",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "fönsterbräad",
+        "fönsterbräda",
+        "fönsterbrädda",
+        "fönsterbäda"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-031",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "kylcking",
+        "kycking",
+        "kyckling",
+        "kycklnig"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-032",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "sjoklad",
+        "choklad",
+        "schoklad",
+        "ckhoklad"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-033",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "jkjärnväg",
+        "järnäg",
+        "äjrnväg",
+        "järnväg"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-034",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "hjärat",
+        "hjerta",
+        "jhärta",
+        "hjärta"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-035",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "fönsterbrädan",
+        "fönsterbräda",
+        "ufönsterbräda",
+        "fönsterbreda"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-036",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "museum",
+        "umseum",
+        "museun",
+        "muséum"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-037",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "päjron",
+        "skjpäron",
+        "päeron",
+        "päron"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-038",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "skojj",
+        "sko",
+        "sgkoj",
+        "skoj"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-039",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "tävlin",
+        "täfling",
+        "tävlning",
+        "tävling"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-040",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "frågeteckan",
+        "frågetecken",
+        "frågeteckeen",
+        "fårgetecken"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-041",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "växthseffekt",
+        "växtuseffekt",
+        "växthuseffekt",
+        "växthuseffektskj"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-042",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "läxor",
+        "läxorsj",
+        "läxoro",
+        "gjläxor"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-043",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "hjärta",
+        "giärta",
+        "hjärtadj",
+        "hjerta"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-044",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "sjschälv",
+        "skälv",
+        "själv",
+        "sälv"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-045",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "skoskjj",
+        "sköj",
+        "skoi",
+        "skoj"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-046",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "fönsterbrädan",
+        "fögjnsterbräda",
+        "fönsterbrdäa",
+        "fönsterbräda"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-047",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "lägare",
+        "lekare",
+        "läkare",
+        "läakre"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-048",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "läckare",
+        "älkare",
+        "läkare",
+        "läkar"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-049",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "tjej",
+        "tjesjj",
+        "tjejj",
+        "tjei"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-050",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "stjäna",
+        "stjarna",
+        "stjärna",
+        "stjära"
+      ],
+      "correct": 2,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-051",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "hjärta",
+        "hjätra",
+        "giärta",
+        "hjärtda"
+      ],
+      "correct": 0,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-052",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "läxogjr",
+        "läxor",
+        "läoxr",
+        "lxäor"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-053",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "frågeteckan",
+        "frågetecken",
+        "frgetecken",
+        "fsjrågetecken"
+      ],
+      "correct": 1,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-054",
+      "area": "stavning",
+      "q": "Vilket ord stavas rätt?",
+      "options": [
+        "skj",
+        "ksoj",
+        "skojj",
+        "skoj"
+      ],
+      "correct": 3,
+      "explain": "Stavning: Välj den korrekta stavningen. Jämför bokstäver/ljud (sj-, tj-, hj-, lj-, skj-)."
+    },
+    {
+      "id": "sv-055",
+      "area": "grammatik",
+      "q": "Vilken mening är korrekt skriven?",
+      "options": [
+        "vi åker hem",
+        "Vi åker hem",
+        "Vi åker hem.",
+        "vi Åker hem."
+      ],
+      "correct": 2,
+      "explain": "Mening börjar med stor bokstav och slutar med punkt/frågetecken/utropstecken."
+    },
+    {
+      "id": "sv-056",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "klass",
+        "hård",
+        "i",
+        "badar"
+      ],
+      "correct": 1,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-057",
+      "area": "grammatik",
+      "q": "Vilket ord är ett verb?",
+      "options": [
+        "på",
+        "skola",
+        "äter",
+        "glad"
+      ],
+      "correct": 2,
+      "explain": "Verb beskriver handlingar eller tillstånd (t.ex. springer, läser, är)."
+    },
+    {
+      "id": "sv-058",
+      "area": "grammatik",
+      "q": "Vilket är en preposition?",
+      "options": [
+        "katt",
+        "glad",
+        "bakom",
+        "springer"
+      ],
+      "correct": 2,
+      "explain": "Prepositioner beskriver läge/riktning (t.ex. på, under, i, bakom)."
+    },
+    {
+      "id": "sv-059",
+      "area": "grammatik",
+      "q": "Vilken mening är korrekt skriven?",
+      "options": [
+        "vi Åker hem.",
+        "Vi åker hem.",
+        "Vi åker hem",
+        "vi åker hem"
+      ],
+      "correct": 1,
+      "explain": "Mening börjar med stor bokstav och slutar med punkt/frågetecken/utropstecken."
+    },
+    {
+      "id": "sv-060",
+      "area": "grammatik",
+      "q": "Vilket är en preposition?",
+      "options": [
+        "under",
+        "katt",
+        "glad",
+        "springer"
+      ],
+      "correct": 0,
+      "explain": "Prepositioner beskriver läge/riktning (t.ex. på, under, i, bakom)."
+    },
+    {
+      "id": "sv-061",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "liten",
+        "är",
+        "i",
+        "bok"
+      ],
+      "correct": 0,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-062",
+      "area": "grammatik",
+      "q": "Vilket ord är ett verb?",
+      "options": [
+        "stol",
+        "badar",
+        "liten",
+        "på"
+      ],
+      "correct": 1,
+      "explain": "Verb beskriver handlingar eller tillstånd (t.ex. springer, läser, är)."
+    },
+    {
+      "id": "sv-063",
+      "area": "grammatik",
+      "q": "Vilken mening är korrekt skriven?",
+      "options": [
+        "vi Åker hem.",
+        "Vi åker hem",
+        "Vi åker hem.",
+        "vi åker hem"
+      ],
+      "correct": 2,
+      "explain": "Mening börjar med stor bokstav och slutar med punkt/frågetecken/utropstecken."
+    },
+    {
+      "id": "sv-064",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "under",
+        "ryggsäck",
+        "liten",
+        "tittar"
+      ],
+      "correct": 1,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-065",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "skriver",
+        "tyst",
+        "bord",
+        "i"
+      ],
+      "correct": 1,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-066",
+      "area": "grammatik",
+      "q": "Vilket ord är ett verb?",
+      "options": [
+        "på",
+        "bok",
+        "söt",
+        "sover"
+      ],
+      "correct": 3,
+      "explain": "Verb beskriver handlingar eller tillstånd (t.ex. springer, läser, är)."
+    },
+    {
+      "id": "sv-067",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "tyst",
+        "i",
+        "Lisa",
+        "tittar"
+      ],
+      "correct": 0,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-068",
+      "area": "grammatik",
+      "q": "Välj korrekt skiljetecken i meningen.",
+      "options": [
+        "Vad heter du,",
+        "Vad heter du!",
+        "Vad heter du.",
+        "Vad heter du?"
+      ],
+      "correct": 3,
+      "explain": "Frågor avslutas med frågetecken (?)."
+    },
+    {
+      "id": "sv-069",
+      "area": "grammatik",
+      "q": "Vilken mening är korrekt skriven?",
+      "options": [
+        "vi Åker hem.",
+        "Vi åker hem.",
+        "vi åker hem",
+        "Vi åker hem"
+      ],
+      "correct": 1,
+      "explain": "Mening börjar med stor bokstav och slutar med punkt/frågetecken/utropstecken."
+    },
+    {
+      "id": "sv-070",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "äter",
+        "i",
+        "bord",
+        "hög"
+      ],
+      "correct": 3,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-071",
+      "area": "grammatik",
+      "q": "Vilket är en preposition?",
+      "options": [
+        "springer",
+        "glad",
+        "bredvid",
+        "katt"
+      ],
+      "correct": 2,
+      "explain": "Prepositioner beskriver läge/riktning (t.ex. på, under, i, bakom)."
+    },
+    {
+      "id": "sv-072",
+      "area": "grammatik",
+      "q": "Vilket är en preposition?",
+      "options": [
+        "katt",
+        "glad",
+        "springer",
+        "framför"
+      ],
+      "correct": 3,
+      "explain": "Prepositioner beskriver läge/riktning (t.ex. på, under, i, bakom)."
+    },
+    {
+      "id": "sv-073",
+      "area": "grammatik",
+      "q": "Vilket ord är ett verb?",
+      "options": [
+        "klass",
+        "liten",
+        "på",
+        "är"
+      ],
+      "correct": 3,
+      "explain": "Verb beskriver handlingar eller tillstånd (t.ex. springer, läser, är)."
+    },
+    {
+      "id": "sv-074",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "mörk",
+        "bok",
+        "cyklar",
+        "under"
+      ],
+      "correct": 1,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-075",
+      "area": "grammatik",
+      "q": "Välj korrekt skiljetecken i meningen.",
+      "options": [
+        "Vad heter du?",
+        "Vad heter du!",
+        "Vad heter du.",
+        "Vad heter du,"
+      ],
+      "correct": 0,
+      "explain": "Frågor avslutas med frågetecken (?)."
+    },
+    {
+      "id": "sv-076",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "Ali",
+        "läser",
+        "under",
+        "röd"
+      ],
+      "correct": 0,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-077",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "lång",
+        "sjunger",
+        "under",
+        "stad"
+      ],
+      "correct": 3,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-078",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "cyklar",
+        "liten",
+        "Ali",
+        "under"
+      ],
+      "correct": 2,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-079",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "i",
+        "tittar",
+        "snabb",
+        "klass"
+      ],
+      "correct": 2,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-080",
+      "area": "grammatik",
+      "q": "Välj preteritum av 'skriver'.",
+      "options": [
+        "skrev",
+        "skriva",
+        "skrivit",
+        "skriver"
+      ],
+      "correct": 0,
+      "explain": "Preteritum är dåtid (igår). Ex: läser→läste, skriver→skrev, är→var."
+    },
+    {
+      "id": "sv-081",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "lärare",
+        "under",
+        "skriver",
+        "mjuk"
+      ],
+      "correct": 0,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-082",
+      "area": "grammatik",
+      "q": "Välj korrekt skiljetecken i meningen.",
+      "options": [
+        "Vad heter du.",
+        "Vad heter du,",
+        "Vad heter du!",
+        "Vad heter du?"
+      ],
+      "correct": 3,
+      "explain": "Frågor avslutas med frågetecken (?)."
+    },
+    {
+      "id": "sv-083",
+      "area": "grammatik",
+      "q": "Vilket är en preposition?",
+      "options": [
+        "glad",
+        "katt",
+        "över",
+        "springer"
+      ],
+      "correct": 2,
+      "explain": "Prepositioner beskriver läge/riktning (t.ex. på, under, i, bakom)."
+    },
+    {
+      "id": "sv-084",
+      "area": "grammatik",
+      "q": "Vilket är en preposition?",
+      "options": [
+        "katt",
+        "springer",
+        "glad",
+        "framför"
+      ],
+      "correct": 3,
+      "explain": "Prepositioner beskriver läge/riktning (t.ex. på, under, i, bakom)."
+    },
+    {
+      "id": "sv-085",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "glad",
+        "under",
+        "vän",
+        "tittar"
+      ],
+      "correct": 2,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-086",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "i",
+        "mjuk",
+        "vän",
+        "skriver"
+      ],
+      "correct": 1,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-087",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "tyst",
+        "i",
+        "skriver",
+        "bok"
+      ],
+      "correct": 0,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-088",
+      "area": "grammatik",
+      "q": "Vilket ord är ett verb?",
+      "options": [
+        "leker",
+        "hög",
+        "på",
+        "lärare"
+      ],
+      "correct": 0,
+      "explain": "Verb beskriver handlingar eller tillstånd (t.ex. springer, läser, är)."
+    },
+    {
+      "id": "sv-089",
+      "area": "grammatik",
+      "q": "Välj preteritum av 'skriver'.",
+      "options": [
+        "skrivit",
+        "skriver",
+        "skriva",
+        "skrev"
+      ],
+      "correct": 3,
+      "explain": "Preteritum är dåtid (igår). Ex: läser→läste, skriver→skrev, är→var."
+    },
+    {
+      "id": "sv-090",
+      "area": "grammatik",
+      "q": "Välj korrekt skiljetecken i meningen.",
+      "options": [
+        "Vad heter du,",
+        "Vad heter du.",
+        "Vad heter du?",
+        "Vad heter du!"
+      ],
+      "correct": 2,
+      "explain": "Frågor avslutas med frågetecken (?)."
+    },
+    {
+      "id": "sv-091",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "stor",
+        "sover",
+        "Lisa",
+        "i"
+      ],
+      "correct": 0,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-092",
+      "area": "grammatik",
+      "q": "Vilken mening är korrekt skriven?",
+      "options": [
+        "vi åker hem",
+        "Vi åker hem",
+        "vi Åker hem.",
+        "Vi åker hem."
+      ],
+      "correct": 3,
+      "explain": "Mening börjar med stor bokstav och slutar med punkt/frågetecken/utropstecken."
+    },
+    {
+      "id": "sv-093",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "lärare",
+        "i",
+        "liten",
+        "är"
+      ],
+      "correct": 2,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-094",
+      "area": "grammatik",
+      "q": "Vilket ord är ett verb?",
+      "options": [
+        "hög",
+        "på",
+        "badar",
+        "Lisa"
+      ],
+      "correct": 2,
+      "explain": "Verb beskriver handlingar eller tillstånd (t.ex. springer, läser, är)."
+    },
+    {
+      "id": "sv-095",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "i",
+        "ritar",
+        "boll",
+        "glad"
+      ],
+      "correct": 3,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-096",
+      "area": "grammatik",
+      "q": "Vilken mening är korrekt skriven?",
+      "options": [
+        "Vi åker hem",
+        "Vi åker hem.",
+        "vi åker hem",
+        "vi Åker hem."
+      ],
+      "correct": 1,
+      "explain": "Mening börjar med stor bokstav och slutar med punkt/frågetecken/utropstecken."
+    },
+    {
+      "id": "sv-097",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "under",
+        "Lisa",
+        "söt",
+        "leker"
+      ],
+      "correct": 1,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-098",
+      "area": "grammatik",
+      "q": "Välj preteritum av 'skriver'.",
+      "options": [
+        "skriver",
+        "skriva",
+        "skrivit",
+        "skrev"
+      ],
+      "correct": 3,
+      "explain": "Preteritum är dåtid (igår). Ex: läser→läste, skriver→skrev, är→var."
+    },
+    {
+      "id": "sv-099",
+      "area": "grammatik",
+      "q": "Välj korrekt skiljetecken i meningen.",
+      "options": [
+        "Vad heter du?",
+        "Vad heter du,",
+        "Vad heter du.",
+        "Vad heter du!"
+      ],
+      "correct": 0,
+      "explain": "Frågor avslutas med frågetecken (?)."
+    },
+    {
+      "id": "sv-100",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "sjunger",
+        "under",
+        "bok",
+        "stor"
+      ],
+      "correct": 2,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-101",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "klass",
+        "lång",
+        "i",
+        "målar"
+      ],
+      "correct": 1,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-102",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "under",
+        "är",
+        "hög",
+        "stad"
+      ],
+      "correct": 3,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-103",
+      "area": "grammatik",
+      "q": "Välj korrekt skiljetecken i meningen.",
+      "options": [
+        "Vad heter du.",
+        "Vad heter du?",
+        "Vad heter du,",
+        "Vad heter du!"
+      ],
+      "correct": 1,
+      "explain": "Frågor avslutas med frågetecken (?)."
+    },
+    {
+      "id": "sv-104",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "söt",
+        "äter",
+        "i",
+        "Ali"
+      ],
+      "correct": 0,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-105",
+      "area": "grammatik",
+      "q": "Vilket ord är ett adjektiv?",
+      "options": [
+        "i",
+        "badar",
+        "liten",
+        "klass"
+      ],
+      "correct": 2,
+      "explain": "Adjektiv beskriver egenskaper (t.ex. stor, röd, snabb)."
+    },
+    {
+      "id": "sv-106",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "vän",
+        "badar",
+        "under",
+        "mörk"
+      ],
+      "correct": 0,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-107",
+      "area": "grammatik",
+      "q": "Vilket ord är ett substantiv?",
+      "options": [
+        "fönster",
+        "hård",
+        "under",
+        "badar"
+      ],
+      "correct": 0,
+      "explain": "Substantiv är namn på saker/djur/personer/platser (t.ex. katt, bord, Lisa)."
+    },
+    {
+      "id": "sv-108",
+      "area": "ordforstaelse",
+      "q": "Han är ___.",
+      "options": [
+        "hungrig",
+        "långsam",
+        "fem",
+        "blå"
+      ],
+      "correct": 0,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-109",
+      "area": "ordforstaelse",
+      "q": "Han är ___.",
+      "options": [
+        "trött",
+        "blå",
+        "fem",
+        "långsam"
+      ],
+      "correct": 0,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-110",
+      "area": "ordforstaelse",
+      "q": "Han är ___.",
+      "options": [
+        "blå",
+        "långsam",
+        "hungrig",
+        "fem"
+      ],
+      "correct": 2,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-111",
+      "area": "ordforstaelse",
+      "q": "Han är ___.",
+      "options": [
+        "fem",
+        "hungrig",
+        "långsam",
+        "blå"
+      ],
+      "correct": 1,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-112",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'lång'?",
+      "options": [
+        "nära",
+        "kort",
+        "lik",
+        "snabb"
+      ],
+      "correct": 1,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-113",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'trött'?",
+      "options": [
+        "okänt",
+        "utmattad",
+        "annat",
+        "fel"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-114",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'glad'?",
+      "options": [
+        "munter",
+        "annat",
+        "fel",
+        "okänt"
+      ],
+      "correct": 0,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-115",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'fin'?",
+      "options": [
+        "annat",
+        "vacker",
+        "fel",
+        "okänt"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-116",
+      "area": "ordforstaelse",
+      "q": "Hon är ___.",
+      "options": [
+        "rädd",
+        "långsam",
+        "fem",
+        "blå"
+      ],
+      "correct": 0,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-117",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'snabb'?",
+      "options": [
+        "annat",
+        "kvick",
+        "okänt",
+        "fel"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-118",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'tyst'?",
+      "options": [
+        "okänt",
+        "lågmälld",
+        "fel",
+        "annat"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-119",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'rädd'?",
+      "options": [
+        "fel",
+        "okänt",
+        "annat",
+        "skrämd"
+      ],
+      "correct": 3,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-120",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'stor'?",
+      "options": [
+        "snabb",
+        "liten",
+        "nära",
+        "lik"
+      ],
+      "correct": 1,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-121",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'stor'?",
+      "options": [
+        "fel",
+        "annat",
+        "enorm",
+        "okänt"
+      ],
+      "correct": 2,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-122",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'smart'?",
+      "options": [
+        "klok",
+        "annat",
+        "okänt",
+        "fel"
+      ],
+      "correct": 0,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-123",
+      "area": "ordforstaelse",
+      "q": "Han är ___.",
+      "options": [
+        "hungrig",
+        "blå",
+        "fem",
+        "långsam"
+      ],
+      "correct": 0,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-124",
+      "area": "ordforstaelse",
+      "q": "Hen är ___.",
+      "options": [
+        "fem",
+        "långsam",
+        "blå",
+        "hungrig"
+      ],
+      "correct": 3,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-125",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'stor'?",
+      "options": [
+        "lik",
+        "liten",
+        "snabb",
+        "nära"
+      ],
+      "correct": 1,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-126",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'rädd'?",
+      "options": [
+        "okänt",
+        "skrämd",
+        "annat",
+        "fel"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-127",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'stor'?",
+      "options": [
+        "okänt",
+        "annat",
+        "enorm",
+        "fel"
+      ],
+      "correct": 2,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-128",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'lätt'?",
+      "options": [
+        "lik",
+        "snabb",
+        "svår",
+        "nära"
+      ],
+      "correct": 2,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-129",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'glad'?",
+      "options": [
+        "munter",
+        "okänt",
+        "fel",
+        "annat"
+      ],
+      "correct": 0,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-130",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'stor'?",
+      "options": [
+        "fel",
+        "okänt",
+        "enorm",
+        "annat"
+      ],
+      "correct": 2,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-131",
+      "area": "ordforstaelse",
+      "q": "Hen är ___.",
+      "options": [
+        "långsam",
+        "blå",
+        "fem",
+        "trött"
+      ],
+      "correct": 3,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-132",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'snabb'?",
+      "options": [
+        "okänt",
+        "kvick",
+        "fel",
+        "annat"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-133",
+      "area": "ordforstaelse",
+      "q": "Hon är ___.",
+      "options": [
+        "blå",
+        "fem",
+        "långsam",
+        "rädd"
+      ],
+      "correct": 3,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-134",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'trött'?",
+      "options": [
+        "annat",
+        "utmattad",
+        "fel",
+        "okänt"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-135",
+      "area": "ordforstaelse",
+      "q": "Hen är ___.",
+      "options": [
+        "fem",
+        "glad",
+        "långsam",
+        "blå"
+      ],
+      "correct": 1,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-136",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'rolig'?",
+      "options": [
+        "skämtsam",
+        "okänt",
+        "annat",
+        "fel"
+      ],
+      "correct": 0,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-137",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'stor'?",
+      "options": [
+        "lik",
+        "nära",
+        "liten",
+        "snabb"
+      ],
+      "correct": 2,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-138",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'torr'?",
+      "options": [
+        "snabb",
+        "nära",
+        "lik",
+        "blöt"
+      ],
+      "correct": 3,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-139",
+      "area": "ordforstaelse",
+      "q": "Hen är ___.",
+      "options": [
+        "blå",
+        "långsam",
+        "rädd",
+        "fem"
+      ],
+      "correct": 2,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-140",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'lång'?",
+      "options": [
+        "kort",
+        "lik",
+        "snabb",
+        "nära"
+      ],
+      "correct": 0,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-141",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'rädd'?",
+      "options": [
+        "skrämd",
+        "annat",
+        "okänt",
+        "fel"
+      ],
+      "correct": 0,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-142",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'tyst'?",
+      "options": [
+        "lågmälld",
+        "okänt",
+        "fel",
+        "annat"
+      ],
+      "correct": 0,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-143",
+      "area": "ordforstaelse",
+      "q": "Hen är ___.",
+      "options": [
+        "fem",
+        "långsam",
+        "blå",
+        "glad"
+      ],
+      "correct": 3,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-144",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'rädd'?",
+      "options": [
+        "annat",
+        "fel",
+        "skrämd",
+        "okänt"
+      ],
+      "correct": 2,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-145",
+      "area": "ordforstaelse",
+      "q": "Han är ___.",
+      "options": [
+        "långsam",
+        "fem",
+        "trött",
+        "blå"
+      ],
+      "correct": 2,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-146",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'rolig'?",
+      "options": [
+        "okänt",
+        "skämtsam",
+        "fel",
+        "annat"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-147",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'tyst'?",
+      "options": [
+        "lik",
+        "snabb",
+        "högljudd",
+        "nära"
+      ],
+      "correct": 2,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-148",
+      "area": "ordforstaelse",
+      "q": "Hen är ___.",
+      "options": [
+        "glad",
+        "fem",
+        "blå",
+        "långsam"
+      ],
+      "correct": 0,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-149",
+      "area": "ordforstaelse",
+      "q": "Han är ___.",
+      "options": [
+        "trött",
+        "fem",
+        "långsam",
+        "blå"
+      ],
+      "correct": 0,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-150",
+      "area": "ordforstaelse",
+      "q": "Hen är ___.",
+      "options": [
+        "blå",
+        "fem",
+        "hungrig",
+        "långsam"
+      ],
+      "correct": 2,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-151",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'fin'?",
+      "options": [
+        "vacker",
+        "okänt",
+        "annat",
+        "fel"
+      ],
+      "correct": 0,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-152",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'ljus'?",
+      "options": [
+        "mörk",
+        "nära",
+        "snabb",
+        "lik"
+      ],
+      "correct": 0,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-153",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'glad'?",
+      "options": [
+        "fel",
+        "munter",
+        "okänt",
+        "annat"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-154",
+      "area": "ordforstaelse",
+      "q": "Han är ___.",
+      "options": [
+        "fem",
+        "blå",
+        "rädd",
+        "långsam"
+      ],
+      "correct": 2,
+      "explain": "Välj det ord som passar bäst i meningen."
+    },
+    {
+      "id": "sv-155",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'snabb'?",
+      "options": [
+        "lik",
+        "snabb",
+        "nära",
+        "långsam"
+      ],
+      "correct": 3,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-156",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'hård'?",
+      "options": [
+        "nära",
+        "lik",
+        "snabb",
+        "mjuk"
+      ],
+      "correct": 3,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-157",
+      "area": "ordforstaelse",
+      "q": "Motsats till 'lång'?",
+      "options": [
+        "lik",
+        "kort",
+        "nära",
+        "snabb"
+      ],
+      "correct": 1,
+      "explain": "Motsats = ord som betyder tvärtom."
+    },
+    {
+      "id": "sv-158",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'rädd'?",
+      "options": [
+        "okänt",
+        "annat",
+        "skrämd",
+        "fel"
+      ],
+      "correct": 2,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-159",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'liten'?",
+      "options": [
+        "okänt",
+        "pytteliten",
+        "annat",
+        "fel"
+      ],
+      "correct": 1,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "id": "sv-160",
+      "area": "ordforstaelse",
+      "q": "Synonym till 'trött'?",
+      "options": [
+        "utmattad",
+        "annat",
+        "okänt",
+        "fel"
+      ],
+      "correct": 0,
+      "explain": "Synonym = ord med liknande betydelse."
+    },
+    {
+      "type": "dnd",
+      "area": "ordforstaelse",
+      "q": "Dra orden till rätt känsla.",
+      "buckets": [
+        {
+          "id": "pos",
+          "label": "Positiv känsla"
+        },
+        {
+          "id": "neg",
+          "label": "Negativ känsla"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "snäll",
+          "bucket": "pos"
+        },
+        {
+          "id": "t2",
+          "text": "modig",
+          "bucket": "pos"
+        },
+        {
+          "id": "t3",
+          "text": "stökigt",
+          "bucket": "neg"
+        },
+        {
+          "id": "t4",
+          "text": "ledsen",
+          "bucket": "neg"
+        }
+      ],
+      "explain": "Positiv = bra känsla (glad, snäll). Negativ = jobbig känsla (arg, ledsen).",
+      "id": "sv-161"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Dra orden till rätt låda.",
+      "buckets": [
+        {
+          "id": "substantiv",
+          "label": "Substantiv"
+        },
+        {
+          "id": "verb",
+          "label": "Verb"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "ryggsäck",
+          "bucket": "substantiv"
+        },
+        {
+          "id": "t2",
+          "text": "badar",
+          "bucket": "verb"
+        },
+        {
+          "id": "t3",
+          "text": "stol",
+          "bucket": "substantiv"
+        },
+        {
+          "id": "t4",
+          "text": "äter",
+          "bucket": "verb"
+        }
+      ],
+      "explain": "Substantiv = namn på saker/djur/personer/platser. Verb = något man gör.",
+      "id": "sv-162"
+    },
+    {
+      "type": "dnd",
+      "area": "ordforstaelse",
+      "q": "Vilka platser är ute/inne? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "ute",
+          "label": "Ute"
+        },
+        {
+          "id": "inne",
+          "label": "Inne"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "stranden",
+          "bucket": "ute"
+        },
+        {
+          "id": "t2",
+          "text": "skogen",
+          "bucket": "ute"
+        },
+        {
+          "id": "t3",
+          "text": "sporthallen",
+          "bucket": "inne"
+        },
+        {
+          "id": "t4",
+          "text": "matsalen",
+          "bucket": "inne"
+        }
+      ],
+      "explain": "Ute = utomhus (parken…). Inne = inomhus (biblioteket…).",
+      "id": "sv-163"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Vilka ord är prepositioner? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "prep",
+          "label": "Prepositioner"
+        },
+        {
+          "id": "ej",
+          "label": "Ej preposition"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "under",
+          "bucket": "prep"
+        },
+        {
+          "id": "t2",
+          "text": "i",
+          "bucket": "prep"
+        },
+        {
+          "id": "t3",
+          "text": "springer",
+          "bucket": "ej"
+        },
+        {
+          "id": "t4",
+          "text": "snabb",
+          "bucket": "ej"
+        }
+      ],
+      "explain": "Prepositioner beskriver läge/riktning (på, i, under, bakom…).",
+      "id": "sv-164"
+    },
+    {
+      "type": "dnd",
+      "area": "ordforstaelse",
+      "q": "Vilka platser är ute/inne? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "ute",
+          "label": "Ute"
+        },
+        {
+          "id": "inne",
+          "label": "Inne"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "parken",
+          "bucket": "ute"
+        },
+        {
+          "id": "t2",
+          "text": "skogen",
+          "bucket": "ute"
+        },
+        {
+          "id": "t3",
+          "text": "matsalen",
+          "bucket": "inne"
+        },
+        {
+          "id": "t4",
+          "text": "biblioteket",
+          "bucket": "inne"
+        }
+      ],
+      "explain": "Ute = utomhus (parken…). Inne = inomhus (biblioteket…).",
+      "id": "sv-165"
+    },
+    {
+      "type": "dnd",
+      "area": "ordforstaelse",
+      "q": "Vilka platser är ute/inne? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "ute",
+          "label": "Ute"
+        },
+        {
+          "id": "inne",
+          "label": "Inne"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "stranden",
+          "bucket": "ute"
+        },
+        {
+          "id": "t2",
+          "text": "skogen",
+          "bucket": "ute"
+        },
+        {
+          "id": "t3",
+          "text": "sporthallen",
+          "bucket": "inne"
+        },
+        {
+          "id": "t4",
+          "text": "biblioteket",
+          "bucket": "inne"
+        }
+      ],
+      "explain": "Ute = utomhus (parken…). Inne = inomhus (biblioteket…).",
+      "id": "sv-166"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Vilka ord är prepositioner? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "prep",
+          "label": "Prepositioner"
+        },
+        {
+          "id": "ej",
+          "label": "Ej preposition"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "i",
+          "bucket": "prep"
+        },
+        {
+          "id": "t2",
+          "text": "bakom",
+          "bucket": "prep"
+        },
+        {
+          "id": "t3",
+          "text": "glad",
+          "bucket": "ej"
+        },
+        {
+          "id": "t4",
+          "text": "springer",
+          "bucket": "ej"
+        }
+      ],
+      "explain": "Prepositioner beskriver läge/riktning (på, i, under, bakom…).",
+      "id": "sv-167"
+    },
+    {
+      "type": "dnd",
+      "area": "ordforstaelse",
+      "q": "Dra orden till rätt känsla.",
+      "buckets": [
+        {
+          "id": "pos",
+          "label": "Positiv känsla"
+        },
+        {
+          "id": "neg",
+          "label": "Negativ känsla"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "glad",
+          "bucket": "pos"
+        },
+        {
+          "id": "t2",
+          "text": "lugnt",
+          "bucket": "pos"
+        },
+        {
+          "id": "t3",
+          "text": "rädd",
+          "bucket": "neg"
+        },
+        {
+          "id": "t4",
+          "text": "ledsen",
+          "bucket": "neg"
+        }
+      ],
+      "explain": "Positiv = bra känsla (glad, snäll). Negativ = jobbig känsla (arg, ledsen).",
+      "id": "sv-168"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Vilka ord är prepositioner? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "prep",
+          "label": "Prepositioner"
+        },
+        {
+          "id": "ej",
+          "label": "Ej preposition"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "bakom",
+          "bucket": "prep"
+        },
+        {
+          "id": "t2",
+          "text": "på",
+          "bucket": "prep"
+        },
+        {
+          "id": "t3",
+          "text": "katt",
+          "bucket": "ej"
+        },
+        {
+          "id": "t4",
+          "text": "glad",
+          "bucket": "ej"
+        }
+      ],
+      "explain": "Prepositioner beskriver läge/riktning (på, i, under, bakom…).",
+      "id": "sv-169"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Dra orden till rätt låda.",
+      "buckets": [
+        {
+          "id": "substantiv",
+          "label": "Substantiv"
+        },
+        {
+          "id": "adjektiv",
+          "label": "Adjektiv"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "bord",
+          "bucket": "substantiv"
+        },
+        {
+          "id": "t2",
+          "text": "glad",
+          "bucket": "adjektiv"
+        },
+        {
+          "id": "t3",
+          "text": "bord",
+          "bucket": "substantiv"
+        },
+        {
+          "id": "t4",
+          "text": "tyst",
+          "bucket": "adjektiv"
+        }
+      ],
+      "explain": "Substantiv = namn. Adjektiv beskriver egenskaper (stor, röd, snabb).",
+      "id": "sv-170"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Vilka ord är prepositioner? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "prep",
+          "label": "Prepositioner"
+        },
+        {
+          "id": "ej",
+          "label": "Ej preposition"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "under",
+          "bucket": "prep"
+        },
+        {
+          "id": "t2",
+          "text": "mellan",
+          "bucket": "prep"
+        },
+        {
+          "id": "t3",
+          "text": "katt",
+          "bucket": "ej"
+        },
+        {
+          "id": "t4",
+          "text": "glad",
+          "bucket": "ej"
+        }
+      ],
+      "explain": "Prepositioner beskriver läge/riktning (på, i, under, bakom…).",
+      "id": "sv-171"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Vilka ord är prepositioner? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "prep",
+          "label": "Prepositioner"
+        },
+        {
+          "id": "ej",
+          "label": "Ej preposition"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "i",
+          "bucket": "prep"
+        },
+        {
+          "id": "t2",
+          "text": "på",
+          "bucket": "prep"
+        },
+        {
+          "id": "t3",
+          "text": "springer",
+          "bucket": "ej"
+        },
+        {
+          "id": "t4",
+          "text": "katt",
+          "bucket": "ej"
+        }
+      ],
+      "explain": "Prepositioner beskriver läge/riktning (på, i, under, bakom…).",
+      "id": "sv-172"
+    },
+    {
+      "type": "dnd",
+      "area": "ordforstaelse",
+      "q": "Dra orden till rätt känsla.",
+      "buckets": [
+        {
+          "id": "pos",
+          "label": "Positiv känsla"
+        },
+        {
+          "id": "neg",
+          "label": "Negativ känsla"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "lugnt",
+          "bucket": "pos"
+        },
+        {
+          "id": "t2",
+          "text": "modig",
+          "bucket": "pos"
+        },
+        {
+          "id": "t3",
+          "text": "arg",
+          "bucket": "neg"
+        },
+        {
+          "id": "t4",
+          "text": "stökigt",
+          "bucket": "neg"
+        }
+      ],
+      "explain": "Positiv = bra känsla (glad, snäll). Negativ = jobbig känsla (arg, ledsen).",
+      "id": "sv-173"
+    },
+    {
+      "type": "dnd",
+      "area": "ordforstaelse",
+      "q": "Dra orden till rätt känsla.",
+      "buckets": [
+        {
+          "id": "pos",
+          "label": "Positiv känsla"
+        },
+        {
+          "id": "neg",
+          "label": "Negativ känsla"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "lugnt",
+          "bucket": "pos"
+        },
+        {
+          "id": "t2",
+          "text": "snäll",
+          "bucket": "pos"
+        },
+        {
+          "id": "t3",
+          "text": "rädd",
+          "bucket": "neg"
+        },
+        {
+          "id": "t4",
+          "text": "stökigt",
+          "bucket": "neg"
+        }
+      ],
+      "explain": "Positiv = bra känsla (glad, snäll). Negativ = jobbig känsla (arg, ledsen).",
+      "id": "sv-174"
+    },
+    {
+      "type": "dnd",
+      "area": "ordforstaelse",
+      "q": "Dra orden till rätt känsla.",
+      "buckets": [
+        {
+          "id": "pos",
+          "label": "Positiv känsla"
+        },
+        {
+          "id": "neg",
+          "label": "Negativ känsla"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "lugnt",
+          "bucket": "pos"
+        },
+        {
+          "id": "t2",
+          "text": "snäll",
+          "bucket": "pos"
+        },
+        {
+          "id": "t3",
+          "text": "stökigt",
+          "bucket": "neg"
+        },
+        {
+          "id": "t4",
+          "text": "arg",
+          "bucket": "neg"
+        }
+      ],
+      "explain": "Positiv = bra känsla (glad, snäll). Negativ = jobbig känsla (arg, ledsen).",
+      "id": "sv-175"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Vilka ord är prepositioner? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "prep",
+          "label": "Prepositioner"
+        },
+        {
+          "id": "ej",
+          "label": "Ej preposition"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "i",
+          "bucket": "prep"
+        },
+        {
+          "id": "t2",
+          "text": "över",
+          "bucket": "prep"
+        },
+        {
+          "id": "t3",
+          "text": "snabb",
+          "bucket": "ej"
+        },
+        {
+          "id": "t4",
+          "text": "glad",
+          "bucket": "ej"
+        }
+      ],
+      "explain": "Prepositioner beskriver läge/riktning (på, i, under, bakom…).",
+      "id": "sv-176"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Vilka ord är prepositioner? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "prep",
+          "label": "Prepositioner"
+        },
+        {
+          "id": "ej",
+          "label": "Ej preposition"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "på",
+          "bucket": "prep"
+        },
+        {
+          "id": "t2",
+          "text": "framför",
+          "bucket": "prep"
+        },
+        {
+          "id": "t3",
+          "text": "snabb",
+          "bucket": "ej"
+        },
+        {
+          "id": "t4",
+          "text": "glad",
+          "bucket": "ej"
+        }
+      ],
+      "explain": "Prepositioner beskriver läge/riktning (på, i, under, bakom…).",
+      "id": "sv-177"
+    },
+    {
+      "type": "dnd",
+      "area": "grammatik",
+      "q": "Vilka ord är prepositioner? Dra till rätt låda.",
+      "buckets": [
+        {
+          "id": "prep",
+          "label": "Prepositioner"
+        },
+        {
+          "id": "ej",
+          "label": "Ej preposition"
+        }
+      ],
+      "tiles": [
+        {
+          "id": "t1",
+          "text": "i",
+          "bucket": "prep"
+        },
+        {
+          "id": "t2",
+          "text": "mellan",
+          "bucket": "prep"
+        },
+        {
+          "id": "t3",
+          "text": "springer",
+          "bucket": "ej"
+        },
+        {
+          "id": "t4",
+          "text": "katt",
+          "bucket": "ej"
+        }
+      ],
+      "explain": "Prepositioner beskriver läge/riktning (på, i, under, bakom…).",
+      "id": "sv-178"
+    }
+  ],
+  "passages": [
+    {
+      "id": "sv-p-001",
+      "title": "Omar i matsalen",
+      "text": "Omar begav sig till matsalen tidigt på morgonen. Hen vågade fråga tillsammans med en vän. Under tiden försvann en smörgås, vilket gjorde Omar orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen vågade fråga tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-001-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "stranden",
+            "matsalen",
+            "biblioteket",
+            "skolgården"
+          ],
+          "correct": 1,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-001-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "gråter",
+            "läser",
+            "vågade fråga",
+            "äter"
+          ],
+          "correct": 2,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-001-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "boll",
+            "ryggsäck",
+            "borste",
+            "smörgås"
+          ],
+          "correct": 3,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-002",
+      "title": "Lisa i sporthallen",
+      "text": "Lisa begav sig till sporthallen tidigt på morgonen. Hen ökade farten tillsammans med en vän. Under tiden försvann en borste, vilket gjorde Lisa orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen ökade farten tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-002-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "sporthallen",
+            "parken",
+            "stranden",
+            "skolan"
+          ],
+          "correct": 0,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-002-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "äter",
+            "ökade farten",
+            "springer",
+            "läser"
+          ],
+          "correct": 1,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-003",
+      "title": "Omar i museet",
+      "text": "Omar begav sig till museet tidigt på morgonen. Hen hjälpte till tillsammans med en vän. Under tiden försvann en ryggsäck, vilket gjorde Omar orolig. Efter en stund hittades den och allt kändes lugnt igen. Omar begav sig till museet tidigt på morgonen.",
+      "questions": [
+        {
+          "id": "sv-p-003-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "matsalen",
+            "biblioteket",
+            "museet",
+            "skogen"
+          ],
+          "correct": 2,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-003-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "sover",
+            "gråter",
+            "hjälpte till",
+            "springer"
+          ],
+          "correct": 2,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-004",
+      "title": "Noah i skolgården",
+      "text": "Noah begav sig till skolgården tidigt på morgonen. Hen ökade farten tillsammans med en vän. Under tiden försvann en mössa, vilket gjorde Noah orolig. Efter en stund hittades den och allt kändes lugnt igen. Under tiden försvann en mössa, vilket gjorde Noah orolig.",
+      "questions": [
+        {
+          "id": "sv-p-004-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "skolgården",
+            "parken",
+            "lekparken",
+            "skolan"
+          ],
+          "correct": 0,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-004-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "ökade farten",
+            "gråter",
+            "springer",
+            "äter"
+          ],
+          "correct": 0,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-004-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "mössa",
+            "borste",
+            "cykel",
+            "ryggsäck"
+          ],
+          "correct": 0,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-005",
+      "title": "Arvid i lekparken",
+      "text": "Arvid begav sig till lekparken tidigt på morgonen. Hen samlade kottar tillsammans med en vän. Under tiden försvann en cykel, vilket gjorde Arvid orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen samlade kottar tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-005-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "lekparken",
+            "skogen",
+            "parken",
+            "skolan"
+          ],
+          "correct": 0,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-005-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "springer",
+            "äter",
+            "samlade kottar",
+            "sover"
+          ],
+          "correct": 2,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-005-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "cykel",
+            "borste",
+            "penna",
+            "smörgås"
+          ],
+          "correct": 0,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-006",
+      "title": "Nora i skogen",
+      "text": "Nora begav sig till skogen tidigt på morgonen. Hen samlade kottar tillsammans med en vän. Under tiden försvann en bok, vilket gjorde Nora orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen samlade kottar tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-006-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "parken",
+            "skogen",
+            "museet",
+            "skolan"
+          ],
+          "correct": 1,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-006-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "sover",
+            "samlade kottar",
+            "äter",
+            "läser"
+          ],
+          "correct": 1,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-007",
+      "title": "Lisa i skolan",
+      "text": "Lisa begav sig till skolan tidigt på morgonen. Hen ökade farten tillsammans med en vän. Under tiden försvann en smörgås, vilket gjorde Lisa orolig. Efter en stund hittades den och allt kändes lugnt igen. Lisa begav sig till skolan tidigt på morgonen.",
+      "questions": [
+        {
+          "id": "sv-p-007-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "skolan",
+            "lekparken",
+            "parken",
+            "matsalen"
+          ],
+          "correct": 0,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-007-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "äter",
+            "gråter",
+            "springer",
+            "ökade farten"
+          ],
+          "correct": 3,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-008",
+      "title": "Arvid i sporthallen",
+      "text": "Arvid begav sig till sporthallen tidigt på morgonen. Hen lekte tillsammans med en vän. Under tiden försvann en vante, vilket gjorde Arvid orolig. Efter en stund hittades den och allt kändes lugnt igen. Under tiden försvann en vante, vilket gjorde Arvid orolig.",
+      "questions": [
+        {
+          "id": "sv-p-008-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "stranden",
+            "skolan",
+            "parken",
+            "sporthallen"
+          ],
+          "correct": 3,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-008-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "springer",
+            "läser",
+            "äter",
+            "lekte"
+          ],
+          "correct": 3,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-009",
+      "title": "Nora i biblioteket",
+      "text": "Nora begav sig till biblioteket tidigt på morgonen. Hen läste tillsammans med en vän. Under tiden försvann en regnjacka, vilket gjorde Nora orolig. Efter en stund hittades den och allt kändes lugnt igen. Nora begav sig till biblioteket tidigt på morgonen.",
+      "questions": [
+        {
+          "id": "sv-p-009-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "skogen",
+            "parken",
+            "matsalen",
+            "biblioteket"
+          ],
+          "correct": 3,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-009-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "läser",
+            "äter",
+            "läste",
+            "springer"
+          ],
+          "correct": 2,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-010",
+      "title": "Liam i skogen",
+      "text": "Liam begav sig till skogen tidigt på morgonen. Hen lekte tillsammans med en vän. Under tiden försvann en borste, vilket gjorde Liam orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen lekte tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-010-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "sporthallen",
+            "skogen",
+            "lekparken",
+            "matsalen"
+          ],
+          "correct": 1,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-010-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "sover",
+            "läser",
+            "gråter",
+            "lekte"
+          ],
+          "correct": 3,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-010-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "borste",
+            "penna",
+            "cykel",
+            "vante"
+          ],
+          "correct": 0,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-011",
+      "title": "Ava i skolgården",
+      "text": "Ava begav sig till skolgården tidigt på morgonen. Hen läste tillsammans med en vän. Under tiden försvann en smörgås, vilket gjorde Ava orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen läste tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-011-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "skolgården",
+            "museet",
+            "stranden",
+            "lekparken"
+          ],
+          "correct": 0,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-011-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "läser",
+            "gråter",
+            "läste",
+            "springer"
+          ],
+          "correct": 2,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-012",
+      "title": "Nora i lekparken",
+      "text": "Nora begav sig till lekparken tidigt på morgonen. Hen lekte tillsammans med en vän. Under tiden försvann en vante, vilket gjorde Nora orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen lekte tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-012-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "stranden",
+            "skogen",
+            "museet",
+            "lekparken"
+          ],
+          "correct": 3,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-012-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "springer",
+            "gråter",
+            "läser",
+            "lekte"
+          ],
+          "correct": 3,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-012-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "regnjacka",
+            "boll",
+            "penna",
+            "vante"
+          ],
+          "correct": 3,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-013",
+      "title": "Ali i lekparken",
+      "text": "Ali begav sig till lekparken tidigt på morgonen. Hen ökade farten tillsammans med en vän. Under tiden försvann en smörgås, vilket gjorde Ali orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen ökade farten tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-013-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "skolgården",
+            "lekparken",
+            "matsalen",
+            "biblioteket"
+          ],
+          "correct": 1,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-013-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "äter",
+            "ökade farten",
+            "läser",
+            "sover"
+          ],
+          "correct": 1,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-013-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "ryggsäck",
+            "smörgås",
+            "penna",
+            "cykel"
+          ],
+          "correct": 1,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-014",
+      "title": "Arvid i matsalen",
+      "text": "Arvid begav sig till matsalen tidigt på morgonen. Hen sprang tillsammans med en vän. Under tiden försvann en regnjacka, vilket gjorde Arvid orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen sprang tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-014-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "matsalen",
+            "stranden",
+            "parken",
+            "skolan"
+          ],
+          "correct": 0,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-014-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "sover",
+            "sprang",
+            "äter",
+            "läser"
+          ],
+          "correct": 1,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-014-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "mössa",
+            "boll",
+            "regnjacka",
+            "cykel"
+          ],
+          "correct": 2,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-015",
+      "title": "Mira i skolgården",
+      "text": "Mira begav sig till skolgården tidigt på morgonen. Hen ökade farten tillsammans med en vän. Under tiden försvann en vante, vilket gjorde Mira orolig. Efter en stund hittades den och allt kändes lugnt igen. Under tiden försvann en vante, vilket gjorde Mira orolig.",
+      "questions": [
+        {
+          "id": "sv-p-015-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "skolgården",
+            "matsalen",
+            "lekparken",
+            "stranden"
+          ],
+          "correct": 0,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-015-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "sover",
+            "ökade farten",
+            "gråter",
+            "springer"
+          ],
+          "correct": 1,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-016",
+      "title": "Nora i matsalen",
+      "text": "Nora begav sig till matsalen tidigt på morgonen. Hen hjälpte till tillsammans med en vän. Under tiden försvann en smörgås, vilket gjorde Nora orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen hjälpte till tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-016-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "museet",
+            "parken",
+            "matsalen",
+            "lekparken"
+          ],
+          "correct": 2,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-016-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "hjälpte till",
+            "gråter",
+            "äter",
+            "springer"
+          ],
+          "correct": 0,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-017",
+      "title": "Sara i skolgården",
+      "text": "Sara begav sig till skolgården tidigt på morgonen. Hen ökade farten tillsammans med en vän. Under tiden försvann en ryggsäck, vilket gjorde Sara orolig. Efter en stund hittades den och allt kändes lugnt igen. Sara begav sig till skolgården tidigt på morgonen.",
+      "questions": [
+        {
+          "id": "sv-p-017-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "lekparken",
+            "skolan",
+            "skolgården",
+            "parken"
+          ],
+          "correct": 2,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-017-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "läser",
+            "springer",
+            "ökade farten",
+            "sover"
+          ],
+          "correct": 2,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-017-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "cykel",
+            "ryggsäck",
+            "bok",
+            "smörgås"
+          ],
+          "correct": 1,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-018",
+      "title": "Omar i sporthallen",
+      "text": "Omar begav sig till sporthallen tidigt på morgonen. Hen sprang tillsammans med en vän. Under tiden försvann en smörgås, vilket gjorde Omar orolig. Efter en stund hittades den och allt kändes lugnt igen. Under tiden försvann en smörgås, vilket gjorde Omar orolig.",
+      "questions": [
+        {
+          "id": "sv-p-018-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "skolgården",
+            "sporthallen",
+            "lekparken",
+            "parken"
+          ],
+          "correct": 1,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-018-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "sover",
+            "äter",
+            "springer",
+            "sprang"
+          ],
+          "correct": 3,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-019",
+      "title": "Leo i parken",
+      "text": "Leo begav sig till parken tidigt på morgonen. Hen vågade fråga tillsammans med en vän. Under tiden försvann en regnjacka, vilket gjorde Leo orolig. Efter en stund hittades den och allt kändes lugnt igen. Hen vågade fråga tillsammans med en vän.",
+      "questions": [
+        {
+          "id": "sv-p-019-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "lekparken",
+            "stranden",
+            "skolgården",
+            "parken"
+          ],
+          "correct": 3,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-019-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "gråter",
+            "vågade fråga",
+            "läser",
+            "springer"
+          ],
+          "correct": 1,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        }
+      ]
+    },
+    {
+      "id": "sv-p-020",
+      "title": "Leo i stranden",
+      "text": "Leo begav sig till stranden tidigt på morgonen. Hen ökade farten tillsammans med en vän. Under tiden försvann en mössa, vilket gjorde Leo orolig. Efter en stund hittades den och allt kändes lugnt igen. Under tiden försvann en mössa, vilket gjorde Leo orolig.",
+      "questions": [
+        {
+          "id": "sv-p-020-q1",
+          "q": "Var utspelar sig texten?",
+          "options": [
+            "biblioteket",
+            "lekparken",
+            "stranden",
+            "skolan"
+          ],
+          "correct": 2,
+          "explain": "Läsförståelse: Orten/platsen står normalt nämnd i texten."
+        },
+        {
+          "id": "sv-p-020-q2",
+          "q": "Vad gör personen i texten?",
+          "options": [
+            "läser",
+            "sover",
+            "gråter",
+            "ökade farten"
+          ],
+          "correct": 3,
+          "explain": "Hitta verbet/aktiviteten som nämns i texten."
+        },
+        {
+          "id": "sv-p-020-q3",
+          "q": "Vad blir viktigt i texten?",
+          "options": [
+            "mössa",
+            "smörgås",
+            "penna",
+            "boll"
+          ],
+          "correct": 0,
+          "explain": "Nyckelord i texten nämns ofta tydligt, t.ex. ett föremål."
+        }
+      ]
+    }
+  ]
+}

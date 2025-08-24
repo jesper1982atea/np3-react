@@ -1,0 +1,214 @@
+{
+  "version": "1.0",
+  "subject": "engelska",
+  "grade": 4,
+  "items": [
+    {
+      "id": "en4-001",
+      "area": "glosor",
+      "difficulty": "np",
+      "q": "Vad betyder \"apple\"?",
+      "options": [
+        "päron",
+        "äpple",
+        "banan",
+        "apelsin"
+      ],
+      "correct": 1,
+      "hint": "En röd eller grön frukt."
+    },
+    {
+      "id": "en4-002",
+      "area": "glosor",
+      "difficulty": "np",
+      "q": "Översätt: \"blue\".",
+      "options": [
+        "blå",
+        "gul",
+        "grön",
+        "svart"
+      ],
+      "correct": 0,
+      "hint": "Havs-färg."
+    },
+    {
+      "id": "en4-003",
+      "area": "grammatik",
+      "difficulty": "np",
+      "q": "Välj rätt: \"She ___ a cat.\"",
+      "options": [
+        "have",
+        "has",
+        "is have",
+        "having"
+      ],
+      "correct": 1,
+      "hint": "\"She/He\" använder samma verbform."
+    },
+    {
+      "id": "en4-004",
+      "area": "grammatik",
+      "difficulty": "np",
+      "q": "Välj rätt: \"They ___ to school.\"",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone"
+      ],
+      "correct": 0,
+      "hint": "Pluralform."
+    },
+    {
+      "id": "en4-005",
+      "area": "glosor",
+      "difficulty": "np",
+      "q": "Vad betyder \"teacher\"?",
+      "options": [
+        "elev",
+        "lärare",
+        "rektor",
+        "förälder"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "en4-006",
+      "area": "glosor",
+      "difficulty": "np",
+      "q": "Översätt: \"house\".",
+      "options": [
+        "hus",
+        "häst",
+        "höst",
+        "hals"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "en4-007",
+      "area": "läsförståelse",
+      "difficulty": "np",
+      "q": "I texten: \"Tom has a red bike. He rides it to the park.\" Vad har Tom?",
+      "options": [
+        "en röd boll",
+        "en röd cykel",
+        "en blå cykel",
+        "en bil"
+      ],
+      "correct": 1,
+      "hint": "Bike = cykel."
+    },
+    {
+      "id": "en4-008",
+      "area": "läsförståelse",
+      "difficulty": "np",
+      "q": "Var åker Tom i texten?",
+      "options": [
+        "till skolan",
+        "till parken",
+        "till affären",
+        "till stranden"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "en4-009",
+      "area": "fraser",
+      "difficulty": "np",
+      "q": "Hur säger man \"Trevligt att träffas\"?",
+      "options": [
+        "Good morning",
+        "See you",
+        "Nice to meet you",
+        "Good night"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "en4-010",
+      "area": "glosor",
+      "difficulty": "np",
+      "q": "Översätt: \"bird\".",
+      "options": [
+        "björn",
+        "bröd",
+        "fågel",
+        "bord"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "en4-011",
+      "area": "grammatik",
+      "difficulty": "np",
+      "q": "Välj rätt: \"I ___ football on Saturdays.\"",
+      "options": [
+        "play",
+        "plays",
+        "playing",
+        "played"
+      ],
+      "correct": 0,
+      "hint": "Jag = I → grundform (presens)."
+    },
+    {
+      "id": "en4-012",
+      "area": "fraser",
+      "difficulty": "np",
+      "q": "Hur säger man \"Får jag låna en penna?\"",
+      "options": [
+        "Can I borrow a pen?",
+        "Where is my pen?",
+        "I lost my pen.",
+        "This is a pencil."
+      ],
+      "correct": 0
+    }
+  ],
+  "passages": [
+    {
+      "id": "en4-p-001",
+      "title": "At the zoo",
+      "text": "Anna goes to the zoo with her dad. She sees lions, monkeys and a big elephant. Her favourite is the monkey because it is funny.",
+      "questions": [
+        {
+          "id": "en4-p-001-q1",
+          "q": "Vem går Anna till zoo med?",
+          "options": [
+            "sin mamma",
+            "sin pappa",
+            "sin vän",
+            "sin bror"
+          ],
+          "correct": 1,
+          "hint": "with her dad"
+        },
+        {
+          "id": "en4-p-001-q2",
+          "q": "Vilket djur är störst i texten?",
+          "options": [
+            "lejonet",
+            "apan",
+            "elefanten",
+            "monstret"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "en4-p-001-q3",
+          "q": "Vilket djur gillar Anna mest?",
+          "options": [
+            "elefant",
+            "apa",
+            "lejon",
+            "giraff"
+          ],
+          "correct": 1,
+          "hint": "favourite = favorit"
+        }
+      ]
+    }
+  ],
+  "label": "Engelska åk 4"
+}

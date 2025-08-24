@@ -1,7 +1,72 @@
-// src/App.jsx
-import { useState, useMemo } from 'react'
+// src/lib/session.js
+// Minimal sessions-logg för Daily/Practice/Exam
+// Sparar per-fråga-val och resultat. Visas i pages/Review.
+
+const KEY = 'np3_sessions_v1'
+
+function loadAll(){
+  try{ return JSON.parse(localStorage.getItem(KEY) || '[]') }catch(_){ return [] }
+}
+function saveAll(arr){
+  try{ localStorage.setItem(KEY, JSON.stringify(arr.slice(-50))) }catch(_){ /* ignore */ }
+}
+
+export function beginSession(type, meta={}){
+  const id = `${type}-${Date.now()}`
+  const session = {
+    id,
+    type, // 'daily' | 'practice' | 'exam'
+    startedAt: new Date().toISOString(),
+    finishedAt: null,
+    meta: meta || {}, // t.ex. {subject, bankId, label, count}
+    items: [] // { id, q, options, correct, chosen, isCorrect, area, title?, text? }
+  }
+  return session
+}
+
+export function logAnswer(session, q, chosenIdx){
+  if(!session || !q) return
+  const isCorrect = (chosenIdx === q.correct)
+  session.items.push({
+    id: q.id,
+    q: q.q,
+    options: q.options,
+    correct: q.correct,
+    chosen: chosenIdx,
+    isCorrect,
+    area: q.area || 'okänd',
+    title: q.title || null,
+    text: q.text || null,
+    hint: q.hint || null,
+    type: q.type || 'mc'
+  })
+}
+
+export function endSession(session){
+  if(!session) return null
+  session.finishedAt = new Date().toISOString()
+  const all = loadAll()
+  all.push(session)
+  saveAll(all)
+  return session
+}
+
+export function getSessions(){
+  return loadAll()
+}
+
+export function getLastSession(){
+  const all = loadAll()
+  return all.length ? all[all.length-1] : null
+}
+
+export function clearSessions(){
+  saveAll([])
+}
+
+import { useState } from 'react'
 import './styles.css'
-import useBank from './hooks/useBank'
+import useBanks from './hooks/useBank' // fallback-aware hook (legacy or index.json)
 import { loadProfile, saveProfile as persist } from './lib/storage'
 
 // pages
@@ -12,71 +77,51 @@ import Stats from './pages/Stats'
 import Settings from './pages/Settings'
 import Bank from './pages/Bank'
 import Review from './pages/Review'
-
-// error boundary
-import ErrorBoundary from './components/ErrorBoundary'
+import Daily from './pages/Daily'
 
 export default function App(){
-  const { bank, loading, error } = useBank()
+  const { getBank, loading, error } = useBanks()
   const [view, setView] = useState('home')
   const [profile, setProfile] = useState(loadProfile())
 
   const saveProfile = (p) => { setProfile(p); persist(p) }
 
-  const Tab = ({ id, children }) => {
-    const active = view === id
-    return (
-      <button
-        className={`btn small ghost${active ? ' alt' : ''}`}
-        aria-current={active ? 'page' : undefined}
-        onClick={()=>setView(id)}
-      >
-        {children}
-      </button>
-    )
-  }
+  if(loading) return <div className="container"><div className="card">⏳ Laddar banker…</div></div>
+  if(error) return <div className="container"><div className="card">⚠️ Kunde inte ladda banker.</div></div>
 
-  // pre-render main content (inside ErrorBoundary) so header/tabs alltid syns
-  const mainContent = useMemo(()=>{
-    if(loading) return <div className="card">⏳ Laddar frågebank…</div>
-    if(error)   return <div className="card">⚠️ Kunde inte ladda frågebank.</div>
-
-    return (
-      <>
-        {view==='home' && <Home profile={profile} setView={setView} />}
-        {view==='practice' && <Practice profile={profile} saveProfile={saveProfile} bank={bank} setView={setView} />}
-        {view==='exam' && <Exam profile={profile} saveProfile={saveProfile} bank={bank} setView={setView} />}
-        {view==='stats' && <Stats profile={profile} setView={setView} />}
-        {view==='settings' && <Settings profile={profile} saveProfile={saveProfile} setView={setView} />}
-        {view==='bank' && <Bank />}
-        {view==='review' && <Review setView={setView} />}
-      </>
-    )
-  }, [view, loading, error, bank, profile])
+  // Aktiv bank-id hämtas alltid från profilinställningar (sätts i Settings)
+  const bankId = profile?.settings?.activeBankId || 'sv-ak3'
+  const currentEntry = getBank(bankId) || null
+  const currentBank = currentEntry?.data || null
 
   return (
     <div className="container">
       <header>
-        <div className="logo">📚 Nationella prov åk 3 – Träning & Prov</div>
+        <div className="logo">📚 Träning &amp; Prov – ämnen &amp; årskurser</div>
         <div className="points">
           <span>Lv {profile.level}</span>
           <span>⭐ {profile.points}</span>
         </div>
       </header>
 
-      <nav className="tabs" aria-label="Huvudnavigering">
-        <Tab id="home">🏠 Startsida</Tab>
-        <Tab id="practice">🧩 Öva</Tab>
-        <Tab id="exam">📝 Provläge</Tab>
-        <Tab id="stats">📊 Statistik</Tab>
-        <Tab id="settings">⚙️ Inställningar</Tab>
-        <Tab id="bank">📚 Frågebank</Tab>
-      </nav>
+      <div className="tabs">
+        <button className="btn small ghost" onClick={()=>setView('home')}>🏠 Start</button>
+        <button className="btn small ghost" onClick={()=>setView('daily')}>⭐ Dagens</button>
+        <button className="btn small ghost" onClick={()=>setView('practice')}>🧩 Öva</button>
+        <button className="btn small ghost" onClick={()=>setView('exam')}>📝 Provläge</button>
+        <button className="btn small ghost" onClick={()=>setView('stats')}>📊 Statistik</button>
+        <button className="btn small ghost" onClick={()=>setView('settings')}>⚙️ Inställningar</button>
+        <button className="btn small ghost" onClick={()=>setView('bank')}>📚 Frågebank</button>
+      </div>
 
-      {/* Allt innehåll wrappas i ErrorBoundary – om något smäller visas en snäll fallback */}
-      <ErrorBoundary>
-        {mainContent}
-      </ErrorBoundary>
+      {view==='home' && <Home profile={profile} setView={setView} />}
+      {view==='daily' && <Daily profile={profile} saveProfile={saveProfile} bank={currentBank} setView={setView} />}
+      {view==='practice' && <Practice profile={profile} saveProfile={saveProfile} bank={currentBank} setView={setView} />}
+      {view==='exam' && <Exam profile={profile} saveProfile={saveProfile} bank={currentBank} setView={setView} />}
+      {view==='stats' && <Stats profile={profile} setView={setView} />}
+      {view==='settings' && <Settings profile={profile} saveProfile={saveProfile} setView={setView} />}
+      {view==='bank' && <Bank />}
+      {view==='review' && <Review setView={setView} />}
 
       <div className="footer">Prototyp. Data sparas lokalt i din webbläsare.</div>
     </div>

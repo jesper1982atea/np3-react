@@ -1,11 +1,3 @@
-// src/hooks/useBank.js
-// En samlad hook för banker. Namnet är kvar för kompatibilitet,
-// men hooken heter useBanks (stöd för flera banker).
-// Fallback: om /banks/index.json saknas, laddar vi legacy-filerna
-// /banks/svenska.json och /banks/matematik.json som två separata banker.
-
-import { useEffect, useMemo, useState } from 'react'
-
 export default function useBanks(){
   const [registry, setRegistry] = useState(null)
   const [loading, setLoading] = useState(true)
@@ -15,26 +7,26 @@ export default function useBanks(){
     let alive = true
 
     async function loadWithIndex(){
-      const res = await fetch('/banks/index.json')
-      if(!res.ok) throw new Error('index.json saknas')
-      const idx = await res.json()
+      const idx = await fetch('/banks/index.json').then(r => {
+        if(!r.ok) throw new Error('index.json saknas')
+        return r.json()
+      })
       const banks = idx?.banks || []
       const loaded = {}
-
       await Promise.all(
         banks.map(async (meta) => {
-          const r = await fetch(meta.path)
-          if(!r.ok) throw new Error(`Kunde inte läsa ${meta.path}`)
-          const data = await r.json()
+          const data = await fetch(meta.path).then(r => {
+            if(!r.ok) throw new Error(`Kunde inte läsa ${meta.path}`)
+            return r.json()
+          })
           loaded[meta.id] = { meta, data }
         })
       )
-
       return { version: idx.version || '1.0', banks: loaded }
     }
 
     async function loadFallbackTwoFiles(){
-      // Läser gamla strukturen och bygger två logiska banker
+      // Ladda gamla strukturen och “låtsas” att det är två separata banker
       const [sv, ma] = await Promise.all([
         fetch('/banks/svenska.json').then(r => {
           if(!r.ok) throw new Error('svenska.json saknas')
@@ -64,13 +56,13 @@ export default function useBanks(){
 
     async function load(){
       try{
+        // 1) Försök med index.json
         let reg = null
         try{
           reg = await loadWithIndex()
-          console.info('[useBanks] Läste banker via index.json')
         }catch(_){
+          // 2) Fallback till gamla två-filsläget
           reg = await loadFallbackTwoFiles()
-          console.info('[useBanks] Fallback: använde svenska.json + matematik.json')
         }
         if(!alive) return
         setRegistry(reg)
