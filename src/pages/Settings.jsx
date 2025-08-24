@@ -3,6 +3,13 @@ import { useEffect, useState } from 'react'
 import useBanks from '../hooks/useBank' // fallback-aware hook
 import SubjectPicker from '../components/SubjectPicker'
 
+const DIFFICULTY_OPTIONS = [
+  { value: 'easy', label: 'Lätt' },
+  { value: 'standard', label: 'Standard (åk 3)' },
+  { value: 'hard', label: 'Svår' },
+  { value: 'adaptive', label: 'Adaptiv (auto)' }
+]
+
 export default function Settings({ profile, saveProfile }){
   const { list, getBank } = useBanks() // läses redan av App men vi kan nyttja här också
   const [local, setLocal] = useState(profile?.settings || {})
@@ -22,6 +29,8 @@ export default function Settings({ profile, saveProfile }){
   const activeId = local?.activeBankId || 'sv-ak3'
   const activeEntry = getBank ? getBank(activeId) : null
   const activeLabel = activeEntry?.meta?.label || (list.find(b=>b.id===activeId)?.label) || activeId
+  const difficulty = local?.difficulty || 'standard'
+  const difficultyLabel = (DIFFICULTY_OPTIONS.find(o=>o.value===difficulty)?.label) || 'Standard (åk 3)'
 
   return (
     <div className="grid">
@@ -79,6 +88,27 @@ export default function Settings({ profile, saveProfile }){
             </div>
           </div>
 
+          <div className="item">
+            <b>Svårighetsgrad</b>
+            <p className="tiny">Gäller övning/prov för vald bank. "Adaptiv" väljer svårare/lättare baserat på dina senaste resultat.</p>
+            <div className="row" style={{margin:'6px 0 10px'}}>
+              <span className="pill">🎯 Nu: {difficultyLabel}</span>
+            </div>
+            <div className="list">
+              {DIFFICULTY_OPTIONS.map(opt => (
+                <label key={opt.value} className="row" style={{gap:8, alignItems:'center'}}>
+                  <input
+                    type="radio"
+                    name="difficulty"
+                    value={opt.value}
+                    checked={(local?.difficulty || 'standard') === opt.value}
+                    onChange={()=>set('difficulty', opt.value)}
+                  />
+                  <span>{opt.label}</span>
+                </label>
+              ))}
+            </div>
+          </div>
           <div className="item">
             <b>Aktiv bank (ämne & årskurs)</b>
             <p className="tiny">Välj vilken bank som används i Dagens/Övning/Prov.</p>
