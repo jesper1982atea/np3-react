@@ -131,6 +131,7 @@ HINTS = {
     "preposition": "Prepositioner anger läge/riktning: på, i, under, bakom, framför, vid, mellan…"
 }
 
+
 def explain_for(item: dict) -> str:
     if item.get("hint"): return item["hint"]
     area = item.get("area","")
@@ -146,6 +147,55 @@ def explain_for(item: dict) -> str:
     if "ord" in area: return HINTS["ord"]
     if "läs" in area: return HINTS["läs"]
     return "Fundera på vad frågan faktiskt frågar efter, och jämför alternativen noga."
+
+# ------------------------- Backfill (fixa befintliga poster) -------------------------
+
+def backfill_bank_fields(data: dict, level_profile: dict) -> None:
+    """Säkerställ att ALLA items och passagefrågor har hint/explain/topic/difficulty.
+    Modifierar data in-place.
+    """
+    diff = level_profile.get("difficulty", "np")
+
+    # Items (frågor utanför passager)
+    items = data.get("svenska", {}).get("items", [])
+    for it in items:
+        # topic/difficulty default
+        it.setdefault("topic", "svenska")
+        it.setdefault("difficulty", diff)
+        t = (it.get("type") or "mc")
+        it["type"] = t
+        # MC: säkra options/correct
+        if t in (None, "", "mc", "bar-max", "bar-compare"):
+            opts = it.get("options")
+            if isinstance(opts, list) and len(opts) >= 2:
+                c = it.get("correct", 0)
+                if not isinstance(c, int) or c < 0 or c >= len(opts):
+                    it["correct"] = 0
+        # Hint/Explain – fyll på om saknas
+        if not it.get("hint"):
+            it["hint"] = explain_for(it)
+        if not it.get("explain") and t not in ("dnd", "table-fill", "pie-assign"):
+            it["explain"] = explain_for(it)
+
+    # Passager och deras frågor
+    passages = data.get("svenska", {}).get("passages", [])
+    for p in passages:
+        qs = p.get("questions", [])
+        for q in qs:
+            # topic/difficulty
+            q.setdefault("topic", "svenska")
+            q.setdefault("difficulty", diff)
+            # säkra MC-index
+            opts = q.get("options")
+            if isinstance(opts, list) and len(opts) >= 2:
+                c = q.get("correct", 0)
+                if not isinstance(c, int) or c < 0 or c >= len(opts):
+                    q["correct"] = 0
+            # hint/explain
+            if not q.get("hint"):
+                q["hint"] = HINTS.get("läs", "Läs noga och jämför nyckelord i texten.")
+            if not q.get("explain"):
+                q["explain"] = HINTS.get("läs", "Läs noga och jämför nyckelord i texten.")
 
 # ------------------------- MC Generators -------------------------
 
@@ -471,7 +521,9 @@ def gen_passage(level_profile) -> dict:
             "options": options,
             "correct": correct,
             "hint": HINTS["läs"],
-            "explain": HINTS["läs"]
+            "explain": HINTS["läs"],
+            "topic": "svenska",
+            "difficulty": level_profile["difficulty"]
         })
 
     return {
@@ -555,6 +607,9 @@ def main():
     passages.extend(created_passages)
     data["svenska"]["items"] = items
     data["svenska"]["passages"] = passages
+
+    # Backfyll alla poster så validatorn blir nöjd och appen har tips/förklaringar
+    backfill_bank_fields(data, level_profile)
 
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")

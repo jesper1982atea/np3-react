@@ -20,8 +20,34 @@
       "id": "sv-ak3",
       "subject": "svenska",
       "grade": 3,
-      "path": "/banks/svenska.ak3.json",
-      "label": "Svenska åk 3"
+      "path": "svenska.ak3.json",
+      "label": "Svenska åk 3",
+      "description": "Svenska-träning inför NP åk 3"
+    }
+  ],
+  "entries": [
+    {
+      "id": "en-ak4",
+      "subject": "engelska",
+      "grade": 4,
+      "path": "/banks/engelska.ak4.json",
+      "label": "Engelska åk 4"
+    },
+    {
+      "id": "ma-ak3",
+      "subject": "matematik",
+      "grade": 3,
+      "path": "matematik.ak3.json",
+      "label": "Matematik åk 3",
+      "description": "Diagram + snäll division, stor variation"
+    },
+    {
+      "id": "sv-ak3",
+      "subject": "svenska",
+      "grade": 3,
+      "path": "svenska.ak3.json",
+      "label": "Svenska åk 3",
+      "description": "Svenska-träning inför NP åk 3"
     }
   ]
 }
