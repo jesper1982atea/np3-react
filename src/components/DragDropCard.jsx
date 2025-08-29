@@ -24,7 +24,7 @@ export default function DragDropCard({ q, onAnswer, locked=false, showHint=false
     setPlaced(initial); setSubmitted(false); setIsCorrect(null); setSelected(null)
   }, [initial])
 
-  const allPlaced = Object.values(placed).every(v => !!v)
+  const allPlaced = (Object.keys(placed).length>0) && Object.values(placed).every(v => !!v)
 
   // Drag-n-drop (desktop) + Tap-to-place (mobil)
   function onDragStart(e, tileId){
@@ -61,6 +61,8 @@ export default function DragDropCard({ q, onAnswer, locked=false, showHint=false
   function resetOne(tileId){
     if(submitted) return
     setPlaced(p => ({ ...p, [tileId]: null }))
+    // Gör den direkt vald så man kan trycka på en ny låda
+    setSelected(tileId)
   }
 
   function submit(){
@@ -99,9 +101,12 @@ export default function DragDropCard({ q, onAnswer, locked=false, showHint=false
           <div
             key={t.id}
             className="dnd-tile"
+            role="button"
+            tabIndex={0}
             draggable={!isTouch && !locked && !submitted}
             onDragStart={(e)=>onDragStart(e,t.id)}
-            onClick={()=>tapTile(t.id)}                      /* tryck för att välja */
+            onClick={()=>tapTile(t.id)}
+            onKeyDown={(e)=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); tapTile(t.id) } }}
             style={selected===t.id ? {outline:'3px solid #2563eb'} : null}
           >
             {t.text}
@@ -117,20 +122,31 @@ export default function DragDropCard({ q, onAnswer, locked=false, showHint=false
             className="dnd-bucket"
             onDrop={(e)=>onDrop(e,b.id)}
             onDragOver={onDragOver}
-            onClick={()=>tapBucket(b.id)}                   /* tryck för att släppa vald */
-            style={selected ? {outline:'2px dashed #93c5fd'} : null}
+            onClick={()=>tapBucket(b.id)}
+            style={selected ? { outline:'3px dashed #93c5fd', background:'#f8fbff' } : null}
           >
             <div className="dnd-bucket-title">{b.label}</div>
             <div className="dnd-bucket-body">
               {tiles.filter(t=>placed[t.id]===b.id).map(t => (
                 <div key={t.id} className="dnd-tile in-bucket"
+                     role="button"
+                     tabIndex={0}
                      draggable={!isTouch && !locked && !submitted}
                      onDragStart={(e)=>onDragStart(e,t.id)}
-                     onClick={()=>tapTile(t.id)}            /* tryck för att välja igen */
+                     onClick={()=>tapTile(t.id)}
+                     onKeyDown={(e)=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); tapTile(t.id) } }}
                      style={selected===t.id ? {outline:'3px solid #2563eb'} : null}
                 >
                   {t.text}
-                  {!submitted && <button className="dnd-x" onClick={(e)=>{e.stopPropagation(); resetOne(t.id)}} title="Ta bort">×</button>}
+                  {!submitted && (
+                    <button
+                      type="button"
+                      className="dnd-x"
+                      aria-label="Ta bort från lådan"
+                      onClick={(e)=>{ e.stopPropagation(); resetOne(t.id) }}
+                      title="Ta bort"
+                    >×</button>
+                  )}
                 </div>
               ))}
             </div>

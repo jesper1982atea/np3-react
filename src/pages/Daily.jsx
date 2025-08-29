@@ -51,11 +51,38 @@ export default function Daily({ profile, saveProfile, bank, setView }){
 
   function start(){
     if(!items.length) return
+    // 1) viktad slump baserad på svagheter
     const areas = Array.from(new Set(items.map(x => (x.area||'okänd').toLowerCase())))
     const w = weaknessWeights(subject, areas, 50)
-    const set = drawWeighted(items, DAILY_COUNT, w, `daily_${subject}`, noRepeats)
+
+    // Dra något fler än vi behöver så vi kan byta ut för att uppfylla krav på typer
+    const basePick = drawWeighted(items, DAILY_COUNT + 3, w, `daily_${subject}`, noRepeats)
       .map(x => ({...x, topic: subject}))
-    const picked = shuffle(set)
+
+    // 2) Bygg ett startset som är riktigt blandat
+    let picked = shuffle(basePick).slice(0, DAILY_COUNT)
+
+    // 3) Säkerställ att vi får med önskade frågetyper när de finns
+    const hasType = (t) => picked.some(q => (q.type||'mc') === t)
+    const poolType = (t) => shuffle(items.filter(q => (q.type||'mc') === t && !picked.find(p => p.id===q.id)))
+
+    if(subject === 'svenska'){
+      // minst en drag & drop om möjligt
+      if(!hasType('dnd')){
+        const cand = poolType('dnd')[0]
+        if(cand){ picked[picked.length-1] = {...cand, topic: subject} }
+      }
+    } else if(subject === 'matematik'){
+      // minst en tabell-uppgift (table-fill) om möjligt
+      if(!hasType('table-fill')){
+        const cand = poolType('table-fill')[0]
+        if(cand){ picked[picked.length-1] = {...cand, topic: subject} }
+      }
+    }
+
+    // 4) Slutlig slump-ordning
+    picked = shuffle(picked)
+
     setQs(picked)
     setIdx(0)
     setState('running')

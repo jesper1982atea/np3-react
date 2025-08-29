@@ -1,110 +1,84 @@
-// src/lib/session.js
-// Minimal sessions-logg för Daily/Practice/Exam
-// Sparar per-fråga-val och resultat. Visas i pages/Review.
-
-const KEY = 'np3_sessions_v1'
-
-function loadAll(){
-  try{ return JSON.parse(localStorage.getItem(KEY) || '[]') }catch(_){ return [] }
-}
-function saveAll(arr){
-  try{ localStorage.setItem(KEY, JSON.stringify(arr.slice(-50))) }catch(_){ /* ignore */ }
-}
-
-export function beginSession(type, meta={}){
-  const id = `${type}-${Date.now()}`
-  const session = {
-    id,
-    type, // 'daily' | 'practice' | 'exam'
-    startedAt: new Date().toISOString(),
-    finishedAt: null,
-    meta: meta || {}, // t.ex. {subject, bankId, label, count}
-    items: [] // { id, q, options, correct, chosen, isCorrect, area, title?, text? }
-  }
-  return session
-}
-
-export function logAnswer(session, q, chosenIdx){
-  if(!session || !q) return
-  const isCorrect = (chosenIdx === q.correct)
-  session.items.push({
-    id: q.id,
-    q: q.q,
-    options: q.options,
-    correct: q.correct,
-    chosen: chosenIdx,
-    isCorrect,
-    area: q.area || 'okänd',
-    title: q.title || null,
-    text: q.text || null,
-    hint: q.hint || null,
-    type: q.type || 'mc'
-  })
-}
-
-export function endSession(session){
-  if(!session) return null
-  session.finishedAt = new Date().toISOString()
-  const all = loadAll()
-  all.push(session)
-  saveAll(all)
-  return session
-}
-
-export function getSessions(){
-  return loadAll()
-}
-
-export function getLastSession(){
-  const all = loadAll()
-  return all.length ? all[all.length-1] : null
-}
-
-export function clearSessions(){
-  saveAll([])
-}
-
-import { useState } from 'react'
-import './styles.css'
-import useBanks from './hooks/useBank' // fallback-aware hook (legacy or index.json)
-import { loadProfile, saveProfile as persist } from './lib/storage'
-
-// pages
+import React, { useEffect, useMemo, useState } from 'react'
 import Home from './pages/Home'
+import Daily from './pages/Daily'
 import Practice from './pages/Practice'
 import Exam from './pages/Exam'
 import Stats from './pages/Stats'
 import Settings from './pages/Settings'
 import Bank from './pages/Bank'
 import Review from './pages/Review'
-import Daily from './pages/Daily'
+
+// Viktigt: din hook ligger som default-export i src/hooks/useBanks.js
+import useBanks from './hooks/useBanks'
 
 export default function App(){
-  const { getBank, loading, error } = useBanks()
+  // ---- View state ----
   const [view, setView] = useState('home')
-  const [profile, setProfile] = useState(loadProfile())
 
-  const saveProfile = (p) => { setProfile(p); persist(p) }
+  // ---- Profil (lagra lokalt) ----
+  const [profile, setProfile] = useState(() => {
+    try {
+      const raw = localStorage.getItem('profile')
+      return raw ? JSON.parse(raw) : { points: 0, settings: {} }
+    } catch {
+      return { points: 0, settings: {} }
+    }
+  })
 
-  if(loading) return <div className="container"><div className="card">⏳ Laddar banker…</div></div>
-  if(error) return <div className="container"><div className="card">⚠️ Kunde inte ladda banker.</div></div>
+  function saveProfile(next){
+    setProfile(next)
+    try { localStorage.setItem('profile', JSON.stringify(next)) } catch {}
+  }
 
-  // Aktiv bank-id hämtas alltid från profilinställningar (sätts i Settings)
-  const bankId = profile?.settings?.activeBankId || 'sv-ak3'
+  // ---- Banker via hook + aktiv bank-id ----
+  const { list, getBank, loading, error } = useBanks()
+  const bankId = profile?.settings?.activeBankId || profile?.settings?.lastActiveBank || 'sv-ak3'
   const currentEntry = getBank(bankId) || null
   const currentBank = currentEntry?.data || null
 
+  // Om aktiv bank-id saknas i registret: försök välja första tillgängliga
+  useEffect(() => {
+    if (!loading && !error) {
+      const exists = list.some(b => b.id === bankId)
+      if (!exists && list.length > 0) {
+        const fallbackId = list[0].id
+        const p = { ...profile }
+        p.settings = p.settings || {}
+        p.settings.activeBankId = fallbackId
+        saveProfile(p)
+      }
+    }
+  }, [loading, error, list, bankId])
+
+  // Hjälp: uppdatera bank-id när man byter via Exam/Settings (de kan spara lastActiveBank)
+  useEffect(() => {
+    const last = profile?.settings?.lastActiveBank
+    if (last && last !== profile?.settings?.activeBankId) {
+      const p = { ...profile }
+      p.settings = p.settings || {}
+      p.settings.activeBankId = last
+      saveProfile(p)
+    }
+  }, [profile?.settings?.lastActiveBank])
+
+  // Liten bekvämlighet för att nollställa returnTo-flaggan om man byter vy manuellt
+  useEffect(() => {
+    try { sessionStorage.removeItem('returnTo') } catch {}
+    if (typeof window !== 'undefined') window.__returnTo = undefined
+  }, [view])
+
   return (
-    <div className="container">
+    <div className="container" style={{ width:'90vw', maxWidth:'1400px', margin:'0 auto' }}>
       <header>
-        <div className="logo">📚 Träning &amp; Prov – ämnen &amp; årskurser</div>
+        <div className="logo">NP3</div>
         <div className="points">
-          <span>Lv {profile.level}</span>
-          <span>⭐ {profile.points}</span>
+          <span>⭐</span>
+          <span>{profile?.points ?? 0}</span>
         </div>
       </header>
 
-      <div className="tabs-scroll">
+      {/* Scrollande toppmeny (mobilvänlig) */}
+      <div className="tabs-scroll desktop-only">
         <div className="tabs">
           <button className="btn small ghost" onClick={()=>setView('home')}>🏠 Start</button>
           <button className="btn small ghost" onClick={()=>setView('daily')}>⭐ Dagens</button>
@@ -116,16 +90,108 @@ export default function App(){
         </div>
       </div>
 
+      {/* Vy-innehåll */}
       {view==='home' && <Home profile={profile} setView={setView} />}
-      {view==='daily' && <Daily profile={profile} saveProfile={saveProfile} bank={currentBank} setView={setView} />}
-      {view==='practice' && <Practice profile={profile} saveProfile={saveProfile} bank={currentBank} setView={setView} />}
-      {view==='exam' && <Exam profile={profile} saveProfile={saveProfile} bank={currentBank} setView={setView} />}
-      {view==='stats' && <Stats profile={profile} setView={setView} />}
-      {view==='settings' && <Settings profile={profile} saveProfile={saveProfile} setView={setView} />}
-      {view==='bank' && <Bank />}
-      {view==='review' && <Review setView={setView} />}
 
-      <div className="footer">Prototyp. Data sparas lokalt i din webbläsare.</div>
+      {view==='daily' && (
+        <div className="grid">
+          <div className="card">
+            <Daily
+              profile={profile}
+              saveProfile={saveProfile}
+              bank={currentBank}
+              setView={setView}
+            />
+          </div>
+        </div>
+      )}
+
+      {view==='practice' && (
+        <div className="grid">
+          <div className="card">
+            <Practice
+              profile={profile}
+              saveProfile={saveProfile}
+              bank={currentBank}
+              setView={setView}
+            />
+          </div>
+        </div>
+      )}
+
+      {view==='exam' && (
+        <div className="grid">
+          <div className="card">
+            <Exam
+              profile={profile}
+              saveProfile={saveProfile}
+              bank={currentBank}
+              setView={setView}
+            />
+          </div>
+        </div>
+      )}
+
+      {view==='stats' && (
+        <div className="grid">
+          <div className="card">
+            <Stats profile={profile} setView={setView} />
+          </div>
+        </div>
+      )}
+
+      {view==='settings' && (
+        <div className="grid">
+          <div className="card">
+            <Settings
+              profile={profile}
+              saveProfile={saveProfile}
+              setView={setView}
+            />
+          </div>
+        </div>
+      )}
+
+      {view==='bank' && (
+        <div className="grid">
+          <div className="card">
+            <Bank />
+          </div>
+        </div>
+      )}
+
+      {view==='review' && <Review setView={setView} />}
+{/* 
+      <nav className="bottom-nav mobile-only" role="navigation" aria-label="Primär">
+        <button className={`bn-item ${view==='home'?'active':''}`} onClick={()=>setView('home')}>
+          <span className="bn-ico">🏠</span>
+          <span className="bn-txt">Start</span>
+        </button>
+        <button className={`bn-item ${view==='daily'?'active':''}`} onClick={()=>setView('daily')}>
+          <span className="bn-ico">⭐</span>
+          <span className="bn-txt">Dagens</span>
+        </button>
+        <button className={`bn-item ${view==='practice'?'active':''}`} onClick={()=>setView('practice')}>
+          <span className="bn-ico">🧩</span>
+          <span className="bn-txt">Öva</span>
+        </button>
+        <button className={`bn-item ${view==='exam'?'active':''}`} onClick={()=>setView('exam')}>
+          <span className="bn-ico">📝</span>
+          <span className="bn-txt">Prov</span>
+        </button>
+        <button className={`bn-item ${view==='stats'?'active':''}`} onClick={()=>setView('stats')}>
+          <span className="bn-ico">📊</span>
+          <span className="bn-txt">Stat</span>
+        </button>
+        <button className={`bn-item ${view==='settings'?'active':''}`} onClick={()=>setView('settings')}>
+          <span className="bn-ico">⚙️</span>
+          <span className="bn-txt">Inställn.</span>
+        </button>
+      </nav> */}
+
+      <div className="footer">
+         Data sparas lokalt i din webbläsare.
+      </div>
     </div>
   )
 }

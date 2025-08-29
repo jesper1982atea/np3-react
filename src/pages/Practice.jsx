@@ -166,20 +166,36 @@ export default function Practice({ profile, saveProfile, bank, setView }){
   const progressPct = qs.length ? Math.round((idx/qs.length)*100) : 0
 
   return (
-    <div className="grid">
+    // <div style={{display:'grid', gap:14, gridTemplateColumns:'minmax(0, 1fr)', width:'100%', maxWidth:'1400px', margin:'0 auto'}}>
+      <div style={{display:'grid', gap:14, gridTemplateColumns:'minmax(0, 1fr)', width:'100%', maxWidth:'1400px', margin:'0 auto'}}>
       <div className="card">
         <h1>🧩 Övningsläge</h1>
         <p className="tiny">Ämne: <b>{subject}</b>. Antal frågor: {perQuiz}. No-repeats: {noRepeats ? 'på' : 'av'}.</p>
-        <div className="row" style={{marginTop:10}}>
+        <div
+          style={{
+            display:'grid',
+            gap:10,
+            gridTemplateColumns:'repeat(auto-fit, minmax(180px, 1fr))',
+            alignItems:'stretch',
+            marginTop:10
+          }}
+        >
           {state==='idle' && <button className="btn" onClick={start}>▶️ Starta övning</button>}
-          <button className="btn alt" onClick={()=>setView?.('settings')}>⚙️ Inställningar</button>
+          <button
+            className="btn alt"
+            onClick={()=>{
+              try { if (typeof sessionStorage !== 'undefined') sessionStorage.setItem('returnTo','practice') } catch {}
+              if (typeof window !== 'undefined') window.__returnTo = 'practice'
+              setView?.('settings')
+            }}
+          >⚙️ Inställningar</button>
         </div>
       </div>
 
       <div className="card">
         {(state==='running' || state==='review') && current && (
           <>
-            <div className="row" style={{justifyContent:'space-between', flexWrap:'wrap'}}>
+            <div className="row" style={{justifyContent:'space-between', flexWrap:'wrap', gap:8}}>
               <div className="chip">{subject==='matematik'?'🧮 Matematik': (subject==='engelska'?'🇬🇧 Engelska':'📖 Svenska')}</div>
               <div className="chip">Fråga {idx+1}/{qs.length}</div>
               {state==='running'
@@ -237,9 +253,24 @@ export default function Practice({ profile, saveProfile, bank, setView }){
           <>
             <h2>🎉 Klar!</h2>
             <p>Grymt jobbat. Vill du köra igen eller justera inställningar?</p>
-            <div className="row" style={{marginTop:10}}>
+            <div
+              style={{
+                display:'grid',
+                gap:10,
+                gridTemplateColumns:'repeat(auto-fit, minmax(180px, 1fr))',
+                alignItems:'stretch',
+                marginTop:10
+              }}
+            >
               <button className="btn" onClick={start}>▶️ Kör igen</button>
-              <button className="btn alt" onClick={()=>setView?.('settings')}>⚙️ Inställningar</button>
+              <button
+                className="btn alt"
+                onClick={()=>{
+                  try { if (typeof sessionStorage !== 'undefined') sessionStorage.setItem('returnTo','practice') } catch {}
+                  if (typeof window !== 'undefined') window.__returnTo = 'practice'
+                  setView?.('settings')
+                }}
+              >⚙️ Inställningar</button>
               <button className="btn small ghost" onClick={()=>setView?.('review')}>🧾 Visa detaljerad historik</button>
             </div>
 

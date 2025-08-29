@@ -8,9 +8,33 @@ import ChanceMatrixCard from '../components/ChanceMatrixCard'
 import { drawSmart, drawWeighted } from '../lib/draw'
 import { normalizeBank } from '../lib/bankUtils'
 import { recordOutcome, weaknessWeights } from '../lib/coach'
+import useBanks from '../hooks/useBanks'
 
 export default function Exam({ profile, saveProfile, bank, setView }){
-  const nb = useMemo(()=> normalizeBank(bank), [bank])
+  // --- bank selection support ---
+  const [selectedBank, setSelectedBank] = useState(bank)
+  const { list: bankList } = useBanks?.() || { list: [] }
+  const availableBanks = useMemo(() => {
+    // Samla möjliga bank-källor
+    const list = (profile?.banks && Array.isArray(profile.banks) ? profile.banks : [])
+      .concat(profile?.settings?.banks && Array.isArray(profile.settings.banks) ? profile.settings.banks : [])
+      .concat(Array.isArray(bankList) ? bankList : [])
+      .filter(Boolean)
+
+    // Ensure current bank is present as an option
+    const merged = [bank, ...list].filter(Boolean)
+
+    // De-duplicate by id or title
+    const seen = new Set()
+    return merged.filter(b => {
+      const key = (b && (b.id || b.title || b.name)) || Math.random().toString(36)
+      if (seen.has(key)) return false
+      seen.add(key)
+      return true
+    })
+  }, [profile, bank, bankList])
+
+  const nb = useMemo(()=> normalizeBank(selectedBank), [selectedBank])
   const subject = nb?.subject || 'svenska'
   const pool = nb?.items || []
   const passages = nb?.passages || []
@@ -42,6 +66,15 @@ export default function Exam({ profile, saveProfile, bank, setView }){
     setState('running')
     setAnswers({})
     setResult(null)
+
+    // persist last chosen bank id/title if available
+    if (profile && saveProfile && (nb?.id || nb?.title || nb?.name)) {
+      const p = { ...profile }
+      p.settings = p.settings || {}
+      p.settings.lastActiveBank = nb?.id || nb?.title || nb?.name
+      saveProfile(p)
+    }
+
     const totalSec = (profile?.settings?.examTimerTotalMin ?? 25) * 60
     setRemaining(totalSec)
   }
@@ -129,22 +162,64 @@ export default function Exam({ profile, saveProfile, bank, setView }){
   const min = Math.floor(remaining/60), sec = String(remaining%60).padStart(2,'0')
 
   return (
-    <div className="grid">
+    <div style={{display:'grid', gap:14, gridTemplateColumns:'minmax(0, 1fr)', width:'100%', maxWidth:'1400px', margin:'0 auto'}}>
+      
       <div className="card">
         <h1>📝 Provläge</h1>
+        {/* Snabbval av bank */}
+        <div className="row" style={{marginTop:10, alignItems:'center', gap:8, flexWrap:'wrap'}}>
+          <span className="tiny">Aktiv bank:</span>
+          <span className="pill">{nb?.title || nb?.name || nb?.subject || 'Okänd bank'}</span>
+          <label className="tiny" style={{display:'flex', alignItems:'center', gap:6}}>
+            Byt bank:
+            <select
+              value={(selectedBank && (selectedBank.id || selectedBank.title || selectedBank.name)) || ''}
+              onChange={(e)=>{
+                const val = e.target.value
+                const found = availableBanks.find(b => (b.id || b.title || b.name) === val)
+                setSelectedBank(found || bank)
+              }}
+            >
+              {availableBanks.length === 0 && (
+                <option value="" disabled>Inga banker tillgängliga</option>
+              )}
+              {availableBanks.length > 0 && availableBanks.map((b,i)=>{
+                const key = (b.id || b.title || b.name || `bank_${i}`)
+                const label = [b.title || b.name || 'Bank', b.subject ? `(${b.subject})` : ''].join(' ').trim()
+                return <option key={key} value={b.id || b.title || b.name}>{label}</option>
+              })}
+            </select>
+          </label>
+        </div>
         <p className="tiny">Ämne: <b>{subject}</b> • Frågor: {perExam} • Tid: {profile?.settings?.examTimerTotalMin ?? 25} min</p>
-        <div className="row" style={{marginTop:10}}>
+        <div
+          style={{
+            display:'grid',
+            gap:10,
+            gridTemplateColumns:'repeat(auto-fit, minmax(180px, 1fr))',
+            alignItems:'stretch',
+            marginTop:10
+          }}
+        >
           {state==='idle' && <button className="btn" onClick={start}>▶️ Starta prov</button>}
-          <button className="btn alt" onClick={()=>setView?.('settings')}>⚙️ Inställningar</button>
+          <button
+            className="btn alt"
+            onClick={()=>{
+              try { if (typeof sessionStorage !== 'undefined') sessionStorage.setItem('returnTo','exam') } catch {}
+              if (typeof window !== 'undefined') window.__returnTo = 'exam'
+              setView?.('settings')
+            }}
+          >⚙️ Inställningar</button>
         </div>
       </div>
 
       <div className="card">
         {state==='running' && current && (
           <>
-            <div className="row" style={{justifyContent:'space-between', flexWrap:'wrap'}}>
+            <div className="row" style={{justifyContent:'space-between', flexWrap:'wrap', gap:8}}>
               <div className="chip">{subject==='matematik'?'🧮 Matematik': (subject==='engelska'?'🇬🇧 Engelska':'📖 Svenska')}</div>
               <div className="chip">Fråga {idx+1}/{qs.length}</div>
+              <div className="chip">Bank: {nb?.title || nb?.name || nb?.subject || '—'}</div>
               <div className="pill">⏱️ {min}:{sec}</div>
             </div>
             <div className="progress"><div className="bar" style={{width:`${progressPct}%`}}/></div>
@@ -166,9 +241,19 @@ export default function Exam({ profile, saveProfile, bank, setView }){
               </div>
             )}
 
-            <div className="row" style={{marginTop:10, flexWrap:'wrap'}}>
-              <button className="btn small ghost" onClick={prev} disabled={idx===0}>⬅️ Föregående</button>
-              <button className="btn small" onClick={next}>{idx===qs.length-1 ? '✅ Lämna in' : '➡️ Nästa'}</button>
+            <div className="sticky-actions">
+              <div
+                style={{
+                  display:'grid',
+                  gap:10,
+                  gridTemplateColumns:'repeat(auto-fit, minmax(180px, 1fr))',
+                  alignItems:'stretch',
+                  marginTop:10
+                }}
+              >
+                <button className="btn small ghost" onClick={prev} disabled={idx===0}>⬅️ Föregående</button>
+                <button className="btn small" onClick={next}>{idx===qs.length-1 ? '✅ Lämna in' : '➡️ Nästa'}</button>
+              </div>
             </div>
           </>
         )}

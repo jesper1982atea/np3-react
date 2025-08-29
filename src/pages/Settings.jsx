@@ -10,11 +10,23 @@ const DIFFICULTY_OPTIONS = [
   { value: 'adaptive', label: 'Adaptiv (auto)' }
 ]
 
-export default function Settings({ profile, saveProfile }){
+export default function Settings({ profile, saveProfile, setView }){
   const { list, getBank } = useBanks() // läses redan av App men vi kan nyttja här också
   const [local, setLocal] = useState(profile?.settings || {})
+  const [saved, setSaved] = useState(false)
 
   useEffect(()=>{ setLocal(profile?.settings || {}) }, [profile])
+
+  function goBackIfNeeded(){
+    try {
+      const ret = sessionStorage.getItem('returnView')
+      if (ret) {
+        sessionStorage.removeItem('returnView')
+        if (typeof setView === 'function') setView(ret)
+        else if (window?.history?.length > 1) window.history.back()
+      }
+    } catch(_) {}
+  }
 
   function set(k, v){
     const next = { ...local, [k]: v }
@@ -24,6 +36,10 @@ export default function Settings({ profile, saveProfile }){
   function save(){
     const p = { ...profile, settings: { ...profile.settings, ...local } }
     saveProfile(p)
+    setSaved(true)
+    setTimeout(()=> setSaved(false), 1500)
+    // If Settings opened from Exam/Practice, return automatically
+    goBackIfNeeded()
   }
 
   const activeId = local?.activeBankId || 'sv-ak3'
@@ -124,8 +140,12 @@ export default function Settings({ profile, saveProfile }){
           </div>
         </div>
 
-        <div className="row" style={{marginTop:10}}>
+        <div className="row" style={{marginTop:10, alignItems:'center', gap:10}}>
           <button className="btn" onClick={save}>💾 Spara</button>
+          {saved && <span className="pill">✅ Sparat!</span>}
+          {(() => { try { return sessionStorage.getItem('returnView') } catch(_) { return null } })() && (
+            <button className="btn ghost" onClick={goBackIfNeeded}>↩️ Tillbaka</button>
+          )}
         </div>
       </div>
     </div>
